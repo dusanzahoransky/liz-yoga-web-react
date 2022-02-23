@@ -36,12 +36,16 @@ h1, h2, h3{
 /* CUSTOMIZE NAVBAR */
 .dropdown-item{
     color: #9931c9;
+    font-weight: 500;
 }
 .navbar-primary .navbar-nav .nav-link {
     color: #9931c9;
+    font-weight: 500;
+
 }
 .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
     color: #9931c9;
+    font-weight: 500;
 }
 button[aria-expanded]{
     color: #9931c9 !important;
@@ -179,7 +183,7 @@ button[aria-expanded]{
 }
 
 .details-heading{
-    background-color: rgba(153, 49, 201, 0.6);
+    background-color: #9931c9;
     text-shadow: 0 0 1px black;
     color: white;
     text-align: center;

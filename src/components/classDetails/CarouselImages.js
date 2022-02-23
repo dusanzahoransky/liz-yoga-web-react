@@ -2,14 +2,13 @@ import {Carousel} from "react-bootstrap";
 
 function CarouselImages(props) {
     const carouselItems = []
-    let imageIndex = 0
-    for (const carouselImage of props.carouselImages){
+    for (const i in props.carouselImages){
         carouselItems.push(
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={carouselImage}
-                    alt={`carousel image ${++imageIndex}`}
+                    src={props.carouselImages[i]}
+                    alt={`carousel image ${i}`}
                 />
             </Carousel.Item>
         )

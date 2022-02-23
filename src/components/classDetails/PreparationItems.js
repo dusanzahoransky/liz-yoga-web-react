@@ -1,9 +1,9 @@
 function PreparationItems(props) {
 
     const preparationItems = []
-    for (const preparationItem of props.preparationItems){
+    for (const i in props.preparationItems){
         preparationItems.push(
-            <li>{preparationItem}</li>
+            <li key={i}>{props.preparationItems[i]}</li>
         )
     }
 
