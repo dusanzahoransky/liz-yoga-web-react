@@ -9,8 +9,6 @@ function ClassInfo(props) {
             <p>{props.place}</p>
             <h3>PRECIO</h3>
             <p>{props.price}</p>
-            <h3>Aspectos a Tener en cuenta</h3>
-            <PreparationItems preparationItems={props.preparationItems}/>
         </>
     );
 }

@@ -7,6 +7,7 @@ import ContactForm from "./ContactForm";
 import DetailsHeading from "./classDetails/DetailsHeading";
 import CarouselImages from "./classDetails/CarouselImages";
 import ClassInfo from "./classDetails/ClassInfo";
+import PreparationItems from "./classDetails/PreparationItems";
 
 function GroupsInPerson() {
   return (
@@ -31,13 +32,14 @@ function GroupsInPerson() {
               <div className="row">
 
                   <div className="col-md-6">
-                      <ClassInfo hour='Por Definir.' place='Por Definir.' price='$15 AUD Clase' preparationItems={[
+                      <ClassInfo hour='Por Definir.' place='Por Definir.' price='$15 AUD Clase'/>
+                      {/*<ClassInfo hour='Sabádo 19 de Febrero, 9:30 a.m.' place='Coogee Beach, Sydney' price='$15 AUD Clase'/> */}
+                      <PreparationItems preparationItems={[
                           'Debes realizar el pago por anticipado para separar tu cupo.',
                           'Ser puntuales es muy importante, la clase inicia a la hora programada, asi que, te recomiendo puntualidad para que no te pierdas ninguna parte de la clase.',
                           'Si no puedes asistir a la clase deberás informar 24 horas de antelación para la devolución del dinero, de lo contrario tendrás la opción de asistir a una clase online.',
                           'Es importante que tengas una botellita de agua para que te hidrates.'
                       ]}/>
-                      {/*<ClassInfo hour='Sabádo 19 de Febrero, 9:30 a.m.' place='Coogee Beach, Sydney' price='$15 AUD Clase' ... */}
                   </div>
                   <div className="col-md-1"/>
                   <div className="col-md-5">
