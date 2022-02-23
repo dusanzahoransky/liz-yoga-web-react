@@ -39,7 +39,7 @@ function PrivateInPerson() {
                   </div>
                   <div className="col-md-1"/>
                   <div className="col-md-5">
-                      <img src={inPerson1} alt="Online group class picture"
+                      <img src={inPerson1} alt="Online group class"
                            className="float-end"/>
                   </div>
 

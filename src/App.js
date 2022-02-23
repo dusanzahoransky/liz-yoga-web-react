@@ -6,13 +6,14 @@ import React from "react";
 import GroupsOnline from "./components/GroupsOnline";
 import PrivateInPerson from "./components/PrivateInPerson";
 import PosesOnline from "./components/PosesOnline";
+import PrivateOnline from "./components/PrivateOnline";
 
 function App() {
   return (
       <>
           <Routes>
               <Route path='/' element={<Home/>}/>
-              <Route path='/private-online' element={<Home/>}/>
+              <Route path='/private-online' element={<PrivateOnline/>}/>
               <Route path='/groups-online' element={<GroupsOnline/>}/>
               <Route path='/poses-online' element={<PosesOnline/>}/>
               <Route path='/private-in-person' element={<PrivateInPerson/>}/>

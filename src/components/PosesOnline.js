@@ -29,7 +29,6 @@ function PosesOnline() {
 
                       <p>Serán grupos máximos de 5 personas, tendrás que tener un espacio amplio y cómodo en donde puedas moverte durante la práctica.</p>
                       <ClassInfo hour='Por Definir.'
-                                 place='Por Definir.'
                                  price='$15 AUD'
                       />
                       <PreparationItems preparationItems={[
@@ -51,7 +50,7 @@ function PosesOnline() {
 
               <div className="row">
                   <div className="col-md-7">
-                  <ContactForm yogaClassType='private-in-person'/>
+                  <ContactForm yogaClassType='poses-online'/>
                   </div>
               </div>
 

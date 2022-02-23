@@ -50,7 +50,7 @@ function GroupsOnline() {
                   <div className="col-md-1"/>
 
                   <div className="col-md-6">
-                      <img src={cardGroupsOnline} alt="Online group class picture"/>
+                      <img src={cardGroupsOnline} alt="Online group class"/>
                   </div>
               </div>
 
