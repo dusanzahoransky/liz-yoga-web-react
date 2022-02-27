@@ -1,9 +1,9 @@
-import poses1 from '../images/poses-1-portrait.jpeg';
-import poses2 from '../images/poses-2-portrait.jpg';
-import poses3 from '../images/poses-3-portrait.jpg';
-import poses4 from '../images/poses-4-portrait.jpg';
-import poses5 from '../images/poses-5-portrait.jpg';
-import poses6 from '../images/poses-6-portrait.jpg';
+import poses1 from '../images/poses-online/poses-1-portrait.jpeg';
+import poses2 from '../images/poses-online/poses-2-portrait.jpg';
+import poses3 from '../images/poses-online/poses-3-portrait.jpg';
+import poses4 from '../images/poses-online/poses-4-portrait.jpg';
+import poses5 from '../images/poses-online/poses-5-portrait.jpg';
+import poses6 from '../images/poses-online/poses-6-portrait.jpg';
 
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";

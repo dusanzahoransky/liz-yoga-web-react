@@ -1,9 +1,8 @@
-import inPerson1 from '../images/card-private-in-person.jpg';
+import inPerson1 from '../images/private-in-person/card-private-in-person.jpg';
 
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
 import DetailsHeading from "./classDetails/DetailsHeading";
-import CarouselImages from "./classDetails/CarouselImages";
 import ClassInfo from "./classDetails/ClassInfo";
 import PreparationItems from "./classDetails/PreparationItems";
 

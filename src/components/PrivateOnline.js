@@ -1,4 +1,4 @@
-import privateOnline from '../images/card-private-online.jpg';
+import privateOnline from '../images/private-online/private-classes-progressive.jpeg';
 
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
@@ -14,8 +14,8 @@ function PrivateOnline() {
 
           <div className="container details">
 
-              <div className="row">
-                  <div className="col">
+              <div className="row rem-2  align-items-end">
+                  <div className="col-md-6">
                       <p className="text-justify">Aquí podrás reservar clases de Vinyasa Yoga dinámicas privadas solo
                           para ti, podrás elegir entre nivel principiante o intermedio, también tendrás la opción de
                           trabajar alguna postura en específico que quieras practicar, son clases de 45 a 50 minutos en
@@ -23,11 +23,6 @@ function PrivateOnline() {
                           en detalle cada una de las asanas durante toda la clase, trabajaremos la respiración como base
                           fundamental durante la clase para que puedas conectarte contigo mismo/misma, finalizamos con
                           una meditación corta para terminar de relajar el cuerpo y la mente.</p>
-                  </div>
-              </div>
-
-              <div className="row rem-2  align-items-end">
-                  <div className="col-md-6">
                       <p>Una persona por clase.</p>
                       <ClassInfo hour='Acuerdo entre las partes'
                                  price='$40 AUD. Si reservas 3 clases tendrás un precio especial.'

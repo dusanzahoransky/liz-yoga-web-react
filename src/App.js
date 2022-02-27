@@ -7,6 +7,8 @@ import GroupsOnline from "./components/GroupsOnline";
 import PrivateInPerson from "./components/PrivateInPerson";
 import PosesOnline from "./components/PosesOnline";
 import PrivateOnline from "./components/PrivateOnline";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import DataDeletionInstructions from "./components/DataDeletionInstructions";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
               <Route path='/poses-online' element={<PosesOnline/>}/>
               <Route path='/private-in-person' element={<PrivateInPerson/>}/>
               <Route path='/groups-in-person' element={<GroupsInPerson/>}/>
+              <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
+              <Route path='/data-deletion-instructions' element={<DataDeletionInstructions/>}/>
           </Routes>
       </>
   );

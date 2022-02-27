@@ -1,18 +1,18 @@
-import cover2 from '../images/cover-2-large-progressive.jpeg';
-import cover2portrait from '../images/cover-2-portrait-progressive.jpeg';
-import cover1 from '../images/cover-1-large-progressive.jpeg';
-import cover1portrait from '../images/cover-1-portrait-progressive.jpeg';
-import cover4 from '../images/cover-4-large-progressive.jpeg';
-import cover4portrait from '../images/cover-4-large-portrait.jpeg';
+import cover2 from '../images/home/cover-2-large-progressive.jpeg';
+import cover2portrait from '../images/home/cover-2-portrait-progressive.jpeg';
+import cover1 from '../images/home/cover-1-large-progressive.jpeg';
+import cover1portrait from '../images/home/cover-1-portrait-progressive.jpeg';
+import cover4 from '../images/home/cover-4-large-progressive.jpeg';
+import cover4portrait from '../images/home/cover-4-large-portrait.jpeg';
 
-import cardGroupsOnline from '../images/card-groups-online.jpg';
-import cardPrivateOnline from '../images/card-private-online.jpg';
-import cardPosesOnline from '../images/card-poses-online.jpg';
-import cardGroupsInPerson from '../images/card-groups-in-person.jpg';
-import cardPrivateInPerson from '../images/card-private-in-person.jpg';
+import cardGroupsOnline from '../images/home/card-groups-online.jpg';
+import cardPrivateOnline from '../images/home/card-private-online.jpg';
+import cardPosesOnline from '../images/home/card-poses-online.jpg';
+import cardGroupsInPerson from '../images/home/card-groups-in-person.jpg';
+import cardPrivateInPerson from '../images/home/card-private-in-person.jpg';
 
-import logoYoutube from '../images/logo-picture-progressive.jpeg';
-import logoInstagram from '../images/instagram-logo-progressive.jpeg';
+import logoYoutube from '../images/home/logo-picture-progressive.jpeg';
+import logoInstagram from '../images/home/instagram-logo-progressive.jpeg';
 import Footer from "./Footer";
 
 function Home() {
@@ -32,7 +32,7 @@ function Home() {
                       </picture>
                       <div className="container">
                           <div className="carousel-caption">
-                              <h1 className="carousel-heading">YOGA CLASES GRUPALES</h1>
+                              <h1 className="display-6">YOGA CLASES GRUPALES</h1>
                           </div>
                       </div>
                   </div>
@@ -41,13 +41,12 @@ function Home() {
                       <picture>
                           <source srcSet={cover1portrait}
                                   media="(max-width: 800px) and (orientation: portrait)"/>
-                              <img src={cover1} alt="Private clases"
-                                   className="first-slide"/>
+                              <img src={cover1} alt="Private clases"/>
                       </picture>
 
                       <div className="container">
                           <div className="carousel-caption">
-                              <h1 className="carousel-heading">YOGA CLASES PRIVADAS</h1>
+                              <h1 className="display-6">YOGA CLASES PRIVADAS</h1>
                           </div>
                       </div>
                   </div>
@@ -56,13 +55,12 @@ function Home() {
                       <picture>
                           <source srcSet={cover4portrait}
                                   media="(max-width: 800px) and (orientation: portrait)"/>
-                          <img src={cover4} alt="Private clases"
-                               className="first-slide"/>
+                          <img src={cover4} alt="Private clases"/>
                       </picture>
 
                       <div className="container">
-                          <div className="carousel-caption first-slide light">
-                              <h1 className="carousel-heading">YOGA CLASES PRIVADAS</h1>
+                          <div className="carousel-caption light">
+                              <h1 className="display-6">YOGA CLASES PRIVADAS</h1>
                           </div>
                       </div>
                   </div>
@@ -141,7 +139,7 @@ function Home() {
 
               <h3 className="display-6 rem-2 text-center">CLASES PERSONALIZADAS</h3>
 
-              <div className="row row-cols-1 row-cols-lg-2 g-4">
+              <div className="row row-cols-1 row-cols-lg-3 g-4">
                   <div className="col">
                       <div className="card h-100 text-center">
                           <img src={cardGroupsInPerson} className="card-img-top" alt="..."/>
@@ -170,63 +168,81 @@ function Home() {
 
               <br/><br/><br/>
 
-              <div className="row">
-                  <div className="col-lg-4 text-center">
+              <div className="row d-flex align-items-center">
+                  <div className="col-lg-3 text-center ">
+                      <p>
                       <a href="https://www.youtube.com/channel/UC20D0ArlDwjfLkpaW07pGKw/featured" target="_blank"
                          rel="noopener noreferrer">
                           <img className="rounded-circle"
                                src={logoYoutube}
                                alt="Youtube channel logo" width="140" height="140"/></a>
-                      <h2>VISITA MI CANAL DE YOUTUBE</h2>
+                      </p>
+                      <p><a className="btn btn-outline-primary"
+                            href="https://www.youtube.com/channel/UC20D0ArlDwjfLkpaW07pGKw/featured" target="_blank"
+                            rel="noopener noreferrer">Sígueme en Youtube</a></p>
+                  </div>
+                  <div className="col-lg-9">
+                      <h3 className="display-6 rem-2">VISITA MI CANAL DE YOUTUBE</h3>
                       <p className="text-justify">Aquí podrás encontrar clases cortas y muy variadas de Vinyasa Yoga nivel
                           principiante e intermedio.</p>
                       <p className="text-justify">Aprenderás a tener una respiración consciente, a mover tu cuerpo y relajar
                           tu mente a través de diferentes asanas/posturas y meditación.</p>
                       <p className="text-justify">Juntos aprenderemos a descubrir y practicar este mundo maravilloso del
                           YOGA.</p>
-                      <p><a className="btn btn-outline-primary"
-                            href="https://www.youtube.com/channel/UC20D0ArlDwjfLkpaW07pGKw/featured" target="_blank"
-                            rel="noopener noreferrer">Sígueme en Youtube</a></p>
-                  </div>
-                  <div className="video-container col-lg-8">
-                      <iframe src="https://www.youtube.com/embed/ENWbwYkibC0?start=35&loop=1&mute=1&playlist=ENWbwYkibC0"
-                              title="YouTube video player" frameBorder="0"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                              allowFullScreen></iframe>
                   </div>
               </div>
 
-              {/*<br/><br/><br/>*/}
+              <br/>
 
-              {/*<div className="row">*/}
-              {/*    <div className="col-lg-4 text-center">*/}
-              {/*        <a href="https://instagram.com/lizneirar" target="_blank" rel="noopener noreferrer"><img*/}
-              {/*            className="rounded-circle" src={logoInstagram}*/}
-              {/*            alt="Instagram profile logo" width="140" height="140"/>*/}
-              {/*        </a>*/}
-              {/*        <h2>SÍGUEME EN INSTAGRAM</h2>*/}
-              {/*        <p className="text-justify">Aquí podrás encontrar mucho más de mi vida cotidiana con fotos y*/}
-              {/*            videos inspirados en diferentes posturas de yoga, secuencias, retos y como inspiro a las*/}
-              {/*            personas a mover el cuerpo y tranquilizar la mente.</p>*/}
-              {/*        <p className="text-justify">Es un espacio más cercano para interactuar con aquellos que quieren*/}
-              {/*            explorar y conocer mucho más de cerca esta fantástica disciplina. Namaste.</p>*/}
-              {/*        <div className="rem-2"></div>*/}
-              {/*        <p><a className="btn btn-outline-primary" href="https://instagram.com/lizneirar" target="_blank"*/}
-              {/*              rel="noopener noreferrer">Sígueme en Instagram</a></p>*/}
-              {/*    </div>*/}
+              <div className="row">
+                  <div className="col-lg-12 video-container">
+                       <iframe src="https://www.youtube.com/embed/ENWbwYkibC0?start=35&loop=1&mute=1&playlist=ENWbwYkibC0"
+                          title="YouTube video player" frameBorder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen></iframe>
+                  </div>
+              </div>
 
+              <br/><br/><br/>
 
-              {/*    <div className="col-lg-4">*/}
+              <div className="row d-flex align-items-center">
+                  <div className="col-lg-3 text-center ">
+                      <p>
+                          <a href="https://instagram.com/lizneirar" target="_blank" rel="noopener noreferrer"><img
+                              className="rounded-circle" src={logoInstagram}
+                              alt="Instagram profile logo" width="140" height="140"/>
+                          </a>
+                      </p>
+                      <p><a className="btn btn-outline-primary" href="https://instagram.com/lizneirar" target="_blank"
+                            rel="noopener noreferrer">Sígueme en Instagram</a></p>
+                  </div>
+                  <div className="col-lg-9">
+                      <h3 className="display-6 rem-2">SÍGUEME EN INSTAGRAM</h3>
+                      <p className="text-justify">Aquí podrás encontrar mucho más de mi vida cotidiana con fotos y
+                          videos inspirados en diferentes posturas de yoga, secuencias, retos y como inspiro a las
+                          personas a mover el cuerpo y tranquilizar la mente.</p>
+                      <p className="text-justify">Es un espacio más cercano para interactuar con aquellos que quieren
+                          explorar y conocer mucho más de cerca esta fantástica disciplina. Namaste.</p>
+                  </div>
+              </div>
 
-              {/*        */}
-              {/*    </div>*/}
+              <div className="row">
+                  <div className="col-lg-4">
+                      {/*<InstagramPost postUrl="https://www.instagram.com/p/CTk7A5bB2D1/?"/>*/}
+                  </div>
 
-              {/*</div>*/}
+                  <div className="col-lg-4">
+                      {/*<InstagramPost postUrl="https://www.instagram.com/tv/CVJkErFjmBW/?"/>*/}
+                  </div>
+
+                  <div className="col-lg-4">
+                      {/*<InstagramPost postUrl="https://www.instagram.com/tv/CVJkErFjmBW/?"/>*/}
+                  </div>
+              </div>
 
 
           </div>
 
-          <hr className="divider"/>
           <Footer/>
       </main>
   );

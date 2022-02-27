@@ -1,6 +1,6 @@
-import inPerson1 from '../images/card-groups-in-person-1.jpg';
-import inPerson2 from '../images/card-groups-in-person-2.jpg';
-import inPerson3 from '../images/card-groups-in-person-3.jpg';
+import inPerson1 from '../images/groups-in-person/card-groups-in-person-1.jpg';
+import inPerson2 from '../images/groups-in-person/card-groups-in-person-2.jpg';
+import inPerson3 from '../images/groups-in-person/card-groups-in-person-3.jpg';
 
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";

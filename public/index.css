@@ -2,7 +2,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    color: black;
+    color: #343a40;
     line-height: 2rem;
 }
 
@@ -35,29 +35,34 @@ h1, h2, h3{
 
 /* CUSTOMIZE NAVBAR */
 .dropdown-item{
-    color: #9931c9;
-    font-weight: 500;
+    color: #e402db;
 }
 .navbar-primary .navbar-nav .nav-link {
-    color: #9931c9;
-    font-weight: 500;
-
+    color: #e402db;
 }
+
+.nav-link{
+    color: #e402db;
+}
+.nav-link:hover{
+    color: #343a40;
+}
+
 .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
-    color: #9931c9;
+    color: #e402db;
     font-weight: 500;
 }
 button[aria-expanded]{
-    color: #9931c9 !important;
+    color: #e402db !important;
 }
 .navbar-toggler .collapsed{
-    color: #9931c9 !important;
+    color: #e402db !important;
+}
+.navbar{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
 }
 
-.language-flag{
-    height: 1rem;
-    margin-left: 1rem;
-}
 
 /* CUSTOMIZE INTRODUCTION */
 
@@ -94,7 +99,7 @@ button[aria-expanded]{
     padding: 0;
     font-weight: bolder;
     color: black;
-    text-shadow: 0 0 4px white;
+    text-shadow: 0 0 1px white;
     top: 1rem;
 }
 
@@ -104,7 +109,7 @@ button[aria-expanded]{
     padding: 0;
     font-weight: bolder;
     color: floralwhite;
-    text-shadow: 0 0 4px black;
+    text-shadow: 0 0 2px black;
     top: 1rem;
 }
 
@@ -116,7 +121,7 @@ button[aria-expanded]{
         font-size: 1.5rem;
     }
     .video-container iframe {
-        min-height: 18em;
+        min-height: 14em;
     }
 }
 
@@ -141,13 +146,20 @@ button[aria-expanded]{
 .video-container {
     overflow: hidden;
     position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .video-container iframe {
-    width: 100%;
+    width: 80%;
     height: 100%;
+    min-height: 28em;
 }
 
+img.rounded-circle{
+    margin-top: 2rem;
+}
 
 .instagram-container {
     overflow: hidden;
@@ -166,15 +178,15 @@ button[aria-expanded]{
 
 .divider {
     margin: 5rem 0;
-    color: #9931c9;
+    color: #e402db;
 }
 .divider-narrow {
     margin: 2rem 0;
-    color: #9931c9;
+    color: #e402db;
 }
 .divider-no-margin {
     margin: 0;
-    color: #9931c9;
+    color: #e402db;
 }
 
 /* Detail page */
@@ -183,7 +195,7 @@ button[aria-expanded]{
 }
 
 .details-heading{
-    background-color: #9931c9;
+    background-color: #e402db;
     text-shadow: 0 0 1px black;
     color: white;
     text-align: center;
@@ -208,16 +220,18 @@ ul.class-preparation-list{
 
 .card-body a{
     margin-bottom: 1rem;
-    font-size: 1.2rem;
-}
-
-.card-body p{
-    font-size: 1.1rem;
 }
 
 /* Footer */
 footer{
     text-align: center;
+    padding-top: 1rem;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: #343a40;
 }
 
 

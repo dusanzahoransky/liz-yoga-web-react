@@ -1,4 +1,4 @@
-import cardGroupsOnline from '../images/card-groups-online.jpg';
+import cardGroupsOnline from '../images/groups-online/card-groups-online.jpg';
 
 
 import Footer from "./Footer";
