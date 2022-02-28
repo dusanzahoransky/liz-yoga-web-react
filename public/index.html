@@ -17,21 +17,26 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
-    <div class="container navbar">
-      <nav class="navbar navbar-expand-md navbar-light navbar-primary">
-        <a class="navbar-brand" href="#">
-          <img src="logo es small.png" height="64" alt="">
-        </a>
+    <div class="container">
+
+      <nav class="navbar navbar-expand-lg navbar-primary">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+
+          <a class="navbar-brand" href="#">
+            <img src="logo es small.png" height="64" alt="logo yoga with liz">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="clases-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Yoga clases</a>
-                <ul class="dropdown-menu" aria-labelledby="clases-dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Yoga clases</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><p class="dropdown-header">Clases online</p></li>
                   <li><a class="dropdown-item" href="/private-online">Clases privadas online</a></li>
                   <li><a class="dropdown-item" href="/groups-online">Clases grupales online</a></li>
@@ -41,11 +46,16 @@
                   <li><a class="dropdown-item" href="/groups-in-person">Clases grupales outdoor</a></li>
                 </ul>
               </li>
+
             </ul>
+
+            <a class="nav-link d-flex" href="/">Home</a>
+
           </div>
+
         </div>
       </nav>
-      <a class="nav-link active" href="/">Home</a>
+
     </div>
     <div id="root"></div>
     <!--

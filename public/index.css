@@ -226,12 +226,18 @@ ul.class-preparation-list{
 footer{
     text-align: center;
     padding-top: 1rem;
+    font-size: 0.8rem;
 }
 footer a{
     color: white;
 }
 footer a:hover{
     color: #343a40;
+}
+
+footer .col-4{
+    padding-left: 0;
+    padding-right: 0;
 }
 
 

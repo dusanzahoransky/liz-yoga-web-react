@@ -1,23 +1,5 @@
 export default class EnquiryService {
 
-    async handleEnquirySubmit(yogaClass, event) {
-        event.preventDefault()
-
-        const formData = new FormData(event.target)
-        const data = Object.fromEntries(formData)
-
-        if (!data.mobile) {
-            return alert('Please fill up your phone number.')
-        } else if (!data.enquiry) {
-            return alert('Please fill up your enquiry.')
-        } else {
-            await this.postEnquiry(yogaClass, data)
-            const form = document.querySelector('form')
-            form.reset()
-            return alert('Thank you for your enquiry, I will be in touch with you soon!')
-        }
-    }
-
     async postEnquiry(yogaClass, enquiry) {
         enquiry.yogaClass = yogaClass
 
@@ -35,10 +17,11 @@ export default class EnquiryService {
         })
 
         if (!response.ok) {
-            console.error(`RESPONSE: ${response.status}`)
-            return alert('Failed to send you enquiry, please try again later.')
+            const errorMessage = `Failed post enquiry RESPONSE: ${response.status}.`;
+            console.error(errorMessage)
+            throw new Error(errorMessage)
         }
-        console.log(`RESPONSE: ${response.status}: ${await response.json()}`)
+        console.log(`RESPONSE: ${response.status}: ${JSON.stringify(await response.json())}`)
     }
 
 }
