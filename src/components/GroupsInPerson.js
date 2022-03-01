@@ -1,6 +1,8 @@
 import inPerson1 from '../images/groups-in-person/card-groups-in-person-1.jpg';
 import inPerson2 from '../images/groups-in-person/card-groups-in-person-2.jpg';
 import inPerson3 from '../images/groups-in-person/card-groups-in-person-3.jpg';
+import inPerson4 from '../images/groups-in-person/card-groups-in-person-4.jpg';
+import inPerson5 from '../images/groups-in-person/card-groups-in-person-5.jpg';
 
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
@@ -25,6 +27,14 @@ function GroupsInPerson() {
         {
             original: inPerson3,
             thumbnail: inPerson3,
+        },
+        {
+            original: inPerson4,
+            thumbnail: inPerson4,
+        },
+        {
+            original: inPerson5,
+            thumbnail: inPerson5,
         },
     ]
 

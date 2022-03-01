@@ -1,9 +1,9 @@
-import poses1 from '../images/poses-online/poses-1-portrait.jpeg';
-import poses2 from '../images/poses-online/poses-2-portrait.jpg';
-import poses3 from '../images/poses-online/poses-3-portrait.jpg';
-import poses4 from '../images/poses-online/poses-4-portrait.jpg';
-import poses5 from '../images/poses-online/poses-5-portrait.jpg';
-import poses6 from '../images/poses-online/poses-6-portrait.jpg';
+import poses1 from '../images/workshop-online/poses-1-portrait.jpeg';
+import poses2 from '../images/workshop-online/poses-2-portrait.jpg';
+import poses3 from '../images/workshop-online/poses-3-portrait.jpg';
+import poses4 from '../images/workshop-online/poses-4-portrait.jpg';
+import poses5 from '../images/workshop-online/poses-5-portrait.jpg';
+import poses6 from '../images/workshop-online/poses-6-portrait.jpg';
 
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
@@ -12,7 +12,7 @@ import CarouselImages from "./classDetails/CarouselImages";
 import ClassInfo from "./classDetails/ClassInfo";
 import PreparationItems from "./classDetails/PreparationItems";
 
-function PosesOnline() {
+function WorkshopInPerson() {
   return (
       <main role="main">
 
@@ -63,4 +63,4 @@ function PosesOnline() {
   );
 }
 
-export default PosesOnline;
+export default WorkshopInPerson;

@@ -14,6 +14,7 @@ import cardPrivateInPerson from '../images/home/card-private-in-person.jpg';
 import logoYoutube from '../images/home/logo-picture-progressive.jpeg';
 import logoInstagram from '../images/home/instagram-logo-progressive.jpeg';
 import Footer from "./Footer";
+import InstagramPost from "./socialMedia/InstagramPost";
 
 function Home() {
   return (
@@ -60,7 +61,7 @@ function Home() {
 
                       <div className="container">
                           <div className="carousel-caption light">
-                              <h1 className="display-6">YOGA CLASES PRIVADAS</h1>
+                              <h1 className="display-6">YOGA WORKSHOP</h1>
                           </div>
                       </div>
                   </div>
@@ -126,7 +127,7 @@ function Home() {
                       <div className="card h-100 text-center">
                           <img src={cardPosesOnline} className="card-img-top" alt="..."/>
                           <div className="card-body">
-                              <a href="/poses-online" className="btn btn-primary">POSTURAS DE YOGA ONLINE</a>
+                              <a href="/workshop-online" className="btn btn-primary">WORKSHOP DE YOGA ONLINE</a>
                               <p className="card-text">Aprende la técnica de como llegar a la postura de Yoga que
                                   deseas.</p>
                           </div>
@@ -137,15 +138,14 @@ function Home() {
 
               <br/>
 
-              <h3 className="display-6 rem-2 text-center">CLASES PERSONALIZADAS</h3>
+              <h3 className="display-6 rem-2 text-center">CLASES AL AIRE LIBRE O EN CASA</h3>
 
               <div className="row row-cols-1 row-cols-lg-3 g-4">
                   <div className="col">
                       <div className="card h-100 text-center">
                           <img src={cardGroupsInPerson} className="card-img-top" alt="..."/>
                               <div className="card-body">
-                                  <a href="/groups-in-person" className="btn btn-primary">CLASES GRUPALES
-                                      OUTDOOR</a>
+                                  <a href="/groups-in-person" className="btn btn-primary">CLASES GRUPALES</a>
                                   <p className="card-text">Práctica de yoga grupal disfrutando los hermosos parques y
                                       playas de Sydney.</p>
                               </div>
@@ -156,11 +156,21 @@ function Home() {
                       <div className="card h-100 text-center">
                           <img src={cardPrivateInPerson} className="card-img-top" alt="..."/>
                               <div className="card-body">
-                                  <a href="/private-in-person" className="btn btn-primary">CLASES PRIVADAS
-                                      OUTDOOR</a>
+                                  <a href="/private-in-person" className="btn btn-primary">CLASES PRIVADAS</a>
                                   <p className="card-text">Clase dirigida exclusivamente para ti teniendo en cuenta tus
                                       necesidades y requerimientos.</p>
                               </div>
+                      </div>
+                  </div>
+
+                  <div className="col">
+                      <div className="card h-100 text-center">
+                          <img src={cardPosesOnline} className="card-img-top" alt="..."/>
+                          <div className="card-body">
+                              <a href="/workshop-in-person" className="btn btn-primary">WORKSHOP DE YOGA</a>
+                              <p className="card-text">Aprende la técnica de como llegar a la postura de Yoga que
+                                  deseas.</p>
+                          </div>
                       </div>
                   </div>
 
@@ -226,17 +236,19 @@ function Home() {
                   </div>
               </div>
 
+              <br/>
+
               <div className="row">
                   <div className="col-lg-4">
-                      {/*<InstagramPost postUrl="https://www.instagram.com/p/CTk7A5bB2D1/?"/>*/}
+                      <InstagramPost postUrl="https://www.instagram.com/p/CTk7A5bB2D1/?"/>
                   </div>
 
                   <div className="col-lg-4">
-                      {/*<InstagramPost postUrl="https://www.instagram.com/tv/CVJkErFjmBW/?"/>*/}
+                      <InstagramPost postUrl="https://www.instagram.com/tv/CVJkErFjmBW/?"/>
                   </div>
 
                   <div className="col-lg-4">
-                      {/*<InstagramPost postUrl="https://www.instagram.com/tv/CVJkErFjmBW/?"/>*/}
+                      <InstagramPost postUrl="https://www.instagram.com/p/CZpuTaqBaGN/?"/>
                   </div>
               </div>
 
