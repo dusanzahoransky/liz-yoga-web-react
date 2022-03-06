@@ -208,7 +208,7 @@ function Home() {
                   <div className="col-lg-12 video-container">
                        <iframe src="https://www.youtube.com/embed/ENWbwYkibC0?start=35&loop=1&mute=1&playlist=ENWbwYkibC0"
                           title="YouTube video player" frameBorder="0"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                           allowFullScreen></iframe>
                   </div>
               </div>
