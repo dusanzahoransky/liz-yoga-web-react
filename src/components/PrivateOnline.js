@@ -5,6 +5,7 @@ import ContactForm from "./ContactForm";
 import DetailsHeading from "./classDetails/DetailsHeading";
 import ClassInfo from "./classDetails/ClassInfo";
 import PreparationItems from "./classDetails/PreparationItems";
+import {ClassType} from "../model/ClassType";
 
 function PrivateOnline() {
   return (
@@ -53,7 +54,7 @@ function PrivateOnline() {
                   </div>
                   <div className="col-md-1"/>
                   <div className="col-md-5">
-                    <ContactForm yogaClassType='private-online'/>
+                    <ContactForm yogaClassType={ClassType.PrivateOnline} hasHours={true}/>
                   </div>
               </div>
 

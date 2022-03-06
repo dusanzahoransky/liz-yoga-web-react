@@ -9,6 +9,7 @@ import CarouselImages from "./classDetails/CarouselImages";
 import ClassInfo from "./classDetails/ClassInfo";
 import PreparationItems from "./classDetails/PreparationItems";
 import ImageGallery from "react-image-gallery";
+import {ClassType} from "../model/ClassType";
 
 
 function WorkshopOnline() {
@@ -71,7 +72,7 @@ function WorkshopOnline() {
                     </div>
                     <div className="col-md-1"/>
                     <div className="col-md-5">
-                        <ContactForm yogaClassType='workshop-online'/>
+                        <ContactForm yogaClassType={ClassType.WorkshopOnline}/>
                     </div>
                 </div>
 

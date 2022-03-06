@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import ContactForm from "./ContactForm";
 import DetailsHeading from "./classDetails/DetailsHeading";
 import PreparationItems from "./classDetails/PreparationItems";
+import {ClassType} from "../model/ClassType";
 
 function GroupsOnline() {
   return (
@@ -95,7 +96,7 @@ function GroupsOnline() {
                   <div className="col-md-1"/>
 
                   <div className="col-md-5">
-                      <ContactForm yogaClassType='groups-online'/>
+                      <ContactForm yogaClassType={ClassType.GroupsOnline}/>
                   </div>
               </div>
 

@@ -13,6 +13,7 @@ import PreparationItems from "./classDetails/PreparationItems";
 
 import ImageGallery from 'react-image-gallery';
 import '../image-gallery.css';
+import {ClassType} from "../model/ClassType";
 
 function GroupsInPerson() {
 
@@ -76,7 +77,7 @@ function GroupsInPerson() {
                     </div>
                     <div className="col-md-1"/>
                     <div className="col-md-5">
-                        <ContactForm yogaClassType='groups-in-person'/>
+                        <ContactForm yogaClassType={ClassType.GroupsInPerson}/>
                     </div>
 
                 </div>

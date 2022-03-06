@@ -8,6 +8,7 @@ import inPerson2 from "../images/private-in-person/card-private-in-person-2.jpg"
 import inPerson3 from "../images/private-in-person/card-private-in-person-3.jpg";
 import inPerson4 from "../images/private-in-person/card-private-in-person-4.jpg";
 import ImageGallery from "react-image-gallery";
+import {ClassType} from "../model/ClassType";
 
 
 function PrivateInPerson() {
@@ -70,7 +71,7 @@ function PrivateInPerson() {
 
                         <div className="col-md-1"/>
                         <div className="col-md-5">
-                            <ContactForm yogaClassType='private-in-person'/>
+                            <ContactForm yogaClassType={ClassType.PrivateInPerson} hasHours={true}/>
                         </div>
                     </div>
 

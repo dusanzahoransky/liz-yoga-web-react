@@ -12,6 +12,7 @@ import CarouselImages from "./classDetails/CarouselImages";
 import ClassInfo from "./classDetails/ClassInfo";
 import PreparationItems from "./classDetails/PreparationItems";
 import ImageGallery from "react-image-gallery";
+import {ClassType} from "../model/ClassType";
 
 
 function WorkshopInPerson() {
@@ -48,7 +49,7 @@ function WorkshopInPerson() {
     return (
         <main role="main">
 
-            <DetailsHeading text='WORKSHOP DE YOGA ONLINE EN GRUPO'/>
+            <DetailsHeading text='WORKSHOP AL AIRE LIBRE'/>
 
             <div className="container details">
 
@@ -60,42 +61,37 @@ function WorkshopInPerson() {
 
                 <div className="row">
                     <div className="col">
-                        <p className="text-justify">Será una clase enfocada a lograr la postura de yoga que desees, por
-                            ejemplo, Sirsasana o Parada de Cabeza o Adho Mukha Vrksasana, Parada de Manos, por ejemplo.
-                            Tu
-                            decides la postura y yo me encargaré de ofrecerte una clase dinámica en la cual tendrás las
-                            herramientas necesarias para llegar a esa postura de yoga deseada.</p>
-
-                        <p>Serán grupos máximos de 5 personas, tendrás que tener un espacio amplio y cómodo en donde
-                            puedas moverte durante la práctica.</p>
+                        <p className="text-justify">Será un workshop enfocado a lograr una postura especifica, por
+                            ejemplo, Sirsasana o Parada de Cabeza o Adho Mukha Vrksasana, Parada de Manos, entre otras.
+                            En esta sesión aprenderás la técnica de como llegar a la postura mediante la demostración y explicación paso a paso de cada movimiento para asegurar una práctica segura.</p>
+                        <p>Decidiremos con anticipación el sitio de encuentro, podrá hacerse al
+                            aire libre en parques centrales en la city – Sydney Australia, o en las playas de Eastern
+                            suburs (Coogee, Maroubra, Bronte, Tamarama y alrededores).</p>
+                        <p>Serán grupos de máximo de 7 personas.</p>
                     </div>
                 </div>
 
                 <div className="row class-description">
                     <div className="col-md-5">
                         <ClassInfo hour='Por Definir.'
-                                   price='$15 AUD'
+                                   place='Por Definir.'
+                                   price='$25 AUD'
                         />
                         <PreparationItems preparationItems={[
-                            'Preferiblemente encuentra un espacio amplio y cómodo en donde puedas moverte durante la práctica.',
-                            'Si la clase es relacionada con la Parada de Cabeza o Parada de Manos, te recomiendo tener una pared cerca que podamos utilizar para practicar posturas previas las cuales nos ayudaran a fortalecer los brazos y core antes de llegar a la postura deseada.',
-                            'Es recomendable utilizar el portátil para que la imagen sea más amplia, si lo puedes conectar al TV estaría perfecto.',
-                            'Si tu conexión a wifi no es muy estable, te recomiendo conectar el portátil a tus datos a través de hotspot y así evitar que se congele la imaginen o te desconectes de la videollamada.',
-                            'Ser puntuales es muy importante, así evitan perderse parte de la clase.',
-                            'Preferible recogerse el cabello, aunque si les gusta suelto está perfecto. (Chicas)',
-                            'Ten una botellita de agua para hidratarte.',
-                            'Por ser un grupo de 5 personas máximo en donde se garantiza tu cupo a la clase, no se realiza devolución del dinero si no puedes asistir.',
+                            'Debes realizar el pago por anticipado para separar tu cupo.',
+                            'Ser puntuales es muy importante, el Workshop inicia a la hora programada, asi que, te recomiendo puntualidad por respeto a los demás participantes.',
+                            'Si no puedes asistir al Workshop deberás informar 24 horas de antelación para la devolución del dinero, de lo contrario tendrás la opción de asistir a una clase online.',
+                            'Es importante que tengas una botellita de agua para que te hidrates.'
                         ]}/>
                     </div>
-                    <div className="col-md-1"/>
-                    <div className="col-md-6">
-                        <ImageGallery items={imagesVertical} thumbnailPosition='bottom' autoPlay={true} />
+                    <div className="col-md-7">
+                        <ImageGallery items={imagesVertical} thumbnailPosition='right' autoPlay={true} />
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col-md-6">
-                        <ContactForm yogaClassType='workshop-in-person'/>
+                        <ContactForm yogaClassType={ClassType.WorkshopInPerson}/>
                     </div>
                     <div className="col-md-1"/>
                     <div className="col-md-5">

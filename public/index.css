@@ -65,6 +65,14 @@ button[aria-expanded]{
     padding-bottom: 0.3rem;
 }
 
+.dropdown-menu,.navbar{
+    font-size: 1rem;
+}
+
+.dropdown-item, .nav-item{
+    padding: 0.5rem;
+}
+
 
 /* CUSTOMIZE INTRODUCTION */
 
@@ -201,9 +209,10 @@ img.rounded-circle{
     text-shadow: 0 0 1px black;
     color: white;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     padding-top: 1rem;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .details img{

@@ -25,6 +25,15 @@ function ContactForm(props) {
         }
     }
 
+    let horario
+    if(props.hasHours){
+        horario = <div className="form-group">
+            <label htmlFor="preferredTime">Horario Preferido</label>
+            <input type="text" className="form-control" name="preferredTime" id="preferredTime"
+                   aria-describedby="preferredTimeHelp" placeholder="Hora preferida de clase"/>
+        </div>
+    }
+
     return (
         <>
             <h2>Contáctame</h2>
@@ -44,13 +53,9 @@ function ContactForm(props) {
                     <input type="text" className="form-control" name="mobile" id="mobile" required
                            aria-describedby="mobileHelp" placeholder="Tu número de Celular"/>
                 </div>
+                {horario}
                 <div className="form-group">
-                    <label htmlFor="preferredTime">Horario Preferido</label>
-                    <input type="text" className="form-control" name="preferredTime" id="preferredTime"
-                           aria-describedby="preferredTimeHelp" placeholder="Hora preferida de clase"/>
-                </div>
-                <div className="form-group">
-                    <label className="required" htmlFor="enquiry">Pregunta sobre la Clase</label>
+                    <label className="required" htmlFor="enquiry">Pregunta sobre {props.yogaClassType.label}</label>
                     <textarea className="form-control" name="enquiry" id="enquiry" required rows="6"
                               placeholder="Tu pregunta o consulta de reserva"/>
                 </div>
