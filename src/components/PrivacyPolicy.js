@@ -155,6 +155,8 @@ function PrivacyPolicy() {
                     <a href="/data-deletion-instructions">Data deletion instructions</a>
                 </ul>
             </div>
+            {/*to get it crawled by snap*/}
+            <a href="/error" hidden={true}/>
         </main>
     );
 }

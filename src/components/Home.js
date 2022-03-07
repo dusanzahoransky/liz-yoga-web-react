@@ -7,14 +7,19 @@ import cover4portrait from '../images/home/cover-4-large-portrait.jpeg';
 
 import cardGroupsOnline from '../images/home/card-groups-online.jpg';
 import cardPrivateOnline from '../images/home/card-private-online.jpg';
-import cardPosesOnline from '../images/home/card-poses-online.jpg';
+import cardWorkshopOnline from '../images/home/card-workshop-online.jpg';
+import cardWorkshopInPerson from '../images/home/card-workshop-in-person.jpg';
 import cardGroupsInPerson from '../images/home/card-groups-in-person.jpg';
 import cardPrivateInPerson from '../images/home/card-private-in-person.jpg';
 
 import logoYoutube from '../images/home/logo-picture-progressive.jpeg';
 import logoInstagram from '../images/home/instagram-logo-progressive.jpeg';
+import Instagram1 from '../images/home/Instagram1.jpg';
+import Instagram2 from '../images/home/Instagram2.jpg';
+import Instagram3 from '../images/home/Instagram3.jpg';
 import Footer from "./Footer";
 import InstagramPost from "./socialMedia/InstagramPost";
+import YoutubeEmbed from "./socialMedia/YoutubeEmbed";
 
 function Home() {
   return (
@@ -125,7 +130,7 @@ function Home() {
 
                   <div className="col">
                       <div className="card h-100 text-center">
-                          <img src={cardPosesOnline} className="card-img-top" alt="..."/>
+                          <img src={cardWorkshopOnline} className="card-img-top" alt="..."/>
                           <div className="card-body">
                               <a href="/workshop-online" className="btn btn-primary">WORKSHOP DE YOGA ONLINE</a>
                               <p className="card-text">Aprende la técnica de como llegar a la postura de Yoga que
@@ -165,7 +170,7 @@ function Home() {
 
                   <div className="col">
                       <div className="card h-100 text-center">
-                          <img src={cardPosesOnline} className="card-img-top" alt="..."/>
+                          <img src={cardWorkshopInPerson} className="card-img-top" alt="..."/>
                           <div className="card-body">
                               <a href="/workshop-in-person" className="btn btn-primary">WORKSHOP DE YOGA</a>
                               <p className="card-text">Aprende la técnica de como llegar a la postura de Yoga que
@@ -206,10 +211,7 @@ function Home() {
 
               <div className="row">
                   <div className="col-lg-12 video-container">
-                       <iframe src="https://www.youtube.com/embed/ENWbwYkibC0?start=35&loop=1&mute=1&playlist=ENWbwYkibC0"
-                          title="YouTube video player" frameBorder="0"
-                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                          allowFullScreen></iframe>
+                    <YoutubeEmbed postUrl="https://www.youtube.com/embed/ENWbwYkibC0?start=35&loop=1&mute=1&playlist=ENWbwYkibC0&autoplay=0"/>
                   </div>
               </div>
 
@@ -240,15 +242,15 @@ function Home() {
 
               <div className="row">
                   <div className="col-lg-4">
-                      <InstagramPost postUrl="https://www.instagram.com/p/CTk7A5bB2D1/?"/>
+                      <InstagramPost postUrl="https://www.instagram.com/p/CTk7A5bB2D1/?" errorImage={Instagram1}/>
                   </div>
 
                   <div className="col-lg-4">
-                      <InstagramPost postUrl="https://www.instagram.com/tv/CVJkErFjmBW/?"/>
+                      <InstagramPost postUrl="https://www.instagram.com/tv/CVJkErFjmBW/?" errorImage={Instagram2}/>
                   </div>
 
                   <div className="col-lg-4">
-                      <InstagramPost postUrl="https://www.instagram.com/p/CZpuTaqBaGN/?"/>
+                      <InstagramPost postUrl="https://www.instagram.com/p/CZpuTaqBaGN/?" errorImage={Instagram3}/>
                   </div>
               </div>
 

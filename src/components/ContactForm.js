@@ -15,7 +15,7 @@ function ContactForm(props) {
             return alert('Please fill up your enquiry.')
         } else {
             try {
-                await enquiryService.postEnquiry(props.yogaClassType, data)
+                await enquiryService.postEnquiry(props.yogaClassType.value, data)
             } catch (e) {
                 return alert('Failed to send you enquiry, please try again later.')
             }

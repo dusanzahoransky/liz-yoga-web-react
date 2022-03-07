@@ -1,0 +1,38 @@
+
+/* CUSTOMIZE NAVBAR */
+.dropdown-item{
+    color: #e402db;
+}
+.navbar-primary .navbar-nav .nav-link {
+    color: #e402db;
+}
+
+.nav-link{
+    color: #e402db;
+}
+.nav-link:hover{
+    color: #343a40;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: #e402db;
+    font-weight: 500;
+}
+button[aria-expanded]{
+    color: #e402db !important;
+}
+.navbar-toggler .collapsed{
+    color: #e402db !important;
+}
+.navbar{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.dropdown-menu,.navbar{
+    font-size: 1rem;
+}
+
+.dropdown-item, .nav-item{
+    padding: 0.5rem;
+}
