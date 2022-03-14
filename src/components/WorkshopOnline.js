@@ -5,7 +5,6 @@ import poses6 from '../images/workshop-online/poses-6-portrait.jpg';
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
 import DetailsHeading from "./classDetails/DetailsHeading";
-import CarouselImages from "./classDetails/CarouselImages";
 import ClassInfo from "./classDetails/ClassInfo";
 import PreparationItems from "./classDetails/PreparationItems";
 import ImageGallery from "react-image-gallery";
@@ -33,7 +32,7 @@ function WorkshopOnline() {
     return (
         <main role="main">
 
-            <DetailsHeading text='WORKSHOP DE YOGA ONLINE EN GRUPO'/>
+            <DetailsHeading text='WORKSHOP DE YOGA ONLINE'/>
 
             <div className="container details">
 
@@ -45,7 +44,7 @@ function WorkshopOnline() {
                             decides la postura y yo me encargaré de ofrecerte una clase dinámica en la cual tendrás las
                             herramientas necesarias para llegar a esa postura de yoga deseada.</p>
 
-                        <p>Serán grupos máximos de 5 personas, tendrás que tener un espacio amplio y cómodo en donde
+                        <p>Serán grupos máximos de 7 personas, tendrás que tener un espacio amplio y cómodo en donde
                             puedas moverte durante la práctica.</p>
                         <ClassInfo hour='Por Definir.'
                                    price='$15 AUD'
@@ -67,7 +66,7 @@ function WorkshopOnline() {
                             'Ser puntuales es muy importante, así evitan perderse parte de la clase.',
                             'Preferible recogerse el cabello, aunque si les gusta suelto está perfecto. (Chicas)',
                             'Ten una botellita de agua para hidratarte.',
-                            'Por ser un grupo de 5 personas máximo en donde se garantiza tu cupo a la clase, no se realiza devolución del dinero si no puedes asistir.',
+                            'Por ser un grupo de 7 personas máximo en donde se garantiza tu cupo a la clase, no se realiza devolución del dinero si no puedes asistir.',
                         ]}/>
                     </div>
                     <div className="col-md-1"/>
