@@ -39,6 +39,69 @@ h1{
     font-size: smaller;
 }
 
+/* Bootstrap customisations */
+a {
+    color: #e402db;
+    text-decoration: none;
+    background-color: transparent; }
+a:hover {
+    color: #980192;
+    text-decoration: underline; }
+.btn-primary {
+    color: #fff;
+    background-color: #e402db;
+    border-color: #e402db; }
+.btn-primary:hover {
+    color: #fff;
+    background-color: #be02b7;
+    border-color: #b102aa; }
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #be02b7;
+    border-color: #b102aa;
+    box-shadow: 0 0 0 0.2rem rgba(232, 40, 224, 0.5); }
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #e402db;
+    border-color: #e402db; }
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #b102aa;
+    border-color: #a5019e; }
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(232, 40, 224, 0.5); }
+
+.bg-primary {
+    background-color: #e402db !important; }
+
+a.bg-primary:hover, a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+    background-color: #b102aa !important; }
+
+.btn-outline-primary {
+    color: #e402db;
+    border-color: #e402db; }
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #e402db;
+    border-color: #e402db; }
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(228, 2, 219, 0.5); }
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+    color: #e402db;
+    background-color: transparent; }
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #e402db;
+    border-color: #e402db; }
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(228, 2, 219, 0.5); }
+
 /* CUSTOMIZE NAVBAR */
 .dropdown-item{
     color: #e402db;
@@ -241,7 +304,6 @@ ul.class-preparation-list{
 footer{
     text-align: center;
     padding-top: 1rem;
-    font-size: 0.8rem;
 }
 footer a{
     color: white;

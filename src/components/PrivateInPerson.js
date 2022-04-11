@@ -51,7 +51,7 @@ function PrivateInPerson() {
                         <p>Una persona máximo.</p>
                         <ClassInfo hour='Por Definir.'
                                    place='Por Definir.'
-                                   price='Dependiendo del lugar y del dia de la semana el precio estará en un rango de $50 y $70 AUD. Si reservas 3 clases tendrás un precio especial'
+                                   price='Dependiendo del lugar y del dia de la semana el precio estará en un rango de $50 y $80 AUD. Si reservas 3 clases tendrás un precio especial'
                         />
                     </div>
                     <div className="col-md-1"/>

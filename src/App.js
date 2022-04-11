@@ -10,7 +10,6 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 import DataDeletionInstructions from "./components/DataDeletionInstructions";
 import WorkshopInPerson from "./components/WorkshopInPerson";
 import ErrorPage from "./components/ErrorPage";
-import './BootstrapCustom.css'
 import './App.css'
 
 function App() {

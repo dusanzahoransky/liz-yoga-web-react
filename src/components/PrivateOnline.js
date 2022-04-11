@@ -19,7 +19,7 @@ function PrivateOnline() {
                   <div className="col-md-6">
                       <p className="text-justify">Aquí podrás reservar clases de Vinyasa Yoga dinámicas privadas solo
                           para ti, podrás elegir entre nivel principiante o intermedio, también tendrás la opción de
-                          trabajar alguna postura en específico que quieras practicar, son clases de 45 a 50 minutos en
+                          trabajar alguna postura en específico que quieras practicar, son clases de 50 a 60 minutos en
                           donde me aseguro que avances en la práctica, corrijo las posturas si es necesario y te explico
                           en detalle cada una de las asanas durante toda la clase, trabajaremos la respiración como base
                           fundamental durante la clase para que puedas conectarte contigo mismo/misma, finalizamos con

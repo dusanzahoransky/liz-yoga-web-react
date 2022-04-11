@@ -18,7 +18,7 @@ function GroupsOnline() {
               <div className="row">
                   <div className="col">
                       <p className="text-justify">Aquí encontrarás clases de Vinyasa Yoga dinámicas para grupos pequeños
-                          nivel principiante a intermedio, son clases de 45 a 50 minutos en donde me aseguro que los
+                          nivel principiante a intermedio, son clases de 50 a 60 minutos en donde me aseguro que los
                           estudiantes avancen en la práctica, corrigiendo posturas y explicando en detalle cada una de
                           las asanas, finalizamos con una meditación corta para terminar de relajar el cuerpo y la
                           mente.</p>
@@ -34,14 +34,13 @@ function GroupsOnline() {
                       <h3>HORARIO</h3>
                       <ul>
                           <li>
-                              <p><b>NIVEL 1:</b> Lunes, Martes, Miercoles y Jueves <b>6:30 pm</b></p>
+                              <p><b>NIVEL 1:</b> Lunes, Martes, Miercoles y Jueves <b>6:00 pm</b> Hora de Sydney</p>
                           </li>
                           <li>
-                              <p><b>NIVEL 2:</b> Lunes, Martes, Miercoles y Jueves <b>7:30 pm</b></p>
-                              <p><b>NIVEL 2:</b> Martes y Miercoles <b>6:00 am</b></p>
+                              <p><b>NIVEL 2:</b> Lunes, Martes, Miercoles y Jueves <b>7:00 pm</b> Hora de Sydney</p>
                           </li>
                       </ul>
-                      <p><i>Luego que termine el verano las clases serán a las 6:00 y 7:00 pm</i></p>
+                      {/*<p><i>Luego que termine el verano las clases serán a las 6:00 y 7:00 pm</i> Hora de Sydney</p>*/}
                       <p><i>Si estas en las clases de Nivel 1 y quieres experimentar uniéndote a alguna clase
                           de Nivel 2 tendrás la opción de participar en ella.</i></p>
                       <p><i>Si estás en las clases de Nivel 2 y deseas unirte a alguna clase de Nivel 1 porque
