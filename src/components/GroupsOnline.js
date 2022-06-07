@@ -31,20 +31,6 @@ function GroupsOnline() {
                       <h3>CLASES GRUPALES ONLINE</h3>
                       <p>Serán grupos de hasta máximo 15 personas.</p>
 
-                      <h3>HORARIO</h3>
-                      <ul>
-                          <li>
-                              <p><b>NIVEL 1:</b> Lunes, Martes, Miercoles y Jueves <b>6:00 pm</b> Hora de Sydney</p>
-                          </li>
-                          <li>
-                              <p><b>NIVEL 2:</b> Lunes, Martes, Miercoles y Jueves <b>7:00 pm</b> Hora de Sydney</p>
-                          </li>
-                      </ul>
-                      {/*<p><i>Luego que termine el verano las clases serán a las 6:00 y 7:00 pm</i> Hora de Sydney</p>*/}
-                      <p><i>Si estas en las clases de Nivel 1 y quieres experimentar uniéndote a alguna clase
-                          de Nivel 2 tendrás la opción de participar en ella.</i></p>
-                      <p><i>Si estás en las clases de Nivel 2 y deseas unirte a alguna clase de Nivel 1 porque
-                          deseas una clase un poco más sencilla, tendrás la opción de unirte a ella.</i></p>
                   </div>
 
                   <div className="col-md-1"/>
@@ -57,24 +43,7 @@ function GroupsOnline() {
               <div className="row">
                   <div className="col">
                       <h3 className="heading-with-note">PRECIO</h3>
-                      <ul>
-                          <li>
-                              <p>VALOR DE LA MEMBRESÍA <b>2 CLASES A LA SEMANA:</b></p>
-                              <p>PAQUETE DE <b>4 SEMANAS $99 AUD.</b> Puedes ingresar a 2 clases cualquier día de la
-                                  semana, lunes, martes, miercoles
-                                  o jueves. Tu decides los dias.</p>
-                          </li>
-                          <li>
-                              <p>VALOR DE LA MEMBRESÍA <b>3 CLASES A LA SEMANA:</b></p>
-                              <p>PAQUETE DE <b>4 SEMANAS $135 AUD.</b> Puedes ingresar a 3 clases cualquier día de la
-                                  semana, lunes, martes, miercoles
-                                  o jueves. Tu decides los dias.</p>
-                          </li>
-                          <li>
-                              <p>VALOR DE LAS CLASES <b>SIN MEMBRESÍA:</b></p>
-                              <p><b>$15 AUD por clase</b>, Pago Anticipado.</p>
-                          </li>
-                      </ul>
+                      <p><b>$15 AUD por clase</b>, Pago Anticipado.</p>
                   </div>
               </div>
 
