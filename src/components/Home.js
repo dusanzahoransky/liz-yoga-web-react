@@ -86,11 +86,11 @@ function Home() {
 
           <div className="container introduction">
               <h1 className="display-5 rem-2">YOGA CON LIZ NEIRA</h1>
-              <p className="text-justify">Desde hace 4 años el Yoga atrajo mi atención y descubrí un mundo fantástico en
+              <p className="text-justify">Desde hace 5 años el Yoga atrajo mi atención y descubrí un mundo fantástico en
                   donde
                   descubrí los beneficios físicos, mentales y espirituales que esta extraordinaria disciplina
                   ofrece.</p>
-              <p className="text-justify">Desde hace 3 años me he especializado en Vinyasa Yoga, técnica enfocada en la
+              <p className="text-justify">Desde hace 4 años me he especializado en Vinyasa Yoga, técnica enfocada en la
                   respiración, en los movimientos controlados por medio de asanas/posturas, estiramiento del cuerpo y
                   meditación.</p>
               <p className="text-justify">Profesora de yoga certificada, actualmente resido en Sydney-Australia un país
@@ -241,19 +241,47 @@ function Home() {
               <br/>
 
               <div className="row">
-                  <div className="col-lg-4">
-                      <InstagramPost postUrl="https://www.instagram.com/p/CTk7A5bB2D1/?" errorImage={Instagram1}/>
-                  </div>
 
                   <div className="col-lg-4">
                       <InstagramPost postUrl="https://www.instagram.com/p/CZpuTaqBaGN/?" errorImage={Instagram3}/>
                   </div>
 
                   <div className="col-lg-4">
+                      <InstagramPost postUrl="https://www.instagram.com/p/CbqRLvRBtx-/?" errorImage={Instagram1}/>
+                  </div>
+
+                  <div className="col-lg-4">
                       <InstagramPost postUrl="https://www.instagram.com/tv/CVJkErFjmBW/?" errorImage={Instagram2}/>
+                  </div>
+              </div>
+
+
+              <div className="row">
+
+                  <div className="col-lg-6">
+                      <InstagramPost postUrl="https://www.instagram.com/p/CbWBi3GPKIa/?" errorImage={Instagram3}/>
+                  </div>
+
+                  <div className="col-lg-6">
+                      <InstagramPost postUrl="https://www.instagram.com/p/CWb0BJkBIyt/?" errorImage={Instagram3}/>
                   </div>
 
               </div>
+
+              <div className="row">
+                  <div className="col-lg-4">
+                      <InstagramPost postUrl="https://www.instagram.com/p/CfjS3gdIRZO/?" errorImage={Instagram3}/>
+                  </div>
+
+                  <div className="col-lg-4">
+                      <InstagramPost postUrl="https://www.instagram.com/p/CZP-t_EBzRs/?" errorImage={Instagram1}/>
+                  </div>
+
+                  <div className="col-lg-4">
+                      <InstagramPost postUrl="https://www.instagram.com/p/CfACvMUjMXn/?" errorImage={Instagram2}/>
+                  </div>
+              </div>
+
 
           </div>
 
