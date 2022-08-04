@@ -11,6 +11,7 @@ import DataDeletionInstructions from "./components/DataDeletionInstructions";
 import WorkshopInPerson from "./components/WorkshopInPerson";
 import ErrorPage from "./components/ErrorPage";
 import './App.css'
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               <Route path='/workshop-in-person' element={<WorkshopInPerson/>}/>
               <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
               <Route path='/data-deletion-instructions' element={<DataDeletionInstructions/>}/>
+              <Route path='/gallery' element={<Gallery/>}/>
               <Route path='/error' element={<ErrorPage/>}/>
           </Routes>
       </>

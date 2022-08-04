@@ -4,6 +4,12 @@ import inPerson3 from '../images/groups-in-person/card-groups-in-person-3.jpg';
 import inPerson4 from '../images/groups-in-person/card-groups-in-person-4.jpg';
 import inPerson5 from '../images/groups-in-person/card-groups-in-person-5.jpg';
 import inPerson6 from '../images/groups-in-person/card-groups-in-person-6.jpg';
+import inPerson1Thumbnail from '../images/groups-in-person-thumbnail/card-groups-in-person-1.jpg';
+import inPerson2Thumbnail from '../images/groups-in-person-thumbnail/card-groups-in-person-2.jpg';
+import inPerson3Thumbnail from '../images/groups-in-person-thumbnail/card-groups-in-person-3.jpg';
+import inPerson4Thumbnail from '../images/groups-in-person-thumbnail/card-groups-in-person-4.jpg';
+import inPerson5Thumbnail from '../images/groups-in-person-thumbnail/card-groups-in-person-5.jpg';
+import inPerson6Thumbnail from '../images/groups-in-person-thumbnail/card-groups-in-person-6.jpg';
 
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
@@ -20,27 +26,27 @@ function GroupsInPerson() {
     const images = [
        {
             original: inPerson2,
-            thumbnail: inPerson2,
+            thumbnail: inPerson2Thumbnail,
         },
         {
             original: inPerson1,
-            thumbnail: inPerson1,
+            thumbnail: inPerson1Thumbnail,
         },
         {
             original: inPerson3,
-            thumbnail: inPerson3,
+            thumbnail: inPerson3Thumbnail,
         },
         {
             original: inPerson4,
-            thumbnail: inPerson4,
+            thumbnail: inPerson4Thumbnail,
         },
         {
             original: inPerson6,
-            thumbnail: inPerson6,
+            thumbnail: inPerson6Thumbnail,
         },
         {
             original: inPerson5,
-            thumbnail: inPerson5,
+            thumbnail: inPerson5Thumbnail,
         },
     ]
 

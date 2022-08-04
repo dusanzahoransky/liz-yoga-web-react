@@ -4,6 +4,12 @@ import workshop3 from '../images/workshop-in-person/card-workshop-in-person-3.jp
 import workshop4 from '../images/workshop-in-person/card-workshop-in-person-4.jpg';
 import workshop5 from '../images/workshop-in-person/card-workshop-in-person-5.jpg';
 import workshop6 from '../images/workshop-in-person/card-workshop-in-person-6.jpg';
+import workshop1Thumbnail from '../images/workshop-in-person-thumbnail/card-workshop-in-person-1.jpg';
+import workshop2Thumbnail from '../images/workshop-in-person-thumbnail/card-workshop-in-person-2.jpg';
+import workshop3Thumbnail from '../images/workshop-in-person-thumbnail/card-workshop-in-person-3.jpg';
+import workshop4Thumbnail from '../images/workshop-in-person-thumbnail/card-workshop-in-person-4.jpg';
+import workshop5Thumbnail from '../images/workshop-in-person-thumbnail/card-workshop-in-person-5.jpg';
+import workshop6Thumbnail from '../images/workshop-in-person-thumbnail/card-workshop-in-person-6.jpg';
 
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
@@ -20,29 +26,29 @@ function WorkshopInPerson() {
     const imagesHorizontal = [
         {
             original: workshop2,
-            thumbnail: workshop2,
+            thumbnail: workshop2Thumbnail,
         },
         {
             original: workshop1,
-            thumbnail: workshop1,
+            thumbnail: workshop1Thumbnail,
         },
         {
             original: workshop3,
-            thumbnail: workshop3,
+            thumbnail: workshop3Thumbnail,
         },
     ]
     const imagesVertical = [
         {
             original: workshop4,
-            thumbnail: workshop4,
+            thumbnail: workshop4Thumbnail,
         },
         {
             original: workshop5,
-            thumbnail: workshop5,
+            thumbnail: workshop5Thumbnail,
         },
         {
             original: workshop6,
-            thumbnail: workshop6,
+            thumbnail: workshop6Thumbnail,
         },
     ]
 

@@ -7,6 +7,10 @@ import inPerson1 from "../images/private-in-person/card-private-in-person-1.jpg"
 import inPerson2 from "../images/private-in-person/card-private-in-person-2.jpg";
 import inPerson3 from "../images/private-in-person/card-private-in-person-3.jpg";
 import inPerson4 from "../images/private-in-person/card-private-in-person-4.jpg";
+import inPerson1Thumbnail from "../images/private-in-person-thumbnail/card-private-in-person-1.jpg";
+import inPerson2Thumbnail from "../images/private-in-person-thumbnail/card-private-in-person-2.jpg";
+import inPerson3Thumbnail from "../images/private-in-person-thumbnail/card-private-in-person-3.jpg";
+import inPerson4Thumbnail from "../images/private-in-person-thumbnail/card-private-in-person-4.jpg";
 import ImageGallery from "react-image-gallery";
 import {ClassType} from "../model/ClassType";
 
@@ -16,19 +20,19 @@ function PrivateInPerson() {
     const images = [
         {
             original: inPerson2,
-            thumbnail: inPerson2,
+            thumbnail: inPerson2Thumbnail,
         },
         {
             original: inPerson1,
-            thumbnail: inPerson1,
+            thumbnail: inPerson1Thumbnail,
         },
         {
             original: inPerson3,
-            thumbnail: inPerson3,
+            thumbnail: inPerson3Thumbnail,
         },
         {
             original: inPerson4,
-            thumbnail: inPerson4,
+            thumbnail: inPerson4Thumbnail,
         },
     ]
 
