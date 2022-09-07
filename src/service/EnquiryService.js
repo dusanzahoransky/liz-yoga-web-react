@@ -3,7 +3,7 @@ export default class EnquiryService {
     async postEnquiry(yogaClass, enquiry) {
         enquiry.yogaClass = yogaClass
 
-        const enquiryPath = 'https://uc2iohbbzc.execute-api.ap-southeast-2.amazonaws.com/prod/';
+        const enquiryPath = 'https://ik4h5wxzpj.execute-api.ap-southeast-2.amazonaws.com/prod/';
         const body = JSON.stringify(enquiry);
         console.log(`Calling POST ${enquiryPath}: ${body}`)
 
