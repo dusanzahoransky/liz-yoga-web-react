@@ -19,7 +19,6 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "react-snap": "^1.23.0",
     "serve": "^13.0.2"
   },
   "scripts": {
@@ -27,7 +26,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postbuild": "react-snap",
     "deploy": "npm run build && aws s3 sync build s3://lizneira-2.com --profile dusan",
     "copy-s3": "aws s3 sync build s3://lizneira-2.com --profile dusan",
     "copy-s3-delete": "aws s3 sync build s3://lizneira-2.com --delete --profile dusan",

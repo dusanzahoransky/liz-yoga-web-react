@@ -207,11 +207,10 @@ function Home() {
                   </div>
               </div>
 
-              <br/>
-
               <div className="row">
                   <div className="col-lg-12 video-container">
-                    <YoutubeEmbed postUrl="https://www.youtube.com/embed/ENWbwYkibC0?start=35&loop=1&mute=1&playlist=ENWbwYkibC0&autoplay=0"/>
+                    <YoutubeEmbed postUrl="https://www.youtube.com/embed/ZZ-6STCCLoQ?loop=1&mute=1&autoplay=0"
+                                  title="Yoga de Principiante a Nivel Intermedio Dia 10 | Tonifica el Cuerpo | 20 Min | Alpes Franceses"/>
                   </div>
               </div>
 
