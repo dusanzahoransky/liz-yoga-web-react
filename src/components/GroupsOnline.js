@@ -40,12 +40,12 @@ function GroupsOnline() {
                   </div>
               </div>
 
-              <div className="row">
-                  <div className="col">
-                      <h3 className="heading-with-note">PRECIO</h3>
-                      <p><b>$15 AUD por clase</b>, Pago Anticipado.</p>
-                  </div>
-              </div>
+              {/*<div className="row">*/}
+              {/*    <div className="col">*/}
+              {/*        <h3 className="heading-with-note">PRECIO</h3>*/}
+              {/*        <p><b>$15 AUD por clase</b>, Pago Anticipado.</p>*/}
+              {/*    </div>*/}
+              {/*</div>*/}
 
               <div className="row">
                   <div className="col-md-6">

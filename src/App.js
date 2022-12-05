@@ -12,12 +12,14 @@ import WorkshopInPerson from "./components/WorkshopInPerson";
 import ErrorPage from "./components/ErrorPage";
 import './App.css'
 import Gallery from "./components/Gallery";
+import Profile from "./components/Profile";
 
 function App() {
   return (
       <>
           <Routes>
               <Route path='/' element={<Home/>}/>
+              <Route path='/profile' element={<Profile/>}/>
               <Route path='/private-online' element={<PrivateOnline/>}/>
               <Route path='/groups-online' element={<GroupsOnline/>}/>
               <Route path='/workshop-online' element={<WorkshopOnline/>}/>

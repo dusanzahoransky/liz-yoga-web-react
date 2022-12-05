@@ -9,8 +9,8 @@ function ClassInfo(props) {
             <h3>HORARIO</h3>
             <p>{props.hour}</p>
             {place}
-            <h3>PRECIO</h3>
-            <p>{props.price}</p>
+            {/*<h3>PRECIO</h3>*/}
+            {/*<p>{props.price}</p>*/}
         </>
     );
 }
