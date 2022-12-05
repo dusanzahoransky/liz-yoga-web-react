@@ -50,8 +50,8 @@ function GroupsInPerson() {
         },
     ]
 
-    return (
-        <main role="main">
+    return (<>
+        <main role="main" className="container">
 
             <DetailsHeading text='CLASES GRUPALES PERSONALIZADAS OUTDOOR'/>
 
@@ -90,10 +90,12 @@ function GroupsInPerson() {
 
             </div>
 
-            <hr className="divider"/>
-            <Footer/>
         </main>
-    );
+
+        <br/>
+
+        <Footer/>
+    </>);
 }
 
 export default GroupsInPerson;

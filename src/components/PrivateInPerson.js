@@ -36,8 +36,8 @@ function PrivateInPerson() {
         },
     ]
 
-    return (
-        <main role="main">
+    return (<>
+        <main role="main" className="container">
 
             <DetailsHeading text='CLASES PRIVADAS PERSONALIZADAS OUTDOOR O EN CASA'/>
 
@@ -83,10 +83,12 @@ function PrivateInPerson() {
 
             </div>
 
-            <hr className="divider"/>
-            <Footer/>
         </main>
-    );
+
+        <br/>
+
+        <Footer/>
+    </>);
 }
 
 export default PrivateInPerson;

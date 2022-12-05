@@ -52,8 +52,8 @@ function WorkshopInPerson() {
         },
     ]
 
-    return (
-        <main role="main">
+    return (<>
+        <main role="main" className="container">
 
             <DetailsHeading text='WORKSHOP AL AIRE LIBRE'/>
 
@@ -107,11 +107,12 @@ function WorkshopInPerson() {
 
 
             </div>
-
-            <hr className="divider"/>
-            <Footer/>
         </main>
-    );
+
+        <br/>
+
+        <Footer/>
+    </>);
 }
 
 export default WorkshopInPerson;

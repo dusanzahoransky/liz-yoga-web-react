@@ -187,7 +187,8 @@ function Home() {
 
           </div>
 
-          <br/><br/>
+          <br/>
+
           <Footer/>
       </main>
   );

@@ -29,8 +29,8 @@ function WorkshopOnline() {
 
     ]
 
-    return (
-        <main role="main">
+    return (<>
+        <main role="main" className="container">
 
             <DetailsHeading text='WORKSHOP DE YOGA ONLINE'/>
 
@@ -77,11 +77,12 @@ function WorkshopOnline() {
 
 
             </div>
-
-            <hr className="divider"/>
-            <Footer/>
         </main>
-    );
+
+        <br/>
+
+        <Footer/>
+    </>);
 }
 
 export default WorkshopOnline;

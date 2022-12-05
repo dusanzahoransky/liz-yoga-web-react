@@ -8,8 +8,8 @@ import PreparationItems from "./classDetails/PreparationItems";
 import {ClassType} from "../model/ClassType";
 
 function PrivateOnline() {
-  return (
-      <main role="main">
+  return (<>
+      <main role="main" className="container">
 
           <DetailsHeading text='CLASES PRIVADAS ONLINE'/>
 
@@ -60,10 +60,12 @@ function PrivateOnline() {
 
           </div>
 
-          <hr className="divider"/>
-          <Footer/>
       </main>
-  );
+
+      <br/>
+
+      <Footer/>
+  </>);
 }
 
 export default PrivateOnline;

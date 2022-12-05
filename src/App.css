@@ -237,14 +237,15 @@ button[aria-expanded]{
 }
 
 .details-heading{
-    background-color: rgba(65, 13, 91, 0.75);
-    text-shadow: 0 0 1px rgba(65, 13, 91, 0.75);
-    color: white;
+    /*background-color: rgba(65, 13, 91, 0.75);*/
+    /*text-shadow: 0 0 1px rgba(65, 13, 91, 0.75);*/
+    color: rgba(65, 13, 91, 0.75);
     text-align: center;
     padding-bottom: 1rem;
     padding-top: 1rem;
     margin-top: 0;
     margin-bottom: 0;
+    border: solid 1px;
 }
 
 .details img{

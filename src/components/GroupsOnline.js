@@ -8,8 +8,8 @@ import PreparationItems from "./classDetails/PreparationItems";
 import {ClassType} from "../model/ClassType";
 
 function GroupsOnline() {
-  return (
-      <main role="main">
+  return (<>
+      <main role="main" className="container">
 
           <DetailsHeading text='CLASES GRUPALES ONLINE'/>
 
@@ -71,10 +71,12 @@ function GroupsOnline() {
 
           </div>
 
-          <hr className="divider"/>
-          <Footer/>
       </main>
-  );
+
+      <br/>
+
+      <Footer/>
+  </>);
 }
 
 export default GroupsOnline;
