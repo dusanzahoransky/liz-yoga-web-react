@@ -39,7 +39,7 @@ function PrivateInPerson() {
     return (<>
         <main role="main" className="container">
 
-            <DetailsHeading text='CLASES PRIVADAS PERSONALIZADAS OUTDOOR O EN CASA'/>
+            <DetailsHeading text='CLASE DE YOGA PRIVADA PRESENCIAL EN SYDNEY'/>
 
             <div className="container details">
 

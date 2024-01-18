@@ -1,16 +1,14 @@
 function ClassInfo(props) {
     let place = props.place?
         <>
-            <h3>LUGAR</h3>
+            <h3>Lugar</h3>
             <p>{props.place}</p>
         </> : <></>
     return (
         <>
-            <h3>HORARIO</h3>
-            <p>{props.hour}</p>
             {place}
-            {/*<h3>PRECIO</h3>*/}
-            {/*<p>{props.price}</p>*/}
+            <h3>Hora</h3>
+            <p>{props.hour}</p>
         </>
     );
 }

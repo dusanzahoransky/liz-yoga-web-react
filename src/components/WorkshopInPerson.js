@@ -55,7 +55,7 @@ function WorkshopInPerson() {
     return (<>
         <main role="main" className="container">
 
-            <DetailsHeading text='WORKSHOP AL AIRE LIBRE'/>
+            <DetailsHeading text='CELEBRA TUS FECHAS ESPECIALES'/>
 
             <div className="container details">
 
@@ -67,13 +67,11 @@ function WorkshopInPerson() {
 
                 <div className="row">
                     <div className="col">
-                        <p className="text-justify">Será un workshop enfocado a lograr una postura especifica, por
-                            ejemplo, Sirsasana o Parada de Cabeza o Adho Mukha Vrksasana, Parada de Manos, entre otras.
-                            En esta sesión aprenderás la técnica de como llegar a la postura mediante la demostración y explicación paso a paso de cada movimiento para asegurar una práctica segura.</p>
+                        <p className="text-justify">Sesión Privada para que celebres tus fechas más especiales, cumpleaños, día de la mujer, entre otros.</p>
                         <p>Decidiremos con anticipación el sitio de encuentro, podrá hacerse al
                             aire libre en parques centrales en la city – Sydney Australia, o en las playas de Eastern
-                            suburs (Coogee, Maroubra, Bronte, Tamarama y alrededores).</p>
-                        <p>Serán grupos de máximo de 7 personas.</p>
+                            suburs (Coogee, Maroubra, Bronte, Tamarama y alrededores).
+                        </p>
                     </div>
                 </div>
 
@@ -84,20 +82,20 @@ function WorkshopInPerson() {
                                    price='$25 AUD'
                         />
                         <PreparationItems preparationItems={[
-                            'Debes realizar el pago por anticipado para separar tu cupo.',
-                            'Ser puntuales es muy importante, el Workshop inicia a la hora programada, asi que, te recomiendo puntualidad por respeto a los demás participantes.',
-                            'Si no puedes asistir al Workshop deberás informar 24 horas de antelación para la devolución del dinero, de lo contrario tendrás la opción de asistir a una clase online.',
+                            'Debes realizar el pago por anticipado para reservar tu espacio.',
+                            'Ser puntuales es muy importante, la sesión inicia a la hora programada, asi que, te recomiendo puntualidad.',
+                            'Luego de confirmada la sesión no se realiza la devolución del dinero.',
                             'Es importante que tengas una botellita de agua para que te hidrates.'
                         ]}/>
                     </div>
-                    <div className="col-md-7">
+                    <div className="col-md-4">
                         <ImageGallery items={imagesVertical} thumbnailPosition='right' autoPlay={true} />
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col-md-6">
-                        <ContactForm yogaClassType={ClassType.WorkshopInPerson}/>
+                        <ContactForm yogaClassType={ClassType.WorkshopInPerson} hasHours='true'/>
                     </div>
                     <div className="col-md-1"/>
                     <div className="col-md-5">

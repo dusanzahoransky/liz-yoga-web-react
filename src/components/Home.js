@@ -141,7 +141,7 @@ function Home() {
 
               <br/>
 
-              <h3 className="display-7 rem-2 text-center">CLASES AL AIRE LIBRE O EN CASA</h3>
+              <h3 className="display-7 rem-2 text-center">CLASES OUTDOOR O EN CASA</h3>
 
               <div className="row row-cols-1 row-cols-lg-3 g-4">
                   <div className="col">
