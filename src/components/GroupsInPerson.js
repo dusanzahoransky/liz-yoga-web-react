@@ -80,7 +80,7 @@ function GroupsInPerson() {
                                 <img style={{ marginLeft: '2rem', height: 'auto', maxWidth: '12rem', float: 'right'}} height="auto"  src={groupClassLocation}></img>
                             </a>
                         </div>
-                        <p>Sitio de encuentro: Dolphins Point. Llegas a Coogee Pavilion y caminas unos 200 metros hacia
+                        <p className="text-justify">Sitio de encuentro: Dolphins Point. Llegas a Coogee Pavilion y caminas unos 200 metros hacia
                             arriba de la colina.</p>
                         <p>Si en algún caso cambiamos la locación, será justo a unos pocos metros de este lugar, sigues
                             caminando hacia la izquierda y nos encontrarás.</p>
@@ -89,7 +89,7 @@ function GroupsInPerson() {
                         <p>Yoga al Amanecer 5:50 am y 8:00 am</p>
                         <h3>Valor</h3>
                         <p>$23 AUD.</p>
-                        <p>Realiza el pago de la clase al número celular 0413147237 para separar tu espacio, se reciben
+                        <p className="text-justify">Realiza el pago de la clase al número celular 0413147237 para separar tu espacio, se reciben
                             confirmaciones hasta el dia Jueves.</p>
                         <PreparationItems preparationItems={[
                             'Ser puntuales es muy importante, la clase inicia a la hora programada, asi que, te recomiendo puntualidad para que no te pierdas ninguna parte de la clase.',
