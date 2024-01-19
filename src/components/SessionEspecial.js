@@ -40,7 +40,7 @@ function SessionEspecial() {
 
                 <div className="row">
                     <div className="col">
-                        <p className="text-justify">Tu sistema Nervioso establece lo que es posible para ti, regula el funcionamiento de todos tus órganos, transmite señales entre el cerebro y el resto del cuerpo de modo que controla la capacidad de moverse, respirar, ver, pensar. De ti depende mantener un sistema nervioso en buen estado.</p>
+                        <p className="text-justify">Tu sistema nervioso establece lo que es posible para ti, regula el funcionamiento de todos tus órganos, transmite señales entre el cerebro y el resto del cuerpo de modo que controla la capacidad de moverse, respirar, ver, pensar. De ti depende mantener un sistema nervioso en buen estado.</p>
                     </div>
                 </div>
 
@@ -50,15 +50,21 @@ function SessionEspecial() {
 
                 <div className="row">
                     <div className="col-md-7">
-                        <p><h5>Te Invito a una sesión muy especial de 2 Horas dedicadas A nutrir tu ser a través
-                            de:</h5>
-                        </p>
-                        <p>- Diferentes técnicas para calmar el sistema nervioso (incluyendo Pranayama/Ejercicios de
-                            Respiración)</p>
-                        <p>- Clase Multinivel de Vinyasa enfocada a conectar y escuchar tu cuerpo.</p>
-                        <p>- Meditación Guiada</p>
-                        <p>- Relajación Cuerpo y Mente a través de Instrumentos Musicales como Cuencos Tibetanos y de
-                            Cristal entre otros.</p>
+                        <p className="text-justify"><b>Te invito a una sesión muy especial de 2 Horas dedicadas a nutrir
+                            tu ser a través
+                            de:
+                        </b></p>
+                        <ul className="class-preparation-list text-justify">
+                            <li>Diferentes técnicas para calmar el sistema nervioso (incluyendo
+                                Pranayama/Ejercicios de
+                                Respiración)</li>
+                            <li>Clase Multinivel de Vinyasa enfocada a conectar y escuchar tu
+                                cuerpo</li>
+                            <li>Meditación Guiada</li>
+                            <li>Relajación Cuerpo y Mente a través de Instrumentos Musicales como
+                                Cuencos Tibetanos y de
+                                Cristal entre otros</li>
+                        </ul>
                         <h3>Lugar</h3>
                         <p>Estudio de Yoga en Mosman - Sydney.</p>
                         <h3>Fecha y Hora</h3>
@@ -68,12 +74,12 @@ function SessionEspecial() {
                             'Debes realizar el pago por anticipado para reservar tu espacio.',
                             'Ser puntuales es muy importante, la sesión inicia a la hora programada, asi que, te recomiendo puntualidad.',
                             'Luego de confirmada la sesión no se realiza la devolución del dinero, puedes ser tu espacio a alguien más.',
-                            'Es importante que tengas una botellita de agua para hidratarte.'
+                            'Es importante que tengas un tarrito de agua para hidratarte.'
                         ]}/>
                     </div>
                     <div className="col-md-1"/>
                     <div className="col-md-4">
-                        <ContactForm yogaClassType={ClassType.GroupsInPerson}/>
+                    <ContactForm yogaClassType={ClassType.GroupsInPerson}/>
                     </div>
 
                 </div>
