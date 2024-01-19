@@ -73,7 +73,7 @@ function SessionEspecial() {
                         <PreparationItems preparationItems={[
                             'Debes realizar el pago por anticipado para reservar tu espacio.',
                             'Ser puntuales es muy importante, la sesión inicia a la hora programada, asi que, te recomiendo puntualidad.',
-                            'Luego de confirmada la sesión no se realiza la devolución del dinero, puedes ser tu espacio a alguien más.',
+                            'Luego de confirmada tu asistencia no se realiza la devolución del dinero, en caso de no poder asistir puedes ceder tu espacio a alguien más.',
                             'Es importante que tengas un tarrito de agua para hidratarte.'
                         ]}/>
                     </div>

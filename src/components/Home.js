@@ -78,11 +78,11 @@ function Home() {
 
           <div className="container introduction">
               <h1 className="display-6 rem-2">YOGA CON LIZ NEIRA</h1>
-              <p className="text-justify">Desde hace 5 años el Yoga atrajo mi atención y descubrí un mundo fantástico en
+              <p className="text-justify">Desde hace 6 años el Yoga atrajo mi atención y descubrí un mundo fantástico en
                   donde
                   descubrí los beneficios físicos, mentales y espirituales que esta extraordinaria disciplina
                   ofrece.</p>
-              <p className="text-justify">Desde hace 4 años me he especializado en Vinyasa Yoga, técnica enfocada en la
+              <p className="text-justify">Desde hace 5 años me he especializado en Vinyasa Yoga, técnica enfocada en la
                   respiración, en los movimientos controlados por medio de asanas/posturas, estiramiento del cuerpo y
                   meditación.</p>
               <p className="text-justify">Profesora certificada de Vinyasa, Hatha, Yin y Ashtanga yoga, 500 horas de formación avanzada según los estandares establecidos por Yoga Alliance.
@@ -96,6 +96,53 @@ function Home() {
 
           <div className="container marketing">
 
+              <h3 className="display-7 rem-2 text-center">CLASES OUTDOOR O EN CASA</h3>
+
+              <div className="row row-cols-1 row-cols-lg-3 g-4">
+                  <div className="col">
+                      <a href="/groups-in-person">
+                          <div className="card h-100 text-center">
+                              <img src={cardGroupsInPerson} className="card-img-top" alt="..."/>
+                              <div className="card-body">
+                                  <p href="/groups-in-person" className="card-title">CLASES GRUPALES</p>
+                                  <p className="card-text">Práctica de yoga grupal disfrutando los hermosos parques y
+                                      playas de Sydney.</p>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+
+                  <div className="col">
+                      <a href="/private-in-person">
+                          <div className="card h-100 text-center">
+                              <img src={cardPrivateInPerson} className="card-img-top" alt="..."/>
+                              <div className="card-body">
+                                  <p className="card-title">CLASES PRIVADAS</p>
+                                  <p className="card-text">Clase dirigida exclusivamente para ti teniendo en cuenta tus
+                                      necesidades y requerimientos.</p>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+
+                  <div className="col">
+                      <a href="/workshop-in-person">
+                          <div className="card h-100 text-center">
+                              <img src={cardWorkshopInPerson} className="card-img-top" alt="..."/>
+                              <div className="card-body">
+                                  <p className="card-title">CELEBRA TUS FECHAS ESPECIALES</p>
+                                  <p className="card-text">Aprende la técnica de como llegar a la postura de Yoga que
+                                      deseas.</p>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+
+              </div>
+
+
+              <br/>
+
               <h3 className="display-7 rem-2 text-center">CLASES ONLINE</h3>
 
               <div className="row row-cols-1 row-cols-lg-3 g-4">
@@ -104,10 +151,10 @@ function Home() {
                       <a href="/groups-online">
                           <div className="card h-100 text-center">
                               <img src={cardGroupsOnline} className="card-img-top" alt="card groups online"/>
-                                  <div className="card-body">
-                                      <p  className="card-title">CLASES GRUPALES ONLINE</p>
-                                      <p className="card-text">Clases de Vinyasa Yoga dinámicas para grupos pequeños.</p>
-                                  </div>
+                              <div className="card-body">
+                                  <p className="card-title">CLASES GRUPALES ONLINE</p>
+                                  <p className="card-text">Clases de Vinyasa Yoga dinámicas para grupos pequeños.</p>
+                              </div>
                           </div>
                       </a>
                   </div>
@@ -116,10 +163,10 @@ function Home() {
                       <a href="/private-online">
                           <div className="card h-100 text-center">
                               <img src={cardPrivateOnline} className="card-img-top" alt="card private online"/>
-                                  <div className="card-body">
-                                      <p className="card-title">CLASES PRIVADAS ONLINE</p>
-                                      <p className="card-text">Clases de Vinyasa Yoga dinámicas privadas solo para ti.</p>
-                                  </div>
+                              <div className="card-body">
+                                  <p className="card-title">CLASES PRIVADAS ONLINE</p>
+                                  <p className="card-text">Clases de Vinyasa Yoga dinámicas privadas solo para ti.</p>
+                              </div>
                           </div>
                       </a>
                   </div>
@@ -130,52 +177,6 @@ function Home() {
                               <img src={cardWorkshopOnline} className="card-img-top" alt="..."/>
                               <div className="card-body">
                                   <p className="card-title">WORKSHOP - POSTURAS ONLINE</p>
-                                  <p className="card-text">Aprende la técnica de como llegar a la postura de Yoga que
-                                      deseas.</p>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
-
-              </div>
-
-              <br/>
-
-              <h3 className="display-7 rem-2 text-center">CLASES OUTDOOR O EN CASA</h3>
-
-              <div className="row row-cols-1 row-cols-lg-3 g-4">
-                  <div className="col">
-                      <a href="/groups-in-person">
-                          <div className="card h-100 text-center">
-                              <img src={cardGroupsInPerson} className="card-img-top" alt="..."/>
-                                  <div className="card-body">
-                                      <p href="/groups-in-person" className="card-title">CLASES GRUPALES</p>
-                                      <p className="card-text">Práctica de yoga grupal disfrutando los hermosos parques y
-                                          playas de Sydney.</p>
-                                  </div>
-                          </div>
-                      </a>
-                  </div>
-
-                  <div className="col">
-                      <a href="/private-in-person">
-                          <div className="card h-100 text-center">
-                          <img src={cardPrivateInPerson} className="card-img-top" alt="..."/>
-                          <div className="card-body">
-                              <p className="card-title">CLASES PRIVADAS</p>
-                              <p className="card-text">Clase dirigida exclusivamente para ti teniendo en cuenta tus
-                                  necesidades y requerimientos.</p>
-                          </div>
-                        </div>
-                      </a>
-                  </div>
-
-                  <div className="col">
-                      <a href="/workshop-in-person">
-                          <div className="card h-100 text-center">
-                              <img src={cardWorkshopInPerson} className="card-img-top" alt="..."/>
-                              <div className="card-body">
-                                  <p className="card-title">WORKSHOP - POSTURAS</p>
                                   <p className="card-text">Aprende la técnica de como llegar a la postura de Yoga que
                                       deseas.</p>
                               </div>

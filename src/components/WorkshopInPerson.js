@@ -23,20 +23,6 @@ import {ClassType} from "../model/ClassType";
 
 function WorkshopInPerson() {
 
-    const imagesHorizontal = [
-        {
-            original: workshop2,
-            thumbnail: workshop2Thumbnail,
-        },
-        {
-            original: workshop1,
-            thumbnail: workshop1Thumbnail,
-        },
-        {
-            original: workshop3,
-            thumbnail: workshop3Thumbnail,
-        },
-    ]
     const imagesVertical = [
         {
             original: workshop4,
@@ -59,24 +45,14 @@ function WorkshopInPerson() {
 
             <div className="container details">
 
-                <div className="row">
-                    <div className="col">
-                        <ImageGallery items={imagesHorizontal} thumbnailPosition='bottom' autoPlay={false} />
-                    </div>
-                </div>
-
-                <div className="row">
-                    <div className="col">
-                        <p className="text-justify">Sesión Privada para que celebres tus fechas más especiales, cumpleaños, día de la mujer, entre otros.</p>
+                <div className="row class-description">
+                    <div className="col-md-6">
+                        <p className="text-justify">Sesión Privada para que celebres tus fechas más especiales,
+                            cumpleaños, día de la mujer, entre otros.</p>
                         <p>Decidiremos con anticipación el sitio de encuentro, podrá hacerse al
                             aire libre en parques centrales en la city – Sydney Australia, o en las playas de Eastern
                             suburs (Coogee, Maroubra, Bronte, Tamarama y alrededores).
                         </p>
-                    </div>
-                </div>
-
-                <div className="row class-description">
-                    <div className="col-md-5">
                         <ClassInfo hour='Por Definir.'
                                    place='Por Definir.'
                                    price='$25 AUD'
@@ -88,8 +64,8 @@ function WorkshopInPerson() {
                             'Es importante que tengas una botellita de agua para que te hidrates.'
                         ]}/>
                     </div>
-                    <div className="col-md-4">
-                        <ImageGallery items={imagesVertical} thumbnailPosition='right' autoPlay={true} />
+                    <div className="col-md-5">
+                        <ImageGallery items={imagesVertical} thumbnailPosition='right' autoPlay={true}/>
                     </div>
                 </div>
 
