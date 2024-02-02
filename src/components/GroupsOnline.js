@@ -8,8 +8,8 @@ import PreparationItems from "./classDetails/PreparationItems";
 import {ClassType} from "../model/ClassType";
 
 function GroupsOnline() {
-  return (
-      <main role="main">
+  return (<>
+      <main role="main" className="container">
 
           <DetailsHeading text='CLASES GRUPALES ONLINE'/>
 
@@ -40,12 +40,12 @@ function GroupsOnline() {
                   </div>
               </div>
 
-              <div className="row">
-                  <div className="col">
-                      <h3 className="heading-with-note">PRECIO</h3>
-                      <p><b>$15 AUD por clase</b>, Pago Anticipado.</p>
-                  </div>
-              </div>
+              {/*<div className="row">*/}
+              {/*    <div className="col">*/}
+              {/*        <h3 className="heading-with-note">PRECIO</h3>*/}
+              {/*        <p><b>$15 AUD por clase</b>, Pago Anticipado.</p>*/}
+              {/*    </div>*/}
+              {/*</div>*/}
 
               <div className="row">
                   <div className="col-md-6">
@@ -71,10 +71,12 @@ function GroupsOnline() {
 
           </div>
 
-          <hr className="divider"/>
-          <Footer/>
       </main>
-  );
+
+      <br/>
+
+      <Footer/>
+  </>);
 }
 
 export default GroupsOnline;

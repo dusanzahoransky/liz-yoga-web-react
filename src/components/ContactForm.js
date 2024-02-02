@@ -25,10 +25,10 @@ function ContactForm(props) {
         }
     }
 
-    let horario
+    let hora
     if(props.hasHours){
-        horario = <div className="form-group">
-            <label htmlFor="preferredTime">Horario Preferido</label>
+        hora = <div className="form-group">
+            <label htmlFor="preferredTime">Fecha y Hora Preferida</label>
             <input type="text" className="form-control" name="preferredTime" id="preferredTime"
                    aria-describedby="preferredTimeHelp" placeholder="Hora preferida de clase"/>
         </div>
@@ -53,7 +53,7 @@ function ContactForm(props) {
                     <input type="text" className="form-control" name="mobile" id="mobile" required
                            aria-describedby="mobileHelp" placeholder="Tu número de Celular"/>
                 </div>
-                {horario}
+                {hora}
                 <div className="form-group">
                     <label className="required" htmlFor="enquiry">Pregunta sobre {props.yogaClassType.label}</label>
                     <textarea className="form-control" name="enquiry" id="enquiry" required rows="6"
