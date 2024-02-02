@@ -114,9 +114,9 @@ function Home() {
 
               <h3 className="display-7 rem-2 text-center">YOGA RETREATS</h3>
 
-              <div className="row md-center">
+              <div className="row row-cols-1">
                   <div className="col-3"></div>
-                  <div className="col-6">
+                  <div className="col-md">
                       <a href="/retreat-bali-sept-24">
                           <div className="card h-100 text-center">
                               <img src={cardRetreatBaliSept2024} className="card-img-top" alt="..."/>
@@ -133,7 +133,7 @@ function Home() {
 
               <h3 className="display-7 rem-2 text-center">CLASES OUTDOOR O EN CASA</h3>
 
-              <div className="row row-cols-lg-3">
+              <div className="row  row-cols-1 row-cols-lg-3">
                   <div className="col">
                       <a href="/groups-in-person">
                           <div className="card h-100 text-center">
@@ -180,7 +180,7 @@ function Home() {
 
               <h3 className="display-7 rem-2 text-center">CLASES ONLINE</h3>
 
-              <div className="row row-cols-lg-3">
+              <div className="row  row-cols-1 row-cols-lg-3">
 
                   <div className="col">
                       <a href="/groups-online">

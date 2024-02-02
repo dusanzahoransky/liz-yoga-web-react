@@ -16,6 +16,10 @@ img.classLocationMap{
     float: right;
 }
 
+.room-photo{
+    padding: 1px;
+}
+
 h1, h2, h3{
     margin-top: 1rem;
     margin-bottom: 1rem;

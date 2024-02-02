@@ -172,7 +172,6 @@ function RetreatBaliSept2024() {
                         <img className="room-photo" height="auto" src={villa4}></img>
                     </div>
                 </div>
-                <br/>
                 <div className="row">
                     <div className="col-md-4">
                         <img className="room-photo" height="auto" src={villa3}></img>
