@@ -5,12 +5,16 @@ import cover1portrait from '../images/home/cover-1-portrait-progressive.jpeg';
 import cover4 from '../images/home/cover-4-large-progressive.jpeg';
 import cover4portrait from '../images/home/cover-4-large-portrait.jpeg';
 
+import coverRetreat from '../images/home/cover-retreat-large.jpg';
+import coverRetreatPortrait from '../images/home/cover-retreat-portrait.jpg';
+
 import cardGroupsOnline from '../images/home/card-groups-online.jpg';
 import cardPrivateOnline from '../images/home/card-private-online.jpg';
 import cardWorkshopOnline from '../images/home/card-workshop-online.jpg';
 import cardWorkshopInPerson from '../images/home/card-workshop-in-person.jpg';
 import cardGroupsInPerson from '../images/home/card-groups-in-person.jpg';
 import cardPrivateInPerson from '../images/home/card-private-in-person.jpg';
+import cardRetreatBaliSept2024 from '../images/home/card-retreat-bali-sept-2024.jpg';
 import Footer from "./Footer";
 
 function Home() {
@@ -21,35 +25,47 @@ function Home() {
 
               <div className="carousel-inner">
 
-                  <div className="carousel-item active" data-bs-interval="4000">
+                  <div className="carousel-item active" data-bs-interval="6000">
+                      <picture>
+                          <source srcSet={coverRetreatPortrait}
+    media="(max-width: 800px) and (orientation: portrait)"/>
+                          <img src={coverRetreat} alt="Retreat"/>
+                      </picture>
+                      <div className="container">
+                          <div className="carousel-caption">
+                              <h1 className="display-5"><a className="carousel-caption-light" href="/retreat-bali-sept-24">YOGA RETREAT BALI SEPTEMBER 2024</a></h1>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div className="carousel-item" data-bs-interval="3000">
                       <picture>
                           <source srcSet={cover2portrait}
     media="(max-width: 800px) and (orientation: portrait)"/>
-                          <img src={cover2} alt="Private clases"
-                               className="second-slide"/>
+                          <img src={cover2} alt="Private clases"/>
                       </picture>
                       <div className="container">
                           <div className="carousel-caption">
-                              <h1 className="display-6">YOGA CLASES GRUPALES</h1>
+                              <h1 className="display-6"><a href="/groups-in-person">YOGA CLASES GRUPALES</a></h1>
                           </div>
                       </div>
                   </div>
 
-                  <div className="carousel-item" data-bs-interval="4000">
-                      <picture>
-                          <source srcSet={cover1portrait}
-                                  media="(max-width: 800px) and (orientation: portrait)"/>
-                              <img src={cover1} alt="Private clases"/>
-                      </picture>
+                  {/*<div className="carousel-item" data-bs-interval="3000">*/}
+                  {/*    <picture>*/}
+                  {/*        <source srcSet={cover1portrait}*/}
+                  {/*                media="(max-width: 800px) and (orientation: portrait)"/>*/}
+                  {/*            <img src={cover1} alt="Private clases"/>*/}
+                  {/*    </picture>*/}
 
-                      <div className="container">
-                          <div className="carousel-caption">
-                              <h1 className="display-6">YOGA CLASES PRIVADAS</h1>
-                          </div>
-                      </div>
-                  </div>
+                  {/*    <div className="container">*/}
+                  {/*        <div className="carousel-caption">*/}
+                  {/*            <h1 className="display-6"><a href="/workshop-in-person">YOGA CLASES PRIVADAS</a></h1>*/}
+                  {/*        </div>*/}
+                  {/*    </div>*/}
+                  {/*</div>*/}
 
-                  <div className="carousel-item" data-bs-interval="4000">
+                  <div className="carousel-item" data-bs-interval="3000">
                       <picture>
                           <source srcSet={cover4portrait}
                                   media="(max-width: 800px) and (orientation: portrait)"/>
@@ -58,7 +74,7 @@ function Home() {
 
                       <div className="container">
                           <div className="carousel-caption">
-                              <h1 className="display-6">YOGA WORKSHOP</h1>
+                              <h1 className="display-6"><a href="/workshop-in-person">CELEBRA TUS FECHAS ESPECIALES</a></h1>
                           </div>
                       </div>
                   </div>
@@ -96,9 +112,28 @@ function Home() {
 
           <div className="container marketing">
 
+              <h3 className="display-7 rem-2 text-center">YOGA RETREATS</h3>
+
+              <div className="row md-center">
+                  <div className="col-3"></div>
+                  <div className="col-6">
+                      <a href="/retreat-bali-sept-24">
+                          <div className="card h-100 text-center">
+                              <img src={cardRetreatBaliSept2024} className="card-img-top" alt="..."/>
+                              <div className="card-body">
+                                  <p href="/groups-in-person" className="card-title">BALI SEPTEMBER 2024</p>
+                                  <p className="card-text">Práctica de yoga grupal disfrutando los hermosos parques y
+                                      playas de Sydney.</p>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div className="col-3"></div>
+              </div>
+
               <h3 className="display-7 rem-2 text-center">CLASES OUTDOOR O EN CASA</h3>
 
-              <div className="row row-cols-1 row-cols-lg-3 g-4">
+              <div className="row row-cols-lg-3">
                   <div className="col">
                       <a href="/groups-in-person">
                           <div className="card h-100 text-center">
@@ -145,7 +180,7 @@ function Home() {
 
               <h3 className="display-7 rem-2 text-center">CLASES ONLINE</h3>
 
-              <div className="row row-cols-1 row-cols-lg-3 g-4">
+              <div className="row row-cols-lg-3">
 
                   <div className="col">
                       <a href="/groups-online">
