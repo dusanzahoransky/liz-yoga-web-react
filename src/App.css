@@ -9,6 +9,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+img.classLocationMap{
+    margin-left: 2rem;
+    height: auto;
+    max-width: 7rem;
+    float: right;
+}
+
 h1, h2, h3{
     margin-top: 1rem;
     margin-bottom: 1rem;

@@ -16,7 +16,6 @@ import groupClassLocationCentenial from '../images/groups-in-person/group-class-
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
 import DetailsHeading from "./classDetails/DetailsHeading";
-import ClassInfo from "./classDetails/ClassInfo";
 import PreparationItems from "./classDetails/PreparationItems";
 
 import ImageGallery from 'react-image-gallery';
@@ -76,9 +75,9 @@ function GroupsInPerson() {
                     <div className="col-md-6">
                         <h3>Yoga al Amanecer</h3>
                         <div>
-                            <a href="https://maps.app.goo.gl/nNqTMuVW8QgsgqVe6" target='_blank'>
-                                <img style={{marginLeft: '2rem', height: 'auto', maxWidth: '7rem', float: 'right'}}
-                                     height="auto" src={groupClassLocation}></img>
+                            <a href="https://maps.app.goo.gl/nNqTMuVW8QgsgqVe6" target='_blank' rel="noreferrer">
+                                <img className="classLocationMap"
+                                     alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>
                             </a>
                         </div>
                         <p>Hora: 5:50 am y 8:00 am</p>
@@ -93,9 +92,9 @@ function GroupsInPerson() {
 
                         <h3>Yoga al Atardecer</h3>
                         <div>
-                            <a href="https://maps.app.goo.gl/byHTRJyPuXS2oanf8" target='_blank'>
-                                <img style={{marginLeft: '2rem', height: 'auto', maxWidth: '7rem', float: 'right'}}
-                                     height="auto" src={groupClassLocationCentenial}></img>
+                            <a href="https://maps.app.goo.gl/byHTRJyPuXS2oanf8" target='_blank' rel="noreferrer">
+                                <img className="classLocationMap"
+                                     alt="Centenial Park beach" height="auto" src={groupClassLocationCentenial}></img>
                             </a>
                         </div>
                         <p>Hora: 6:40 pm</p>
