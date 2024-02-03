@@ -3,7 +3,7 @@
 
 body {
     color: rgba(65, 13, 91, 0.75);
-    font-family: 'Open Sans';
+    font-family: 'Josefin Sans';
     line-height: 2rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -34,6 +34,9 @@ h1, h2, h3{
 
 .rem-2{
     margin-bottom: 2rem;
+}
+.space-before{
+    margin-top: 1rem;
 }
 
 .heading-with-note{
@@ -264,6 +267,14 @@ button[aria-expanded]{
     margin-top: 0;
     margin-bottom: 0;
     /*border: solid 1px;*/
+}
+.details-subheading{
+    /*background-color: rgba(65, 13, 91, 0.75);*/
+    /*text-shadow: 0 0 1px rgba(65, 13, 91, 0.75);*/
+    color: rgba(65, 13, 91, 0.75);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .details img{

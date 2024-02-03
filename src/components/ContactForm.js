@@ -9,20 +9,14 @@ function ContactForm(props) {
         const formData = new FormData(event.target)
         const data = Object.fromEntries(formData)
 
-        if (!data.mobile) {
-            return alert('Please fill up your phone number.')
-        } else if (!data.enquiry) {
-            return alert('Please fill up your enquiry.')
-        } else {
-            try {
-                await enquiryService.postEnquiry(props.yogaClassType.value, data)
-            } catch (e) {
-                return alert('Failed to send you enquiry, please try again later.')
-            }
-            const form = document.querySelector('form')
-            form.reset()
-            return alert('Thank you for your enquiry, I will be in touch with you soon!')
+        try {
+            await enquiryService.postEnquiry(props.yogaClassType.value, data)
+        } catch (e) {
+            return alert('Failed to send you enquiry, please try again later.')
         }
+        const form = document.querySelector('form')
+        form.reset()
+        return alert('Thank you for your enquiry, I will be in touch with you soon!')
     }
 
     let hora
@@ -39,13 +33,13 @@ function ContactForm(props) {
             <h2>Contáctame</h2>
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
-                    <label htmlFor="name">Nombre</label>
-                    <input type="text" className="form-control" name="name" id="name"
+                    <label className="required" htmlFor="name">Nombre</label>
+                    <input type="text" className="form-control" name="name" id="name" required
                            aria-describedby="nameHelp" placeholder="Tu nombre"/>
                 </div>
                 <div className="form-group">
-                    <label htmlFor="email">Email</label>
-                    <input type="email" className="form-control" name="email" id="email"
+                    <label className="required" htmlFor="email">Email</label>
+                    <input type="email" className="form-control" name="email" id="email" required
                            aria-describedby="emailHelp" placeholder="Tu email"/>
                 </div>
                 <div className="form-group">
