@@ -14,7 +14,7 @@ import ImageGallery from 'react-image-gallery';
 import '../image-gallery.css';
 import {ClassType} from "../model/ClassType";
 
-function SessionEspecial() {
+function WomenDay() {
 
     const images = [
        {
@@ -81,7 +81,7 @@ function SessionEspecial() {
                     </div>
                     <div className="col-md-1"/>
                     <div className="col-md-4">
-                    <ContactForm yogaClassType={ClassType.SessionEspecial}/>
+                    <ContactForm yogaClassType={ClassType.WomenDay}/>
                     </div>
 
                 </div>
@@ -96,4 +96,4 @@ function SessionEspecial() {
     </>);
 }
 
-export default SessionEspecial;
+export default WomenDay;
