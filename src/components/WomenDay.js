@@ -13,75 +13,110 @@ import PreparationItems from "./classDetails/PreparationItems";
 import ImageGallery from 'react-image-gallery';
 import '../image-gallery.css';
 import {ClassType} from "../model/ClassType";
+import YoutubeEmbed from "./socialMedia/YoutubeEmbed";
 
 function WomenDay() {
 
-    const images = [
-       {
-            original: sessionEspecial1,
-            thumbnail: sessionEspecial1Thumbnail,
-        },
-        {
-            original: sessionEspecial2,
-            thumbnail: sessionEspecial2Thumbnail,
-        },
-        {
-            original: sessionEspecial3,
-            thumbnail: sessionEspecial3Thumbnail,
-        }
-    ]
+    // const images = [
+    //    {
+    //         original: sessionEspecial1,
+    //         thumbnail: sessionEspecial1Thumbnail,
+    //     },
+    //     {
+    //         original: sessionEspecial2,
+    //         thumbnail: sessionEspecial2Thumbnail,
+    //     },
+    //     {
+    //         original: sessionEspecial3,
+    //         thumbnail: sessionEspecial3Thumbnail,
+    //     }
+    // ]
 
     return (<>
         <main role="main" className="container">
 
-            <DetailsHeading text='Sesión Dirigida a Calmar tu Sistema Nervioso'/>
+            <DetailsHeading text='Conmemoración Día Internacional de la Mujer'/>
 
             <div className="container details">
 
                 <div className="row">
                     <div className="col">
-                        <p className="text-justify">Tu sistema nervioso establece lo que es posible para ti, regula el funcionamiento de todos tus órganos, transmite señales entre el cerebro y el resto del cuerpo de modo que controla la capacidad de moverse, respirar, ver, pensar. De ti depende mantener un sistema nervioso en buen estado.</p>
+                        <p className="text-justify">Te invito a conmemorar el Día Internacional de La Mujer a través de
+                            un circulo de mujeres en donde tendremos diferentes prácticas espirituales que fomentarán la
+                            solidaridad y el apoyo mutuo. Esta conmemoración del Día de la Mujer, puede ser la
+                            oportunidad perfecta para seguir fortaleciendo los lazos entre nosotras como mujeres, un
+                            espacio para compartir reflexiones, experiencias y ofrecer apoyo emocional.</p>
                     </div>
                 </div>
 
-                <div className="row rem-2">
-                    <ImageGallery items={images} thumbnailPosition='bottom' autoPlay={true} />
+
+                <div className="row">
+                    <div className="col-md-3"></div>
+                    <div className="col-md-6">
+                        <iframe width="429" height="762" src="https://www.youtube.com/embed/gqmnU6jWwjo"
+                                title="Te invito a conmemorar el Día Internacional de la Mujer en un Círculo de Mujeres-Domingo 10 de Marzo"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowFullScreen></iframe>
+                    </div>
+                    <div className="col-md-3"></div>
                 </div>
+
+                {/*<div className="row rem-2">*/}
+                {/*    <ImageGallery items={images} thumbnailPosition='bottom' autoPlay={true} />*/}
+                {/*</div>*/}
 
                 <div className="row">
                     <div className="col-md-7">
-                        <p className="text-justify"><b>Te invito a una sesión muy especial de 2 Horas dedicadas a nutrir
+                        <p className="text-justify"><b>Te invito a un Mini-Retiro muy especial de 4 Horas dedicadas a
+                            nutrir
                             tu ser a través
                             de:
                         </b></p>
                         <ul className="class-preparation-list text-justify">
-                            <li>Diferentes técnicas para calmar el sistema nervioso (incluyendo
-                                Pranayama/Ejercicios de
-                                Respiración)</li>
-                            <li>Clase Multinivel de Vinyasa enfocada a conectar y escuchar tu
-                                cuerpo</li>
+                            <li>Ejercicios de Respiración para Activar tu Energía Vital</li>
+                            <li>Clase Multinivel de Vinyasa Yoga</li>
                             <li>Meditación Guiada</li>
                             <li>Relajación Cuerpo y Mente a través de Instrumentos Musicales como
                                 Cuencos Tibetanos y de
-                                Cristal entre otros</li>
+                                Cristal entre otros
+                            </li>
+                            <li>Taller de Manifestación, exploraremos los niveles de manifestación e identificaremos en
+                                que nivel te encuentras, concluimos con ejercicio práctico.
+                            </li>
+                            <li>Taller Conéctate con tu Energía Femenina, con una invitada muy especial, Gaby Escobar
+                                quien es Mentora Espiritual, hablaremos de:
+                                En que consiste la energía femenina, Pilares: El ser/sentir y el recibir.
+                                Energía femenina sana y energía femenina herida.
+                                Como equilibriar el exceso de energia ya sea femenina o masculina
+                                Activación energética para conectar con tu poder creador femenino.
+                            </li>
+                            <li>Brunch delicioso preparado por Lovely Grazing Boards (Tabla de quesos, fruta, sliders)
+                            </li>
+                            <li>Regalito pensado en ti</li>
+
                         </ul>
                         <h3>Lugar</h3>
-                        <p>Estudio de Yoga en Mosman - Sydney.</p>
+                        <p>Centennial Park - Sydney.</p>
                         <h3>Fecha y Hora</h3>
-                        <p>Domingo 11 de Febrero, 11:00 AM a 1:15 PM.</p>
+                        <p>Domingo 10 de Marzo, 8:30 AM a 12:30 PM.</p>
                         <h3>Precio</h3>
-                        <p>$68 AUD</p>
+                        <p>$111 AUD</p>
+
+                        INFORMACIÓN Importante: En caso de lluvia, cambiaremos el lugar y hora de encuentro, nos
+                        reuniremos en un estudio de yoga en Mosman y la actividad comenzará a las 11:00 am y concluirá a
+                        las 3:00 pm.
 
                         <PreparationItems preparationItems={[
                             'Debes realizar el pago por anticipado para reservar tu espacio.',
-                            'Ser puntuales es muy importante, la sesión inicia a la hora programada, asi que, te recomiendo puntualidad.',
+                            'Ser puntuales es muy importante, nuestro circulo de mujeres inicia a la hora programada, asi que, te recomiendo puntualidad.',
                             'Luego de confirmada tu asistencia no se realiza la devolución del dinero, en caso de no poder asistir puedes ceder tu espacio a alguien más.',
-                            'Es importante que tengas un tarrito de agua para hidratarte.'
+                            'Es importante que tengas un tarrito de agua para que te mantegas hidratada.'
                         ]}/>
                     </div>
                     <div className="col-md-1"/>
                     <div className="col-md-4">
-                    <ContactForm yogaClassType={ClassType.WomenDay}/>
+                        <ContactForm yogaClassType={ClassType.WomenDay}/>
                     </div>
 
                 </div>
