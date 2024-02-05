@@ -81,7 +81,7 @@ function SessionEspecial() {
                     </div>
                     <div className="col-md-1"/>
                     <div className="col-md-4">
-                    <ContactForm yogaClassType={ClassType.GroupsInPerson}/>
+                    <ContactForm yogaClassType={ClassType.SessionEspecial}/>
                     </div>
 
                 </div>
