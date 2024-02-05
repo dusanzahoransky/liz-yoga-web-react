@@ -6,7 +6,7 @@ export class ClassType {
     static WorkshopInPerson = new ClassType('workshop-in-person', 'el Workshop')
     static WorkshopOnline = new ClassType('workshop-online', 'el Workshop online')
     static SessionEspecial = new ClassType('session-especial-mosman', 'Sesión Dirigida a Calmar tu Sistema Nervioso')
-    static WomenDay = new ClassType('women-day', 'Women\'s day')
+    static WomenDay = new ClassType('women-day', 'Conmemoración Día Internacional de la Mujer')
 
     constructor(value, label) {
         this.value = value

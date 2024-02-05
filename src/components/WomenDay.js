@@ -32,6 +32,24 @@ function WomenDay() {
     //     }
     // ]
 
+
+    function isPrivate() {
+        const queryParams = new URLSearchParams(window.location.search);
+        return queryParams && queryParams.get('code') === 'WomenDay2024'
+    }
+
+    function getPriceSection() {
+        if (!isPrivate()) {
+            return <>
+            </>
+        } else {
+            return <>
+                <h3>Precio</h3>
+                <p>$111 AUD</p>
+            </>
+        }
+    }
+
     return (<>
         <main role="main" className="container">
 
@@ -100,8 +118,7 @@ function WomenDay() {
                         <p>Centennial Park - Sydney.</p>
                         <h3>Fecha y Hora</h3>
                         <p>Domingo 10 de Marzo, 8:30 AM a 12:30 PM.</p>
-                        <h3>Precio</h3>
-                        <p>$111 AUD</p>
+                        {getPriceSection()}
 
                         INFORMACIÓN Importante: En caso de lluvia, cambiaremos el lugar y hora de encuentro, nos
                         reuniremos en un estudio de yoga en Mosman y la actividad comenzará a las 11:00 am y concluirá a
