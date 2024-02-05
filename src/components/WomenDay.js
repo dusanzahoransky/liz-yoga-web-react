@@ -45,13 +45,14 @@ function WomenDay() {
         } else {
             return <>
                 <h3>Precio</h3>
-                <p>$111 AUD</p>
+                <p>$111 AUDSepara tu espacio realizando transferencia al número celular 0413147237
+                    Separa tu espacio realizando transferencia al número celular 0413147237.</p>
             </>
         }
     }
 
     return (<>
-        <main role="main" className="container">
+        <main role="main" className="container">Separa tu espacio realizando transferencia al número celular 0413147237
 
             <DetailsHeading text='Conmemoración Día Internacional de la Mujer'/>
 
@@ -86,31 +87,32 @@ function WomenDay() {
 
                 <div className="row">
                     <div className="col-md-7">
-                        <p className="text-justify"><b>Te invito a un Mini-Retiro muy especial de 4 Horas dedicadas a
+                        <p className="text-justify"><b>Mini-Retiro muy especial de 4 Horas dedicadas a
                             nutrir
                             tu ser a través
                             de:
                         </b></p>
                         <ul className="class-preparation-list text-justify">
-                            <li>Ejercicios de Respiración para Activar tu Energía Vital</li>
-                            <li>Clase Multinivel de Vinyasa Yoga</li>
-                            <li>Meditación Guiada</li>
+                            <li>Ejercicios de Respiración para Activar tu Energía Vital.</li>
+                            <li>Clase Multinivel de Vinyasa Yoga Conecta con tu Cuerpo.</li>
+                            <li>Meditación Guiada.</li>
                             <li>Relajación Cuerpo y Mente a través de Instrumentos Musicales como
                                 Cuencos Tibetanos y de
-                                Cristal entre otros
+                                Cristal entre otros.
                             </li>
                             <li>Taller de Manifestación, exploraremos los niveles de manifestación e identificaremos en
                                 que nivel te encuentras, concluimos con ejercicio práctico.
                             </li>
                             <li>Taller Conéctate con tu Energía Femenina, con una invitada muy especial, Gaby Escobar
                                 quien es Mentora Espiritual, hablaremos de:
-                                En que consiste la energía femenina, Pilares: El ser/sentir y el recibir.
-                                Energía femenina sana y energía femenina herida.
-                                Como equilibriar el exceso de energia ya sea femenina o masculina
-                                Activación energética para conectar con tu poder creador femenino.
+                                - En que consiste la energía femenina, Pilares: El ser/sentir y el recibir.
+                                - Energía femenina sana y energía femenina herida.
+                                - Como equilibriar el exceso de energia ya sea femenina o masculina
+                                - Activación energética para conectar con tu poder creador femenino.
                             </li>
-                            <li>Brunch delicioso preparado por Lovely Grazing Boards (Tabla de quesos, fruta, sliders)
+                            <li>Brunch delicioso preparado por Lovely Grazing Boards (Tabla de quesos, fruta, sliders, entre otros).
                             </li>
+                            <li>Bebida Refrescante</li>
                             <li>Regalito pensado en ti</li>
 
                         </ul>
@@ -120,10 +122,7 @@ function WomenDay() {
                         <p>Domingo 10 de Marzo, 8:30 AM a 12:30 PM.</p>
                         {getPriceSection()}
 
-                        INFORMACIÓN Importante: En caso de lluvia, cambiaremos el lugar y hora de encuentro, nos
-                        reuniremos en un estudio de yoga en Mosman y la actividad comenzará a las 11:00 am y concluirá a
-                        las 3:00 pm.
-
+                        INFORMACIÓN IMPORTANTE: En caso de lluvia, cambiaremos el lugar y probablemente la hora de encuentro, te informaré el lunes 4 de Marzo, así que te sugiero reservar todo el domingo para ti.
                         <PreparationItems preparationItems={[
                             'Debes realizar el pago por anticipado para reservar tu espacio.',
                             'Ser puntuales es muy importante, nuestro circulo de mujeres inicia a la hora programada, asi que, te recomiendo puntualidad.',
