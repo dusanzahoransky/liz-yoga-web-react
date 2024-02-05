@@ -45,14 +45,14 @@ function WomenDay() {
         } else {
             return <>
                 <h3>Precio</h3>
-                <p>$111 AUDSepara tu espacio realizando transferencia al número celular 0413147237
-                    Separa tu espacio realizando transferencia al número celular 0413147237.</p>
+                <p>$111 AUD</p>
+                <p>Separa tu espacio realizando transferencia al número celular 0413147237.</p>
             </>
         }
     }
 
     return (<>
-        <main role="main" className="container">Separa tu espacio realizando transferencia al número celular 0413147237
+        <main role="main" className="container">
 
             <DetailsHeading text='Conmemoración Día Internacional de la Mujer'/>
 
@@ -105,10 +105,12 @@ function WomenDay() {
                             </li>
                             <li>Taller Conéctate con tu Energía Femenina, con una invitada muy especial, Gaby Escobar
                                 quien es Mentora Espiritual, hablaremos de:
-                                - En que consiste la energía femenina, Pilares: El ser/sentir y el recibir.
-                                - Energía femenina sana y energía femenina herida.
-                                - Como equilibriar el exceso de energia ya sea femenina o masculina
-                                - Activación energética para conectar con tu poder creador femenino.
+                                <ul>
+                                    <li>En que consiste la energía femenina, Pilares: El ser/sentir y el recibir.</li>
+                                    <li>Energía femenina sana y energía femenina herida.</li>
+                                    <li>Como equilibriar el exceso de energia ya sea femenina o masculina</li>
+                                    <li>Activación energética para conectar con tu poder creador femenino.</li>
+                                </ul>
                             </li>
                             <li>Brunch delicioso preparado por Lovely Grazing Boards (Tabla de quesos, fruta, sliders, entre otros).
                             </li>
@@ -122,7 +124,7 @@ function WomenDay() {
                         <p>Domingo 10 de Marzo, 8:30 AM a 12:30 PM.</p>
                         {getPriceSection()}
 
-                        INFORMACIÓN IMPORTANTE: En caso de lluvia, cambiaremos el lugar y probablemente la hora de encuentro, te informaré el lunes 4 de Marzo, así que te sugiero reservar todo el domingo para ti.
+                        <span className="fw-bold">Información Importante: En caso de lluvia, cambiaremos el lugar y probablemente la hora de encuentro, te informaré el lunes 4 de Marzo, así que te sugiero reservar todo el domingo para ti.</span>
                         <PreparationItems preparationItems={[
                             'Debes realizar el pago por anticipado para reservar tu espacio.',
                             'Ser puntuales es muy importante, nuestro circulo de mujeres inicia a la hora programada, asi que, te recomiendo puntualidad.',

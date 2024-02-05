@@ -9,6 +9,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 .youtube-shorts-embed {
     width: 429px;
     height: 762px;
@@ -313,7 +315,7 @@ ul.class-preparation-list {
 }
 
 .class-preparation-list li {
-    margin-top: 1rem;
+    margin-top: 0.3rem;
 }
 
 /* Cards */
