@@ -107,12 +107,12 @@ function Home() {
                   maravilloso en donde motivo a
                   las personas a que muevan su cuerpo especialmente a través del yoga o cualquier otro deporte; me enfoco en
                   demostrar que el bienestar físico y mental son parte
-                  fundamental para tener calidad de vida, conección mente, cuerpo y alma.</p>
+                  fundamental para tener calidad de vida, conexión mente, cuerpo y alma.</p>
           </div>
 
           <div className="container marketing">
 
-              <h3 className="display-7 rem-2 text-center">YOGA RETREATS</h3>
+              <h3 className="display-7 rem-2 text-center">RETIRO DE YOGA Y BIENESTAR</h3>
 
               <div className="row row-cols-1">
                   <div className="col-3"></div>
@@ -121,9 +121,8 @@ function Home() {
                           <div className="card h-100 text-center">
                               <img src={cardRetreatBaliSept2024} className="card-img-top" alt="..."/>
                               <div className="card-body">
-                                  <p href="/groups-in-person" className="card-title">BALI SEPTEMBER 2024</p>
-                                  <p className="card-text">Práctica de yoga grupal disfrutando los hermosos parques y
-                                      playas de Sydney.</p>
+                                  <p href="/groups-in-person" className="card-title">BALI SEPTIEMBRE 2024</p>
+                                  <p className="card-text">Únete a nuestro Retiro de Yoga y Bienestar en el paraiso de Bali, un espacio para conectar e ir mucho más profundo con tu verdadera escencia.</p>
                               </div>
                           </div>
                       </a>

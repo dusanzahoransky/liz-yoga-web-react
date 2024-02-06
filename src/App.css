@@ -4,7 +4,7 @@
 body {
     color: rgba(65, 13, 91, 0.75);
     font-family: 'Josefin Sans';
-    line-height: 2rem;
+    line-height: 1.7rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -45,6 +45,9 @@ h1, h2, h3 {
 }
 .space-before{
     margin-top: 1rem;
+}
+.double-space-before{
+    margin-top: 2rem;
 }
 
 .heading-with-note {
@@ -267,7 +270,7 @@ button[aria-expanded] {
     }
 
     p, h1, h2, h3, h4, h5, h6 {
-        padding: 0 0.75rem 0 0.75rem;
+        padding: 0 0.2rem 0 0.2rem;
     }
 }
 
