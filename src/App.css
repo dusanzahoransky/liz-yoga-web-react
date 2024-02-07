@@ -231,12 +231,12 @@ button[aria-expanded] {
     padding: 0;
     font-weight: bolder;
     color: rgba(65, 13, 91, 0.75);
-    text-shadow: 0 0 1px white, 0 0 3px white, 0 0 10px white;
+    text-shadow: 0 0 1px white, 0 0 3px white;
     top: 1rem;
 }
 .carousel-caption-light {
     color: white;
-    text-shadow: 0 0 1px rgba(65, 13, 91, 1), 0 0 5px rgba(65, 13, 91, 1), 0 0 10px rgba(65, 13, 91, 1);
+    text-shadow: 0 0 1px rgba(65, 13, 91, 1), 0 0 5px rgba(65, 13, 91, 1);
 }
 .carousel-caption-light:hover{
     color: white;

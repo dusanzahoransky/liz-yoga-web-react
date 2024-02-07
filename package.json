@@ -28,6 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "npm run build && aws s3 sync build s3://lizneira-2.com --profile dusan",
+    "invalidation": "aws cloudfront create-invalidation --distribution-id E14A5DY8OC68FZ --path '/*' --profile dusan",
     "copy-s3": "aws s3 sync build s3://lizneira-2.com --profile dusan",
     "copy-s3-delete": "aws s3 sync build s3://lizneira-2.com --delete --profile dusan",
     "deploy-test": "npm run build && aws s3 sync build s3://lizneira-2.com --profile dusan"

@@ -56,9 +56,7 @@ function RetreatBaliSept2024() {
 
     function getPriceSection() {
         if (!isPrivate()) {
-            return <><p className="space-before">El valor del Retiro de Yoga y Bienestar comienza desde
-                <span className="fw-bolder"> $1.890 AUD (Pregunta por descuento early bird y otros).
-                </span></p> <p>Si deseas información más detallada e incluyendo precios por
+            return <><p className="space-before"></p> <p>Si deseas información más detallada e incluyendo precios por
                 favor dilegencia el formulario a continuación:
             </p></>
         } else {
@@ -492,7 +490,7 @@ function RetreatBaliSept2024() {
                             <p><span className="fw-bolder">OPCIÓN 2:</span> Villa compartida con una cama king y
                                 cama sencilla (2 personas).</p>
                         </div>
-                        <div className="col-lg-5 space-before">
+                        <div className="col-lg-5">
                             {isPrivate() ? "Valor Total del Retiro Por persona $2,490 AUD" : ""}
                         </div>
                     </div>

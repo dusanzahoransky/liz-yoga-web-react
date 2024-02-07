@@ -73,14 +73,14 @@ function GroupsInPerson() {
                 <div className="row">
 
                     <div className="col-md-6">
-                        <h3>Yoga al Amanecer</h3>
+                        <h3>Yoga al Amanecer - Domingo</h3>
                         <div>
                             <a href="https://maps.app.goo.gl/nNqTMuVW8QgsgqVe6" target='_blank' rel="noreferrer">
                                 <img className="classLocationMap"
                                      alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>
                             </a>
                         </div>
-                        <p>Hora: 5:50 am y 8:00 am</p>
+                        <p>Hora: 6:00 am</p>
                         <p>Lugar: Coogee Beach.</p>
 
                         <p className="text-justify">Sitio de encuentro: Dolphins Point. Llegas a Coogee Pavilion y
@@ -90,14 +90,14 @@ function GroupsInPerson() {
                             caminando hacia la izquierda y nos encontrarás.</p>
 
 
-                        <h3>Yoga al Atardecer</h3>
+                        <h3>Yoga al Atardecer - Jueves</h3>
                         <div>
                             <a href="https://maps.app.goo.gl/byHTRJyPuXS2oanf8" target='_blank' rel="noreferrer">
                                 <img className="classLocationMap"
                                      alt="Centenial Park beach" height="auto" src={groupClassLocationCentenial}></img>
                             </a>
                         </div>
-                        <p>Hora: 6:40 pm</p>
+                        <p>Hora: 6:50 pm</p>
                         <p>Lugar: Centennial Park en la entrada Randwick Gates - Entrada donde esta el Tafe.
                             (haz click el mapa para que te muestre el lugar exacto de encuentro). </p>
 
@@ -106,7 +106,7 @@ function GroupsInPerson() {
                         <p>$23 AUD.</p>
                         <p className="text-justify">Realiza la transferencia de la clase al número celular 0413147237 para
                             separar tu espacio, se reciben
-                            confirmaciones y pago para la clase entre semana al atardecer hasta el Martes 6 pm y la clase de la playa hasta el viernes a las 2 pm.</p>
+                            confirmaciones y pago para la clase entre semana al atardecer hasta el Miercoles 6 pm y la clase de la playa hasta el viernes a las 2 pm.</p>
                         <PreparationItems preparationItems={[
                             'Ser puntuales es muy importante, la clase inicia a la hora programada, asi que, te recomiendo puntualidad para que no te pierdas ninguna parte de la clase.',
                             'Luego de confirmada tu asistencia no se hace devolución del dinero.',
