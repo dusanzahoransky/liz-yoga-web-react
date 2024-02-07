@@ -66,21 +66,21 @@ function RetreatBaliSept2024() {
                 <div className="row space-before">
                     <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> discount <span
                         className="fw-bolder">$100</span> descuento antes del 15 de Marzo (Acordamos cuotas para el
-                        resto del pago). Pago Total del Retiro hasta el día 10 de Julio.</p>
+                        resto del pago). Pago Total del Retiro hasta el día 04 de Julio.</p>
                     <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
                         solo para ti de <span
                             className="fw-bolder">$100</span> por recomendar a un amiga(o) y realize la reservación del
                         Retiro.</p>
                     <p><i className="fa fa-credit-card"></i> <span
-                        className="fw-bolder">RESERVA TU ESPACIO:</span> Deposito de $500 Aud con transferencia
-                        electrónica al numero celular 0413147237</p>
+                        className="fw-bolder">RESERVA TU ESPACIO:</span> Deposito
+                        (no reembolsable) de $500 Aud con transferencia
+                        electrónica al numero celular 0413147237. </p>
                 </div>
             </>
         }
     }
 
     const images = [
-
         {
             original: retreat2,
             thumbnail: retreat2Thumbnail,
@@ -104,8 +104,6 @@ function RetreatBaliSept2024() {
             original: retreat10,
             thumbnail: retreat10Thumbnail,
         },
-
-
         {
             original: retreat14,
             thumbnail: retreat14Thumbnail,
@@ -247,13 +245,13 @@ function RetreatBaliSept2024() {
                             <div className="col">
                                 <p className="fw-bolder">Dia 1 - Miercoles</p>
                                 <ul>
-                                    <li>Ceremonia de Bienvenida 4 pm (Check-in desde 2 pm)</li>
+                                    <li>Ceremonia de Bienvenida 4 Pm <br/>(Check-in desde 2 pm)</li>
                                     <li>Cena de Integración</li>
                                 </ul>
                                 <p className="fw-bolder">Dia 2 - Jueves</p>
                                 <ul>
-                                    <li>Pranayama (EJercicios de Respiración)</li>
-                                    <li> Práctica de Vinyasa Yoga</li>
+                                    <li>Pranayama(EJercicios de Respiración)</li>
+                                    <li> Práctica de Vinyasa Yoga Multinivel (Todos los niveles)</li>
                                     <li> Irémos más profundo
                                         en los diferentes tipos de Meditación enfocandonos en el poder de los
                                         mantras
@@ -273,8 +271,8 @@ function RetreatBaliSept2024() {
                                 </ul>
                                 <p className="fw-bolder">Dia 3 - Viernes</p>
                                 <ul>
-                                    <li>Pranayama (EJercicios de Respiración)</li>
-                                    <li> Ashtanga Yoga</li>
+                                    <li>Pranayama(EJercicios de Respiración)</li>
+                                    <li> Ashtanga Yoga (Primera Serie, para Todos los Niveles)</li>
                                     <li> Meditación guiada</li>
                                     <li> Taller de Ayurveda</li>
                                     <li>Excursiones:</li>
@@ -286,8 +284,8 @@ function RetreatBaliSept2024() {
                                 </ul>
                                 <p className="fw-bolder">Dia 4 - Sábado</p>
                                 <ul>
-                                    <li>Pranayama (EJercicios de Respiración)</li>
-                                    <li>Bhakti Yoga</li>
+                                    <li>Pranayama(EJercicios de Respiración)</li>
+                                    <li>Bhakti Yoga (Yoga Devocional, Todos los Niveles)</li>
                                     <li>Baño de sonidos con cuencos tibetanos y de cristal</li>
                                     <li>Meditación con pintura y colores</li>
                                     <li>Tiempo libre para ti</li>
@@ -295,8 +293,8 @@ function RetreatBaliSept2024() {
                                 </ul>
                                 <p className="fw-bolder">Dia 5 - Domingo</p>
                                 <ul>
-                                    <li>Pranayama (EJercicios de Respiración)</li>
-                                    <li>Práctica de Vinyasa Yoga</li>
+                                    <li>Pranayama(EJercicios de Respiración)</li>
+                                    <li>Práctica de Vinyasa Yoga Multinivel (Todos los Niveles)</li>
                                     <li>Ritual de Manifestación</li>
                                     <li> Excursiones:</li>
                                     <li>Visita al Monkey Forest</li>
@@ -308,14 +306,14 @@ function RetreatBaliSept2024() {
                                 <p className="fw-bolder">Dia 6 - Lunes</p>
                                 <ul>
                                     <li> Pranayama - (Ejercicios de Respiración)</li>
-                                    <li> Práctica de Vinyasa</li>
+                                    <li> Práctica de Vinyasa Yoga Multinivel (Todos los Niveles)</li>
                                     <li>Baño de sonidos con cuencos tibetanos y de
                                         cristal
                                     </li>
-                                    <li>Ceremonia de Cierre. (Check-out 12 pm)</li>
+                                    <li>Ceremonia de Cierre. <br/>(Check-out 12 pm)</li>
                                 </ul>
                                 <p>
-                                    <i>Nota: Las actividades pueden cambiar ligeramente en el orden y dia.</i>
+                                    <i>Nota: Se pueden agregar más actividades y/o cambiar ligeramente en el orden y dia.</i>
                                 </p>
                             </div>
                         </div>
@@ -357,8 +355,7 @@ function RetreatBaliSept2024() {
 
                     <div className="row">
                         <div className="col-lg-7">
-                            <p><span className="fw-bolder">OPCIÓN 1:</span> Habitación compartida con tu mejor amiga(o)
-                                /pareja
+                            <p><span className="fw-bolder">OPCIÓN 1:</span> Habitación compartida con tu mejor amiga(o)/pareja
                                 en una cama king (2 personas).</p>
                         </div>
                         <div className="col-lg-5">
@@ -427,10 +424,7 @@ function RetreatBaliSept2024() {
                                 personas).</p>
                         </div>
                         <div className="col-lg-6">
-                            {isPrivate() ? "Valor Total del Retiro Por Persona $2,090 AUD" : ""} <sup>*Recomendado
-                            para
-                            mayor
-                            comodidad</sup>
+                            {isPrivate() ? "Valor Total del Retiro Por Persona $2,090 AUD" : ""}
                         </div>
                     </div>
                     <div className="row space-before">
@@ -438,7 +432,7 @@ function RetreatBaliSept2024() {
                             <p><span className="fw-bolder">OPCIÓN 2:</span> Habitación privada cama king.</p>
                         </div>
                         <div className="col-lg-6">
-                            {isPrivate() ? "Valor Total del Retiro Por Persona $2,790 AUD" : ""}
+                            {isPrivate() ? "Valor Total del Retiro $2,790 AUD" : ""}
                         </div>
                     </div>
 
@@ -485,10 +479,8 @@ function RetreatBaliSept2024() {
                     <p>Escoge tu mejor opción de Alojamiento:</p>
                     <div className="row">
                         <div className="col-lg-7">
-                            <p><span className="fw-bolder">OPCIÓN 1:</span> Villa compartida con tu mejor amiga(o)
-                                /pareja
-                                en
-                                una cama king (2 personas).</p>
+                            <p><span className="fw-bolder">OPCIÓN 1:</span> Villa compartida con tu mejor amiga(o)/pareja
+                                en una cama king (2 personas).</p>
                         </div>
                         <div className="col-lg-5">
                             {isPrivate() ? "Valor Total del Retiro Por Persona $2,290 AUD" : ""} <sup>*Recomendado
@@ -498,9 +490,7 @@ function RetreatBaliSept2024() {
                     <div className="row space-before">
                         <div className="col-lg-7">
                             <p><span className="fw-bolder">OPCIÓN 2:</span> Villa compartida con una cama king y
-                                cama
-                                sencilla
-                                (2 personas).</p>
+                                cama sencilla (2 personas).</p>
                         </div>
                         <div className="col-lg-5 space-before">
                             {isPrivate() ? "Valor Total del Retiro Por persona $2,490 AUD" : ""}
