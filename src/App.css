@@ -9,6 +9,43 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.sold-out-text{
+    text-decoration: line-through;
+}
+
+.sold-out-stamp-parent{
+    position: relative;
+}
+
+.sold-out-stamp:after{
+    content:"SOLD OUT";
+    position:absolute;
+    top:90px;
+    left:10px;
+    z-index:1;
+    -webkit-transform: rotate(-30deg); /* Safari */
+    -moz-transform: rotate(-30deg); /* Firefox */
+    -ms-transform: rotate(-30deg); /* IE */
+    -o-transform: rotate(-30deg); /* Opera */
+    transform: rotate(-30deg);
+    font-size:45px;
+    color:#c00;
+    /*background:#fff;*/
+    border:solid 4px #c00;
+    padding:5px;
+    padding-top:15px;
+    border-radius:5px;
+    /*zoom:1;*/
+    filter:alpha(opacity=20);
+    opacity:0.4;
+    -webkit-text-shadow: 0 0 2px #c00;
+    text-shadow: 0 0 2px #c00;
+    box-shadow: 0 0 2px #c00;
+}
+
+.limited{
+    font-weight: 900;
+}
 
 
 .youtube-shorts-embed {

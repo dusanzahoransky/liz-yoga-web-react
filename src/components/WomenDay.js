@@ -119,7 +119,7 @@ function WomenDay() {
 
                         </ul>
                         <h3>Lugar</h3>
-                        <p>Centennial Park - Sydney.</p>
+                        <p>Coogee Beach, Goldstein Reserve - Sydney.</p>
                         <h3>Fecha y Hora</h3>
                         <p>Domingo 10 de Marzo, 8:30 AM a 12:30 PM.</p>
                         {getPriceSection()}

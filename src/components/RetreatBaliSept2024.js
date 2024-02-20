@@ -318,8 +318,10 @@ function RetreatBaliSept2024() {
                     </div>
 
                     <h2 className="text-center text-justify">Acomodación</h2>
-                    <h3>Deluxe Room:</h3>
-                    <p>
+                    <div className="sold-out-stamp-parent">
+                        <div className="sold-out-stamp sold-out-text"><h3>Deluxe Room:</h3></div>
+                    </div>
+                    <p className="sold-out-text">
                         Espaciosa habitación de lujo cuenta con pisos de ladrillo bien pulidos, cómodas camas
                         tamaño
                         king o
@@ -334,7 +336,7 @@ function RetreatBaliSept2024() {
                         ducha
                         y bañera/tina de lujo. Se incluyen artículos de tocador.
                     </p>
-                    <p>Ubicación en Primer Piso.</p>
+                    <p  className="sold-out-text">Ubicación en Primer Piso.</p>
 
                     <div className="row">
                         <div className="col-md-3"/>
@@ -349,20 +351,20 @@ function RetreatBaliSept2024() {
                         <div className="col-md-3"/>
                     </div>
 
-                    <p>Escoge tu mejor opción de Alojamiento:</p>
+                    <p  className="sold-out-text">Escoge tu mejor opción de Alojamiento:</p>
 
-                    <div className="row">
+                    <div className="row sold-out-text">
                         <div className="col-lg-7">
-                            <p><span className="fw-bolder">OPCIÓN 1:</span> Habitación compartida con tu mejor amiga(o)/pareja
+                            <p><s><span className="fw-bolder">OPCIÓN 1:</span></s> Habitación compartida con tu mejor amiga(o)/pareja
                                 en una cama king (2 personas).</p>
                         </div>
                         <div className="col-lg-5">
                             {isPrivate() ? "Valor Total del Retiro Por Persona $1,890 AUD" : ""}
                         </div>
                     </div>
-                    <div className="row space-before">
+                    <div className="row space-before sold-out-text">
                         <div className="col-lg-7">
-                            <p><span className="fw-bolder">OPCIÓN 2:</span> Habitación compartida con una cama king y
+                            <p><s><span className="fw-bolder">OPCIÓN 2:</span></s> Habitación compartida con una cama king y
                                 una
                                 cama
                                 individual (2 personas).</p>
@@ -371,9 +373,9 @@ function RetreatBaliSept2024() {
                             {isPrivate() ? "Valor Total del Retiro Por Persona $2,090 AUD" : ""}
                         </div>
                     </div>
-                    <div className="row space-before">
+                    <div className="row space-before sold-out-text">
                         <div className="col-lg-7">
-                            <p><span className="fw-bolder">OPCIÓN 3:</span> Habitación privada cama king.</p>
+                            <p><s><span className="fw-bolder">OPCIÓN 3:</span></s> Habitación privada cama king.</p>
                         </div>
                         <div className="col-lg-5">
                             {isPrivate() ? "Valor Total del Retiro $2,690 AUD" : ""}
@@ -435,7 +437,7 @@ function RetreatBaliSept2024() {
                     </div>
 
 
-                    <h3 className="double-space-before">Pool Villa:</h3>
+                    <h3 className="double-space-before">Pool Villa: <span className="limited">(Sólo queda una)</span></h3>
                     <p>
                         Nuestra Villa ofrece 167 metros cuadrados de lujosa sala de estar, equipada con
                         una cama
