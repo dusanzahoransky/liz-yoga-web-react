@@ -149,7 +149,7 @@
     max-height: calc(100vh - 80px)
 }
 
-.image-gallery-content.left .image-gallery-slide .image-gallery-image, .image-gallery-content.right .image-gallery-slide .image-gallery-image {
+.image-gallery-content.image-gallery-thumbnails-left .image-gallery-slide .image-gallery-image, .image-gallery-content.image-gallery-thumbnails-right .image-gallery-slide .image-gallery-image {
     max-height: 100vh
 }
 
@@ -157,13 +157,13 @@
     position: relative
 }
 
-.image-gallery-slide-wrapper.left, .image-gallery-slide-wrapper.right {
+.image-gallery-slide-wrapper.image-gallery-thumbnails-left, .image-gallery-slide-wrapper.image-gallery-thumbnails-right {
     display: inline-block;
     width: calc(100% - 110px)
 }
 
 @media (max-width: 768px) {
-    .image-gallery-slide-wrapper.left, .image-gallery-slide-wrapper.right {
+    .image-gallery-slide-wrapper.image-gallery-thumbnails-left, .image-gallery-slide-wrapper.image-gallery-thumbnails-right {
         width: calc(100% - 87px)
     }
 }
@@ -187,7 +187,7 @@
     width: 100%
 }
 
-.image-gallery-slide.center {
+.image-gallery-slide.image-gallery-center {
     position: relative
 }
 
@@ -297,19 +297,19 @@
     direction: rtl
 }
 
-.image-gallery-thumbnails-wrapper.left, .image-gallery-thumbnails-wrapper.right {
+.image-gallery-thumbnails-wrapper.image-gallery-thumbnails-left, .image-gallery-thumbnails-wrapper.image-gallery-thumbnails-right {
     display: inline-block;
     vertical-align: top;
     width: 100px
 }
 
 @media (max-width: 768px) {
-    .image-gallery-thumbnails-wrapper.left, .image-gallery-thumbnails-wrapper.right {
+    .image-gallery-thumbnails-wrapper.image-gallery-thumbnails-left, .image-gallery-thumbnails-wrapper.image-gallery-thumbnails-right {
         width: 81px
     }
 }
 
-.image-gallery-thumbnails-wrapper.left .image-gallery-thumbnails, .image-gallery-thumbnails-wrapper.right .image-gallery-thumbnails {
+.image-gallery-thumbnails-wrapper.image-gallery-thumbnails-left .image-gallery-thumbnails, .image-gallery-thumbnails-wrapper.image-gallery-thumbnails-right .image-gallery-thumbnails {
     height: 100%;
     width: 100%;
     left: 0;
@@ -318,23 +318,23 @@
     top: 0
 }
 
-.image-gallery-thumbnails-wrapper.left .image-gallery-thumbnails .image-gallery-thumbnail, .image-gallery-thumbnails-wrapper.right .image-gallery-thumbnails .image-gallery-thumbnail {
+.image-gallery-thumbnails-wrapper.image-gallery-thumbnails-left .image-gallery-thumbnails .image-gallery-thumbnail, .image-gallery-thumbnails-wrapper.image-gallery-thumbnails-right .image-gallery-thumbnails .image-gallery-thumbnail {
     display: block;
     margin-right: 0;
     padding: 0
 }
 
-.image-gallery-thumbnails-wrapper.left .image-gallery-thumbnails .image-gallery-thumbnail + .image-gallery-thumbnail, .image-gallery-thumbnails-wrapper.right .image-gallery-thumbnails .image-gallery-thumbnail + .image-gallery-thumbnail {
+.image-gallery-thumbnails-wrapper.image-gallery-thumbnails-left .image-gallery-thumbnails .image-gallery-thumbnail + .image-gallery-thumbnail, .image-gallery-thumbnails-wrapper.image-gallery-thumbnails-right .image-gallery-thumbnails .image-gallery-thumbnail + .image-gallery-thumbnail {
     margin-left: 0;
     margin-top: 2px
 }
 
-.image-gallery-thumbnails-wrapper.left, .image-gallery-thumbnails-wrapper.right {
+.image-gallery-thumbnails-wrapper.image-gallery-thumbnails-left, .image-gallery-thumbnails-wrapper.image-gallery-thumbnails-right {
     margin: 0 5px
 }
 
 @media (max-width: 768px) {
-    .image-gallery-thumbnails-wrapper.left, .image-gallery-thumbnails-wrapper.right {
+    .image-gallery-thumbnails-wrapper.image-gallery-thumbnails-left, .image-gallery-thumbnails-wrapper.image-gallery-thumbnails-right {
         margin: 0 3px
     }
 }
@@ -360,7 +360,7 @@
     display: inline-block;
     border: 4px solid transparent;
     transition: border .3s ease-out;
-    width: 180px;
+    width: 120px;
     background: transparent;
     padding: 0
 }
@@ -368,7 +368,7 @@
 @media (max-width: 768px) {
     .image-gallery-thumbnail {
         border: 3px solid transparent;
-        width: 120px
+        width: 81px
     }
 }
 

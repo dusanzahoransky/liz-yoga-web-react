@@ -63,7 +63,7 @@ function RetreatBaliSept2024() {
             return <>
                 <div className="row space-before">
                     <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> discount <span
-                        className="fw-bolder">$100</span> descuento antes del 15 de Marzo (Acordamos cuotas para el
+                        className="fw-bolder">$100</span> descuento antes del 15 de Abril (Acordamos cuotas para el
                         resto del pago). Pago Total del Retiro hasta el día 04 de Julio.</p>
                     {/*<p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento*/}
                     {/*    solo para ti de <span*/}
