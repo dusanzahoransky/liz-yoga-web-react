@@ -63,12 +63,12 @@ function RetreatBaliSept2024() {
             return <>
                 <div className="row space-before">
                     <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> discount <span
-                        className="fw-bolder">$100</span> descuento antes del 15 de Abril (Acordamos cuotas para el
+                        className="fw-bolder">$100</span> descuento antes del 30 de Marzo (Acordamos cuotas para el
                         resto del pago). Pago Total del Retiro hasta el día 04 de Julio.</p>
-                    <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
-                        solo para ti de <span
-                            className="fw-bolder">$100</span> por recomendar a un amiga(o) y realize la reservación del
-                        Retiro.</p>
+                    {/*<p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento*/}
+                    {/*    solo para ti de <span*/}
+                    {/*        className="fw-bolder">$100</span> por recomendar a un amiga(o) y realize la reservación del*/}
+                    {/*    Retiro.</p>*/}
                     <p><i className="fa fa-credit-card"></i> <span
                         className="fw-bolder">RESERVA TU ESPACIO:</span> Deposito
                         (no reembolsable) de $500 Aud con transferencia
@@ -359,7 +359,7 @@ function RetreatBaliSept2024() {
                                 en una cama king (2 personas).</p>
                         </div>
                         <div className="col-lg-5">
-                            {isPrivate() ? "Valor Total del Retiro Por Persona $1,890 AUD" : ""}
+                            {/*{isPrivate() ? "Valor Total del Retiro Por Persona $1,890 AUD" : ""}*/}
                         </div>
                     </div>
                     <div className="row space-before">
@@ -370,7 +370,7 @@ function RetreatBaliSept2024() {
                                 individual (2 personas).</p>
                         </div>
                         <div className="col-lg-5">
-                            {isPrivate() ? "Valor Total del Retiro Por Persona $2,090 AUD" : ""}
+                            {/*{isPrivate() ? "Valor Total del Retiro Por Persona $2,090 AUD" : ""}*/}
                         </div>
                     </div>
                     <div className="row space-before">
@@ -378,7 +378,7 @@ function RetreatBaliSept2024() {
                             <p><s><span className="fw-bolder">OPCIÓN 3:</span></s> Habitación privada cama king.</p>
                         </div>
                         <div className="col-lg-5">
-                            {isPrivate() ? "Valor Total del Retiro $2,690 AUD" : ""}
+                            {/*{isPrivate() ? "Valor Total del Retiro $2,690 AUD" : ""}*/}
                         </div>
                     </div>
 
