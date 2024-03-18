@@ -63,7 +63,7 @@ function RetreatBaliSept2024() {
             return <>
                 <div className="row space-before">
                     <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> discount <span
-                        className="fw-bolder">$100</span> descuento antes del 15 de Marzo (Acordamos cuotas para el
+                        className="fw-bolder">$100</span> descuento antes del 15 de Abril (Acordamos cuotas para el
                         resto del pago). Pago Total del Retiro hasta el día 04 de Julio.</p>
                     <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
                         solo para ti de <span
@@ -321,7 +321,7 @@ function RetreatBaliSept2024() {
                     <div className="sold-out-stamp-parent">
                         <div className="sold-out-stamp sold-out-text"><h3>Deluxe Room:</h3></div>
                     </div>
-                    <p className="sold-out-text">
+                    <p>
                         Espaciosa habitación de lujo cuenta con pisos de ladrillo bien pulidos, cómodas camas
                         tamaño
                         king o
@@ -336,7 +336,7 @@ function RetreatBaliSept2024() {
                         ducha
                         y bañera/tina de lujo. Se incluyen artículos de tocador.
                     </p>
-                    <p  className="sold-out-text">Ubicación en Primer Piso.</p>
+                    <p>Ubicación en Primer Piso.</p>
 
                     <div className="row">
                         <div className="col-md-3"/>
@@ -351,9 +351,9 @@ function RetreatBaliSept2024() {
                         <div className="col-md-3"/>
                     </div>
 
-                    <p  className="sold-out-text">Escoge tu mejor opción de Alojamiento:</p>
+                    <p>Escoge tu mejor opción de Alojamiento:</p>
 
-                    <div className="row sold-out-text">
+                    <div className="row">
                         <div className="col-lg-7">
                             <p><s><span className="fw-bolder">OPCIÓN 1:</span></s> Habitación compartida con tu mejor amiga(o)/pareja
                                 en una cama king (2 personas).</p>
@@ -362,7 +362,7 @@ function RetreatBaliSept2024() {
                             {isPrivate() ? "Valor Total del Retiro Por Persona $1,890 AUD" : ""}
                         </div>
                     </div>
-                    <div className="row space-before sold-out-text">
+                    <div className="row space-before">
                         <div className="col-lg-7">
                             <p><s><span className="fw-bolder">OPCIÓN 2:</span></s> Habitación compartida con una cama king y
                                 una
@@ -373,7 +373,7 @@ function RetreatBaliSept2024() {
                             {isPrivate() ? "Valor Total del Retiro Por Persona $2,090 AUD" : ""}
                         </div>
                     </div>
-                    <div className="row space-before sold-out-text">
+                    <div className="row space-before">
                         <div className="col-lg-7">
                             <p><s><span className="fw-bolder">OPCIÓN 3:</span></s> Habitación privada cama king.</p>
                         </div>

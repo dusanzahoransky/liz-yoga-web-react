@@ -74,14 +74,16 @@ function GroupsInPerson() {
                 <div className="row">
 
                     <div className="col-md-6">
-                        <h3>Yoga al Amanecer - Domingo</h3>
+                        {/*<h3>Yoga al Amanecer - Domingo</h3>*/}
+                        <h3>Clase de Yoga Multinivel - Sábado</h3>
                         <div>
                             <a href="https://maps.app.goo.gl/nNqTMuVW8QgsgqVe6" target='_blank' rel="noreferrer">
                                 <img className="classLocationMap"
                                      alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>
                             </a>
                         </div>
-                        <p>Hora: 6:00 am, 8:00 am</p>
+                        {/*<p>Hora: 6:30 am y 8:20 am</p>*/}
+                        <p>Hora: 8:00 am</p>
                         <p>Lugar: Coogee Beach.</p>
 
                         <p className="text-justify">Sitio de encuentro: Dolphins Point. Llegas a Coogee Pavilion y
@@ -92,7 +94,8 @@ function GroupsInPerson() {
                             caminando hacia la izquierda y nos encontrarás.</p>
 
 
-                        <h3>Yoga al Atardecer - Jueves</h3>
+                        <h3>Yoga al Atardecer - Miércoles</h3>
+                        {/*Jueves*/}
                         {/*<div>*/}
                         {/*    <a href="https://maps.app.goo.gl/dopSo8z1UccoRMM77" target='_blank' rel="noreferrer">*/}
                         {/*        <img className="classLocationMap"*/}
@@ -100,12 +103,13 @@ function GroupsInPerson() {
                         {/*    </a>*/}
                         {/*</div>*/}
                         <div>
-                            <a href="https://maps.app.goo.gl/nNqTMuVW8QgsgqVe6" target='_blank' rel="noreferrer">
+                            {/*<a href="https://maps.app.goo.gl/nNqTMuVW8QgsgqVe6" target='_blank' rel="noreferrer">*/}
+                            <a href="https://maps.app.goo.gl/wizTnfJaY1KB3xMe8" target='_blank' rel="noreferrer">
                                 <img className="classLocationMap"
                                      alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>
                             </a>
                         </div>
-                        <p>Hora: 7:00 pm</p>
+                        <p>Hora: 6:45 pm</p>
                         {/*<p>Lugar: Moore park - Kippax lake*/}
                         {/*    (haz click el mapa para que te muestre el lugar exacto de encuentro). </p>*/}
                         <p>Lugar: Coogee Beach.</p>

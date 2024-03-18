@@ -122,9 +122,10 @@ function WomenDay() {
                         <p>Coogee Beach, Goldstein Reserve - Sydney.</p>
                         <h3>Fecha y Hora</h3>
                         <p>Domingo 10 de Marzo, 8:30 AM a 12:30 PM.</p>
+                        <p>Domingo 17 de Marzo, 8:30 AM a 12:30 PM.</p>
                         {getPriceSection()}
 
-                        <span className="fw-bold">Información Importante: En caso de lluvia, cambiaremos el lugar y probablemente la hora de encuentro, te informaré el lunes 4 de Marzo, así que te sugiero reservar todo el domingo para ti.</span>
+                        <span className="fw-bold">Información Importante: En caso de lluvia, cambiaremos el lugar y probablemente la hora de encuentro, te informaré el lunes 4 y 11 de Marzo, así que te sugiero reservar todo el domingo para ti.</span>
                         <PreparationItems preparationItems={[
                             'Debes realizar el pago por anticipado para reservar tu espacio.',
                             'Ser puntuales es muy importante, nuestro circulo de mujeres inicia a la hora programada, asi que, te recomiendo puntualidad.',
