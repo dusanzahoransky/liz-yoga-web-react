@@ -7,6 +7,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.1.3",
+    "font-awesome": "^4.7.0",
     "querystring": "^0.2.1",
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.2",
@@ -27,6 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "npm run build && aws s3 sync build s3://lizneira-2.com --profile dusan",
+    "invalidation": "aws cloudfront create-invalidation --distribution-id E14A5DY8OC68FZ --path '/*' --profile dusan",
     "copy-s3": "aws s3 sync build s3://lizneira-2.com --profile dusan",
     "copy-s3-delete": "aws s3 sync build s3://lizneira-2.com --delete --profile dusan",
     "deploy-test": "npm run build && aws s3 sync build s3://lizneira-2.com --profile dusan"

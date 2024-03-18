@@ -15,6 +15,7 @@ import './App.css'
 import Gallery from "./components/Gallery";
 import Profile from "./components/Profile";
 import WomenDay from "./components/WomenDay";
+import RetreatBaliSept2024 from "./components/RetreatBaliSept2024";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
               <Route path='/workshop-in-person' element={<WorkshopInPerson/>}/>
               <Route path='/session-especial' element={<SessionEspecial/>}/>
               <Route path='/women-day' element={<WomenDay/>}/>
+              <Route path='/retreat-bali-sept-24' element={<RetreatBaliSept2024/>}/>
               <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
               <Route path='/data-deletion-instructions' element={<DataDeletionInstructions/>}/>
               <Route path='/gallery' element={<Gallery/>}/>

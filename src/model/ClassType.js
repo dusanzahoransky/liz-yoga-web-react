@@ -5,6 +5,7 @@ export class ClassType {
     static PrivateOnline = new ClassType('private-online', 'la Clase privada online')
     static WorkshopInPerson = new ClassType('workshop-in-person', 'el Workshop')
     static WorkshopOnline = new ClassType('workshop-online', 'el Workshop online')
+    static RetreatBaliSept2024 = new ClassType('retreat-bali-sept-2024', 'Nuestro Retiro de Yoga y Bienestar')
     static SessionEspecial = new ClassType('session-especial-mosman', 'Sesión Dirigida a Calmar tu Sistema Nervioso')
     static WomenDay = new ClassType('women-day', 'Conmemoración Día Internacional de la Mujer')
 

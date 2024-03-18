@@ -1,9 +1,10 @@
 import cover2 from '../images/home/cover-2-large-progressive.jpeg';
 import cover2portrait from '../images/home/cover-2-portrait-progressive.jpeg';
-import cover1 from '../images/home/cover-1-large-progressive.jpeg';
-import cover1portrait from '../images/home/cover-1-portrait-progressive.jpeg';
-import cover4 from '../images/home/cover-4-large-progressive.jpeg';
-import cover4portrait from '../images/home/cover-4-large-portrait.jpeg';
+import cover5 from '../images/home/cover-5.jpg';
+import cover5portrait from '../images/home/cover-5-portrait.jpg';
+
+import coverRetreat from '../images/home/cover-retreat-large.jpg';
+import coverRetreatPortrait from '../images/home/cover-retreat-portrait.jpg';
 
 import cardGroupsOnline from '../images/home/card-groups-online.jpg';
 import cardPrivateOnline from '../images/home/card-private-online.jpg';
@@ -11,6 +12,7 @@ import cardWorkshopOnline from '../images/home/card-workshop-online.jpg';
 import cardWorkshopInPerson from '../images/home/card-workshop-in-person.jpg';
 import cardGroupsInPerson from '../images/home/card-groups-in-person.jpg';
 import cardPrivateInPerson from '../images/home/card-private-in-person.jpg';
+import cardRetreatBaliSept2024 from '../images/home/card-retreat-bali-sept-2024.jpg';
 import Footer from "./Footer";
 
 function Home() {
@@ -21,46 +23,52 @@ function Home() {
 
               <div className="carousel-inner">
 
-                  <div className="carousel-item active" data-bs-interval="4000">
+                  <div className="carousel-item active" data-bs-interval="6000">
+                      <a href="/retreat-bali-sept-24">
                       <picture>
-                          <source srcSet={cover2portrait}
+                          <source srcSet={coverRetreatPortrait}
     media="(max-width: 800px) and (orientation: portrait)"/>
-                          <img src={cover2} alt="Private clases"
-                               className="second-slide"/>
+                          <img src={coverRetreat} alt="Retreat"/>
                       </picture>
                       <div className="container">
-                          <div className="carousel-caption">
-                              <h1 className="display-6">YOGA CLASES GRUPALES</h1>
+                          <div className="carousel-caption carousel-caption-light">
+                              <h2>RETIRO DE YOGA Y BIENESTAR</h2>
+                              <h3>Bali Septiembre 2024</h3>
                           </div>
                       </div>
+                      </a>
                   </div>
 
-                  <div className="carousel-item" data-bs-interval="4000">
-                      <picture>
-                          <source srcSet={cover1portrait}
-                                  media="(max-width: 800px) and (orientation: portrait)"/>
-                              <img src={cover1} alt="Private clases"/>
-                      </picture>
-
-                      <div className="container">
-                          <div className="carousel-caption">
-                              <h1 className="display-6">YOGA CLASES PRIVADAS</h1>
+                  <div className="carousel-item" data-bs-interval="3000">
+                      <a href="/groups-in-person">
+                          <picture>
+                              <source srcSet={cover2portrait}
+                                      media="(max-width: 800px) and (orientation: portrait)"/>
+                              <img src={cover2} alt="Private clases"/>
+                          </picture>
+                          <div className="container">
+                              <div className="carousel-caption carousel-caption-light">
+                                  <h2>YOGA CLASES GRUPALES</h2>
+                              </div>
                           </div>
-                      </div>
+                      </a>
                   </div>
 
-                  <div className="carousel-item" data-bs-interval="4000">
-                      <picture>
-                          <source srcSet={cover4portrait}
-                                  media="(max-width: 800px) and (orientation: portrait)"/>
-                          <img src={cover4} alt="Private clases"/>
-                      </picture>
+                  <div className="carousel-item" data-bs-interval="3000">
+                      <a href="/women-day">
+                          <picture>
+                              <source srcSet={cover5portrait}
+                                      media="(max-width: 800px) and (orientation: portrait)"/>
+                              <img src={cover5} alt="Private clases"/>
+                          </picture>
 
-                      <div className="container">
-                          <div className="carousel-caption">
-                              <h1 className="display-6">YOGA WORKSHOP</h1>
+                          <div className="container">
+                              <div className="carousel-caption carousel-caption-light">
+                                  <h2>CIRCULO DE MUJERES</h2>
+                                  <h3>Marzo 10</h3>
+                              </div>
                           </div>
-                      </div>
+                      </a>
                   </div>
 
               </div>
@@ -91,14 +99,32 @@ function Home() {
                   maravilloso en donde motivo a
                   las personas a que muevan su cuerpo especialmente a través del yoga o cualquier otro deporte; me enfoco en
                   demostrar que el bienestar físico y mental son parte
-                  fundamental para tener calidad de vida, conección mente, cuerpo y alma.</p>
+                  fundamental para tener calidad de vida, conexión mente, cuerpo y alma.</p>
           </div>
 
           <div className="container marketing">
 
-              <h3 className="display-7 rem-2 text-center">CLASES OUTDOOR O EN CASA</h3>
+              <h3 className="display-7 rem-2 text-center">RETIRO DE YOGA Y BIENESTAR</h3>
 
-              <div className="row row-cols-1 row-cols-lg-3 g-4">
+              <div className="row row-cols-1">
+                  <div className="col-3"></div>
+                  <div className="col-md">
+                      <a href="/retreat-bali-sept-24">
+                          <div className="card h-100 text-center">
+                              <img src={cardRetreatBaliSept2024} className="card-img-top" alt="..."/>
+                              <div className="card-body">
+                                  <p href="/groups-in-person" className="card-title">BALI SEPTIEMBRE 2024</p>
+                                  <p className="card-text">Únete a nuestro Retiro de Yoga y Bienestar en el paraiso de Bali, un espacio para conectar e ir mucho más profundo con tu verdadera escencia.</p>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div className="col-3"></div>
+              </div>
+
+              <h3 className="display-7 rem-2 text-center">CLASES</h3>
+
+              <div className="row  row-cols-1 row-cols-md-2">
                   <div className="col">
                       <a href="/groups-in-person">
                           <div className="card h-100 text-center">
@@ -131,33 +157,13 @@ function Home() {
                               <img src={cardWorkshopInPerson} className="card-img-top" alt="..."/>
                               <div className="card-body">
                                   <p className="card-title">CELEBRA TUS FECHAS ESPECIALES</p>
-                                  <p className="card-text">Aprende la técnica de como llegar a la postura de Yoga que
-                                      deseas.</p>
+                                  <p className="card-text">Día de la Mujer, Cumpleaños, Día del Amor y la Amistad entre
+                                      otros.</p>
                               </div>
                           </div>
                       </a>
                   </div>
 
-              </div>
-
-
-              <br/>
-
-              <h3 className="display-7 rem-2 text-center">CLASES ONLINE</h3>
-
-              <div className="row row-cols-1 row-cols-lg-3 g-4">
-
-                  <div className="col">
-                      <a href="/groups-online">
-                          <div className="card h-100 text-center">
-                              <img src={cardGroupsOnline} className="card-img-top" alt="card groups online"/>
-                              <div className="card-body">
-                                  <p className="card-title">CLASES GRUPALES ONLINE</p>
-                                  <p className="card-text">Clases de Vinyasa Yoga dinámicas para grupos pequeños.</p>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
 
                   <div className="col">
                       <a href="/private-online">
@@ -170,21 +176,8 @@ function Home() {
                           </div>
                       </a>
                   </div>
-
-                  <div className="col">
-                      <a href="/workshop-online">
-                          <div className="card h-100 text-center">
-                              <img src={cardWorkshopOnline} className="card-img-top" alt="..."/>
-                              <div className="card-body">
-                                  <p className="card-title">WORKSHOP - POSTURAS ONLINE</p>
-                                  <p className="card-text">Aprende la técnica de como llegar a la postura de Yoga que
-                                      deseas.</p>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
-
               </div>
+
 
           </div>
 
