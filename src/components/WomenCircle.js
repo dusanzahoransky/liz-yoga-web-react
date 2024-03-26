@@ -15,7 +15,7 @@ import '../image-gallery.css';
 import {ClassType} from "../model/ClassType";
 import YoutubeEmbed from "./socialMedia/YoutubeEmbed";
 
-function WomenDay() {
+function WomenCircle() {
 
     // const images = [
     //    {
@@ -35,7 +35,7 @@ function WomenDay() {
 
     function isPrivate() {
         const queryParams = new URLSearchParams(window.location.search);
-        return queryParams && queryParams.get('code') === 'WomenDay2024'
+        return queryParams && queryParams.get('code') === 'WomenCircle'
     }
 
     function getPriceSection() {
@@ -54,15 +54,13 @@ function WomenDay() {
     return (<>
         <main role="main" className="container">
 
-            <DetailsHeading text='Conmemoración Día Internacional de la Mujer'/>
+            <DetailsHeading text='Circulo de Mujeres - Abril'/>
 
             <div className="container details">
 
                 <div className="row">
                     <div className="col">
-                        <p className="text-justify">Te invito a conmemorar el Día Internacional de La Mujer a través de
-                            un circulo de mujeres en donde tendremos diferentes prácticas espirituales que fomentarán la
-                            solidaridad y el apoyo mutuo. Esta conmemoración del Día de la Mujer, puede ser la
+                        <p className="text-justify">Te invito a nuestro Circulo de Mujeres el Domingo 21 de Abril, allí tendremos diferentes prácticas espirituales que nos ayudarán a seguir expandiendo nuestra conciencia. Adicionalmente es la
                             oportunidad perfecta para seguir fortaleciendo los lazos entre nosotras como mujeres, un
                             espacio para compartir reflexiones, experiencias y ofrecer apoyo emocional.</p>
                     </div>
@@ -72,8 +70,8 @@ function WomenDay() {
                 <div className="row">
                     <div className="col-md-3"></div>
                     <div className="col-md-6">
-                        <iframe width="429" height="762" src="https://www.youtube.com/embed/gqmnU6jWwjo"
-                                title="Te invito a conmemorar el Día Internacional de la Mujer en un Círculo de Mujeres-Domingo 10 de Marzo"
+                        <iframe width="429" height="762" src="https://www.youtube.com/embed/AbSXz3cPSpk"
+                                title="Círculo de Mujeres este 21 de Abril, Sydney - Australia. No te lo puedes perder IG @lizneirar"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowFullScreen></iframe>
@@ -95,37 +93,28 @@ function WomenDay() {
                         <ul className="class-preparation-list text-justify">
                             <li>Ejercicios de Respiración para Activar tu Energía Vital.</li>
                             <li>Clase Multinivel de Vinyasa Yoga Conecta con tu Cuerpo.</li>
-                            <li>Meditación Guiada.</li>
                             <li>Relajación Cuerpo y Mente a través de Instrumentos Musicales como
                                 Cuencos Tibetanos y de
                                 Cristal entre otros.
+                                <li>Ritual para Abrir el Corazón - Anahata Chakra.</li>
                             </li>
-                            <li>Taller de Manifestación, exploraremos los niveles de manifestación e identificaremos en
-                                que nivel te encuentras, concluimos con ejercicio práctico.
+                            <li>Meditación Activa con Colores - Pinta tu Vida de Colores.
                             </li>
-                            <li>Taller Conéctate con tu Energía Femenina, con una invitada muy especial, Gaby Escobar
-                                quien es Mentora Espiritual, hablaremos de:
-                                <ul>
-                                    <li>En que consiste la energía femenina, Pilares: El ser/sentir y el recibir.</li>
-                                    <li>Energía femenina sana y energía femenina herida.</li>
-                                    <li>Como equilibriar el exceso de energia ya sea femenina o masculina</li>
-                                    <li>Activación energética para conectar con tu poder creador femenino.</li>
-                                </ul>
-                            </li>
-                            <li>Brunch delicioso preparado por Lovely Grazing Boards (Tabla de quesos, fruta, sliders, entre otros).
+
+
+                            <li>Snacks deliciosos
                             </li>
                             <li>Bebida Refrescante</li>
-                            <li>Regalito pensado en ti</li>
+
 
                         </ul>
                         <h3>Lugar</h3>
                         <p>Coogee Beach, Goldstein Reserve - Sydney.</p>
                         <h3>Fecha y Hora</h3>
-                        <p>Domingo 10 de Marzo, 8:30 AM a 12:30 PM.</p>
-                        <p>Domingo 17 de Marzo, 8:30 AM a 12:30 PM.</p>
+                        <p>Domingo 21 de Abril, 8:00 AM a 12:00 PM.</p>
                         {getPriceSection()}
 
-                        <span className="fw-bold">Información Importante: En caso de lluvia, cambiaremos el lugar y probablemente la hora de encuentro, te informaré el lunes 4 y 11 de Marzo, así que te sugiero reservar todo el domingo para ti.</span>
+                        <span className="fw-bold">Información Importante: En caso de lluvia, cambiaremos el lugar (Indoor) y probablemente la hora de encuentro, te informaré el Martes 16 de Abril, así que te sugiero reservar TODO el domingo para ti.</span>
                         <PreparationItems preparationItems={[
                             'Debes realizar el pago por anticipado para reservar tu espacio.',
                             'Ser puntuales es muy importante, nuestro circulo de mujeres inicia a la hora programada, asi que, te recomiendo puntualidad.',
@@ -135,7 +124,7 @@ function WomenDay() {
                     </div>
                     <div className="col-md-1"/>
                     <div className="col-md-4">
-                        <ContactForm yogaClassType={ClassType.WomenDay}/>
+                        <ContactForm yogaClassType={ClassType.WomenCircle}/>
                     </div>
 
                 </div>
@@ -150,4 +139,4 @@ function WomenDay() {
     </>);
 }
 
-export default WomenDay;
+export default WomenCircle;
