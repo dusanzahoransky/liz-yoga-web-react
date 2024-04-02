@@ -82,7 +82,7 @@ function GroupsInPerson() {
                                      alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>
                             </a>
                         </div>
-                        <p>Hora: 6:30 am y 8:30 am</p>
+                        <p>Hora: 5:55 am y a las 8:15 am</p>
                         {/*<p>Hora: 8:00 am</p>*/}
                         <p>Lugar: Coogee Beach.</p>
 
@@ -95,18 +95,18 @@ function GroupsInPerson() {
 
 
                         {/*<h3>Yoga al Atardecer - Miércoles</h3>*/}
-                        <h3>Yoga al Atardecer - Jueves</h3>
-                        <div>
-                            <a href="https://maps.app.goo.gl/wizTnfJaY1KB3xMe8" target='_blank' rel="noreferrer">
-                                <img className="classLocationMap"
-                                     alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>
-                            </a>
-                        </div>
-                        <p>Hora: 6:40 pm</p>
-                        <p>Lugar: Coogee Beach.</p>
+                        {/*<h3>Yoga al Atardecer - Jueves</h3>*/}
+                        {/*<div>*/}
+                        {/*    <a href="https://maps.app.goo.gl/wizTnfJaY1KB3xMe8" target='_blank' rel="noreferrer">*/}
+                        {/*        <img className="classLocationMap"*/}
+                        {/*             alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>*/}
+                        {/*    </a>*/}
+                        {/*</div>*/}
+                        {/*<p>Hora: 6:40 pm</p>*/}
+                        {/*<p>Lugar: Coogee Beach.</p>*/}
 
-                        <h3>Valor</h3>
-                        <p>$23 AUD.</p>
+                        {/*<h3>Valor</h3>*/}
+                        {/*<p>$23 AUD.</p>*/}
                         <p className="text-justify">Realiza la transferencia de la clase al número celular 0413147237
                             para
                             separar tu espacio, se reciben
