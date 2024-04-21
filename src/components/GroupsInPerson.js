@@ -82,8 +82,8 @@ function GroupsInPerson() {
                                      alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>
                             </a>
                         </div>
-                        <p>Hora: 5:55 am y a las 8:15 am</p>
-                        {/*<p>Hora: 8:00 am</p>*/}
+                        <p>Hora: 6:00 am</p>
+                        <p>Hora: 8:15 am</p>
                         <p>Lugar: Coogee Beach.</p>
 
                         <p className="text-justify">Sitio de encuentro: Dolphins Point. Llegas a Coogee Pavilion y
@@ -105,13 +105,12 @@ function GroupsInPerson() {
                         {/*<p>Hora: 6:40 pm</p>*/}
                         {/*<p>Lugar: Coogee Beach.</p>*/}
 
-                        {/*<h3>Valor</h3>*/}
-                        {/*<p>$23 AUD.</p>*/}
+                        <h3>Valor</h3>
+                        <p>$23 AUD.</p>
                         <p className="text-justify">Realiza la transferencia de la clase al número celular 0413147237
                             para
                             separar tu espacio, se reciben
-                            confirmaciones y pago para la clase entre semana al atardecer hasta el Miercoles 6 pm y la
-                            clase de la playa hasta el viernes a las 2 pm.</p>
+                            confirmaciones con el pago hasta el viernes a las 4 pm.</p>
                         <PreparationItems preparationItems={[
                             'Ser puntuales es muy importante, la clase inicia a la hora programada, asi que, te recomiendo puntualidad para que no te pierdas ninguna parte de la clase.',
                             'Luego de confirmada tu asistencia no se hace devolución del dinero.',

@@ -26,16 +26,24 @@ function GroupsOnline() {
               </div>
 
               <div className="row rem-2 align-items-end">
-                  <div className="col-md-5">
+                  <div className="col-md-6">
 
-                      <h3>CLASES GRUPALES ONLINE</h3>
+                      <h3>Clases Grupales Online</h3>
                       <p>Serán grupos de hasta máximo 15 personas.</p>
 
+                      <h3>Cuando</h3>
+                      <p>Miercoles o Jueves, 7:30 pm hora Sydney (decidiremos a inicios de cada semana el dia)</p>
+
+                      <h3>Valor</h3>
+                      <p>$21 AUD.</p>
+                      <p className="text-justify">Realiza la transferencia de la clase al número celular 0413147237
+                          para separar tu espacio, se reciben
+                          confirmaciones y pago para la clase hasta el Miercoles.</p>
                   </div>
 
                   <div className="col-md-1"/>
 
-                  <div className="col-md-6">
+                  <div className="col-md-5">
                       <img src={cardGroupsOnline} alt="Online group class"/>
                   </div>
               </div>
@@ -57,7 +65,7 @@ function GroupsOnline() {
                           'Ser puntuales es muy importante, así evitan perderse parte de la clase.',
                           'Preferible recogerse el cabello, aunque si les gusta suelto esta perfecto. (Chicas)',
                           'Ten una botellita de agua para hidratarte.',
-                          'Si no puedes asistir a la clase debes informar con 3 horas de anticipación para poder re-agendarla durante la semana según disponibilidad.',
+                          'Luego de confirmada la clase no se hace devolución del dinero, puedes aplazar la clase solo una vez.',
                       ]}/>
                   </div>
 
