@@ -4,7 +4,16 @@ import sessionEspecial2 from '../images/session-especial/session-especial-2.jpg'
 import sessionEspecial2Thumbnail from '../images/session-especial-thumbnail/session-especial-2-thumbnail.jpg';
 import sessionEspecial3 from '../images/session-especial/session-especial-3.jpg';
 import sessionEspecial3Thumbnail from '../images/session-especial-thumbnail/session-especial-3-thumbnail.jpg';
-
+import sessionEspecial4 from '../images/session-especial/session-especial-4.jpg';
+import sessionEspecial4Thumbnail from '../images/session-especial-thumbnail/session-especial-4-thumbnail.jpg';
+import sessionEspecial5 from '../images/session-especial/session-especial-5.jpg';
+import sessionEspecial5Thumbnail from '../images/session-especial-thumbnail/session-especial-5-thumbnail.jpg';
+import sessionEspecial6 from '../images/session-especial/session-especial-6.jpg';
+import sessionEspecial6Thumbnail from '../images/session-especial-thumbnail/session-especial-6-thumbnail.jpg';
+import sessionEspecial7 from '../images/session-especial/session-especial-7.jpg';
+import sessionEspecial7Thumbnail from '../images/session-especial-thumbnail/session-especial-7-thumbnail.jpg';
+import sessionEspecial8 from '../images/session-especial/session-especial-8.jpg';
+import sessionEspecial8Thumbnail from '../images/session-especial-thumbnail/session-especial-8-thumbnail.jpg';
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
 import DetailsHeading from "./classDetails/DetailsHeading";
@@ -31,6 +40,29 @@ function WomenCircle() {
     //         thumbnail: sessionEspecial3Thumbnail,
     //     }
     // ]
+
+    const images = [
+       {
+            original: sessionEspecial4,
+            thumbnail: sessionEspecial4Thumbnail,
+        },
+        {
+            original: sessionEspecial5,
+            thumbnail: sessionEspecial5Thumbnail,
+        },
+        {
+            original: sessionEspecial6,
+            thumbnail: sessionEspecial6Thumbnail,
+        },
+        {
+            original: sessionEspecial7,
+            thumbnail: sessionEspecial7Thumbnail,
+        },
+        {
+            original: sessionEspecial8,
+            thumbnail: sessionEspecial8Thumbnail,
+        }
+    ]
 
 
     function isPrivate() {
@@ -60,28 +92,29 @@ function WomenCircle() {
 
                 <div className="row">
                     <div className="col">
-                        <p className="text-justify">Te invito a nuestro Circulo de Mujeres el Domingo 21 de Abril, allí tendremos diferentes prácticas espirituales que nos ayudarán a seguir expandiendo nuestra conciencia. Adicionalmente es la
+                        <p className="text-justify">Te invito a nuestro Circulo de Mujeres el Domingo 19 de Mayo, allí tendremos diferentes prácticas espirituales que nos ayudarán a seguir expandiendo nuestra conciencia. Adicionalmente es la
                             oportunidad perfecta para seguir fortaleciendo los lazos entre nosotras como mujeres, un
                             espacio para compartir reflexiones, experiencias y ofrecer apoyo emocional.</p>
                     </div>
                 </div>
 
 
-                <div className="row">
-                    <div className="col-md-3"></div>
-                    <div className="col-md-6">
-                        <iframe width="429" height="762" src="https://www.youtube.com/embed/AbSXz3cPSpk"
-                                title="Círculo de Mujeres este 21 de Abril, Sydney - Australia. No te lo puedes perder IG @lizneirar"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowFullScreen></iframe>
-                    </div>
-                    <div className="col-md-3"></div>
-                </div>
-
-                {/*<div className="row rem-2">*/}
-                {/*    <ImageGallery items={images} thumbnailPosition='bottom' autoPlay={true} />*/}
+                {/*<div className="row">*/}
+                {/*    <div className="col-md-3"></div>*/}
+                {/*    <div className="col-md-6">*/}
+                {/*        /!*<iframe width="429" height="762" src="https://www.youtube.com/embed/AbSXz3cPSpk"*!/*/}
+                {/*        /!*        title="Círculo de Mujeres este 19 de Mayo, Sydney - Australia. No te lo puedes perder IG @lizneirar"*!/*/}
+                {/*        /!*        frameBorder="0"*!/*/}
+                {/*        /!*        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"*!/*/}
+                {/*        /!*        allowFullScreen></iframe>*!/*/}
+                {/*        /!*<ImageGallery items={images} thumbnailPosition='bottom' autoPlay={true} />*!/*/}
+                {/*    </div>*/}
+                {/*    <div className="col-md-3"></div>*/}
                 {/*</div>*/}
+
+                <div className="row rem-2">
+                    <ImageGallery items={images} thumbnailPosition='bottom' autoPlay={true} />
+                </div>
 
                 <div className="row">
                     <div className="col-md-7">
@@ -111,7 +144,7 @@ function WomenCircle() {
                         <h3>Lugar</h3>
                         <p>Coogee Beach, Goldstein Reserve - Sydney.</p>
                         <h3>Fecha y Hora</h3>
-                        <p>Domingo 21 de Abril, 8:00 AM a 12:00 PM.</p>
+                        <p>Domingo 19 de Mayo, 8:00 AM a 12:00 PM.</p>
                         {getPriceSection()}
 
                         <span className="fw-bold">Información Importante: En caso de lluvia, cambiaremos el lugar (Indoor) y probablemente la hora de encuentro, te informaré el Martes 16 de Abril, así que te sugiero reservar TODO el domingo para ti.</span>
