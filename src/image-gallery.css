@@ -1,3 +1,10 @@
+/*
+
+primary: color: rgba(41, 48, 63, 1);
+secondary: #color: rgba(156, 45, 65, 1)
+
+ */
+
 .image-gallery-icon {
     color: #fff;
     transition: all .3s ease-out;
@@ -13,7 +20,7 @@
 
 @media (hover: hover)and (pointer: fine) {
     .image-gallery-icon:hover {
-        color: rgba(115, 24, 171, 0.66)
+        color: rgba(156, 45, 65, 1)
     }
 
     .image-gallery-icon:hover .image-gallery-svg {
@@ -22,7 +29,7 @@
 }
 
 .image-gallery-icon:focus {
-    outline: 2px solid rgba(115, 24, 171, 0.66)
+    outline: 2px solid rgba(156, 45, 65, 1)
 }
 
 .image-gallery-using-mouse .image-gallery-icon:focus {
@@ -132,7 +139,7 @@
 
 .image-gallery.fullscreen-modal .image-gallery-content {
     top: 50%;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
 }
 
 .image-gallery-content {
@@ -260,8 +267,8 @@
 
 .image-gallery-bullets .image-gallery-bullet:focus {
     transform: scale(1.2);
-    background: rgba(115, 24, 171, 0.66);
-    border: 1px solid rgba(115, 24, 171, 0.66)
+    background: rgba(156, 45, 65, 1);
+    border: 1px solid rgba(156, 45, 65, 1)
 }
 
 .image-gallery-bullets .image-gallery-bullet.active {
@@ -272,12 +279,12 @@
 
 @media (hover: hover)and (pointer: fine) {
     .image-gallery-bullets .image-gallery-bullet:hover {
-        background: rgba(115, 24, 171, 0.66);
-        border: 1px solid rgba(115, 24, 171, 0.66)
+        background: rgba(156, 45, 65, 1);
+        border: 1px solid rgba(156, 45, 65, 1)
     }
 
     .image-gallery-bullets .image-gallery-bullet.active:hover {
-        background: rgba(115, 24, 171, 0.66)
+        background: rgba(156, 45, 65, 1)
     }
 }
 
@@ -389,25 +396,25 @@
 
 .image-gallery-thumbnail.active, .image-gallery-thumbnail:focus {
     outline: none;
-    border: 2px solid rgba(115, 24, 171, 0.66)
+    border: 2px solid rgba(156, 45, 65, 1)
 }
 
 @media (max-width: 768px) {
     .image-gallery-thumbnail.active, .image-gallery-thumbnail:focus {
-        border: 3px solid rgba(115, 24, 171, 0.66)
+        border: 3px solid rgba(156, 45, 65, 1)
     }
 }
 
 @media (hover: hover)and (pointer: fine) {
     .image-gallery-thumbnail:hover {
         outline: none;
-        border: 2px solid rgba(115, 24, 171, 0.66)
+        border: 2px solid rgba(156, 45, 65, 1)
     }
 }
 
 @media (hover: hover)and (pointer: fine)and (max-width: 768px) {
     .image-gallery-thumbnail:hover {
-        border: 3px solid rgba(115, 24, 171, 0.66)
+        border: 3px solid rgba(156, 45, 65, 1)
     }
 }
 

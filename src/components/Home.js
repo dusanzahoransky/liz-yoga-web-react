@@ -1,18 +1,12 @@
 import cover2 from '../images/home/cover-2-large-progressive.jpeg';
 import cover2portrait from '../images/home/cover-2-portrait-progressive.jpeg';
-import cover5 from '../images/home/cover-5.jpg';
-import cover5portrait from '../images/home/cover-5-portrait.jpg';
-
-import coverRetreat from '../images/home/cover-retreat-large.jpg';
-import coverRetreatPortrait from '../images/home/cover-retreat-portrait.jpg';
-
-import cardGroupsOnline from '../images/home/card-groups-online.jpg';
+import coverRetreatMarch2025 from '../images/home/cover-retreat-march-2025.jpg';
+import coverRetreatMarch2025Portrait from '../images/home/cover-retreat-march-2025-portrait.jpg';
 import cardPrivateOnline from '../images/home/card-private-online.jpg';
-import cardWorkshopOnline from '../images/home/card-workshop-online.jpg';
 import cardWorkshopInPerson from '../images/home/card-workshop-in-person.jpg';
 import cardGroupsInPerson from '../images/home/card-groups-in-person.jpg';
 import cardPrivateInPerson from '../images/home/card-private-in-person.jpg';
-import cardRetreatBaliSept2024 from '../images/home/card-retreat-bali-sept-2024.jpg';
+import cardRetreatBali from '../images/home/card-retreat-bali-sept-2024.jpg';
 import Footer from "./Footer";
 
 function Home() {
@@ -23,21 +17,21 @@ function Home() {
 
               <div className="carousel-inner">
 
-                  <div className="carousel-item active" data-bs-interval="6000">
-                      <a href="/retreat-bali-sept-24">
-                      <picture>
-                          <source srcSet={coverRetreatPortrait}
-    media="(max-width: 800px) and (orientation: portrait)"/>
-                          <img src={coverRetreat} alt="Retreat"/>
-                      </picture>
-                      <div className="container">
-                          <div className="carousel-caption carousel-caption-light">
-                              <h2>RETIRO DE YOGA Y BIENESTAR</h2>
-                              <h3>Bali Septiembre 2024</h3>
-                          </div>
-                      </div>
-                      </a>
-                  </div>
+    {/*              <div className="carousel-item active" data-bs-interval="6000">*/}
+    {/*                  <a href="/retreat-bali-march-25">*/}
+    {/*                  <picture>*/}
+    {/*                      <source srcSet={coverRetreatMarch2025Portrait}*/}
+    {/*media="(max-width: 800px) and (orientation: portrait)"/>*/}
+    {/*                      <img src={coverRetreatMarch2025} alt="Retreat"/>*/}
+    {/*                  </picture>*/}
+    {/*                  <div className="container">*/}
+    {/*                      <div className="carousel-caption carousel-caption-light">*/}
+    {/*                          <h2>RETIRO DE YOGA Y BIENESTAR</h2>*/}
+    {/*                          <h3>Bali Marzo 2025</h3>*/}
+    {/*                      </div>*/}
+    {/*                  </div>*/}
+    {/*                  </a>*/}
+    {/*              </div>*/}
 
                   <div className="carousel-item" data-bs-interval="3000">
                       <a href="/groups-in-person">
@@ -54,22 +48,22 @@ function Home() {
                       </a>
                   </div>
 
-                  <div className="carousel-item" data-bs-interval="3000">
-                      <a href="/women-day">
-                          <picture>
-                              <source srcSet={cover5portrait}
-                                      media="(max-width: 800px) and (orientation: portrait)"/>
-                              <img src={cover5} alt="Private clases"/>
-                          </picture>
+                  {/*<div className="carousel-item" data-bs-interval="3000">*/}
+                  {/*    <a href="/women-day">*/}
+                  {/*        <picture>*/}
+                  {/*            <source srcSet={cover5portrait}*/}
+                  {/*                    media="(max-width: 800px) and (orientation: portrait)"/>*/}
+                  {/*            <img src={cover5} alt="Private clases"/>*/}
+                  {/*        </picture>*/}
 
-                          <div className="container">
-                              <div className="carousel-caption carousel-caption-light">
-                                  <h2>CIRCULO DE MUJERES</h2>
-                                  <h3>Marzo 10</h3>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
+                  {/*        <div className="container">*/}
+                  {/*            <div className="carousel-caption carousel-caption-light">*/}
+                  {/*                <h2>CIRCULO DE MUJERES</h2>*/}
+                  {/*                <h3>Marzo 10</h3>*/}
+                  {/*            </div>*/}
+                  {/*        </div>*/}
+                  {/*    </a>*/}
+                  {/*</div>*/}
 
               </div>
 
@@ -85,8 +79,8 @@ function Home() {
 
 
           <div className="container introduction">
-              <h1 className="display-6 rem-2">YOGA CON LIZ NEIRA</h1>
-              <p className="text-justify">Desde hace 6 años el Yoga atrajo mi atención y descubrí un mundo fantástico en
+              <h1 className="display-6 rem-2">YOGA CON LIZ <span className="color-secondary">NEIRA</span></h1>
+              <p className="text-justify">Desde hace 7 años el Yoga atrajo mi atención y descubrí un mundo fantástico en
                   donde
                   descubrí los beneficios físicos, mentales y espirituales que esta extraordinaria disciplina
                   ofrece.</p>
@@ -104,23 +98,32 @@ function Home() {
 
           <div className="container marketing">
 
-              <h3 className="display-7 rem-2 text-center">RETIRO DE YOGA Y BIENESTAR</h3>
+              {/*<h3 className="display-7 rem-2 text-center">RETIRO DE YOGA Y BIENESTAR</h3>*/}
 
-              <div className="row row-cols-1">
-                  <div className="col-3"></div>
-                  <div className="col-md">
-                      <a href="/retreat-bali-sept-24">
-                          <div className="card h-100 text-center">
-                              <img src={cardRetreatBaliSept2024} className="card-img-top" alt="..."/>
-                              <div className="card-body">
-                                  <p href="/groups-in-person" className="card-title">BALI SEPTIEMBRE 2024</p>
-                                  <p className="card-text">Únete a nuestro Retiro de Yoga y Bienestar en el paraiso de Bali, un espacio para conectar e ir mucho más profundo con tu verdadera escencia.</p>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
-                  <div className="col-3"></div>
-              </div>
+              {/*<div className="row row-cols-1">*/}
+              {/*    <div className="col-3"></div>*/}
+              {/*    <div className="col-md">*/}
+              {/*        <a href="/retreat-bali-march-25">*/}
+              {/*            <div className="card h-100 text-center">*/}
+              {/*                <img src={cardRetreatBali} className="card-img-top" alt="..."/>*/}
+              {/*                <div className="card-body">*/}
+              {/*                    /!*<div className="sold-out-stamp-small-parent">*!/*/}
+              {/*                    <div>*/}
+              {/*                        /!*<div className="sold-out-stamp-small">*!/*/}
+              {/*                        <div>*/}
+              {/*                            <p href="/groups-in-person" className="card-title">BALI MARCH 2025</p>*/}
+              {/*                        </div>*/}
+              {/*                    </div>*/}
+
+              {/*                    <p className="card-text">Únete a nuestro Retiro de Yoga y Bienestar en el paraiso de*/}
+              {/*                        Bali, un espacio para conectar e ir mucho más profundo con tu verdadera*/}
+              {/*                        escencia.</p>*/}
+              {/*                </div>*/}
+              {/*            </div>*/}
+              {/*        </a>*/}
+              {/*    </div>*/}
+              {/*    <div className="col-3"></div>*/}
+              {/*</div>*/}
 
               <h3 className="display-7 rem-2 text-center">CLASES</h3>
 

@@ -51,28 +51,31 @@ function RetreatBaliSept2024() {
 
     function isPrivate() {
         const queryParams = new URLSearchParams(window.location.search);
-        return queryParams && queryParams.get('code') === 'Bali2024'
+        return queryParams && queryParams.get('code') === 'Bali2024Sep'
     }
 
     function getPriceSection() {
+        const bond = <p><i className="fa fa-credit-card"></i> <span
+            className="fw-bolder">RESERVA TU ESPACIO:</span> Deposito
+            (no reembolsable) de $500 Aud con transferencia
+            electrónica al numero celular 0413147237.</p>;
         if (!isPrivate()) {
             return <><p className="space-before"></p> <p>Si deseas información más detallada e incluyendo precios por
                 favor dilegencia el formulario a continuación:
-            </p></>
+            </p>
+                ${bond}
+            </>
         } else {
             return <>
                 <div className="row space-before">
                     {/* <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> discount <span
                         className="fw-bolder">$100</span> descuento antes del 30 de Marzo Acordamos cuotas para el */}
-                        
+
                     {/*<p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento*/}
                     {/*    solo para ti de <span*/}
                     {/*        className="fw-bolder">$100</span> por recomendar a un amiga(o) y realize la reservación del*/}
                     {/*    Retiro.</p>*/}
-                    <p><i className="fa fa-credit-card"></i> <span
-                        className="fw-bolder">RESERVA TU ESPACIO:</span> Deposito
-                        (no reembolsable) de $500 Aud con transferencia
-                        electrónica al numero celular 0413147237. El resto del pago Pago Total del Retiro hasta el día 04 de Julio. </p>
+                    ${bond}
                 </div>
             </>
         }
@@ -211,7 +214,7 @@ function RetreatBaliSept2024() {
                                 <li>
                                     Regalito
                                 </li>
-                                <li>Dos Tardes de Excursión a:
+                                <li>Dos Tardes de Excursión (incluye transporte y entrada) a:
                                     <ul>
                                         <li>Los Arrozales
                                         </li>
@@ -261,10 +264,7 @@ function RetreatBaliSept2024() {
                                         integrantes del retiro
                                     </li>
                                     <li> Yin yoga para relajar cuerpo y mente</li>
-                                    <li> Baño de sonidos con cuencos
-                                        tibetanos
-                                        y de
-                                        cristal.
+                                    <li> Baño de sonidos con instrumentos musicales.
                                     </li>
                                 </ul>
                                 <p className="fw-bolder">Dia 3 - Viernes</p>
@@ -284,7 +284,7 @@ function RetreatBaliSept2024() {
                                 <ul>
                                     <li>Pranayama(EJercicios de Respiración)</li>
                                     <li>Bhakti Yoga (Yoga Devocional, Todos los Niveles)</li>
-                                    <li>Baño de sonidos con cuencos tibetanos y de cristal</li>
+                                    <li>Baño de sonidos con instumentos musicales</li>
                                     <li>Meditación con pintura y colores</li>
                                     <li>Tiempo libre para ti</li>
                                     <li>Clase de Vinyasa para Avanzar en tu Práctica.</li>
@@ -305,14 +305,16 @@ function RetreatBaliSept2024() {
                                 <ul>
                                     <li> Pranayama - (Ejercicios de Respiración)</li>
                                     <li> Práctica de Vinyasa Yoga Multinivel (Todos los Niveles)</li>
-                                    <li>Baño de sonidos con cuencos tibetanos y de
-                                        cristal
-                                    </li>
+                                    <li>Baño de sonidos con  instumentos musicales</li>
                                     <li>Ceremonia de Cierre. <br/>(Check-out 12 pm)</li>
                                 </ul>
-                                <p>
+                                <p><span style={ {fontSize: 14} }>
                                     <i>Nota: Se pueden agregar más actividades y/o cambiar ligeramente en el orden y
-                                        dia.</i>
+                                        dia.</i><br/>
+                                    <i>No se realiza devolucion del pago 30 dias antes del Retiro ya que ha esa
+                                        fecha
+                                        los gastos del mismo se deben haber pagado al Resort para garantizar tu
+                                        lugar.</i></span>
                                 </p>
                             </div>
                         </div>
@@ -385,8 +387,9 @@ function RetreatBaliSept2024() {
                         </div>
                     </div>
 
-
-                    <h3 className="double-space-before">Suite Room:</h3>
+                    <div className="sold-out-stamp-parent">
+                        <div className="sold-out-stamp sold-out-text"><h3>Suite Room:</h3></div>
+                    </div>
                     <p>Sofisticada Suite, cuenta con todas las comodidades del hogar combinadas con una
                         variedad de
                         instalaciones y servicios de lujo. La habitación está disponible con opciones de
@@ -448,9 +451,9 @@ function RetreatBaliSept2024() {
                         </div>
                     </div>
 
-
-                    <h3 className="double-space-before">Pool Villa: <span className="limited">(Sólo queda una)</span>
-                    </h3>
+                    <div className="sold-out-stamp-parent">
+                        <div className="sold-out-stamp sold-out-text"><h3>Pool Villa:</h3></div>
+                    </div>
                     <p>
                         Nuestra Villa ofrece 167 metros cuadrados de lujosa sala de estar, equipada con
                         una cama

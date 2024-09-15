@@ -82,8 +82,8 @@ function GroupsInPerson() {
                                      alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>
                             </a>
                         </div>
-                        <p>Hora: 6:00 am</p>
-                        <p>Hora: 8:15 am</p>
+                        <p>Hora: 6:45 am</p>
+                        <p>Hora: 8:40 am</p>
                         <p>Lugar: Coogee Beach.</p>
 
                         <p className="text-justify">Sitio de encuentro: Dolphins Point. Llegas a Coogee Pavilion y

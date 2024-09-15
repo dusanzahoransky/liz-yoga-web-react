@@ -16,6 +16,8 @@ import Gallery from "./components/Gallery";
 import Profile from "./components/Profile";
 import RetreatBaliSept2024 from "./components/RetreatBaliSept2024";
 import WomenCircle from "./components/WomenCircle";
+import SesionDeRelajacion from "./components/SesionDeRelajacion";
+import RetreatBaliMarch2025 from "./components/RetreatBaliMarch2025";
 
 function App() {
   return (
@@ -30,8 +32,10 @@ function App() {
               <Route path='/groups-in-person' element={<GroupsInPerson/>}/>
               <Route path='/workshop-in-person' element={<WorkshopInPerson/>}/>
               <Route path='/session-especial' element={<SessionEspecial/>}/>
+              <Route path='/sesion-de-relajacion' element={<SesionDeRelajacion/>}/>
               <Route path='/women-day' element={<WomenCircle/>}/>
               <Route path='/retreat-bali-sept-24' element={<RetreatBaliSept2024/>}/>
+              <Route path='/retreat-bali-march-25' element={<RetreatBaliMarch2025/>}/>
               <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
               <Route path='/data-deletion-instructions' element={<DataDeletionInstructions/>}/>
               <Route path='/gallery' element={<Gallery/>}/>
