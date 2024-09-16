@@ -3,43 +3,48 @@ import retreat2 from '../images/retreat-bali-march-25/card-reatreat-2.jpg';
 import retreat3 from '../images/retreat-bali-march-25/card-reatreat-3.jpg';
 import retreat5 from '../images/retreat-bali-march-25/card-reatreat-5.jpg';
 import retreat6 from '../images/retreat-bali-march-25/card-reatreat-6.jpg';
-import retreat8 from '../images/retreat-bali-march-25/card-reatreat-8.jpg';
 import retreat9 from '../images/retreat-bali-march-25/card-reatreat-9.jpg';
 import retreat11 from '../images/retreat-bali-march-25/card-reatreat-11.jpg';
-import retreat13 from '../images/retreat-bali-march-25/card-reatreat-13.jpg';
 import retreat14 from '../images/retreat-bali-march-25/card-reatreat-14.jpg';
 import retreat15 from '../images/retreat-bali-march-25/card-reatreat-15.jpg';
-import retreat16 from '../images/retreat-bali-march-25/card-reatreat-16.jpg';
 import retreat17 from '../images/retreat-bali-march-25/card-reatreat-17.jpg';
 import retreat18 from '../images/retreat-bali-march-25/card-reatreat-18.jpg';
 import retreat19 from '../images/retreat-bali-march-25/card-reatreat-19.jpg';
 import retreat20 from '../images/retreat-bali-march-25/card-reatreat-20.jpg';
 import retreat21 from '../images/retreat-bali-march-25/card-reatreat-21.jpg';
-import retreat22 from '../images/retreat-bali-march-25/card-reatreat-22.jpg';
-import retreat23 from '../images/retreat-bali-march-25/card-reatreat-23.jpg';
+import retreat24 from '../images/retreat-bali-march-25/card-reatreat-24.jpg';
+import retreat25 from '../images/retreat-bali-march-25/card-reatreat-25.jpg';
+import retreat26 from '../images/retreat-bali-march-25/card-reatreat-26.jpg';
+import retreat27 from '../images/retreat-bali-march-25/card-reatreat-27.jpg';
+import retreat28 from '../images/retreat-bali-march-25/card-reatreat-28.jpg';
+import retreat29 from '../images/retreat-bali-march-25/card-reatreat-29.jpg';
+import retreat30 from '../images/retreat-bali-march-25/card-reatreat-30.jpg';
 import retreat1Thumbnail from '../images/retreat-bali-march-25/card-reatreat-1-thumb.jpg';
 import retreat2Thumbnail from '../images/retreat-bali-march-25/card-reatreat-2-thumb.jpg';
 import retreat3Thumbnail from '../images/retreat-bali-march-25/card-reatreat-3-thumb.jpg';
 import retreat5Thumbnail from '../images/retreat-bali-march-25/card-reatreat-5-thumb.jpg';
 import retreat6Thumbnail from '../images/retreat-bali-march-25/card-reatreat-6-thumb.jpg';
-import retreat8Thumbnail from '../images/retreat-bali-march-25/card-reatreat-8-thumb.jpg';
 import retreat9Thumbnail from '../images/retreat-bali-march-25/card-reatreat-9-thumb.jpg';
 import retreat11Thumbnail from '../images/retreat-bali-march-25/card-reatreat-11-thumb.jpg';
-import retreat13Thumbnail from '../images/retreat-bali-march-25/card-reatreat-13-thumb.jpg';
 import retreat14Thumbnail from '../images/retreat-bali-march-25/card-reatreat-14-thumb.jpg';
 import retreat15Thumbnail from '../images/retreat-bali-march-25/card-reatreat-15-thumb.jpg';
-import retreat16Thumbnail from '../images/retreat-bali-march-25/card-reatreat-16-thumb.jpg';
 import retreat17Thumbnail from '../images/retreat-bali-march-25/card-reatreat-17-thumb.jpg';
 import retreat18Thumbnail from '../images/retreat-bali-march-25/card-reatreat-18-thumb.jpg';
 import retreat19Thumbnail from '../images/retreat-bali-march-25/card-reatreat-19-thumb.jpg';
 import retreat20Thumbnail from '../images/retreat-bali-march-25/card-reatreat-20-thumb.jpg';
 import retreat21Thumbnail from '../images/retreat-bali-march-25/card-reatreat-21-thumb.jpg';
-import retreat22Thumbnail from '../images/retreat-bali-march-25/card-reatreat-22-thumb.jpg';
-import retreat23Thumbnail from '../images/retreat-bali-march-25/card-reatreat-23-thumb.jpg';
+import retreat24Thumbnail from '../images/retreat-bali-march-25/card-reatreat-24-thumb.jpg';
+import retreat25Thumbnail from '../images/retreat-bali-march-25/card-reatreat-25-thumb.jpg';
+import retreat26Thumbnail from '../images/retreat-bali-march-25/card-reatreat-26-thumb.jpg';
+import retreat27Thumbnail from '../images/retreat-bali-march-25/card-reatreat-27-thumb.jpg';
+import retreat28Thumbnail from '../images/retreat-bali-march-25/card-reatreat-28-thumb.jpg';
+import retreat29Thumbnail from '../images/retreat-bali-march-25/card-reatreat-29-thumb.jpg';
+import retreat30Thumbnail from '../images/retreat-bali-march-25/card-reatreat-30-thumb.jpg';
 
 import deluxe1 from '../images/retreat-bali-march-25/room-1.jpg'
 import deluxe2 from '../images/retreat-bali-march-25/room-2.jpg'
 import deluxe3 from '../images/retreat-bali-march-25/room-3.jpg'
+import deluxe4 from '../images/retreat-bali-march-25/room-4.jpg'
 
 
 import Footer from "./Footer";
@@ -74,8 +79,8 @@ function RetreatBaliMarch2025() {
             thumbnail: retreat11Thumbnail,
         },
         {
-            original: retreat6,
-            thumbnail: retreat6Thumbnail,
+            original: retreat25,
+            thumbnail: retreat25Thumbnail,
         },
         {
             original: retreat14,
@@ -84,10 +89,6 @@ function RetreatBaliMarch2025() {
         {
             original: retreat15,
             thumbnail: retreat15Thumbnail,
-        },
-        {
-            original: retreat16,
-            thumbnail: retreat16Thumbnail,
         },
         {
             original: retreat17,
@@ -110,12 +111,28 @@ function RetreatBaliMarch2025() {
             thumbnail: retreat21Thumbnail,
         },
         {
-            original: retreat22,
-            thumbnail: retreat22Thumbnail,
+            original: retreat24,
+            thumbnail: retreat24Thumbnail,
         },
         {
-            original: retreat23,
-            thumbnail: retreat23Thumbnail,
+            original: retreat29,
+            thumbnail: retreat29Thumbnail,
+        },
+        {
+            original: retreat30,
+            thumbnail: retreat30Thumbnail,
+        },
+        {
+            original: retreat26,
+            thumbnail: retreat26Thumbnail,
+        },
+        {
+            original: retreat27,
+            thumbnail: retreat27Thumbnail,
+        },
+        {
+            original: retreat28,
+            thumbnail: retreat28Thumbnail,
         }
     ]
 
@@ -169,13 +186,13 @@ function RetreatBaliMarch2025() {
 
                         </p>
 
-                        <p><span className="fw-bolder">Cuándo:</span>
-                            Desde el 13 al 19 de Marzo 20025 - 7 días, 6 noches de Pura Transformación.</p>
+                        <p><span className="fw-bolder">Cuándo: </span>
+                            Desde el 13 al 19 de Marzo 2025 - 7 días, 6 noches de Pura Transformación.</p>
                         <p><span className="fw-bolder">Dónde:</span> En el Paraiso de Ubud- Bali, Indonesia.</p>
 
                         <p><span className="fw-bolder">Nuestro Retiro Incluye:</span></p>
                         <ul>
-                            <li> 6 noches - 7 dias en el alojamiento que elijas</li>
+                            <li> 6 noches - 7 días en habitación compartida</li>
                             <li>
                                 Bebida de Bienvenida
                             </li>
@@ -194,7 +211,6 @@ function RetreatBaliMarch2025() {
                                     <li>Arrozales</li>
                                     <li>Exploraremos el Centro de Ubud</li>
                                     <li>Caminada al Volcán Batur para disfrutar del Amanecer</li>
-                                    <li>Hot Spring</li>
                                 </ul>
                             </li>
                         </ul>
@@ -224,7 +240,7 @@ function RetreatBaliMarch2025() {
                                 <li>Pranayama(EJercicios de Respiración)</li>
                                 <li> Práctica de Vinyasa Yoga Multinivel (Todos los niveles)</li>
                                 <li> Taller de Meditación, Irémos más profundo
-                                    en los diferentes tipos de Meditación enfocandonos en el poder de los Mantras.
+                                    en los diferentes tipos de Meditación.
                                 </li>
                                 <li>Tiempo libre
                                     para
@@ -262,18 +278,16 @@ function RetreatBaliMarch2025() {
                             <ul>
                                 <li>Pranayama(EJercicios de Respiración)</li>
                                 <li>Práctica de Vinyasa Yoga Multinivel (Todos los Niveles)</li>
-                                <li>Taller de Manifestacion y Ritual Podereso para Manifestar tus Sueños</li>
+                                <li>Aprenderemos Técnicas para Calmar el Sistema Nervioso</li>
                                 <li>Tiempo libre
                                     para
                                     descansar,
                                     escribir, leer, disfrutar la piscina, o simplemente conectar con el resto de los
                                     integrantes del retiro
                                 </li>
-                                <li> Aprenderemos Técnicas para Calmar el Sistema Nervioso</li>
-                                <li> Sesión de Relajación.
-                                </li>
-                                <li> Baño de sonidos con instrumentos musicales.
-                                </li>
+                                <li>Taller de Manifestacion y Ritual Podereso para Manifestar tus Sueños</li>
+                                <li> Sesión de Relajación.</li>
+                                <li> Baño de sonidos con instrumentos musicales.</li>
                             </ul>
                             <p className="fw-bolder">Dia 6 - Martes</p>
                             <ul>
@@ -281,13 +295,12 @@ function RetreatBaliMarch2025() {
                                 <li>Caminada al Volcán Batur para disfrutar de la naturaleza y la magia del
                                     Amanecer.
                                 </li>
-                                <li> Hot Springs, ten tu vestido de baño listo</li>
                                 <li>Yin yoga para relajar mente y cuerpo.
                                 </li>
                             </ul>
 
 
-                            <p className="fw-bolder">Dia 7 - Lunes</p>
+                            <p className="fw-bolder">Dia 7 - Miércoles</p>
                             <ul>
                                 <li> Pranayama - (Ejercicios de Respiración)</li>
                                 <li> Práctica de Vinyasa Yoga Multinivel (Todos los Niveles)</li>
@@ -320,6 +333,7 @@ function RetreatBaliMarch2025() {
                         {original: deluxe2, thumbnail: deluxe2},
                         {original: deluxe3, thumbnail: deluxe3},
                         {original: deluxe1, thumbnail: deluxe1},
+                        {original: deluxe4, thumbnail: deluxe4},
                     ]} autoPlay={false} showThumbnails={true}/>
                 </div>
                 <div className="col-md-3"/>
