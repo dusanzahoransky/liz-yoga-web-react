@@ -33,7 +33,7 @@ function App() {
               <Route path='/workshop-in-person' element={<WorkshopInPerson/>}/>
               <Route path='/session-especial' element={<SessionEspecial/>}/>
               <Route path='/sesion-de-relajacion' element={<SesionDeRelajacion/>}/>
-              <Route path='/women-day' element={<WomenCircle/>}/>
+              <Route path='/medicina-al-alma' element={<WomenCircle/>}/>
               <Route path='/retreat-bali-sept-24' element={<RetreatBaliSept2024/>}/>
               <Route path='/retreat-bali-march-25' element={<RetreatBaliMarch2025/>}/>
               <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>

@@ -140,7 +140,7 @@ function RetreatBaliMarch2025() {
         <main role="main" className="container">
 
             <DetailsHeading text='Satya Retiro de Yoga y Bienestar - Crea tu Realidad'/>
-            <h3 className="details-subheading">Ubud - Bali, Marzo 2025</h3>
+            <h3 className="details-subheading">Ubud - Bali, Mayo 2025</h3>
 
             <div className="container details text-justify">
 
@@ -187,7 +187,7 @@ function RetreatBaliMarch2025() {
                         </p>
 
                         <p><span className="fw-bolder">Cuándo: </span>
-                            Desde el 13 al 19 de Marzo 2025 - 7 días, 6 noches de Pura Transformación.</p>
+                            Desde el 2 al 8 de Mayo 2025 - 7 días, 6 noches de Pura Transformación.</p>
                         <p><span className="fw-bolder">Dónde:</span> En el Paraiso de Ubud- Bali, Indonesia.</p>
 
                         <p><span className="fw-bolder">Nuestro Retiro Incluye:</span></p>
@@ -230,12 +230,12 @@ function RetreatBaliMarch2025() {
 
                     <div className="row">
                         <div className="col">
-                            <p className="fw-bolder">Dia 1 - Jueves</p>
+                            <p className="fw-bolder">Dia 1 - Viernes</p>
                             <ul>
                                 <li>Ceremonia de Bienvenida 4 Pm <br/>(Check-in desde 2 pm)</li>
                                 <li>Cena de Integración</li>
                             </ul>
-                            <p className="fw-bolder">Dia 2 - Viernes</p>
+                            <p className="fw-bolder">Dia 2 - Sábado</p>
                             <ul>
                                 <li>Pranayama(EJercicios de Respiración)</li>
                                 <li> Práctica de Vinyasa Yoga Multinivel (Todos los niveles)</li>
@@ -251,7 +251,7 @@ function RetreatBaliMarch2025() {
                                 <li> Yin yoga para relajar cuerpo y mente</li>
                                 <li> Baño de sonidos con instrumentos musicales.</li>
                             </ul>
-                            <p className="fw-bolder">Dia 3 - Sábado</p>
+                            <p className="fw-bolder">Dia 3 - Domingo</p>
                             <ul>
                                 <li>Pranayama(EJercicios de Respiración)</li>
                                 <li> Ashtanga Yoga (Primera Serie, para Todos los Niveles)</li>
@@ -265,7 +265,7 @@ function RetreatBaliMarch2025() {
                                 </li>
 
                             </ul>
-                            <p className="fw-bolder">Dia 4 - Domingo</p>
+                            <p className="fw-bolder">Dia 4 - Lunes</p>
                             <ul>
                                 <li>Pranayama(EJercicios de Respiración)</li>
                                 <li>Bhakti Yoga (Yoga Devocional, Todos los Niveles)</li>
@@ -274,7 +274,7 @@ function RetreatBaliMarch2025() {
                                 <li>Tiempo libre para ti</li>
                                 <li>Clase de Vinyasa para Avanzar en tu Práctica.</li>
                             </ul>
-                            <p className="fw-bolder">Dia 5 - Lunes</p>
+                            <p className="fw-bolder">Dia 5 - Martes</p>
                             <ul>
                                 <li>Pranayama(EJercicios de Respiración)</li>
                                 <li>Práctica de Vinyasa Yoga Multinivel (Todos los Niveles)</li>
@@ -289,7 +289,7 @@ function RetreatBaliMarch2025() {
                                 <li> Sesión de Relajación.</li>
                                 <li> Baño de sonidos con instrumentos musicales.</li>
                             </ul>
-                            <p className="fw-bolder">Dia 6 - Martes</p>
+                            <p className="fw-bolder">Dia 6 - Miércoles</p>
                             <ul>
                                 <li>Excursiones:</li>
                                 <li>Caminada al Volcán Batur para disfrutar de la naturaleza y la magia del
@@ -300,7 +300,7 @@ function RetreatBaliMarch2025() {
                             </ul>
 
 
-                            <p className="fw-bolder">Dia 7 - Miércoles</p>
+                            <p className="fw-bolder">Dia 7 - Jueves</p>
                             <ul>
                                 <li> Pranayama - (Ejercicios de Respiración)</li>
                                 <li> Práctica de Vinyasa Yoga Multinivel (Todos los Niveles)</li>
@@ -361,7 +361,7 @@ function RetreatBaliMarch2025() {
 
     function isPrivate() {
         const queryParams = new URLSearchParams(window.location.search);
-        return queryParams && queryParams.get('code') === 'BaliMarzo2025'
+        return queryParams && queryParams.get('code') === 'BaliMayo2025'
     }
 
     function getDepositSection() {
@@ -376,7 +376,7 @@ function RetreatBaliMarch2025() {
                     <span className="fw-bolder">$2.444 AUD</span> Pago Total del Retiro hasta el 01 de Febrero.
                 </p>
                 <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $150 AUD</span> antes del 15 de Octubre.</p>
+                    <span className="fw-bolder"> $150 AUD</span> antes del 31 de Octubre.</p>
                 <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
                     solo para ti desde <span className="fw-bolder">$100 AUD </span> o más por recomendar a tus
                     amigas(os) y realicen
@@ -389,9 +389,9 @@ function RetreatBaliMarch2025() {
                 </p>
                 <p>El resto del valor del Retiro se distribuirán en 3 cuotas así:
                     <ul>
-                        <li>10 de Noviembre,</li>
-                        <li>20 de Diciembre,</li>
-                        <li>01 de Febrero.</li>
+                        <li>30 de Noviembre,</li>
+                        <li>31 de Enero,</li>
+                        <li>10 de Marzo.</li>
                     </ul>
                     <b><i><span className="fw-bolder" style={{fontSize: 14}}>
                                     Los Pagos no son reembolsables ya que se utilizan para el pago de la acomodación, paquete de

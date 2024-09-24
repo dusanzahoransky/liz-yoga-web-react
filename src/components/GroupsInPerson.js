@@ -82,7 +82,7 @@ function GroupsInPerson() {
                                      alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>
                             </a>
                         </div>
-                        <p>Hora: 5:35 am</p>
+                        <p>Hora: 5:30 am</p>
                         <p>Hora: 8:00 am</p>
                         <p>Lugar: Coogee Beach.</p>
 

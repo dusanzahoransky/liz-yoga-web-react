@@ -27,7 +27,7 @@ function Home() {
                       <div className="container">
                           <div className="carousel-caption carousel-caption-light">
                               <h2>RETIRO DE YOGA Y BIENESTAR</h2>
-                              <h3>Bali Marzo 2025</h3>
+                              <h3>Bali Mayo 2025</h3>
                           </div>
                       </div>
                       </a>
@@ -79,7 +79,8 @@ function Home() {
 
 
           <div className="container introduction">
-              <h1 className="display-6 rem-2">YOGA CON LIZ <span className="color-secondary">NEIRA</span></h1>
+              <h1 className="display-6">YOGA CON LIZ <span className="color-secondary">NEIRA</span></h1>
+              <h5 className="rem-2"><a href="https://www.instagram.com/lizneirar/">Instagram: @lizneirar</a></h5>
               <p className="text-justify">Desde hace 7 años el Yoga atrajo mi atención y descubrí un mundo fantástico en
                   donde
                   descubrí los beneficios físicos, mentales y espirituales que esta extraordinaria disciplina
@@ -111,7 +112,7 @@ function Home() {
                                   <div>
                                       {/*<div className="sold-out-stamp-small">*/}
                                       <div>
-                                          <p href="/groups-in-person" className="card-title">BALI MARZO 2025</p>
+                                          <p href="/groups-in-person" className="card-title">BALI MAYO 2025</p>
                                       </div>
                                   </div>
 
