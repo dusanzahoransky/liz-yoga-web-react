@@ -86,7 +86,7 @@ function WomenCircle() {
     return (<>
         <main role="main" className="container">
 
-            <DetailsHeading text='Circulo de Mujeres - Abril'/>
+            <DetailsHeading text='Circulo de Mujeres - Mayo'/>
 
             <div className="container details">
 
@@ -147,7 +147,7 @@ function WomenCircle() {
                         <p>Domingo 19 de Mayo, 8:00 AM a 12:00 PM.</p>
                         {getPriceSection()}
 
-                        <span className="fw-bold">Información Importante: En caso de lluvia, cambiaremos el lugar (Indoor) y probablemente la hora de encuentro, te informaré el Martes 16 de Abril, así que te sugiero reservar TODO el domingo para ti.</span>
+                        <span className="fw-bold">Información Importante: En caso de lluvia, cambiaremos el lugar (Indoor) y probablemente la hora de encuentro, te informaré el Martes 14 de Mayo, así que te sugiero reservar TODO el domingo para ti.</span>
                         <PreparationItems preparationItems={[
                             'Debes realizar el pago por anticipado para reservar tu espacio.',
                             'Ser puntuales es muy importante, nuestro circulo de mujeres inicia a la hora programada, asi que, te recomiendo puntualidad.',

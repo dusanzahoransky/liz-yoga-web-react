@@ -72,7 +72,7 @@ function RetreatBaliSept2024() {
                     <p><i className="fa fa-credit-card"></i> <span
                         className="fw-bolder">RESERVA TU ESPACIO:</span> Deposito
                         (no reembolsable) de $500 Aud con transferencia
-                        electrónica al numero celular 0413147237. El resto del pago Pago Total del Retiro hasta el día 04 de Julio. </p>
+                        electrónica al numero celular 0413147237. El resto del pago Pago Total del Retiro hasta el día 15 de Julio. </p>
                 </div>
             </>
         }
@@ -421,8 +421,8 @@ function RetreatBaliSept2024() {
                     <p>Escoge tu mejor opción de Alojamiento:</p>
                     <div className="row">
                         <div className="col-lg-6">
-                            <p><span className="fw-bolder">OPCIÓN 1:</span> Habitación compartida con tu mejor amiga
-                                en <b>una cama extra double</b> (2 personas).</p>
+                            <p><span className="fw-bolder">OPCIÓN 1:</span> Habitación compartida con tu mejor
+                                amiga(o)/pareja en <b>una cama extra double</b> (2 personas).</p>
                         </div>
                         <div className="col-lg-6">
                             {isPrivate() ? "Valor Total del Retiro Por Persona $2,090 AUD" : ""}
@@ -430,13 +430,18 @@ function RetreatBaliSept2024() {
                     </div>
                     <div className="row">
                         <div className="col-lg-6">
-                            <p><span className="fw-bolder">OPCIÓN 2:</span> Habitación compartida, dos camas
-                                sencillas
+                            <p><span className="fw-bolder">OPCIÓN 2:</span> Habitación compartida, una cama doble y una cama
+                                sencilla
                                 (2
                                 personas).</p>
                         </div>
                         <div className="col-lg-6">
-                            {isPrivate() ? "Valor Total del Retiro Por Persona $2,190 AUD" : ""}
+                            {isPrivate() ? "Valor Total del Retiro con Cama Sencilla Por Persona $2,199 AUD" : ""}
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-12">
+                            {isPrivate() ? "Valor Total del Retiro con Cama Doble Por Persona $2,299 AUD" : ""}
                         </div>
                     </div>
                     <div className="row space-before">
@@ -497,7 +502,7 @@ function RetreatBaliSept2024() {
                                 en una cama king (2 personas).</p>
                         </div>
                         <div className="col-lg-5">
-                            {isPrivate() ? "Valor Total del Retiro Por Persona $2,390 AUD" : ""} <sup>*Recomendado
+                            {isPrivate() ? "Valor Total del Retiro Por Persona $2,499 AUD" : ""} <sup>*Recomendado
                             de Lujo</sup>
                         </div>
                     </div>
@@ -507,7 +512,7 @@ function RetreatBaliSept2024() {
                                 cama sencilla (2 personas).</p>
                         </div>
                         <div className="col-lg-5">
-                            {isPrivate() ? "Valor Total del Retiro Por persona $2,590 AUD" : ""}
+                            {isPrivate() ? "Valor Total del Retiro Por persona $2,790 AUD" : ""}
                         </div>
                     </div>
 

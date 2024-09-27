@@ -65,7 +65,7 @@ function Home() {
                           <div className="container">
                               <div className="carousel-caption carousel-caption-light">
                                   <h2>CIRCULO DE MUJERES</h2>
-                                  <h3>Marzo 10</h3>
+                                  <h3>Mayo 19</h3>
                               </div>
                           </div>
                       </a>

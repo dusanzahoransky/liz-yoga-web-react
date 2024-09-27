@@ -32,7 +32,8 @@ function GroupsOnline() {
                       <p>Serán grupos de hasta máximo 15 personas.</p>
 
                       <h3>Cuando</h3>
-                      <p>Miercoles o Jueves, 7:30 pm hora Sydney (decidiremos a inicios de cada semana el dia)</p>
+                      {/*<p>Miercoles o Jueves, 7:30 pm hora Sydney (decidiremos a inicios de cada semana el dia)</p>*/}
+                      <p>Domingo 9:00 am hora Sydney</p>
 
                       <h3>Valor</h3>
                       <p>$21 AUD.</p>
