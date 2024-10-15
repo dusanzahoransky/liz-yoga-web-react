@@ -1,19 +1,3 @@
-import sessionEspecial4 from '../images/session-especial/session-especial-4.jpg';
-import sessionEspecial4Thumbnail from '../images/session-especial-thumbnail/session-especial-4-thumbnail.jpg';
-import sessionEspecial5 from '../images/session-especial/session-especial-5.jpg';
-import sessionEspecial5Thumbnail from '../images/session-especial-thumbnail/session-especial-5-thumbnail.jpg';
-import sessionEspecial6 from '../images/session-especial/session-especial-6.jpg';
-import sessionEspecial6Thumbnail from '../images/session-especial-thumbnail/session-especial-6-thumbnail.jpg';
-import sessionEspecial7 from '../images/session-especial/session-especial-7.jpg';
-import sessionEspecial7Thumbnail from '../images/session-especial-thumbnail/session-especial-7-thumbnail.jpg';
-import sessionEspecial8 from '../images/session-especial/session-especial-8.jpg';
-import sessionEspecial8Thumbnail from '../images/session-especial-thumbnail/session-especial-8-thumbnail.jpg';
-import sessionEspecial9 from '../images/session-especial/session-especial-9.jpeg';
-import sessionEspecial9Thumbnail from '../images/session-especial-thumbnail/session-especial-9-thumbnail.jpeg';
-import sessionEspecial10 from '../images/session-especial/session-especial-10.jpeg';
-import sessionEspecial10Thumbnail from '../images/session-especial-thumbnail/session-especial-10-thumbnail.jpg';
-import sessionEspecial11 from '../images/session-especial/session-especial-11.jpeg';
-import sessionEspecial11Thumbnail from '../images/session-especial-thumbnail/session-especial-11-thumbnail.jpg';
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
 import DetailsHeading from "./classDetails/DetailsHeading";
@@ -22,55 +6,58 @@ import PreparationItems from "./classDetails/PreparationItems";
 import ImageGallery from 'react-image-gallery';
 import '../image-gallery.css';
 import {ClassType} from "../model/ClassType";
+import sessionEspecial1 from "../images/session-especial/session-especial-1.jpg";
+import sessionEspecial1Thumbnail from "../images/session-especial-thumbnail/session-especial-1-thumbnail.jpg";
+import sessionEspecial2 from "../images/session-especial/session-especial-2.jpg";
+import sessionEspecial2Thumbnail from "../images/session-especial-thumbnail/session-especial-2-thumbnail.jpg";
+import sessionEspecial3 from "../images/session-especial/session-especial-3.jpg";
+import sessionEspecial3Thumbnail from "../images/session-especial-thumbnail/session-especial-3-thumbnail.jpg";
+import sessionEspecial12 from "../images/session-especial/session-especial-12.jpeg";
+import sessionEspecial12Thumbnail from "../images/session-especial-thumbnail/session-especial-12-thumbnail.jpg";
+import sessionEspecial13 from "../images/session-especial/session-especial-13.jpeg";
+import sessionEspecial13Thumbnail from "../images/session-especial-thumbnail/session-especial-13-thumbnail.jpg";
+import sessionEspecial14 from "../images/session-especial/session-especial-14.jpeg";
+import sessionEspecial14Thumbnail from "../images/session-especial-thumbnail/session-especial-14-thumbnail.jpg";
+import sessionEspecial15 from "../images/session-especial/session-especial-15.jpeg";
+import sessionEspecial15Thumbnail from "../images/session-especial-thumbnail/session-especial-15-thumbnail.jpg";
 
-function WomenCircle() {
+function WomenCircleIndoor() {
 
-    // const images = [
-    //    {
-    //         original: sessionEspecial1,
-    //         thumbnail: sessionEspecial1Thumbnail,
-    //     },
-    //     {
-    //         original: sessionEspecial2,
-    //         thumbnail: sessionEspecial2Thumbnail,
-    //     },
-    //     {
-    //         original: sessionEspecial3,
-    //         thumbnail: sessionEspecial3Thumbnail,
-    //     }
-    // ]
 
     const images = [
-       {
-            original: sessionEspecial9,
-            thumbnail: sessionEspecial9Thumbnail,
+        {
+            original: sessionEspecial14,
+            thumbnail: sessionEspecial14Thumbnail,
         },
         {
-            original: sessionEspecial10,
-            thumbnail: sessionEspecial10Thumbnail,
+            original: sessionEspecial1,
+            thumbnail: sessionEspecial1Thumbnail,
         },
         {
-            original: sessionEspecial6,
-            thumbnail: sessionEspecial6Thumbnail,
+            original: sessionEspecial2,
+            thumbnail: sessionEspecial2Thumbnail,
         },
         {
-            original: sessionEspecial7,
-            thumbnail: sessionEspecial7Thumbnail,
+            original: sessionEspecial3,
+            thumbnail: sessionEspecial3Thumbnail,
         },
         {
-            original: sessionEspecial8,
-            thumbnail: sessionEspecial8Thumbnail,
+            original: sessionEspecial12,
+            thumbnail: sessionEspecial12Thumbnail,
         },
         {
-            original: sessionEspecial11,
-            thumbnail: sessionEspecial11Thumbnail,
+            original: sessionEspecial13,
+            thumbnail: sessionEspecial13Thumbnail,
+        },
+        {
+            original: sessionEspecial15,
+            thumbnail: sessionEspecial15Thumbnail,
         }
     ]
 
-
     function isPrivate() {
         const queryParams = new URLSearchParams(window.location.search);
-        return queryParams && queryParams.get('code') === 'MedicinaAlAlma'
+        return queryParams && queryParams.get('code') === 'MedicinaAlAlmaIndoor'
     }
 
     function getPriceSection() {
@@ -82,8 +69,8 @@ function WomenCircle() {
                 <h3>Precio</h3>
                 <p>Intercambio de Valor: 111 AUD
                     <ul>
-                        <li>Separa Antes del 7 de Octubre: 99 AUD</li>
-                        <li>Si has Participado en algún Círculo de Mujeres o Retiro de Yoga y Bienestar 88 AUD.</li>
+                        <li>Separa Antes del 30 de Octubre: 99 AUD</li>
+                        <li>Si has Participado en algún Círculo de Mujeres o Retiro de Yoga y Bienestar en Bali 88 AUD.</li>
                     </ul>
                 </p>
                 <p>Separa tu espacio realizando transferencia al número celular 0413147237.</p>
@@ -94,13 +81,13 @@ function WomenCircle() {
     return (<>
         <main role="main" className="container">
 
-            <DetailsHeading text='Sesión Medicina al Alma - Octubre'/>
+            <DetailsHeading text='Mini-Retiro Medicina al Alma - Noviembre'/>
 
             <div className="container details">
 
                 <div className="row">
                     <div className="col">
-                        <p className="text-justify">Te invito a nuestra Sesión Especial el Domingo 13 de Octubre, en donde tendremos diferentes prácticas espirituales que nos ayudarán a seguir expandiendo nuestra conciencia. Adicionalmente es la oportunidad perfecta para seguir conectando con otros seres humanos que al igual que tú  buscan un espacio de relajación, movimiento y aprendizaje, un espacio para compartir reflexiones, experiencias y ofrecer apoyo emocional. Mujeres y Hombres bienvenidos.</p>
+                        <p className="text-justify">Te invito a nuestra Sesión Especial el Sábado 9 de Noviembre, en donde tendremos diferentes prácticas espirituales que nos ayudarán a seguir expandiendo nuestra conciencia. Adicionalmente es la oportunidad perfecta para seguir conectando con otros seres humanos que al igual que tú  buscan un espacio de relajación, movimiento y aprendizaje, un espacio para compartir reflexiones, experiencias y ofrecer apoyo emocional. Mujeres y Hombres bienvenidos.</p>
                     </div>
                 </div>
 
@@ -129,26 +116,26 @@ function WomenCircle() {
                         <ul className="class-preparation-list text-justify">
                             <li>Ejercicios de Respiración para Activar tu Energía Vital.</li>
                             <li>
-                                Clase Multinivel de Vinyasa Yoga enfocada a tu Chakra Sacro, libera emociones
-                                reprimidas, regresa a tu creatividad y sensualidad.
+                                Clase Multinivel de Vinyasa Yoga enfocada a liberar emociones
+                                reprimidas.
                             </li>
                             <li>Relajación Cuerpo y Mente a través de Instrumentos Musicales como Cuencos Tibetanos y de
                                 Cristal entre otros.
                             </li>
-                            <li>Activación Código Sagrado para la Abundancia.
+                            <li>Ritualitos: Activación Código Sagrado para la Abundancia.
                             </li>
                             <li>Tendremos diferentes ejercicios/técnicas de Dibujo en donde aprenderás a liberar el
-                                estrés y ansiedad.
+                                estrés y ansiedad asi como un masajito para estimular el nervio vago.
                             </li>
-                            <li>Snacks deliciosos.
+                            <li>Snacks deliciosos y mucho mas.
                             </li>
 
                         </ul>
-                        {/*<h3>Lugar</h3>*/}
-                        {/*<p>Coogee Beach, Goldstein Reserve - Sydney.</p>*/}
-                        {/*<h3>Fecha y Hora</h3>*/}
-                        {/*<p>Domingo 13 de Octubre, 7:45 AM a 11:15/30 AM.</p>*/}
-                        {/*{getPriceSection()}*/}
+                        <h3>Lugar</h3>
+                        <p>Our Yoga Space. 2/52 Ourimbah Rd, Mosman</p>
+                        <h3>Fecha y Hora</h3>
+                        <p>Sábado 9 de Noviembre, 11:00 AM a 2:30 PM.</p>
+                        {getPriceSection()}
 
                         <span className="fw-bold">
                             Información Importante: En caso de lluvia, cambiaremos el lugar (Indoor) y probablemente la hora de encuentro, te informaré el Martes 8 de Octubre, así que te sugiero reservar el domingo hasta las 4 pm solo para ti.
@@ -177,4 +164,4 @@ function WomenCircle() {
     </>);
 }
 
-export default WomenCircle;
+export default WomenCircleIndoor;

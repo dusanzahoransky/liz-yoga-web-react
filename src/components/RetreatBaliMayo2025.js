@@ -55,9 +55,13 @@ import ImageGallery from 'react-image-gallery';
 import '../image-gallery.css';
 import {ClassType} from "../model/ClassType";
 
-function RetreatBaliMarch2025() {
+function RetreatBaliMayo2025() {
 
     const images = [
+        {
+            original: retreat15,
+            thumbnail: retreat15Thumbnail,
+        },
         {
             original: retreat3,
             thumbnail: retreat3Thumbnail,
@@ -87,10 +91,6 @@ function RetreatBaliMarch2025() {
             thumbnail: retreat14Thumbnail,
         },
         {
-            original: retreat15,
-            thumbnail: retreat15Thumbnail,
-        },
-        {
             original: retreat17,
             thumbnail: retreat17Thumbnail,
         },
@@ -103,6 +103,10 @@ function RetreatBaliMarch2025() {
             thumbnail: retreat19Thumbnail,
         },
         {
+            original: retreat29,
+            thumbnail: retreat29Thumbnail,
+        },
+        {
             original: retreat20,
             thumbnail: retreat20Thumbnail,
         },
@@ -113,10 +117,6 @@ function RetreatBaliMarch2025() {
         {
             original: retreat24,
             thumbnail: retreat24Thumbnail,
-        },
-        {
-            original: retreat29,
-            thumbnail: retreat29Thumbnail,
         },
         {
             original: retreat30,
@@ -346,7 +346,7 @@ function RetreatBaliMarch2025() {
             <div className="row">
                 <div className="col-md-3"></div>
                 <div className="col-md-6">
-                    <ContactForm yogaClassType={ClassType.RetreatBaliMarch2025}/>
+                    <ContactForm yogaClassType={ClassType.RetreatBaliMayo2025}/>
                 </div>
                 <div className="col-md-3"></div>
             </div>
@@ -361,7 +361,7 @@ function RetreatBaliMarch2025() {
 
     function isPrivate() {
         const queryParams = new URLSearchParams(window.location.search);
-        return queryParams && queryParams.get('code') === 'BaliMayo2025'
+        return queryParams && (queryParams.get('code') === 'BaliMayo2025' || queryParams.get('code') === 'BaliMarzo2025')
     }
 
     function getDepositSection() {
@@ -402,4 +402,4 @@ function RetreatBaliMarch2025() {
     }
 }
 
-export default RetreatBaliMarch2025;
+export default RetreatBaliMayo2025;
