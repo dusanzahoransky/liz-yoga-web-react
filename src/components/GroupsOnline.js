@@ -31,14 +31,16 @@ function GroupsOnline() {
                       <h3>Clases Grupales Online</h3>
                       <p>Serán grupos de hasta máximo 15 personas.</p>
 
-                      <h3>Cuando</h3>
-                      <p>Miercoles o Jueves, 7:30 pm hora Sydney (decidiremos a inicios de cada semana el dia)</p>
+                      <h3>Cuando?</h3>
+                      <p>Este Jueves 24 de Octubre de 7 pm (hora Sydney) hasta las 8:30 pm</p>
 
                       <h3>Valor</h3>
-                      <p>$21 AUD.</p>
-                      <p className="text-justify">Realiza la transferencia de la clase al número celular 0413147237
-                          para separar tu espacio, se reciben
-                          confirmaciones y pago para la clase hasta el Miercoles.</p>
+                      <p>Sesión Gratuita</p>
+                      <p>Ingresa a la sesión con este link <a className="call-link" href="https://calendar.app.google/rwEN3NioCvXFfGvn9">Clase Gratuita de Yoga y Charla Retiro de Bienestar Bali</a></p>
+                      {/*<p>$21 AUD.</p>*/}
+                      {/*<p className="text-justify">Realiza la transferencia de la clase al número celular 0413147237*/}
+                      {/*    para separar tu espacio, se reciben*/}
+                      {/*    confirmaciones y pago para la clase hasta el Miercoles.</p>*/}
                   </div>
 
                   <div className="col-md-1"/>
@@ -59,13 +61,13 @@ function GroupsOnline() {
                   <div className="col-md-6">
                       <PreparationItems preparationItems={[
                           'Preferiblemente encuentra un espacio amplio y cómodo en donde puedas moverte durante la práctica.',
-                          'Debes realizar el pago por anticipado para separar tu cupo.',
+                          // 'Debes realizar el pago por anticipado para separar tu cupo.',
                           'Es recomendable utilizar el portátil para que la imagen sea más amplia, si lo puedes conectar al TV estaría perfecto.',
                           'Si tu conexión a wifi no es muy estable, te recomiendo conectar el portátil a tus datos a través de hotspot y así evitar que se congele la imaginen o te desconectes de la video llamada.',
                           'Ser puntuales es muy importante, así evitan perderse parte de la clase.',
                           'Preferible recogerse el cabello, aunque si les gusta suelto esta perfecto. (Chicas)',
                           'Ten una botellita de agua para hidratarte.',
-                          'Luego de confirmada la clase no se hace devolución del dinero, puedes aplazar la clase solo una vez.',
+                          // 'Luego de confirmada la clase no se hace devolución del dinero, puedes aplazar la clase solo una vez.',
                       ]}/>
                   </div>
 

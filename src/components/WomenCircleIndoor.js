@@ -69,8 +69,8 @@ function WomenCircleIndoor() {
                 <h3>Precio</h3>
                 <p>Intercambio de Valor: 111 AUD
                     <ul>
-                        <li>Separa Antes del 30 de Octubre: 99 AUD</li>
-                        <li>Si has Participado en algún Círculo de Mujeres o Retiro de Yoga y Bienestar en Bali 88 AUD.</li>
+                        <li>Separa Antes del 26 de Octubre: 99 AUD</li>
+                        <li>Si has Participado en algún Círculo de Mujeres o Retiro de Yoga y Bienestar en Bali 88 AUD, hasta el 26 de Octubre.</li>
                     </ul>
                 </p>
                 <p>Separa tu espacio realizando transferencia al número celular 0413147237.</p>
@@ -137,9 +137,9 @@ function WomenCircleIndoor() {
                         <p>Sábado 9 de Noviembre, 11:00 AM a 2:30 PM.</p>
                         {getPriceSection()}
 
-                        <span className="fw-bold">
-                            Información Importante: En caso de lluvia, cambiaremos el lugar (Indoor) y probablemente la hora de encuentro, te informaré el Martes 8 de Octubre, así que te sugiero reservar el domingo hasta las 4 pm solo para ti.
-                        </span>
+                        {/*<span className="fw-bold">*/}
+                        {/*    Información Importante: En caso de lluvia, cambiaremos el lugar (Indoor) y probablemente la hora de encuentro, te informaré el Martes 8 de Octubre, así que te sugiero reservar el domingo hasta las 4 pm solo para ti.*/}
+                        {/*</span>*/}
                         <PreparationItems preparationItems={[
                             'Debes realizar el pago por anticipado para reservar tu espacio.',
                             'Ser puntuales es muy importante, nuestro Sesión inicia a la hora programada, asi que, te recomiendo puntualidad.',
