@@ -21,7 +21,7 @@ import sessionEspecial14Thumbnail from "../images/session-especial-thumbnail/ses
 import sessionEspecial15 from "../images/session-especial/session-especial-15.jpeg";
 import sessionEspecial15Thumbnail from "../images/session-especial-thumbnail/session-especial-15-thumbnail.jpg";
 
-function WomenCircleIndoor() {
+function MiniRetiroNoviembre() {
 
 
     const images = [
@@ -164,4 +164,4 @@ function WomenCircleIndoor() {
     </>);
 }
 
-export default WomenCircleIndoor;
+export default MiniRetiroNoviembre;

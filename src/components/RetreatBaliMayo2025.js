@@ -375,8 +375,12 @@ function RetreatBaliMayo2025() {
                 <p>Habitación Compartida con una persona, valor Total del Retiro Por Persona
                     <span className="fw-bolder">$2.444 AUD</span> Pago Total del Retiro hasta el 01 de Febrero.
                 </p>
+                <p><s><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
+                    <span className="fw-bolder"> $150 AUD</span> antes del 30 de Noviembre.</s></p>
                 <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $150 AUD</span> antes del 31 de Octubre.</p>
+                    <span className="fw-bolder"> $100 AUD</span> antes del 31 de Diciembre.</p>
+                <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
+                    <span className="fw-bolder"> $50 AUD</span> antes del 31 de Enero.</p>
                 <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
                     solo para ti desde <span className="fw-bolder">$100 AUD </span> o más por recomendar a tus
                     amigas(os) y realicen
@@ -387,12 +391,14 @@ function RetreatBaliMayo2025() {
                     electrónica al numero celular 0413147237.
 
                 </p>
-                <p>El resto del valor del Retiro se distribuirán en 3 cuotas así:
-                    <ul>
-                        <li>30 de Noviembre,</li>
-                        <li>31 de Enero,</li>
-                        <li>10 de Marzo.</li>
-                    </ul>
+                <p>El resto del valor del Retiro se distribuirán en 3 cuotas
+                    {/*<ul>*/}
+                    {/*    <li>30 de Noviembre,</li>*/}
+                    {/*    <li>31 de Enero,</li>*/}
+                    {/*    <li>10 de Marzo.</li>*/}
+                    {/*</ul>*/}
+                </p>
+                <p>
                     <b><i><span className="fw-bolder" style={{fontSize: 14}}>
                                     Los Pagos no son reembolsables ya que se utilizan para el pago de la acomodación, paquete de
                     comidas, transporte etc.</span></i></b>

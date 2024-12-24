@@ -24,6 +24,11 @@ img{
 .form-control{
     border-radius: 10px;
 }
+.winner-input{
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-radius: 10px;
+}
 
 .color-secondary{
     color: rgba(156, 45, 65, 1);
@@ -180,7 +185,7 @@ a:hover {
     color: #fff;
     background-color: rgba(41, 48, 63, 1);
     border-color: rgba(41, 48, 63, 1);
-    box-shadow: 0 0 0 0.2rem rgba(156, 45, 65, 1);
+    box-shadow: 0 0 0 0.2rem rgba(41, 48, 63, 1);
     border-radius: 10px;
 }
 
@@ -488,4 +493,16 @@ label.required {
 
 .form-group {
     margin-bottom: 1rem;
+}
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

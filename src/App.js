@@ -15,10 +15,11 @@ import './App.css'
 import Gallery from "./components/Gallery";
 import Profile from "./components/Profile";
 import RetreatBaliSept2024 from "./components/RetreatBaliSept2024";
-import WomenCircle from "./components/WomenCircle";
+import MiniRetiroDiciembre from "./components/MiniRetiroDiciembre";
 import SesionDeRelajacion from "./components/SesionDeRelajacion";
 import RetreatBaliMayo2025 from "./components/RetreatBaliMayo2025";
-import WomenCircleIndoor from "./components/WomenCircleIndoor";
+import MiniRetiroNoviembre from "./components/MiniRetiroNoviembre";
+import Raffle from "./components/Raffle";
 
 function App() {
   return (
@@ -34,8 +35,9 @@ function App() {
               <Route path='/workshop-in-person' element={<WorkshopInPerson/>}/>
               <Route path='/session-especial' element={<SessionEspecial/>}/>
               <Route path='/sesion-de-relajacion' element={<SesionDeRelajacion/>}/>
-              <Route path='/medicina-al-alma' element={<WomenCircle/>}/>
-              <Route path='/medicina-al-alma-indoor' element={<WomenCircleIndoor/>}/>
+              <Route path='/medicina-al-alma' element={<MiniRetiroDiciembre/>}/>
+              <Route path='/mini-retiro-diciembre' element={<MiniRetiroDiciembre/>}/>
+              <Route path='/mini-retiro-noviembre' element={<MiniRetiroNoviembre/>}/>
               <Route path='/retreat-bali-sept-24' element={<RetreatBaliSept2024/>}/>
               <Route path='/retreat-bali-mayo-25' element={<RetreatBaliMayo2025/>}/>
               <Route path='/retreat-bali-march-25' element={<RetreatBaliMayo2025/>}/>
@@ -43,6 +45,7 @@ function App() {
               <Route path='/data-deletion-instructions' element={<DataDeletionInstructions/>}/>
               <Route path='/gallery' element={<Gallery/>}/>
               <Route path='/error' element={<ErrorPage/>}/>
+              <Route path='/raffle' element={<Raffle/>}/>
           </Routes>
       </>
   );

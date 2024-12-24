@@ -74,7 +74,7 @@ function GroupsInPerson() {
                 <div className="row">
 
                     <div className="col-md-6">
-                        <h3>Yoga al Amanecer - Domingo</h3>
+                        <h3>Yoga al Atardecer - Jueves</h3>
                         {/*<h3>Clase de Yoga Multinivel - Sábado</h3>*/}
                         <div>
                             <a href="https://maps.app.goo.gl/nNqTMuVW8QgsgqVe6" target='_blank' rel="noreferrer">
@@ -82,8 +82,13 @@ function GroupsInPerson() {
                                      alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>
                             </a>
                         </div>
-                        <p>Hora: 5:45 am</p>
-                        <p>Hora: 8:00 am</p>
+                        {/*<p>Hora: 5:45 am</p>*/}
+                        {/*<p>Hora: 8:00 am</p>*/}
+                        <p>Hora: 6:30 pm</p>
+                        <p>Lugar: Coogee Beach.</p>
+
+                        <h3>Yoga en la Mañana - Domingo</h3>
+                        <p>Hora: 6:30 am</p>
                         <p>Lugar: Coogee Beach.</p>
 
                         <p className="text-justify">Sitio de encuentro: Dolphins Point. Llegas a Coogee Pavilion y

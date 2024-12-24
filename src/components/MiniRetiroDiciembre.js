@@ -14,6 +14,8 @@ import sessionEspecial10 from '../images/session-especial/session-especial-10.jp
 import sessionEspecial10Thumbnail from '../images/session-especial-thumbnail/session-especial-10-thumbnail.jpg';
 import sessionEspecial11 from '../images/session-especial/session-especial-11.jpeg';
 import sessionEspecial11Thumbnail from '../images/session-especial-thumbnail/session-especial-11-thumbnail.jpg';
+import sessionEspecial16 from '../images/session-especial/session-especial-16.jpg';
+import sessionEspecial16Thumbnail from '../images/session-especial-thumbnail/session-especial-16-thumbnail.jpg';
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
 import DetailsHeading from "./classDetails/DetailsHeading";
@@ -23,7 +25,7 @@ import ImageGallery from 'react-image-gallery';
 import '../image-gallery.css';
 import {ClassType} from "../model/ClassType";
 
-function WomenCircle() {
+function MiniRetiroDiciembre() {
 
     // const images = [
     //    {
@@ -64,13 +66,17 @@ function WomenCircle() {
         {
             original: sessionEspecial11,
             thumbnail: sessionEspecial11Thumbnail,
+        },
+        {
+            original: sessionEspecial16,
+            thumbnail: sessionEspecial16Thumbnail,
         }
     ]
 
 
     function isPrivate() {
         const queryParams = new URLSearchParams(window.location.search);
-        return queryParams && queryParams.get('code') === 'MedicinaAlAlma'
+        return queryParams && queryParams.get('code') === 'MiniRetirofindeAño'
     }
 
     function getPriceSection() {
@@ -80,10 +86,9 @@ function WomenCircle() {
         } else {
             return <>
                 <h3>Precio</h3>
-                <p>Intercambio de Valor: 111 AUD
+                <p>Intercambio de Valor: 99 AUD
                     <ul>
-                        <li>Separa Antes del 7 de Octubre: 99 AUD</li>
-                        <li>Si has Participado en algún Círculo de Mujeres o Retiro de Yoga y Bienestar 88 AUD.</li>
+                        <li>CUPOS LIMITADOS</li>
                     </ul>
                 </p>
                 <p>Separa tu espacio realizando transferencia al número celular 0413147237.</p>
@@ -94,13 +99,13 @@ function WomenCircle() {
     return (<>
         <main role="main" className="container">
 
-            <DetailsHeading text='Sesión Medicina al Alma - Octubre'/>
+            <DetailsHeading text='Mini-Retiro Fin de Año - Diciembre'/>
 
             <div className="container details">
 
                 <div className="row">
                     <div className="col">
-                        <p className="text-justify">Te invito a nuestra Sesión Especial el Domingo 13 de Octubre, en donde tendremos diferentes prácticas espirituales que nos ayudarán a seguir expandiendo nuestra conciencia. Adicionalmente es la oportunidad perfecta para seguir conectando con otros seres humanos que al igual que tú  buscan un espacio de relajación, movimiento y aprendizaje, un espacio para compartir reflexiones, experiencias y ofrecer apoyo emocional. Mujeres y Hombres bienvenidos.</p>
+                        <p className="text-justify">Te invito a nuestro Mini-Retiro de Fin de Año el Domingo 15 de Diciembre, en donde tendremos diferentes prácticas espirituales que nos ayudarán a seguir expandiendo nuestra conciencia. Adicionalmente es la oportunidad perfecta para seguir conectando con otros seres humanos que al igual que tú  buscan un espacio de relajación, movimiento y aprendizaje, un espacio para compartir reflexiones, experiencias y ofrecer apoyo emocional. Mujeres y Hombres bienvenidos.</p>
                     </div>
                 </div>
 
@@ -128,30 +133,34 @@ function WomenCircle() {
                         </b></p>
                         <ul className="class-preparation-list text-justify">
                             <li>Ejercicios de Respiración para Activar tu Energía Vital.</li>
-                            <li>
-                                Clase Multinivel de Vinyasa Yoga enfocada a tu Chakra Sacro, libera emociones
-                                reprimidas, regresa a tu creatividad y sensualidad.
+                            <li>Meditación Guiada con Baño de Sonido con Cuencos Tibetanos y de Cristal y otros
+                                instrumentos.
                             </li>
-                            <li>Relajación Cuerpo y Mente a través de Instrumentos Musicales como Cuencos Tibetanos y de
-                                Cristal entre otros.
+                            <li>Sesión Multinivel de Yoga enfocada a tu Chakra Garganta, Vishudda , Quinto centro
+                                energético de tu sistema de chakras, Este chakra establece una fuerte conexión con el
+                                lenguaje verbal y corporal, y actúa como puerta de entrada a la expresión, la
+                                comunicación y la autenticidad.
                             </li>
-                            <li>Activación Código Sagrado para la Abundancia.
+                            <li>Creación de tu Mapa de Sueños para el año 2025 o próximo Quinquenio 2025-2029
+                                intensionando cada área importante de tu vida.
                             </li>
-                            <li>Tendremos diferentes ejercicios/técnicas de Dibujo en donde aprenderás a liberar el
-                                estrés y ansiedad.
+                            <li>Ritual de Manifestación escrito
+                            </li>
+                            <li>Ritual de Agradecimiento
                             </li>
                             <li>Snacks deliciosos.
                             </li>
 
                         </ul>
-                        {/*<h3>Lugar</h3>*/}
-                        {/*<p>Coogee Beach, Goldstein Reserve - Sydney.</p>*/}
-                        {/*<h3>Fecha y Hora</h3>*/}
-                        {/*<p>Domingo 13 de Octubre, 7:45 AM a 11:15/30 AM.</p>*/}
-                        {/*{getPriceSection()}*/}
+                        <h3>Lugar</h3>
+                        <p>Coogee Beach, Goldstein Reserve - Sydney.</p>
+                        <h3>Fecha y Hora</h3>
+                        <p>Domingo 15 de Diciembre, 7:00 AM a 10:30/11 AM.</p>
+                        <p>Sabado 28 de Diciembre, 7:00 AM a 10:30/11 AM.</p>
+                        {getPriceSection()}
 
                         <span className="fw-bold">
-                            Información Importante: En caso de lluvia, cambiaremos el lugar (Indoor) y probablemente la hora de encuentro, te informaré el Martes 8 de Octubre, así que te sugiero reservar el domingo hasta las 4 pm solo para ti.
+                            Información Importante: En caso de lluvia, cambiaremos el lugar (Indoor) y probablemente la hora de encuentro, te informaré el Martes de esa misma semana, así que te sugiero reservar el domingo hasta las 3 pm solo para ti.
                         </span>
                         <PreparationItems preparationItems={[
                             'Debes realizar el pago por anticipado para reservar tu espacio.',
@@ -177,4 +186,4 @@ function WomenCircle() {
     </>);
 }
 
-export default WomenCircle;
+export default MiniRetiroDiciembre;
