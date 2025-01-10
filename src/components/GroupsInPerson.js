@@ -11,8 +11,6 @@ import inPerson4Thumbnail from '../images/groups-in-person-thumbnail/card-groups
 import inPerson5Thumbnail from '../images/groups-in-person-thumbnail/card-groups-in-person-5.jpg';
 import inPerson6Thumbnail from '../images/groups-in-person-thumbnail/card-groups-in-person-6.jpg';
 import groupClassLocation from '../images/groups-in-person/group-class-location.png';
-import groupClassLocationCentenial from '../images/groups-in-person/group-class-location-centenial.jpg';
-import groupClassLocationMoorePark from '../images/groups-in-person/class-location-moore-park.jpg';
 
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
@@ -74,7 +72,7 @@ function GroupsInPerson() {
                 <div className="row">
 
                     <div className="col-md-6">
-                        <h3>Yoga al Atardecer - Jueves</h3>
+                        {/*<h3>Yoga al Atardecer - Jueves</h3>*/}
                         {/*<h3>Clase de Yoga Multinivel - Sábado</h3>*/}
                         <div>
                             <a href="https://maps.app.goo.gl/nNqTMuVW8QgsgqVe6" target='_blank' rel="noreferrer">
@@ -84,11 +82,12 @@ function GroupsInPerson() {
                         </div>
                         {/*<p>Hora: 5:45 am</p>*/}
                         {/*<p>Hora: 8:00 am</p>*/}
-                        <p>Hora: 6:30 pm</p>
-                        <p>Lugar: Coogee Beach.</p>
+                        {/*<p>Hora: 6:30 pm</p>*/}
+                        {/*<p>Lugar: Coogee Beach.</p>*/}
 
                         <h3>Yoga en la Mañana - Domingo</h3>
-                        <p>Hora: 6:30 am</p>
+                        <p>Al Amanecer 5:40 am </p>
+                        <p>Segunda clase 7:30 am </p>
                         <p>Lugar: Coogee Beach.</p>
 
                         <p className="text-justify">Sitio de encuentro: Dolphins Point. Llegas a Coogee Pavilion y
@@ -111,11 +110,9 @@ function GroupsInPerson() {
                         {/*<p>Lugar: Coogee Beach.</p>*/}
 
                         <h3>Valor</h3>
-                        <p>$23 AUD.</p>
+                        <p>$24 AUD.</p>
                         <p className="text-justify">Realiza la transferencia de la clase al número celular 0413147237
-                            para
-                            separar tu espacio, se reciben
-                            confirmaciones con el pago hasta el Sabado a las 11 am.</p>
+                            para separar tu espacio, se reciben confirmaciones con el pago hasta el Viernes a las 3 pm.</p>
                         <PreparationItems preparationItems={[
                             'Ser puntuales es muy importante, la clase inicia a la hora programada, asi que, te recomiendo puntualidad para que no te pierdas ninguna parte de la clase.',
                             'Luego de confirmada tu asistencia no se hace devolución del dinero.',

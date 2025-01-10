@@ -24,11 +24,30 @@ img{
 .form-control{
     border-radius: 10px;
 }
-.winner-input{
-    margin-left: 1rem;
-    padding-left: 1rem;
-    border-radius: 10px;
+.winner-name{
+    margin-left: 0.5rem;
+    font-size:2.5rem;
+    font-weight: bolder;
+    color: rgba(156, 45, 65, 1);
+    line-height: 4rem;
 }
+
+.winner-label{
+    font-weight: bolder;
+    font-size:2rem;
+    line-height: 4rem;
+}
+
+.raffle-names{
+    font-size:1.5rem;
+    line-height: 2.5rem;
+}
+.raffle-price{
+    font-size:1.5rem;
+    line-height: 2rem;
+    color: rgba(156, 45, 65, 1);
+}
+
 
 .color-secondary{
     color: rgba(156, 45, 65, 1);
@@ -119,6 +138,16 @@ img.classLocationMap {
     float: right;
     border-radius: 10px;
 }
+
+.christmas-giveaways-gif{
+    max-width: 124px;
+    height: 124px;
+}
+
+.christmas-giveaways-heading{
+    vertical-align: sub;
+}
+
 
 .room-photo{
     padding: 1px;

@@ -375,19 +375,19 @@ function RetreatBaliMayo2025() {
                 <p>Habitación Compartida con una persona, valor Total del Retiro Por Persona
                     <span className="fw-bolder">$2.444 AUD</span> Pago Total del Retiro hasta el 01 de Febrero.
                 </p>
+                {/*<p><s><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de*/}
+                {/*    <span className="fw-bolder"> $150 AUD</span> antes del 30 de Noviembre.</s></p>*/}
                 <p><s><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $150 AUD</span> antes del 30 de Noviembre.</s></p>
+                    <span className="fw-bolder"> $100 AUD</span> antes del 31 de Diciembre.</s></p>
                 <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $100 AUD</span> antes del 31 de Diciembre.</p>
-                <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $50 AUD</span> antes del 31 de Enero.</p>
+                    <span className="fw-bolder"> $70 AUD</span> antes del 31 de Enero.</p>
                 <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
-                    solo para ti desde <span className="fw-bolder">$100 AUD </span> o más por recomendar a tus
+                    solo para ti desde <span className="fw-bolder">$150 AUD </span> o más por recomendar a tus
                     amigas(os) y realicen
                     la reservación.</p>
                 <p><i className="fa fa-credit-card"></i> <span
                     className="fw-bolder">RESERVA TU ESPACIO:</span> Deposito
-                    de <span className="fw-bolder">$500 AUD</span> con transferencia
+                    de <span className="fw-bolder">$600 AUD</span> con transferencia
                     electrónica al numero celular 0413147237.
 
                 </p>

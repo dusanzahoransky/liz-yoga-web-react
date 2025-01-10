@@ -20,6 +20,7 @@ import SesionDeRelajacion from "./components/SesionDeRelajacion";
 import RetreatBaliMayo2025 from "./components/RetreatBaliMayo2025";
 import MiniRetiroNoviembre from "./components/MiniRetiroNoviembre";
 import Raffle from "./components/Raffle";
+import SesionRelajacionCuencos from "./components/SesionRelajacionCuencos";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
               <Route path='/workshop-in-person' element={<WorkshopInPerson/>}/>
               <Route path='/session-especial' element={<SessionEspecial/>}/>
               <Route path='/sesion-de-relajacion' element={<SesionDeRelajacion/>}/>
+              <Route path='/sesion-relajacion-cuencos' element={<SesionRelajacionCuencos/>}/>
               <Route path='/medicina-al-alma' element={<MiniRetiroDiciembre/>}/>
               <Route path='/mini-retiro-diciembre' element={<MiniRetiroDiciembre/>}/>
               <Route path='/mini-retiro-noviembre' element={<MiniRetiroNoviembre/>}/>
