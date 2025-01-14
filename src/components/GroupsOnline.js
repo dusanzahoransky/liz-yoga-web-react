@@ -36,7 +36,7 @@ function GroupsOnline() {
 
                       <h3>Valor</h3>
                       <p>Sesión Gratuita</p>
-                      <p>Ingresa a la sesión con este link <a className="call-link" href="https://calendar.app.google/rwEN3NioCvXFfGvn9">Clase Gratuita de Yoga y Charla Retiro de Bienestar Bali</a></p>
+                      <p>Ingresa a la sesión con este link <a className="link-highlihted" href="https://calendar.app.google/rwEN3NioCvXFfGvn9">Clase Gratuita de Yoga y Charla Retiro de Bienestar Bali</a></p>
                       {/*<p>$21 AUD.</p>*/}
                       {/*<p className="text-justify">Realiza la transferencia de la clase al número celular 0413147237*/}
                       {/*    para separar tu espacio, se reciben*/}

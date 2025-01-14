@@ -1,7 +1,3 @@
-import sessionEspecial4 from '../images/session-especial/session-especial-4.jpg';
-import sessionEspecial4Thumbnail from '../images/session-especial-thumbnail/session-especial-4-thumbnail.jpg';
-import sessionEspecial5 from '../images/session-especial/session-especial-5.jpg';
-import sessionEspecial5Thumbnail from '../images/session-especial-thumbnail/session-especial-5-thumbnail.jpg';
 import sessionEspecial6 from '../images/session-especial/session-especial-6.jpg';
 import sessionEspecial6Thumbnail from '../images/session-especial-thumbnail/session-especial-6-thumbnail.jpg';
 import sessionEspecial7 from '../images/session-especial/session-especial-7.jpg';
@@ -14,8 +10,8 @@ import sessionEspecial10 from '../images/session-especial/session-especial-10.jp
 import sessionEspecial10Thumbnail from '../images/session-especial-thumbnail/session-especial-10-thumbnail.jpg';
 import sessionEspecial11 from '../images/session-especial/session-especial-11.jpeg';
 import sessionEspecial11Thumbnail from '../images/session-especial-thumbnail/session-especial-11-thumbnail.jpg';
-import sessionEspecial16 from '../images/session-especial/session-especial-16.jpg';
-import sessionEspecial16Thumbnail from '../images/session-especial-thumbnail/session-especial-16-thumbnail.jpg';
+// import sessionEspecial16 from '../images/session-especial/session-especial-16.jpg';
+// import sessionEspecial16Thumbnail from '../images/session-especial-thumbnail/session-especial-16-thumbnail.jpg';
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
 import DetailsHeading from "./classDetails/DetailsHeading";
@@ -25,7 +21,7 @@ import ImageGallery from 'react-image-gallery';
 import '../image-gallery.css';
 import {ClassType} from "../model/ClassType";
 
-function MiniRetiroDiciembre() {
+function MiniRetiroOutdoor() {
 
     // const images = [
     //    {
@@ -67,16 +63,16 @@ function MiniRetiroDiciembre() {
             original: sessionEspecial11,
             thumbnail: sessionEspecial11Thumbnail,
         },
-        {
-            original: sessionEspecial16,
-            thumbnail: sessionEspecial16Thumbnail,
-        }
+        // {
+        //     original: sessionEspecial16,
+        //     thumbnail: sessionEspecial16Thumbnail,
+        // }
     ]
 
 
     function isPrivate() {
         const queryParams = new URLSearchParams(window.location.search);
-        return queryParams && queryParams.get('code') === 'MiniRetirofindeAño'
+        return queryParams && queryParams.get('code') === 'MiniRetiroFebrero'
     }
 
     function getPriceSection() {
@@ -99,13 +95,13 @@ function MiniRetiroDiciembre() {
     return (<>
         <main role="main" className="container">
 
-            <DetailsHeading text='Mini-Retiro Fin de Año - Diciembre'/>
+            <DetailsHeading text='Mini-Retiro de Bienestar - Febrero'/>
 
             <div className="container details">
 
                 <div className="row">
                     <div className="col">
-                        <p className="text-justify">Te invito a nuestro Mini-Retiro de Fin de Año el Domingo 15 de Diciembre, en donde tendremos diferentes prácticas espirituales que nos ayudarán a seguir expandiendo nuestra conciencia. Adicionalmente es la oportunidad perfecta para seguir conectando con otros seres humanos que al igual que tú  buscan un espacio de relajación, movimiento y aprendizaje, un espacio para compartir reflexiones, experiencias y ofrecer apoyo emocional. Mujeres y Hombres bienvenidos.</p>
+                        <p className="text-justify">Te invito a nuestro Primer Mini-Retiro de Inicio de Año el Domingo 09 de Febrero, en donde tendremos diferentes prácticas espirituales que nos ayudarán a seguir expandiendo nuestra conciencia. Adicionalmente es la oportunidad perfecta para seguir conectando con otros seres humanos que al igual que tú  buscan un espacio de relajación, movimiento y aprendizaje, un espacio para compartir reflexiones, experiencias y ofrecer apoyo emocional. Mujeres y Hombres bienvenidos.</p>
                     </div>
                 </div>
 
@@ -136,27 +132,19 @@ function MiniRetiroDiciembre() {
                             <li>Meditación Guiada con Baño de Sonido con Cuencos Tibetanos y de Cristal y otros
                                 instrumentos.
                             </li>
-                            <li>Sesión Multinivel de Yoga enfocada a tu Chakra Garganta, Vishudda , Quinto centro
-                                energético de tu sistema de chakras, Este chakra establece una fuerte conexión con el
-                                lenguaje verbal y corporal, y actúa como puerta de entrada a la expresión, la
-                                comunicación y la autenticidad.
+                            <li>Sesión Multinivel de Yoga enfocada a al chakra de la intuición, Ajna Chakra, Sexto centro energético de tu sistema de chakras, Este chakra está asociado con la conciencia, la comprensión y la clarividencia. Es un centro de percepción extrasensorial, percepción de la verdad y comprensión intuitiva.
                             </li>
-                            <li>Creación de tu Mapa de Sueños para el año 2025 o próximo Quinquenio 2025-2029
-                                intensionando cada área importante de tu vida.
+                            <li>Taller de Numerología, vas a reconocer en qué año estás, cual es la energía que tienes disponible ahora mismo utilizando nuestro nombre, fecha de nacimiento y otros aspectos que te darán muchísima información para que utilices esa energía para tu más alto beneficio..
                             </li>
-                            <li>Ritual de Manifestación escrito
-                            </li>
-                            <li>Ritual de Agradecimiento
-                            </li>
-                            <li>Snacks deliciosos.
+
+                            <li>Snacks Nutritivos.
                             </li>
 
                         </ul>
                         <h3>Lugar</h3>
                         <p>Coogee Beach, Goldstein Reserve - Sydney.</p>
                         <h3>Fecha y Hora</h3>
-                        <p>Domingo 15 de Diciembre, 7:00 AM a 10:30/11 AM.</p>
-                        <p>Sabado 28 de Diciembre, 7:00 AM a 10:30/11 AM.</p>
+                        <p>Domingo 09 de Febrero, 7:15 AM a 10:30/11 AM.</p>
                         {getPriceSection()}
 
                         <span className="fw-bold">
@@ -166,7 +154,7 @@ function MiniRetiroDiciembre() {
                             'Debes realizar el pago por anticipado para reservar tu espacio.',
                             'Ser puntuales es muy importante, nuestro Sesión inicia a la hora programada, asi que, te recomiendo puntualidad.',
                             'Luego de confirmada tu asistencia no se realiza la devolución del dinero, en caso de no poder asistir puedes ceder tu espacio a alguien más.',
-                            'Es importante que tengas un tarrito de agua para que te mantegas hidratada.'
+                            'Es importante que tengas un tarrito de agua para que te mantegas hidratado/da.'
                         ]}/>
                     </div>
                     <div className="col-md-1"/>
@@ -186,4 +174,4 @@ function MiniRetiroDiciembre() {
     </>);
 }
 
-export default MiniRetiroDiciembre;
+export default MiniRetiroOutdoor;

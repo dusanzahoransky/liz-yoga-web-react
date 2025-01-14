@@ -86,8 +86,8 @@ function GroupsInPerson() {
                         {/*<p>Lugar: Coogee Beach.</p>*/}
 
                         <h3>Yoga en la Mañana - Domingo</h3>
-                        <p>Al Amanecer 5:40 am </p>
-                        <p>Segunda clase 7:30 am </p>
+                        <p>Al Amanecer 5:45 am </p>
+                        {/*<p>Segunda clase 7:30 am </p>*/}
                         <p>Lugar: Coogee Beach.</p>
 
                         <p className="text-justify">Sitio de encuentro: Dolphins Point. Llegas a Coogee Pavilion y
