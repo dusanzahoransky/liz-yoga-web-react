@@ -11,7 +11,7 @@ secondary: #color: rgba(156, 45, 65, 1)
 
 body {
     color: rgba(41, 48, 63, 1);
-    font-family: 'Josefin Sans';
+    font-family: "Montserrat", serif;
     line-height: 1.7rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -27,13 +27,13 @@ img{
 .winner-name{
     margin-left: 0.5rem;
     font-size:2.5rem;
-    font-weight: bolder;
+    font-weight: 500;
     color: rgba(156, 45, 65, 1);
     line-height: 4rem;
 }
 
 .winner-label{
-    font-weight: bolder;
+    font-weight: 500;
     font-size:2rem;
     line-height: 4rem;
 }
@@ -153,7 +153,8 @@ img.classLocationMap {
     padding: 1px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
+    font-weight: 400;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -302,7 +303,7 @@ button.bg-primary:focus {
 
 .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
     color: rgba(41, 48, 63, 1);
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 button[aria-expanded] {
@@ -366,7 +367,7 @@ button[aria-expanded] {
 .carousel-caption {
     z-index: 10;
     padding: 0;
-    font-weight: bolder;
+    font-weight: 500;
     color: rgba(41, 48, 63, 1);
     text-shadow: 0 0 1px white, 0 0 3px white;
     top: 1rem;
@@ -488,7 +489,7 @@ ul.class-preparation-list {
 }
 .card-title {
     font-size: larger;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 /* Footer */
@@ -517,7 +518,7 @@ footer .col-4 {
 }
 
 label.required {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .form-group {

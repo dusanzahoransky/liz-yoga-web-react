@@ -1,5 +1,7 @@
 import cover2 from '../images/home/cover-2-large-progressive.jpg';
 import cover2portrait from '../images/home/cover-2-portrait-progressive.jpg';
+import cover6 from '../images/home/cover-6.jpg';
+import cover6portrait from '../images/home/cover-6-portrait.jpg';
 import coverRetreatMarch2025 from '../images/home/cover-retreat-march-2025.jpg';
 import coverRetreatMarch2025Portrait from '../images/home/cover-retreat-march-2025-portrait.jpg';
 import cardPrivateOnline from '../images/home/card-private-online.jpg';
@@ -48,22 +50,22 @@ function Home() {
                       </a>
                   </div>
 
-                  {/*<div className="carousel-item" data-bs-interval="3000">*/}
-                  {/*    <a href="/women-day">*/}
-                  {/*        <picture>*/}
-                  {/*            <source srcSet={cover5portrait}*/}
-                  {/*                    media="(max-width: 800px) and (orientation: portrait)"/>*/}
-                  {/*            <img src={cover5} alt="Private clases"/>*/}
-                  {/*        </picture>*/}
+                  <div className="carousel-item" data-bs-interval="3000">
+                      <a href="/women-day">
+                          <picture>
+                              <source srcSet={cover6portrait}
+                                      media="(max-width: 800px) and (orientation: portrait)"/>
+                              <img src={cover6} alt="Private clases"/>
+                          </picture>
 
-                  {/*        <div className="container">*/}
-                  {/*            <div className="carousel-caption carousel-caption-light">*/}
-                  {/*                <h2>CIRCULO DE MUJERES</h2>*/}
-                  {/*                <h3>Marzo 10</h3>*/}
-                  {/*            </div>*/}
-                  {/*        </div>*/}
-                  {/*    </a>*/}
-                  {/*</div>*/}
+                          <div className="container">
+                              <div className="carousel-caption carousel-caption-light">
+                                  <h2>MINI-RETIRO DE BIENESTAR</h2>
+                                  <h3>Febrero 09</h3>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
 
               </div>
 
@@ -78,7 +80,7 @@ function Home() {
           </div>
 
 
-          <div className="container introduction">
+          <div className="container introduction rem-2">
               <h1 className="display-6">YOGA CON LIZ <span className="color-secondary">NEIRA</span></h1>
               <h5 className="rem-2"><a href="https://www.instagram.com/lizneirar/">Instagram: @lizneirar</a></h5>
               <p className="text-justify">Desde hace 7 años el Yoga atrajo mi atención y descubrí un mundo fantástico en
@@ -99,7 +101,7 @@ function Home() {
 
           <div className="container marketing">
 
-              <h3 className="display-7 rem-2 text-center">RETIRO DE YOGA Y BIENESTAR</h3>
+              <h4 className="display-7 rem-2 text-center">RETIRO DE YOGA Y BIENESTAR</h4>
 
               <div className="row row-cols-1">
                   <div className="col-3"></div>
@@ -126,9 +128,9 @@ function Home() {
                   <div className="col-3"></div>
               </div>
 
-              <h3 className="display-7 rem-2 text-center">CLASES</h3>
+              <h4 className="display-7 rem-2 text-center">CLASES</h4>
 
-              <div className="row  row-cols-1 row-cols-md-2">
+              <div className="row  row-cols-1 row-cols-md-2 rem-2">
                   <div className="col">
                       <a href="/groups-in-person">
                           <div className="card h-100 text-center">
@@ -154,8 +156,10 @@ function Home() {
                           </div>
                       </a>
                   </div>
+              </div>
 
-                  <div className="col">
+              <div className="row  row-cols-1 row-cols-md-2">
+                  <div className="col ">
                       <a href="/workshop-in-person">
                           <div className="card h-100 text-center">
                               <img src={cardWorkshopInPerson} className="card-img-top" alt="..."/>
@@ -181,7 +185,6 @@ function Home() {
                       </a>
                   </div>
               </div>
-
 
           </div>
 
