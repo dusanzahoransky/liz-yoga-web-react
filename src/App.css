@@ -18,11 +18,11 @@ body {
 }
 
 img{
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .form-control{
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .winner-name{
     margin-left: 0.5rem;
@@ -131,12 +131,61 @@ img{
     height: 762px;
 }
 
+.cover-shot-container{
+    position: relative;
+}
+
+.cover-shot-caption {
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    font-weight: 500;
+    top: 1rem;
+}
+.cover-shot-caption-light {
+    color: white;
+    text-shadow: 0 0 1px rgba(41, 48, 63, 1), 0 0 3px rgba(41, 48, 63, 1);
+}
+
+.cover-shot-text{
+    position: absolute;
+    max-width: 50%;
+    right: 1rem;
+    bottom: 1rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0;
+}
+
+@media (max-width: 1440px) {
+    .cover-shot-text{
+        max-width: 100%;
+        padding: 0.5rem;
+        right: 1rem;
+        left: 1rem;
+        bottom: 1rem;
+        font-size: smaller;
+    }
+}
+
+.cover-shot-text p{
+    margin-bottom: 0;
+}
+
+.img-screen-width{
+    display:block;
+    width:100%;
+    border-radius: 0;
+}
+
 img.classLocationMap {
     margin-left: 2rem;
     height: auto;
     max-width: 7rem;
     float: right;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .christmas-giveaways-gif{
@@ -201,14 +250,14 @@ a:hover {
     color: #fff;
     background-color: rgba(156, 45, 65, 1);
     border-color: rgba(156, 45, 65, 1);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .btn-primary:hover {
     color: #fff;
     background-color: rgba(41, 48, 63, 1);
     border-color: rgba(41, 48, 63, 1);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -216,14 +265,14 @@ a:hover {
     background-color: rgba(41, 48, 63, 1);
     border-color: rgba(41, 48, 63, 1);
     box-shadow: 0 0 0 0.2rem rgba(41, 48, 63, 1);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
     background-color: rgba(41, 48, 63, 1);
     border-color: rgba(41, 48, 63, 1);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
@@ -231,7 +280,7 @@ a:hover {
     color: #fff;
     background-color: rgba(41, 48, 63, 1);
     border-color: rgba(41, 48, 63, 1);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -252,14 +301,14 @@ button.bg-primary:focus {
 .btn-outline-primary {
     color: rgba(41, 48, 63, 1);
     border-color: rgba(41, 48, 63, 1);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .btn-outline-primary:hover {
     color: #fff;
     background-color: rgba(41, 48, 63, 1);
     border-color: rgba(41, 48, 63, 1);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -276,7 +325,7 @@ button.bg-primary:focus {
     color: #fff;
     background-color: rgba(41, 48, 63, 1);
     border-color: rgba(41, 48, 63, 1);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -344,9 +393,10 @@ button[aria-expanded] {
 
 .carousel-inner {
     /*padding: 1px;*/
-    border: 1px solid;
-    color: rgba(156, 45, 65, 1);
-    border-radius: 10px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    color: rgba(156, 45, 65, 0.5);
+    border-radius: 0;
 }
 
 .carousel.no-margin {
@@ -360,6 +410,7 @@ button[aria-expanded] {
 
 .carousel img {
     width: 100%;
+    border-radius: 0;
 }
 
 
@@ -371,6 +422,7 @@ button[aria-expanded] {
     color: rgba(41, 48, 63, 1);
     text-shadow: 0 0 1px white, 0 0 3px white;
     top: 1rem;
+    text-align: center;
 }
 .carousel-caption-light {
     color: white;
@@ -471,7 +523,7 @@ button[aria-expanded] {
 .details img {
     width: 100%;
     aspect-ratio: unset;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 ul.class-preparation-list {
@@ -485,7 +537,9 @@ ul.class-preparation-list {
 /* Cards */
 
 .card{
-    border-radius: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(156, 45, 65, 0.5);
 }
 .card-title {
     font-size: larger;

@@ -32,15 +32,16 @@ function GroupsOnline() {
                       <p>Serán grupos de hasta máximo 15 personas.</p>
 
                       <h3>Cuando?</h3>
-                      <p>Este Jueves 24 de Octubre de 7 pm (hora Sydney) hasta las 8:30 pm</p>
+                      {/*<p>Este Jueves 24 de Octubre de 7 pm (hora Sydney) hasta las 8:30 pm</p>*/}
+                      <p>Jueves 23 de Enero desde las 7:30 pm (hora Sydney) hasta las 8:30 pm</p>
 
                       <h3>Valor</h3>
-                      <p>Sesión Gratuita</p>
-                      <p>Ingresa a la sesión con este link <a className="link-highlihted" href="https://calendar.app.google/rwEN3NioCvXFfGvn9">Clase Gratuita de Yoga y Charla Retiro de Bienestar Bali</a></p>
-                      {/*<p>$21 AUD.</p>*/}
-                      {/*<p className="text-justify">Realiza la transferencia de la clase al número celular 0413147237*/}
-                      {/*    para separar tu espacio, se reciben*/}
-                      {/*    confirmaciones y pago para la clase hasta el Miercoles.</p>*/}
+                      {/*<p>Sesión Gratuita</p>*/}
+                      {/*<p>Ingresa a la sesión con este link <a className="link-highlihted" href="https://calendar.app.google/rwEN3NioCvXFfGvn9">Clase Gratuita de Yoga y Charla Retiro de Bienestar Bali</a></p>*/}
+                      <p>$22 AUD.</p>
+                      <p className="text-justify">Realiza la transferencia de la clase al número celular 0413147237
+                          para separar tu espacio, se reciben
+                          confirmaciones y pago para la clase hasta el Miercoles.</p>
                   </div>
 
                   <div className="col-md-1"/>
@@ -67,6 +68,7 @@ function GroupsOnline() {
                           'Ser puntuales es muy importante, así evitan perderse parte de la clase.',
                           'Preferible recogerse el cabello, aunque si les gusta suelto esta perfecto. (Chicas)',
                           'Ten una botellita de agua para hidratarte.',
+                          'En caso de no poder asistir a la clase no se realizará la devolución del dinero, sin embargo podrás tener la clase grabada.',
                           // 'Luego de confirmada la clase no se hace devolución del dinero, puedes aplazar la clase solo una vez.',
                       ]}/>
                   </div>

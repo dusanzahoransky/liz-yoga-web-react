@@ -2,8 +2,8 @@ import cover2 from '../images/home/cover-2-large-progressive.jpg';
 import cover2portrait from '../images/home/cover-2-portrait-progressive.jpg';
 import cover6 from '../images/home/cover-6.jpg';
 import cover6portrait from '../images/home/cover-6-portrait.jpg';
-import coverRetreatMarch2025 from '../images/home/cover-retreat-march-2025.jpg';
-import coverRetreatMarch2025Portrait from '../images/home/cover-retreat-march-2025-portrait.jpg';
+import coverRetreatMarch2025 from '../images/home/cover-7.jpg';
+import coverRetreatMarch2025Portrait from '../images/home/cover-7-vertical.jpg';
 import cardPrivateOnline from '../images/home/card-private-online.jpg';
 import cardWorkshopInPerson from '../images/home/card-workshop-in-person.jpg';
 import cardGroupsInPerson from '../images/home/card-groups-in-person.jpg';
@@ -15,12 +15,12 @@ function Home() {
   return (
       <main role="main">
 
-          <div id="home-page-carousel" className="carousel slide container" data-bs-ride="carousel">
+          <div id="home-page-carousel" className="carousel slide " data-bs-ride="carousel">
 
               <div className="carousel-inner">
 
                   <div className="carousel-item active" data-bs-interval="6000">
-                      <a href="/retreat-bali-march-25">
+                      <a href="/retreat-tailandia-octubre-25">
                       <picture>
                           <source srcSet={coverRetreatMarch2025Portrait}
     media="(max-width: 800px) and (orientation: portrait)"/>
@@ -28,8 +28,8 @@ function Home() {
                       </picture>
                       <div className="container">
                           <div className="carousel-caption carousel-caption-light">
-                              <h2>RETIRO DE YOGA Y BIENESTAR</h2>
-                              <h3>Bali Mayo 2025</h3>
+                              <h2 className="display-4">Satya Retiro de Yoga y Bienestar - Crea tu Realidad</h2>
+                              <h3 className="display-6">Tailandia Octubre 2025</h3>
                           </div>
                       </div>
                       </a>
@@ -44,7 +44,7 @@ function Home() {
                           </picture>
                           <div className="container">
                               <div className="carousel-caption carousel-caption-light">
-                                  <h2>YOGA CLASES GRUPALES</h2>
+                                  <h2 className="display-4">YOGA CLASES GRUPALES</h2>
                               </div>
                           </div>
                       </a>
@@ -60,8 +60,8 @@ function Home() {
 
                           <div className="container">
                               <div className="carousel-caption carousel-caption-light">
-                                  <h2>MINI-RETIRO DE BIENESTAR</h2>
-                                  <h3>Febrero 09</h3>
+                                  <h2 className="display-4">MINI-RETIRO DE BIENESTAR</h2>
+                                  <h3 className="display-6">Febrero 09</h3>
                               </div>
                           </div>
                       </a>

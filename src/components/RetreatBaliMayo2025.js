@@ -295,6 +295,7 @@ function RetreatBaliMayo2025() {
                                 <li>Caminada al Volcán Batur para disfrutar de la naturaleza y la magia del
                                     Amanecer.
                                 </li>
+                                <li>Taller Botanico de Acuarela: Arte Terapia para conectar con tu energía femenina y expandir tu alma creativa Facilitado por Valentina Marín.</li>
                                 <li>Yin yoga para relajar mente y cuerpo.
                                 </li>
                             </ul>
@@ -381,17 +382,17 @@ function RetreatBaliMayo2025() {
                     <span className="fw-bolder"> $100 AUD</span> antes del 31 de Diciembre.</s></p>
                 <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
                     <span className="fw-bolder"> $70 AUD</span> antes del 31 de Enero.</p>
-                <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
-                    solo para ti desde <span className="fw-bolder">$150 AUD </span> o más por recomendar a tus
-                    amigas(os) y realicen
-                    la reservación.</p>
+                {/*<p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento*/}
+                {/*    solo para ti desde <span className="fw-bolder">$150 AUD </span> o más por recomendar a tus*/}
+                {/*    amigas(os) y realicen*/}
+                {/*    la reservación.</p>*/}
                 <p><i className="fa fa-credit-card"></i> <span
                     className="fw-bolder">RESERVA TU ESPACIO:</span> Deposito
                     de <span className="fw-bolder">$600 AUD</span> con transferencia
                     electrónica al numero celular 0413147237.
 
                 </p>
-                <p>El resto del valor del Retiro se distribuirán en 3 cuotas
+                <p>El resto del valor del Retiro se distribuirán en 3 cuotas, el Retiro debe pagarse por completo el 5 de Abril
                     {/*<ul>*/}
                     {/*    <li>30 de Noviembre,</li>*/}
                     {/*    <li>31 de Enero,</li>*/}

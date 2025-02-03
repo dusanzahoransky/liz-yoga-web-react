@@ -88,6 +88,7 @@ function GroupsInPerson() {
                         <h3>Yoga en la Mañana - Domingo</h3>
                         <p>Al Amanecer 5:45 am </p>
                         {/*<p>Segunda clase 7:30 am </p>*/}
+
                         <p>Lugar: Coogee Beach.</p>
 
                         <p className="text-justify">Sitio de encuentro: Dolphins Point. Llegas a Coogee Pavilion y
@@ -111,6 +112,7 @@ function GroupsInPerson() {
 
                         <h3>Valor</h3>
                         <p>$24 AUD.</p>
+
                         <p className="text-justify">Realiza la transferencia de la clase al número celular 0413147237
                             para separar tu espacio, se reciben confirmaciones con el pago hasta el Viernes a las 3 pm.</p>
                         <PreparationItems preparationItems={[
