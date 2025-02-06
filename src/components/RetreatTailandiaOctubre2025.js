@@ -1,8 +1,10 @@
 import prog1 from '../images/retreat-tailandia-octubre-25/prog1.jpg';
 import prog2 from '../images/retreat-tailandia-octubre-25/prog2.jpg';
-import prog3 from '../images/retreat-tailandia-octubre-25/prog3.jpg';
+import prog3 from '../images/retreat-tailandia-octubre-25/prog3b.jpg';
 import prog4 from '../images/retreat-tailandia-octubre-25/prog4.jpg';
 import prog5 from '../images/retreat-tailandia-octubre-25/prog5.jpg';
+import prog6 from '../images/retreat-tailandia-octubre-25/prog6.jpg';
+import prog7 from '../images/retreat-tailandia-octubre-25/prog7.jpg';
 
 import room1 from '../images/retreat-tailandia-octubre-25/room1.jpg';
 import room2 from '../images/retreat-tailandia-octubre-25/room2.jpg';
@@ -12,6 +14,12 @@ import room5 from '../images/retreat-tailandia-octubre-25/room5.jpg';
 import room6 from '../images/retreat-tailandia-octubre-25/room6.jpg';
 import room9 from '../images/retreat-tailandia-octubre-25/room9.jpg';
 import room10 from '../images/retreat-tailandia-octubre-25/room10.jpg';
+
+import food1 from '../images/retreat-tailandia-octubre-25/food1.png';
+import food2 from '../images/retreat-tailandia-octubre-25/food2.png';
+import food3 from '../images/retreat-tailandia-octubre-25/food3.png';
+import food4 from '../images/retreat-tailandia-octubre-25/food4.png';
+import food5 from '../images/retreat-tailandia-octubre-25/food5.png';
 
 import img1 from '../images/retreat-tailandia-octubre-25/1.jpg';
 import img2 from '../images/retreat-tailandia-octubre-25/2.jpg';
@@ -73,6 +81,28 @@ function RetreatTailandiaOctubre2025() {
             thumbnail: room6,
         }
     ]
+    const foodImages = [
+        {
+            original: food2,
+            thumbnail: food2,
+        },
+        {
+            original: food1,
+            thumbnail: food1,
+        },
+        {
+            original: food3,
+            thumbnail: food3,
+        },
+        {
+            original: food4,
+            thumbnail: food4,
+        },
+        {
+            original: food5,
+            thumbnail: food5,
+        }
+    ]
 
     return (<>
             <div className="cover-shot-container">
@@ -118,7 +148,7 @@ function RetreatTailandiaOctubre2025() {
 
                         <div className="col-md-1 text-justify"/>
 
-                        <div className="col-md-4 text-justify">
+                        <div className="col-md-5 text-justify">
                             <p><span className="fw-bolder">Nuestro Retiro Incluye:</span></p>
                             <ul>
                                 <li> 6 noches - 7 días en habitación compartida</li>
@@ -280,7 +310,7 @@ function RetreatTailandiaOctubre2025() {
                             </div>
                             <div className="col-md-1"/>
                             <div className="col-md-3">
-                                <img src={prog3}/>
+                                <img src={prog6}/>
                             </div>
                         </div>
 
@@ -296,7 +326,7 @@ function RetreatTailandiaOctubre2025() {
                             </div>
                             <div className="col-md-1"/>
                             <div className="col-md-3">
-                                <img src={prog3}/>
+                                <img src={prog7}/>
                             </div>
                         </div>
 
@@ -322,11 +352,28 @@ function RetreatTailandiaOctubre2025() {
                     <div className="col-md-6">
                         <h2 className="text-center text-justify">Acomodación</h2>
                         <p>
+                            Alojamiento elegante en un complejo con vistas preciosas a la ciudad de Phuket y la bahía de Phang Nga.
+                        </p><p>
                             Deluxe Room (con dos camas individuales): Espaciosa habitación con dos camas individuales y un balcón privado, escritorio, aire
                             acondicionado y acceso WiFi gratuito. La habitación incluye baño privado con ducha.
                         </p>
                     </div>
 
+                </div>
+
+                <div className="row double-space-before">
+                    <div className="col-md-6">
+                        <h2 className="text-center text-justify">Comida</h2>
+                        <p>
+                            Durante el retiro, disfrute de deliciosos menús incluidos rodeado de impresionantes vistas de Phuket desde la azotea.
+                        </p><p>
+                            Comida de un restaurante tailandés reconocido como el mejor de Phuket según los críticos más populares, como Top 25 Restaurants
+                            y la Autoridad de Turismo de Tailandia, y seleccionado entre los 200 mejores restaurantes de Tailandia por la revista Koktail.
+                        </p>
+                    </div>
+                    <div className="col-md-6">
+                        <ImageGallery items={foodImages} autoPlay={false} showThumbnails={true}/>
+                    </div>
                 </div>
 
                 <div className="row double-space-before">
