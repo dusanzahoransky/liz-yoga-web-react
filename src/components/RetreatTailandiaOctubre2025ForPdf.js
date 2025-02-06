@@ -15,11 +15,11 @@ import room6 from '../images/retreat-tailandia-octubre-25/room6.jpg';
 import room9 from '../images/retreat-tailandia-octubre-25/room9.jpg';
 import room10 from '../images/retreat-tailandia-octubre-25/room10.jpg';
 
-import food1 from '../images/retreat-tailandia-octubre-25/food1.png';
-import food2 from '../images/retreat-tailandia-octubre-25/food2.png';
-import food3 from '../images/retreat-tailandia-octubre-25/food3.png';
-import food4 from '../images/retreat-tailandia-octubre-25/food4.png';
-import food5 from '../images/retreat-tailandia-octubre-25/food5.png';
+import food1 from '../images/retreat-tailandia-octubre-25/food1.jpg';
+import food2 from '../images/retreat-tailandia-octubre-25/food2.jpg';
+import food3 from '../images/retreat-tailandia-octubre-25/food3.jpg';
+import food4 from '../images/retreat-tailandia-octubre-25/food4.jpg';
+import food5 from '../images/retreat-tailandia-octubre-25/food5.jpg';
 
 import img1 from '../images/retreat-tailandia-octubre-25/1.jpg';
 import img2 from '../images/retreat-tailandia-octubre-25/2.jpg';
