@@ -77,16 +77,14 @@ function RetreatTailandiaOctubre2025() {
     return (<>
             <div className="cover-shot-container">
                 <div className="cover-shot-caption cover-shot-caption-light">
-                    <h1 className="display-3">Satya Retiro de Yoga y Bienestar - Crea tu Realidad</h1>
+                    <h1 className="display-3">Ananda, Retiro de Yoga y Bienestar</h1>
+
                 </div>
                 <div className="cover-shot-text">
-                    <p className="text-justify">Únete a nuestro Retiro de Yoga y Bienestar en el paraiso de Bali
+                    <p className="text-justify">Únete a nuestro Retiro de Yoga y Bienestar en el Paraiso de Tailandia
                         y sumérgete en una experiencia transformadora para el cuerpo, mente y espiritu, un
-                        espacio
-                        para conectar, para explorar mucho más lo que habita en tí, para ir más profundo,
-                        para
-                        que
-                        dejes las capas a un lado y encuentres tu ser más autentico.</p>
+                        espacio para explorar mucho más lo que habita en tí,
+                        un paso crucial en el camino hacia la realización espiritual, ya que, al alejarnos de las distracciones externas, podemos lograr un estado de calma mental y una mayor conexión con nuestra esencia interna.</p>
                 </div>
                 <picture>
                     <source srcSet={img1vertical}
@@ -100,24 +98,20 @@ function RetreatTailandiaOctubre2025() {
 
                     <div className="row">
                         <div className="col-md-6 text-justify">
-                            <h3 className="text-center text-justify">Retiro de Yoga y Bienestar</h3>
-                            <p> Únete a nosotros en un Retiro de Yoga y Bienestar en un espacio mágico exclusivo para
-                                nuestro grupo,
-                                este hotel esta situado
-                                en medio de la naturaleza a las afueras de Ubud, con espacios exclusivos para que te
-                                relajes y te
-                                rejuvenezcas. Si eres un yogui experimentado o simplemente estás comenzando tu
+                            <h3 className="text-center text-justify">Ananda, Retiro de Yoga y Bienestar - Pura Dicha</h3>
+
+                            <p> Únete a nosotros a nuestro Retiro en el Paraiso de Tailandia en un Resort
+                               que te ofrecerá comodidad, comida nutritiva y deliciosa, espacios exclusivos para que te desconectes del dia a dia y te
+                                relajes. Si eres un yogui/yogini experimentado o simplemente estás comenzando tu
                                 viaje, te
                                 damos la bienvenida para que abraces tu práctica y tu sentir en una comunidad
-                                solidaria
-                                y
-                                diversa.
+                                solidaria y diversa. Ten en cuenta que este Retiro no es exclusivo de yoga, tambien tendremos actividades de bienestar, rituales, salidas y mucho más.
 
                             </p>
 
                             <p><span className="fw-bolder">Cuándo: </span>
-                                Desde el 2 al 8 de Mayo 2025 - 7 días, 6 noches de Pura Transformación.</p>
-                            <p><span className="fw-bolder">Dónde:</span> En el Paraiso de Ubud- Bali, Indonesia.</p>
+                                Desde el 19 al 25 de Octubre 2025 - 7 días, 6 noches de Pura Conexión y Transformación con tu Ser.</p>
+                            <p><span className="fw-bolder">Dónde:</span> En el Paraiso de Phuket, Tailandia.</p>
 
                             <ImageGallery className="image-gallery-smaller" slideInterval={5000} slideDuration={2000}  items={images} autoPlay={true} showThumbnails={false} showNav={false} showPlayButton={false} showFullscreenButton={false}/>
                         </div>
@@ -128,25 +122,32 @@ function RetreatTailandiaOctubre2025() {
                             <p><span className="fw-bolder">Nuestro Retiro Incluye:</span></p>
                             <ul>
                                 <li> 6 noches - 7 días en habitación compartida</li>
-                                <li>
-                                    Bebida de Bienvenida
-                                </li>
-                                <li>
-                                    Comidas saludables e inolvidablemente deliciosas (desayuno, almuerzo y cena)
-                                </li>
+
+                                     <li>Comidas saludables e inolvidablemente deliciosas elaboradas por el Executive Chef del Resort:
+                                      <ul>
+                                      <li>Desayuno Buffet: Disfruta de una amplia variedad de alimentos nutritivos y saludables </li>
+                                      <li> Almuerzo y Cena: 3 Course Meal con ingredientes de alta calidad recomendados por el Executive Chef</li>
+
+                                       </ul>
+                                      </li>
                                 <li>
                                     Transporte desde o hacia el Aeropuerto (un solo trayecto)
                                 </li>
-                                <li>
-                                    Regalito Y Sorpresas
-                                </li>
-                                <li>Dos Tardes de Excursiones (incluye transporte y entrada) a:
+
+                                <li>Excursiones: (incluye transporte)
                                     <ul>
-                                        <li>Cascada Natural</li>
-                                        <li>Arrozales</li>
-                                        <li>Exploraremos el Centro de Ubud</li>
-                                        <li>Caminada al Volcán Batur para disfrutar del Amanecer</li>
+                                        <li>Exploraremos una Playa Hermosa al Sur de la Isla </li>
+                                         <li> Caminata en la costa para disfrutar del Atardecer Mágico de Phuket</li>
+
+                                        <li>Paseo Espectacular en Catamaran, Visita a 2 Islas Paradisiacas, tendremos la oportunidad de conectar más con la naturaleza, el mar y toda nuestra Sangha/Comunidad</li>
                                     </ul>
+
+                                  <li>
+                                   Todas las Actividades de Bienestar y Materiales a utilizar durante tu estadia
+                                  </li>
+                                   <li>
+                                    Regalito y Sorpresas
+                                  </li>
                                 </li>
                             </ul>
 
@@ -162,15 +163,16 @@ function RetreatTailandiaOctubre2025() {
 
 
                     <div>
-                        <h2 className="text-center text-justify double-space-before">Un Viaje hacia Adentro - Programación:</h2>
+                        <h2 className="text-center text-justify double-space-before">Ananda, Pura Dicha y Conexión - Programación:</h2>
                         <h3 className="text-center text-justify"></h3>
 
                         <div className="row space-before">
-                            <p className="fw-bolder center ">Dia 1 - Viernes</p>
+                            <p className="fw-bolder center ">Dia 1 - Domingo</p>
                             <div className="col-md-8">
 
                                 <ul>
-                                    <li>Ceremonia de Bienvenida 4 Pm <br/>(Check-in desde 2 pm)</li>
+                                    <li>Ceremonia de Bienvenida 4:30 Pm <br/>(Check-in desde 2 pm)</li>
+                                    <li>Ritual de Agradecimiento</li>
                                     <li>Cena de Integración</li>
                                 </ul>
                             </div>
@@ -181,22 +183,21 @@ function RetreatTailandiaOctubre2025() {
                         </div>
 
                         <div className="row space-before">
-                            <p className="fw-bolder center">Dia 2 - Sábado</p>
+                            <p className="fw-bolder center">Dia 2 - Lunes</p>
                             <div className="col-md-8">
                                 <ul>
-                                    <li>Pranayama(EJercicios de Respiración)</li>
-                                    <li> Práctica de Vinyasa Yoga Multinivel (Todos los niveles)</li>
-                                    <li> Taller de Meditación, Irémos más profundo
-                                        en los diferentes tipos de Meditación.
+
+                                    <li> Práctica de Vinyasa Yoga Multinivel y Meditación</li>
+                                    <li> Pranayama Workshop, Aprenderás diferentes técnicas de Respiración para aplicarlas en tu dia a dia, tendrás un kit de herramientas al cual accederás para navegar y transformar tus emociones más bajas y volver a la tranquilidad y calma.
                                     </li>
                                     <li>Tiempo libre
                                         para
                                         descansar,
-                                        escribir, leer, disfrutar la piscina, o simplemente conectar con el resto de los
+                                        escribir, leer, disfrutar de la piscina, o simplemente conectar con el resto de los
                                         integrantes del retiro
                                     </li>
-                                    <li> Yin yoga para relajar cuerpo y mente</li>
-                                    <li> Baño de sonidos con instrumentos musicales.</li>
+                                    <li> Yin yoga al Atardecer para relajar cuerpo y mente</li>
+
                                 </ul>
                             </div>
                             <div className="col-md-1"/>
@@ -206,19 +207,17 @@ function RetreatTailandiaOctubre2025() {
                         </div>
 
                         <div className="row space-before">
-                            <p className="fw-bolder center">Dia 3 - Domingo</p>
+                            <p className="fw-bolder center">Dia 3 - Martes</p>
                             <div className="col-md-8">
                                 <ul>
-                                    <li>Pranayama(EJercicios de Respiración)</li>
-                                    <li> Ashtanga Yoga (Primera Serie, para Todos los Niveles)</li>
-                                    <li> Taller de Ayurveda</li>
-                                    <li>Excursiones:</li>
-                                    <li>Visita a una hermosa Cascada Natural para soltar y fluir a través del
-                                        agua
+                                    <li>Yoga al Amanecer</li>
+                                     <li>Pranayama, Meditación</li>
+                                    <li>Taller Ir Hacia Adentro - Abraza tus emociones, vulnerabilidad y suelta aquello que no te deja avanzar libremente </li>
+                                    <li>Excursión:</li>
+                                    <li>Alista tu bikini porque visitaremos una playa hermosa al sur de la Isla.
+                                    Caminata para disfrutar el atardecer, la vista hacia el mar y otras islas.
                                     </li>
-                                    <li> Visita a los Arrozales</li>
-                                    <li>Exploraremos la magia del Centro de Ubud
-                                    </li>
+
 
                                 </ul>
                             </div>
@@ -229,15 +228,17 @@ function RetreatTailandiaOctubre2025() {
                         </div>
 
                         <div className="row space-before">
-                            <p className="fw-bolder center">Dia 4 - Lunes</p>
+                            <p className="fw-bolder center">Dia 4 - Miercoles</p>
                             <div className="col-md-8">
                                 <ul>
-                                    <li>Pranayama(EJercicios de Respiración)</li>
-                                    <li>Bhakti Yoga (Yoga Devocional, Todos los Niveles)</li>
-                                    <li>Baño de sonidos con instumentos musicales</li>
-                                    <li>Meditación Activa con Colores</li>
-                                    <li>Tiempo libre para ti</li>
-                                    <li>Clase de Vinyasa para Avanzar en tu Práctica.</li>
+                                 <li> Ashtanga Yoga (Primera Serie, para Todos los Niveles) </li>
+                                 <li> Pranayama, Meditación</li>
+                                 <li>Workshop Zen Tai Massage, Aprenderemos a realizar este masaje para relajar cuerpo y mente </li>
+                                  <li> Master Class: Movilidad y Flexibilidad, Asanas/Posturas Invertidas & Backbends</li>
+                                  <li>   <li>Integración con la Sangha/Comunidad, charla, juegos o si prefieres tiempo para ti solito/a
+                                  .</li>
+
+.</li>
                                 </ul>
                             </div>
                             <div className="col-md-1"/>
@@ -247,21 +248,15 @@ function RetreatTailandiaOctubre2025() {
                         </div>
 
                         <div className="row space-before">
-                            <p className="fw-bolder center">Dia 5 - Martes</p>
+                            <p className="fw-bolder center">Dia 5 - Jueves</p>
                             <div className="col-md-8">
                                 <ul>
-                                    <li>Pranayama(EJercicios de Respiración)</li>
-                                    <li>Práctica de Vinyasa Yoga Multinivel (Todos los Niveles)</li>
-                                    <li>Aprenderemos Técnicas para Calmar el Sistema Nervioso</li>
-                                    <li>Tiempo libre
-                                        para
-                                        descansar,
-                                        escribir, leer, disfrutar la piscina, o simplemente conectar con el resto de los
-                                        integrantes del retiro
-                                    </li>
-                                    <li>Taller de Manifestacion y Ritual Podereso para Manifestar tus Sueños</li>
-                                    <li> Sesión de Relajación.</li>
-                                    <li> Baño de sonidos con instrumentos musicales.</li>
+                          <li>Día Libre para que te relajes en el Resort o explores las Isla por tu cuenta, este día tendrás la oportunidad de estar tu solit@ o armar un plan lindo con otros participantes del Retiro que vaya de acuerdo a tu ritmo y energia. (El desayuno esta incluido si lo tomas en el Resort a las horas programadas)</li>
+
+                           <li>Clase de Vinyasa Yoga al Amanecer (Opcional)</li>
+                            <li>Integración con la Sangha/Comunidad, charla, juegos o si prefieres tiempo para ti solito/a (Opcional)
+                                                             .</li>
+
                                 </ul>
                             </div>
                             <div className="col-md-1"/>
@@ -271,18 +266,16 @@ function RetreatTailandiaOctubre2025() {
                         </div>
 
                         <div className="row space-before">
-                            <p className="fw-bolder center">Dia 6 - Miércoles</p>
+                            <p className="fw-bolder center">Dia 6 - Viernes</p>
                             <div className="col-md-8">
                                 <ul>
                                     <li>Excursiones:</li>
-                                    <li>Caminada al Volcán Batur para disfrutar de la naturaleza y la magia del
-                                        Amanecer.
+                                    <li>Paseo en Catamaran en donde conectaremos aún mas con la naturaleza, podremos disfrutar de paisajes impresionantes, del sol, el viento, el mar cristalino y dos playas hermosas, serán unas horas de pura diversión
                                     </li>
-                                    <li>Taller Botanico de Acuarela: Arte Terapia para conectar con tu energía femenina y expandir tu alma creativa Facilitado por Valentina
-                                        Marín.
-                                    </li>
+
                                     <li>Yin yoga para relajar mente y cuerpo.
                                     </li>
+                                       <li>Actividad de Integración, Deja volar tu Imaginación</li>
                                 </ul>
                             </div>
                             <div className="col-md-1"/>
@@ -292,12 +285,12 @@ function RetreatTailandiaOctubre2025() {
                         </div>
 
                         <div className="row space-before">
-                            <p className="fw-bolder center">Dia 7 - Jueves</p>
+                            <p className="fw-bolder center">Dia 7 - Sábado</p>
                             <div className="col-md-8">
                                 <ul>
                                     <li> Pranayama - (Ejercicios de Respiración)</li>
-                                    <li> Práctica de Vinyasa Yoga Multinivel (Todos los Niveles)</li>
-                                    <li>Baño de sonidos con instumentos musicales</li>
+                                    <li>Bhakti y Vinyasa Yoga, (Recitaremos Mantras, Cantaremos Canciones Devocionales y Moveremos el Cuerpo Fisico, Energetico, Mental, Espiritual y Emocional), </li>
+
                                     <li>Ceremonia de Cierre. <br/>(Check-out 12 pm)</li>
                                 </ul>
                             </div>
@@ -369,22 +362,22 @@ function RetreatTailandiaOctubre2025() {
             </>
         } else {
             return <>
-                <p>Habitación Compartida con una persona, valor Total del Retiro Por Persona
-                    <span className="fw-bolder ">$2.444 AUD</span> Pago Total del Retiro hasta el 01 de Febrero.
+                <p>Habitación Compartida con una persona en camas individuales, valor Total del Retiro Por Persona
+                    <span className="fw-bolder "> $2.699 AUD</span> Pago Total del Retiro hasta el 11 de Agosto.
                 </p>
                 <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $150 AUD</span> antes del 30 de Noviembre.</p>
-                {/*<p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento*/}
-                {/*    solo para ti desde <span className="fw-bolder">$150 AUD </span> o más por recomendar a tus*/}
-                {/*    amigas(os) y realicen*/}
-                {/*    la reservación.</p>*/}
+                    <span className="fw-bolder"> $111 AUD</span> antes del 22 de Marzo.</p>
+                <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
+                solo para ti desde <span className="fw-bolder">$122 AUD </span> o más por recomendar a tus
+                 amigas(os) y realicen
+                 la reservación.</p>
                 <p><i className="fa fa-credit-card"></i> <span
                     className="fw-bolder">RESERVA TU ESPACIO:</span> Deposito
                     de <span className="fw-bolder">$600 AUD</span> con transferencia
                     electrónica al numero celular 0413147237.
 
                 </p>
-                <p>El resto del valor del Retiro se distribuirán en 3 cuotas, el Retiro debe pagarse por completo el 5 de Abril
+                <p>El resto del valor del Retiro se distribuirán en 3 y/o 4 cuotas, el Retiro debe pagarse por completo el 11 de Agosto
                     {/*<ul>*/}
                     {/*    <li>30 de Noviembre,</li>*/}
                     {/*    <li>31 de Enero,</li>*/}
@@ -393,7 +386,7 @@ function RetreatTailandiaOctubre2025() {
                 </p>
                 <p>
                     <i><span className="color-secondary">
-                                    Los Pagos no son reembolsables ya que se utilizan para el pago de la acomodación, paquete de
+                                    Los abonos/transferencias no son reembolsables ya que se utilizan para el pago de la acomodación, paquete de
                     comidas, transporte etc.</span></i>
                 </p>
             </>
