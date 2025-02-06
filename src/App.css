@@ -21,6 +21,14 @@ img{
     border-radius: 5px;
 }
 
+@media print {
+    .page, .page-break { break-after: page; }
+}
+
+.max-width100{
+    max-width: 100%;
+}
+
 .form-control{
     border-radius: 5px;
 }
