@@ -28,7 +28,7 @@ function Home() {
                       </picture>
                       <div className="container">
                           <div className="carousel-caption carousel-caption-light">
-                              <h2 className="display-4">Satya Retiro de Yoga y Bienestar - Crea tu Realidad</h2>
+                              <h2 className="display-4">Ananda, Retiro de Yoga y Bienestar</h2>
                               <h3 className="display-6">Tailandia Octubre 2025</h3>
                           </div>
                       </div>

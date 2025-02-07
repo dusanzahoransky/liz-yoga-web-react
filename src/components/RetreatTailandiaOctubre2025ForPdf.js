@@ -34,13 +34,13 @@ import ImageGallery from 'react-image-gallery';
 import '../image-gallery.css';
 import {ClassType} from "../model/ClassType";
 
-function RetreatTailandiaOctubre2025() {
+function RetreatTailandiaOctubre2025Pdf() {
 
     const images = [
-        {
-            original: img2,
-            thumbnail: img2,
-        },
+        // {
+        //     original: img2,
+        //     thumbnail: img2,
+        // },
         {
             original: img3,
             thumbnail: img3,
@@ -122,8 +122,11 @@ function RetreatTailandiaOctubre2025() {
                     <img src={img1} alt="cover-shot" className="img-screen-width"/>
                 </picture>
             </div>
-            <main role="main" className="container">
 
+            <br/>
+
+            <main role="main" className="container">
+                <br/><br/>
                 <div className="container details text-justify">
 
                     <div className="row">
@@ -192,9 +195,13 @@ function RetreatTailandiaOctubre2025() {
                     </div>
 
 
+                    <div className="page-break"/><br/><br/><br/>
+
                     <div>
                         <h2 className="text-center text-justify double-space-before">Ananda, Pura Dicha y Conexión - Programación:</h2>
                         <h3 className="text-center text-justify"></h3>
+
+                        <br/><br/>
 
                         <div className="row space-before">
                             <p className="fw-bolder center ">Dia 1 - Domingo</p>
@@ -277,6 +284,8 @@ function RetreatTailandiaOctubre2025() {
                             </div>
                         </div>
 
+                        <div className="page-break"/><br/><br/><br/>
+
                         <div className="row space-before">
                             <p className="fw-bolder center">Dia 5 - Jueves</p>
                             <div className="col-md-8">
@@ -344,10 +353,13 @@ function RetreatTailandiaOctubre2025() {
 
                 </div>
 
+                <div className="page-break"/><br/><br/><br/>
+
 
                 <div className="row double-space-before">
                     <div className="col-md-6">
-                        <ImageGallery items={roomImages} autoPlay={false} showThumbnails={true}/>
+                        <img className="max-width100" src={room1}/>
+                        {/*<ImageGallery items={roomImages} autoPlay={false} showThumbnails={true}/>*/}
                     </div>
                     <div className="col-md-6">
                         <h2 className="text-center text-justify">Acomodación</h2>
@@ -358,8 +370,25 @@ function RetreatTailandiaOctubre2025() {
                             acondicionado y acceso WiFi gratuito. La habitación incluye baño privado con ducha.
                         </p>
                     </div>
-
                 </div>
+
+                <div className="row double-space-before">
+                    <div className="col-md-3">
+                        <img className="max-width100" src={room10}/>
+                    </div>
+                    <div className="col-md-3">
+                        <img className="max-width100" src={room2}/>
+                    </div>
+                    <div className="col-md-3">
+                        <img className="max-width100" src={room9}/>
+                    </div>
+
+                    <div className="col-md-3">
+                        <img className="max-width100" src={room6}/>
+                    </div>
+                </div>
+
+                <br/><br/><br/>
 
                 <div className="row double-space-before">
                     <div className="col-md-6">
@@ -372,29 +401,36 @@ function RetreatTailandiaOctubre2025() {
                         </p>
                     </div>
                     <div className="col-md-6">
-                        <ImageGallery items={foodImages} autoPlay={false} showThumbnails={true}/>
+                            <img className="max-width100" src={food1}/>
+                        {/*<ImageGallery items={foodImages} autoPlay={false} showThumbnails={true}/>*/}
+                    </div>
+
+                </div>
+
+                <div className="row double-space-before">
+                    <div className="col-md-3">
+                        <img className="max-width100" src={food2}/>
+                    </div>
+                    <div className="col-md-3">
+                        <img className="max-width100" src={food3}/>
+                    </div>
+                    <div className="col-md-3">
+                        <img className="max-width100" src={food4}/>
+                    </div>
+                    <div className="col-md-3">
+                        <img className="max-width100" src={food5}/>
                     </div>
                 </div>
 
-                <br/>
+                <div className="page-break"/><br/><br/><br/>
+
 
                 <div className="row double-space-before">
                     {getDepositSection()}
                 </div>
 
-                <div className="row double-space-before">
-                    <div className="col-md-3"></div>
-                    <div className="col-md-6">
-                        <ContactForm yogaClassType={ClassType.RetreatTailandiaOctubre2025}/>
-                    </div>
-                    <div className="col-md-3"></div>
-                </div>
 
             </main>
-
-            <br/>
-
-            <Footer/>
         </>
     );
 
@@ -405,9 +441,7 @@ function RetreatTailandiaOctubre2025() {
 
     function getDepositSection() {
         if (!isPrivate()) {
-            return <><p className="space-before"></p> <p>Si deseas información más detallada que incluyea precios por
-                favor dilegencia el formulario a continuación:
-            </p>
+            return <>
             </>
         } else {
             return <>
@@ -443,4 +477,4 @@ function RetreatTailandiaOctubre2025() {
     }
 }
 
-export default RetreatTailandiaOctubre2025;
+export default RetreatTailandiaOctubre2025Pdf;
