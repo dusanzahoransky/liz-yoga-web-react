@@ -1,17 +1,11 @@
-import sessionEspecial6 from '../images/session-especial/session-especial-6.jpg';
-import sessionEspecial6Thumbnail from '../images/session-especial-thumbnail/session-especial-6-thumbnail.jpg';
-import sessionEspecial7 from '../images/session-especial/session-especial-7.jpg';
-import sessionEspecial7Thumbnail from '../images/session-especial-thumbnail/session-especial-7-thumbnail.jpg';
-import sessionEspecial8 from '../images/session-especial/session-especial-8.jpg';
-import sessionEspecial8Thumbnail from '../images/session-especial-thumbnail/session-especial-8-thumbnail.jpg';
-import sessionEspecial9 from '../images/session-especial/session-especial-9.jpeg';
-import sessionEspecial9Thumbnail from '../images/session-especial-thumbnail/session-especial-9-thumbnail.jpeg';
-import sessionEspecial10 from '../images/session-especial/session-especial-10.jpeg';
-import sessionEspecial10Thumbnail from '../images/session-especial-thumbnail/session-especial-10-thumbnail.jpg';
-import sessionEspecial11 from '../images/session-especial/session-especial-11.jpeg';
-import sessionEspecial11Thumbnail from '../images/session-especial-thumbnail/session-especial-11-thumbnail.jpg';
-// import sessionEspecial16 from '../images/session-especial/session-especial-16.jpg';
-// import sessionEspecial16Thumbnail from '../images/session-especial-thumbnail/session-especial-16-thumbnail.jpg';
+import img1 from '../images/mini-retiro-camping/1.jpg';
+import img2 from '../images/mini-retiro-camping/2.jpg';
+import img3 from '../images/mini-retiro-camping/3.jpg';
+import img4 from '../images/mini-retiro-camping/4.jpg';
+import img5 from '../images/mini-retiro-camping/5.jpg';
+import img6 from '../images/mini-retiro-camping/6.jpg';
+import img7 from '../images/mini-retiro-camping/7.jpg';
+
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
 import DetailsHeading from "./classDetails/DetailsHeading";
@@ -20,53 +14,30 @@ import PreparationItems from "./classDetails/PreparationItems";
 import ImageGallery from 'react-image-gallery';
 import '../image-gallery.css';
 import {ClassType} from "../model/ClassType";
+import img1vertical from "../images/retreat-tailandia-octubre-25/1-vertical.jpg";
 
 function MiniRetiroCamping() {
 
-    // const images = [
-    //    {
-    //         original: sessionEspecial1,
-    //         thumbnail: sessionEspecial1Thumbnail,
-    //     },
-    //     {
-    //         original: sessionEspecial2,
-    //         thumbnail: sessionEspecial2Thumbnail,
-    //     },
-    //     {
-    //         original: sessionEspecial3,
-    //         thumbnail: sessionEspecial3Thumbnail,
-    //     }
-    // ]
 
     const images = [
-       {
-            original: sessionEspecial9,
-            thumbnail: sessionEspecial9Thumbnail,
+        {
+            original: img2,
         },
         {
-            original: sessionEspecial10,
-            thumbnail: sessionEspecial10Thumbnail,
+            original: img3,
         },
         {
-            original: sessionEspecial6,
-            thumbnail: sessionEspecial6Thumbnail,
+            original: img4,
         },
         {
-            original: sessionEspecial7,
-            thumbnail: sessionEspecial7Thumbnail,
+            original: img5,
         },
         {
-            original: sessionEspecial8,
-            thumbnail: sessionEspecial8Thumbnail,
+            original: img6,
         },
         {
-            original: sessionEspecial11,
-            thumbnail: sessionEspecial11Thumbnail,
+            original: img7,
         },
-        // {
-        //     original: sessionEspecial16,
-        //     thumbnail: sessionEspecial16Thumbnail,
-        // }
     ]
 
 
@@ -93,41 +64,32 @@ function MiniRetiroCamping() {
     }
 
     return (<>
+
+        <div className="cover-shot-container">
+            <div className="cover-shot-caption cover-shot-caption-light">
+                <h1 className="display-3">Ananda, Retiro de Yoga y Bienestar</h1>
+
+            </div>
+            <picture>
+                <img src={img1} alt="cover-shot" className="img-screen-width"/>
+            </picture>
+        </div>
         <main role="main" className="container">
 
-            <DetailsHeading text='Mini-Retiro de Bienestar - Febrero'/>
+            <DetailsHeading text='Mini-Retiro de Camping'/>
 
             <div className="container details">
 
                 <div className="row">
-                    <div className="col">
+                    <div className="col-md-8">
                         <p className="text-justify">Te invito a nuestro Primer Mini-Retiro de Inicio de Año el Domingo 09 de Febrero, en donde tendremos diferentes prácticas espirituales que nos ayudarán a seguir expandiendo nuestra conciencia. Adicionalmente es la oportunidad perfecta para seguir conectando con otros seres humanos que al igual que tú  buscan un espacio de relajación, movimiento y aprendizaje, un espacio para compartir reflexiones, experiencias y ofrecer apoyo emocional. Mujeres y Hombres bienvenidos.</p>
-                    </div>
-                </div>
 
-
-                {/*<div className="row">*/}
-                {/*    <div className="col-md-3"></div>*/}
-                {/*    <div className="col-md-6">*/}
-                {/*        /!*<iframe width="429" height="762" src="https://www.youtube.com/embed/AbSXz3cPSpk"*!/*/}
-                {/*        /!*        title="Círculo de Mujeres este 19 de Mayo, Sydney - Australia. No te lo puedes perder IG @lizneirar"*!/*/}
-                {/*        /!*        frameBorder="0"*!/*/}
-                {/*        /!*        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"*!/*/}
-                {/*        /!*        allowFullScreen></iframe>*!/*/}
-                {/*        /!*<ImageGallery items={images} thumbnailPosition='bottom' autoPlay={true} />*!/*/}
-                {/*    </div>*/}
-                {/*    <div className="col-md-3"></div>*/}
-                {/*</div>*/}
-
-                <div className="row rem-2">
-                    <ImageGallery items={images} thumbnailPosition='bottom' autoPlay={true} />
-                </div>
-
-                <div className="row">
-                    <div className="col-md-7">
                         <p className="text-justify"><b>Mini-Retiro muy especial de casi 4 Horas dedicadas a nutrir tu ser a través de:
                         </b></p>
                         <ul className="class-preparation-list text-justify">
+                            <p>Campsite facilities:	picnic tables, fire pits, barbecue facilities, drinking water, warm showers, toilets, electric power, kettle</p>
+
+
                             <li>Ejercicios de Respiración para Activar tu Energía Vital.</li>
                             <li>Meditación Guiada con Baño de Sonido con Cuencos Tibetanos y de Cristal y otros
                                 instrumentos.
@@ -157,9 +119,20 @@ function MiniRetiroCamping() {
                             'Es importante que tengas un tarrito de agua para que te mantegas hidratado/da.'
                         ]}/>
                     </div>
-                    <div className="col-md-1"/>
                     <div className="col-md-4">
-                        <ContactForm yogaClassType={ClassType.WomenCircle}/>
+                        <ImageGallery items={images} thumbnailPosition='bottom' autoPlay={true} />
+                    </div>
+                </div>
+
+
+
+                <div className="row">
+                    <div className="col-md-2">
+
+                    </div>
+                    <div className="col-md-6"><ContactForm yogaClassType={ClassType.WomenCircle}/></div>
+                    <div className="col-md-2">
+
                     </div>
 
                 </div>
