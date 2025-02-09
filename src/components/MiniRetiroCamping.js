@@ -130,7 +130,7 @@ function MiniRetiroCamping() {
                     <div className="col-md-2">
 
                     </div>
-                    <div className="col-md-6"><ContactForm yogaClassType={ClassType.WomenCircle}/></div>
+                    <div className="col-md-6"><ContactForm yogaClassType={ClassType.MiniretiroCamping}/></div>
                     <div className="col-md-2">
 
                     </div>
