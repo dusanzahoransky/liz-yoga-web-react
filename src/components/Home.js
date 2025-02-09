@@ -2,8 +2,10 @@ import cover2 from '../images/home/cover-2-large-progressive.jpg';
 import cover2portrait from '../images/home/cover-2-portrait-progressive.jpg';
 import cover6 from '../images/home/cover-6.jpg';
 import cover6portrait from '../images/home/cover-6-portrait.jpg';
-import coverRetreatMarch2025 from '../images/home/cover-7.jpg';
-import coverRetreatMarch2025Portrait from '../images/home/cover-7-vertical.jpg';
+import coverRetreatMarch2025 from '../images/home/cover-retreat-march-2025.jpg';
+import coverRetreatMarch2025Portrait from '../images/home/cover-retreat-march-2025-portrait.jpg';
+// import coverRetreatTailandia2025 from '../images/home/cover-retreat-tailandia-2025.jpg';
+// import coverRetreatTailandia2025Portrait from '../images/home/cover-tailandia-2025-vertical.jpg';
 import cardPrivateOnline from '../images/home/card-private-online.jpg';
 import cardWorkshopInPerson from '../images/home/card-workshop-in-person.jpg';
 import cardGroupsInPerson from '../images/home/card-groups-in-person.jpg';
@@ -19,19 +21,34 @@ function Home() {
 
               <div className="carousel-inner">
 
+    {/*              <div className="carousel-item active" data-bs-interval="6000">*/}
+    {/*                  <a href="/retreat-tailandia-octubre-25">*/}
+    {/*                  <picture>*/}
+    {/*                      <source srcSet={coverRetreatTailandia2025Portrait}*/}
+    {/*media="(max-width: 800px) and (orientation: portrait)"/>*/}
+    {/*                      <img src={coverRetreatTailandia2025} alt="Retreat"/>*/}
+    {/*                  </picture>*/}
+    {/*                  <div className="container">*/}
+    {/*                      <div className="carousel-caption carousel-caption-light">*/}
+    {/*                          <h2 className="display-4">Ananda, Retiro de Yoga y Bienestar</h2>*/}
+    {/*                          <h3 className="display-6">Tailandia Octubre 2025</h3>*/}
+    {/*                      </div>*/}
+    {/*                  </div>*/}
+    {/*                  </a>*/}
+    {/*              </div>*/}
                   <div className="carousel-item active" data-bs-interval="6000">
-                      <a href="/retreat-tailandia-octubre-25">
-                      <picture>
-                          <source srcSet={coverRetreatMarch2025Portrait}
-    media="(max-width: 800px) and (orientation: portrait)"/>
-                          <img src={coverRetreatMarch2025} alt="Retreat"/>
-                      </picture>
-                      <div className="container">
-                          <div className="carousel-caption carousel-caption-light">
-                              <h2 className="display-4">Ananda, Retiro de Yoga y Bienestar</h2>
-                              <h3 className="display-6">Tailandia Octubre 2025</h3>
+                      <a href="/retreat-bali-march-25">
+                          <picture>
+                              <source srcSet={coverRetreatMarch2025Portrait}
+                                      media="(max-width: 800px) and (orientation: portrait)"/>
+                              <img src={coverRetreatMarch2025} alt="Retreat"/>
+                          </picture>
+                          <div className="container">
+                              <div className="carousel-caption carousel-caption-light">
+                                  <h2>RETIRO DE YOGA Y BIENESTAR</h2>
+                                  <h3>Bali Mayo 2025</h3>
+                              </div>
                           </div>
-                      </div>
                       </a>
                   </div>
 
