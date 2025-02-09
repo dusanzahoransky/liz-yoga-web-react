@@ -22,6 +22,7 @@ import Raffle from "./components/Raffle";
 import SesionRelajacionCuencos from "./components/SesionRelajacionCuencos";
 import RetreatTailandiaOctubre2025 from "./components/RetreatTailandiaOctubre2025";
 import RetreatTailandiaOctubre2025ForPdf from "./components/RetreatTailandiaOctubre2025ForPdf";
+import MiniRetiroCamping from "./components/MiniRetiroCamping";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
               <Route path='/medicina-al-alma' element={<MiniRetiroOutdoor/>}/>
               <Route path='/mini-retiro-outdoor' element={<MiniRetiroOutdoor/>}/>
               <Route path='/mini-retiro-noviembre' element={<MiniRetiroNoviembre/>}/>
+              <Route path='/mini-retiro-camping' element={<MiniRetiroCamping/>}/>
               <Route path='/retreat-bali-sept-24' element={<RetreatBaliSept2024/>}/>
               <Route path='/retreat-bali-mayo-25' element={<RetreatBaliMayo2025/>}/>
               <Route path='/retreat-bali-march-25' element={<RetreatBaliMayo2025/>}/>
