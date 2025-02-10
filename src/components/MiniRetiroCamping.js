@@ -53,7 +53,7 @@ function MiniRetiroCamping() {
         } else {
             return <>
                 <h3>Intercambio de Valor</h3>
-                <p> 111 AUD, Plazo para Reservar tu Particiáción hasta el <b>Martes 18 de Febrero.</b></p>
+                <p> 111 AUD, Plazo para Reservar tu Particiáción hasta el <b>Martes 18 de Febrero</b> Puedes separar tu espacio con el total del valor o con el 50% ahora</p>
 
                 <p><b>CUPOS LIMITADOS</b></p>
 
