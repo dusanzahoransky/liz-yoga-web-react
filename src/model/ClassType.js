@@ -10,6 +10,7 @@ export class ClassType {
     static RetreatTailandiaOctubre2025 = new ClassType('retreat-tailandia-octubre-25', 'Nuestro Retiro de Yoga y Bienestar')
     static SessionEspecial = new ClassType('session-especial-mosman', 'Sesión Dirigida a Calmar tu Sistema Nervioso')
     static WomenCircle = new ClassType('women-circle', 'Circulo de Mujeres')
+    static MiniretiroCamping = new ClassType('mini-retiro-camping', 'Miniretiro Camping')
 
     constructor(value, label) {
         this.value = value
