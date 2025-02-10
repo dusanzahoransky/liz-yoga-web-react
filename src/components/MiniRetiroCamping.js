@@ -5,6 +5,7 @@ import img4 from '../images/mini-retiro-camping/4.jpg';
 import img5 from '../images/mini-retiro-camping/5.jpg';
 import img6 from '../images/mini-retiro-camping/6.jpg';
 import img7 from '../images/mini-retiro-camping/7.jpg';
+import video from '../images/mini-retiro-camping/video1.mp4';
 
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
@@ -79,9 +80,13 @@ function MiniRetiroCamping() {
             <DetailsHeading text='Mini-Retiro de Camping'/>
 
             <div className="container details">
-
                 <div className="row">
-                    <div className="col-md-8">
+                    <div className="col-md-5">
+                        <video width="100%" controls>
+                            <source src={video} type="video/mp4"/>
+                        </video>
+                    </div>
+                    <div className="col-md-7">
                         <p className="text-justify">Te invito a nuestro Primer Mini-Retiro de Yoga y Aventura el primer fin de semana de Marzo, será un espacio exclusivo para los practicantes de mi Comunidad, un espacio para compartir y elevar la energia del grupo, tendremos diferentes actividades pensadas en el Bienestar Fisico, Mental, Espiritual, Energetico y Emocional, un MiniRetiro de Aventura para que salgamos de la rutina del dia a dia y tengamos un fin de semana de pura transformación y contacto con la naturaleza.</p>
                         <p className="text-justify">Adicionalmente es la oportunidad perfecta para seguir conectando con otros seres humanos que al igual que tú  buscan un espacio de relajación, movimiento y aprendizaje, un espacio para compartir reflexiones, experiencias y ofrecer apoyo emocional.</p>
 
@@ -118,22 +123,30 @@ function MiniRetiroCamping() {
 
 <p className="text-justify"><b>
                         </b></p>
-                          <p className="text-justify"><b>Campsite Facilities
-                                                                          </b></p>
-                                                  <ul className="class-preparation-list text-justify">
+
+                    </div>
+                </div>
+
+
+                <div className="row double-space-before">
+                    <div className="col-md-7">
+
+                        <p className="text-justify"><b>Campsite Facilities
+                        </b></p>
+                        <ul className="class-preparation-list text-justify">
 
                             <li>
-                             <p>Mesas de picnic, fogatas, BBQs, cocina, duchas con agua caliente, baños, Tomacorrientes, kettle, microondas.</p>
+                                <p>Mesas de picnic, fogatas, BBQs, cocina, duchas con agua caliente, baños, Tomacorrientes, kettle, microondas.</p>
                             </li>
- <p className="text-justify"><b>
-                        </b></p>
-                          <p className="text-justify"><b>Que NO incluye el MiniRetiro
-                                                                          </b></p>
+                            <p className="text-justify"><b>
+                            </b></p>
+                            <p className="text-justify"><b>Que NO incluye el MiniRetiro
+                            </b></p>
 
-                           <li>Comida, trae tus propios alimentos </li>
-                           <li>Tienda de Acampar/Carpa </li>
-                           <li>Valor del Alquiler del campamento, la idea es compartir los spots para acampar y dividir el valor entre los que compartamos el spot, nosotros nos encargaremos de hacer la reservación </li>
-                           <li>Transporte, deberas ir en carro, la idea será que salgamos en grupo y compartamos el carro entre las personas que se registren, primero para comenzar a integrarnos como grupo, segundo para ayudar con el medio ambiente y tercero para que se compartan gastos de gasolina.</li>
+                            <li>Comida, trae tus propios alimentos </li>
+                            <li>Tienda de Acampar/Carpa </li>
+                            <li>Valor del Alquiler del campamento, la idea es compartir los spots para acampar y dividir el valor entre los que compartamos el spot, nosotros nos encargaremos de hacer la reservación </li>
+                            <li>Transporte, deberas ir en carro, la idea será que salgamos en grupo y compartamos el carro entre las personas que se registren, primero para comenzar a integrarnos como grupo, segundo para ayudar con el medio ambiente y tercero para que se compartan gastos de gasolina.</li>
 
 
                         </ul>
@@ -147,21 +160,27 @@ function MiniRetiroCamping() {
                         <span className="fw-bold">
                             Información Importante: En caso de lluvia, se aplazará el MiniRetiro para el fin de semana del 8 y 9 de Marzo,es por ello que es indispensable reserves ese fin de semana tambien, el Martes 24 de Febrero sabremos el clima y decidiremos, sin embargo estamos convencidos que contaremos con un muy buen clima.
                         </span>
+                    </div>
+                    <div className="col-md-5">
+                        <ImageGallery items={images} thumbnailPosition='bottom' autoPlay={true} />
+                    </div>
+
+                </div>
+
+
+                <div className="row">
+                    <div className="col">
                         <PreparationItems preparationItems={[
-                          'Será un espacio exclusivo para mi comunidad, así que el requisito indispensable es que te diviertas, descanses y sonrias.',
-                          'Lleva tu Mat y Props de Yoga.',
-                          'Es importante que tengas un tarrito de agua para que te mantegas hidratado/da.',
+                            'Será un espacio exclusivo para mi comunidad, así que el requisito indispensable es que te diviertas, descanses y sonrias.',
+                            'Lleva tu Mat y Props de Yoga.',
+                            'Es importante que tengas un tarrito de agua para que te mantegas hidratado/da.',
                             'Debes realizar el pago por anticipado para reservar tu espacio.',
                             'Luego de confirmada tu asistencia no se realiza la devolución del dinero, en caso de no poder asistir puedes ceder tu espacio a alguien más.',
 
                         ]}/>
                     </div>
-                    <div className="col-md-4">
-                        <ImageGallery items={images} thumbnailPosition='bottom' autoPlay={true} />
-                    </div>
+
                 </div>
-
-
 
                 <div className="row">
                     <div className="col-md-2">
@@ -173,6 +192,7 @@ function MiniRetiroCamping() {
                     </div>
 
                 </div>
+
 
             </div>
 
