@@ -54,12 +54,13 @@ function MiniRetiroCamping() {
         } else {
             return <>
                 <h3>Intercambio de Valor</h3>
-                <p> 111 AUD, Plazo para Reservar tu Particiáción hasta el <b>Martes 18 de Febrero</b> Puedes separar tu espacio con el total del valor o con el 50% ahora</p>
+                <p> 111 AUD, Plazo para Reservar tu Participación hasta el <b>Martes 18 de Febrero.</b></p>
+                <p>Puedes separar tu espacio con el valor total o con el 50% y el martes el resto del valor</p>
 
                 <p><b>CUPOS LIMITADOS</b></p>
 
 
-                <p>Separa tu espacio realizando transferencia al número celular 0413147237.</p>
+                <p>Separa tu espacio realizando la transferencia al número celular 0413147237.</p>
             </>
         }
     }
@@ -153,7 +154,7 @@ function MiniRetiroCamping() {
                         <h3>Lugar</h3>
                         <p>Campsite localizado a 3 horas en carro, salida hacia el sur de Sydney.</p>
                         <h3>Fecha y Hora</h3>
-                        <p>Fin de Semana del 1 al 2 de Marzo, idealmente saliendo de Sydney a las 6 am.</p>
+                        <p>Fin de Semana del 1 al 2 de Marzo, idealmente saliendo de Sydney el sábado a las 6 am.</p>
                         <p>El horario para hacer Check in el Sabado es a las 2 pm y Checkout 10 am, sin embargo llegaremos al lugar el sabado temprano y exploraremos el sitio y luego haremos el checkin para armar las tiendas de acampar.</p>
                         {getPriceSection()}
 
