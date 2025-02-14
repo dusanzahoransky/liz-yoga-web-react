@@ -156,7 +156,7 @@ function RetreatTailandiaOctubre2025() {
                                      <li>Comidas saludables e inolvidablemente deliciosas elaboradas por el Executive Chef del Resort:
                                       <ul>
                                       <li>Desayuno Buffet: Disfruta de una amplia variedad de alimentos nutritivos y saludables </li>
-                                      <li> Almuerzo y Cena: 3 Course Meal con ingredientes de alta calidad recomendados por el Executive Chef</li>
+                                      <li> Almuerzo y Cena Buffet: 3 Course Meal con ingredientes de alta calidad recomendados por el Executive Chef</li>
 
                                        </ul>
                                       </li>
@@ -299,6 +299,7 @@ function RetreatTailandiaOctubre2025() {
                             <p className="fw-bolder center">Dia 6 - Viernes</p>
                             <div className="col-md-8">
                                 <ul>
+                                <li>Clase de Vinyasa Flow al Amanecer</li>
                                     <li>Excursiones:</li>
                                     <li>Paseo en Catamaran en donde conectaremos aún mas con la naturaleza, podremos disfrutar de paisajes impresionantes, del sol, el viento, el mar cristalino y dos playas hermosas, serán unas horas de pura diversión
                                     </li>

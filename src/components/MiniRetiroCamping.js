@@ -69,7 +69,7 @@ function MiniRetiroCamping() {
 
         <div className="cover-shot-container">
             <div className="cover-shot-caption cover-shot-caption-light">
-                <h1 className="display-3">MiniRetiro de Yoga y Aventura</h1>
+                <h1 className="display-3">MiniRetiro</h1>
 
             </div>
             <picture>
@@ -78,7 +78,7 @@ function MiniRetiroCamping() {
         </div>
         <main role="main" className="container">
 
-            <DetailsHeading text='Mini-Retiro de Camping'/>
+            <DetailsHeading text='MiniRetiro de Yoga y Aventura'/>
 
             <div className="container details">
                 <div className="row">
