@@ -1,7 +1,7 @@
 import cover2 from '../images/home/cover-2-large-progressive.jpg';
 import cover2portrait from '../images/home/cover-2-portrait-progressive.jpg';
-import cover6 from '../images/home/cover-6.jpg';
-import cover6portrait from '../images/home/cover-6-portrait.jpg';
+import miniRetiroCamping from '../images/home/cover-mini-retreat-camping.jpg';
+import miniRetiroCampingPortrait from '../images/home/cover-mini-retreat-camping-portrait.jpg';
 import coverRetreatMarch2025 from '../images/home/cover-retreat-march-2025.jpg';
 import coverRetreatMarch2025Portrait from '../images/home/cover-retreat-march-2025-portrait.jpg';
 // import coverRetreatTailandia2025 from '../images/home/cover-retreat-tailandia-2025.jpg';
@@ -44,8 +44,8 @@ function Home() {
                               <img src={coverRetreatMarch2025} alt="Retreat"/>
                           </picture>
                           <div className="container">
-                              <div className="carousel-caption carousel-caption-light">
-                                  <h2>RETIRO DE YOGA Y BIENESTAR</h2>
+                              <div className="carousel-caption carousel-caption-dark">
+                                  <h2>Retiro de Yoga y Bienestar</h2>
                                   <h3>Bali Mayo 2025</h3>
                               </div>
                           </div>
@@ -60,25 +60,24 @@ function Home() {
                               <img src={cover2} alt="Private clases"/>
                           </picture>
                           <div className="container">
-                              <div className="carousel-caption carousel-caption-light">
-                                  <h2 className="display-4">YOGA CLASES GRUPALES</h2>
+                              <div className="carousel-caption carousel-caption-dark">
+                                  <h2>Yoga Clases Grupales</h2>
                               </div>
                           </div>
                       </a>
                   </div>
 
                   <div className="carousel-item" data-bs-interval="3000">
-                      <a href="/women-day">
+                      <a href="/mini-retiro-camping">
                           <picture>
-                              <source srcSet={cover6portrait}
+                              <source srcSet={miniRetiroCampingPortrait}
                                       media="(max-width: 800px) and (orientation: portrait)"/>
-                              <img src={cover6} alt="Private clases"/>
+                              <img src={miniRetiroCamping} alt="Private clases"/>
                           </picture>
 
                           <div className="container">
                               <div className="carousel-caption carousel-caption-light">
-                                  <h2 className="display-4">MINI-RETIRO DE BIENESTAR</h2>
-                                  <h3 className="display-6">Febrero 09</h3>
+                                  <h2>MiniRetiro de Yoga y Aventura</h2>
                               </div>
                           </div>
                       </a>

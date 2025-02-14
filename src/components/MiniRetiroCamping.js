@@ -15,7 +15,6 @@ import PreparationItems from "./classDetails/PreparationItems";
 import ImageGallery from 'react-image-gallery';
 import '../image-gallery.css';
 import {ClassType} from "../model/ClassType";
-import img1vertical from "../images/retreat-tailandia-octubre-25/1-vertical.jpg";
 
 function MiniRetiroCamping() {
 
@@ -69,7 +68,7 @@ function MiniRetiroCamping() {
 
         <div className="cover-shot-container">
             <div className="cover-shot-caption cover-shot-caption-light">
-                <h1 className="display-3">MiniRetiro de Yoga y Aventura</h1>
+                <h1>MiniRetiro de Yoga y Aventura</h1>
 
             </div>
             <picture>

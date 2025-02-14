@@ -86,8 +86,8 @@ function GroupsInPerson() {
                         {/*<p>Lugar: Coogee Beach.</p>*/}
 
                         <h3>Yoga en la Mañana - Domingo</h3>
-                        <p>Al Amanecer 5:45 am </p>
-                        {/*<p>Segunda clase 7:30 am </p>*/}
+                        <p>Al Amanecer 5:55 am </p>
+                        <p>Segunda clase 7:30 am </p>
 
                         <p>Lugar: Coogee Beach.</p>
 
@@ -100,15 +100,15 @@ function GroupsInPerson() {
 
 
                         {/*<h3>Yoga al Atardecer - Miércoles</h3>*/}
-                        {/*<h3>Yoga al Atardecer - Jueves</h3>*/}
+                        <h3>Yoga al Atardecer - Jueves</h3>
                         {/*<div>*/}
                         {/*    <a href="https://maps.app.goo.gl/wizTnfJaY1KB3xMe8" target='_blank' rel="noreferrer">*/}
                         {/*        <img className="classLocationMap"*/}
                         {/*             alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>*/}
                         {/*    </a>*/}
                         {/*</div>*/}
-                        {/*<p>Hora: 6:40 pm</p>*/}
-                        {/*<p>Lugar: Coogee Beach.</p>*/}
+                        <p>Hora: 6:30 pm</p>
+                        <p>Lugar: Coogee Beach.</p>
 
                         <h3>Valor</h3>
                         <p>$24 AUD.</p>

@@ -21,6 +21,14 @@ import food3 from '../images/retreat-tailandia-octubre-25/food3.jpg';
 import food4 from '../images/retreat-tailandia-octubre-25/food4.jpg';
 import food5 from '../images/retreat-tailandia-octubre-25/food5.jpg';
 
+import hotel1 from '../images/retreat-tailandia-octubre-25/hotel1.jpg';
+import hotel2 from '../images/retreat-tailandia-octubre-25/hotel2.jpg';
+import hotel3 from '../images/retreat-tailandia-octubre-25/hotel3.webp';
+import hotel4 from '../images/retreat-tailandia-octubre-25/hotel4.jpg';
+import hotel5 from '../images/retreat-tailandia-octubre-25/hotel5.jpg';
+import hotel6 from '../images/retreat-tailandia-octubre-25/hotel6.jpg';
+import hotel7 from '../images/retreat-tailandia-octubre-25/hotel7.jpg';
+
 import img1 from '../images/retreat-tailandia-octubre-25/1.jpg';
 import img2 from '../images/retreat-tailandia-octubre-25/2.jpg';
 import img3 from '../images/retreat-tailandia-octubre-25/3.jpg';
@@ -107,7 +115,7 @@ function RetreatTailandiaOctubre2025() {
     return (<>
             <div className="cover-shot-container">
                 <div className="cover-shot-caption cover-shot-caption-light">
-                    <h1 className="display-3">Ananda, Retiro de Yoga y Bienestar</h1>
+                    <h1>Ananda, Retiro de Yoga y Bienestar</h1>
 
                 </div>
                 <div className="cover-shot-text">
@@ -128,7 +136,8 @@ function RetreatTailandiaOctubre2025() {
 
                     <div className="row">
                         <div className="col-md-6 text-justify">
-                            <h3 className="text-center text-justify">Ananda, Retiro de Yoga y Bienestar - Pura Dicha</h3>
+                            <h3 className="text-center text-justify">Ananda, Retiro de Yoga y Bienestar</h3>
+                            <h3 className="text-center text-justify">Dicha y Conexión Interior</h3>
 
                             <p> Únete a nosotros a nuestro Retiro en el Paraiso de Tailandia en un Resort
                                que te ofrecerá comodidad, comida nutritiva y deliciosa, espacios exclusivos para que te desconectes del dia a dia y te
@@ -193,7 +202,7 @@ function RetreatTailandiaOctubre2025() {
 
 
                     <div>
-                        <h2 className="text-center text-justify double-space-before">Ananda, Pura Dicha y Conexión - Programación:</h2>
+                        <h2 className="text-center text-justify double-space-before">Ananda- Programación:</h2>
                         <h3 className="text-center text-justify"></h3>
 
                         <div className="row space-before">
@@ -346,34 +355,63 @@ function RetreatTailandiaOctubre2025() {
 
 
                 <div className="row double-space-before">
+                    <div className="col">
+                        <h2 className="text-center text-justify">Resort</h2>
+                    </div>
+                </div>
+                <div className="row">
+
+                    <div className="col-sm-3">
+                        <img className="max-width100"  src={hotel4}/>
+                    </div>
+                    <div className="col-sm-3">
+                        <img className="max-width100" src={hotel1}/>
+
+                        <img className="max-width100 space-before"  src={hotel2}/>
+                    </div>
+                    <div className="col-sm-3">
+                        <img className="max-width100"  src={hotel3}/>
+
+                        <img className="max-width100 space-before"  src={hotel7}/>
+                    </div>
+                    <div className="col-sm-3">
+                        <img className="max-width100"  src={hotel5}/>
+                    </div>
+                </div>
+
+                <br/>
+
+                <div className="row double-space-before">
+                    <div className="col-md-6">
+                        <h2 className="text-center text-justify">Alimentación</h2>
+                        <p>
+                            Durante el Retiro Podrás disfrutar de una alimentación saludable y balanceada tipo buffet con una vista impresionante a la ciudad.
+                        </p><p>
+                        EL Restaurante Tailandés del Resort es reconocido como uno de los mejores en Phuket según los críticos más populares, como Top 25 de los Restaurantes
+                        y la Autoridad de Turismo de Tailandia, y seleccionado entre los 200 mejores restaurantes de Tailandia por la revista Koktail.
+                    </p>
+                    </div>
+                    <div className="col-md-6">
+                        <ImageGallery items={foodImages} autoPlay={false} showThumbnails={true}/>
+                    </div>
+                </div>
+
+                <br/>
+
+                <div className="row double-space-before">
                     <div className="col-md-6">
                         <ImageGallery items={roomImages} autoPlay={false} showThumbnails={true}/>
                     </div>
                     <div className="col-md-6">
                         <h2 className="text-center text-justify">Acomodación</h2>
                         <p>
-                            Alojamiento elegante en un complejo con vistas preciosas a la ciudad de Phuket y la bahía de Phang Nga.
+                            Alojamiento moderno en un Resort con una vista preciosa a la ciudad de Phuket y la bahía de Phang Nga.
                         </p><p>
-                            Deluxe Room (con dos camas individuales): Espaciosa habitación con dos camas individuales y un balcón privado, escritorio, aire
-                            acondicionado y acceso WiFi gratuito. La habitación incluye baño privado con ducha.
+                            Deluxe Room (con dos camas individuales): Espaciosa habitación con dos camas individuales, escritorio, aire
+                            acondicionado y acceso a WiFi gratuito. La habitación incluye baño privado con ducha.
                         </p>
                     </div>
 
-                </div>
-
-                <div className="row double-space-before">
-                    <div className="col-md-6">
-                        <h2 className="text-center text-justify">Comida</h2>
-                        <p>
-                            Durante el retiro, disfrute de deliciosos menús incluidos rodeado de impresionantes vistas de Phuket desde la azotea.
-                        </p><p>
-                            Comida de un restaurante tailandés reconocido como el mejor de Phuket según los críticos más populares, como Top 25 Restaurants
-                            y la Autoridad de Turismo de Tailandia, y seleccionado entre los 200 mejores restaurantes de Tailandia por la revista Koktail.
-                        </p>
-                    </div>
-                    <div className="col-md-6">
-                        <ImageGallery items={foodImages} autoPlay={false} showThumbnails={true}/>
-                    </div>
                 </div>
 
                 <br/>
@@ -411,11 +449,19 @@ function RetreatTailandiaOctubre2025() {
             </>
         } else {
             return <>
-                <p>Habitación Compartida con una persona en camas individuales, valor Total del Retiro Por Persona
-                    <span className="fw-bolder "> $2.699 AUD</span> Pago Total del Retiro hasta el 11 de Agosto.
+                <p>
+                Habitación Compartida con una persona en camas individuales, valor Total del Retiro Por Persona:
+                <ul className="line-height-3 no-bottom-margin">
+                    <li>
+                        Sin Balcón <span className="fw-bolder "> $2.699 AUD</span>
+                    </li><li>
+                        Con Balcón <span className="fw-bolder "> $2.899 AUD</span>
+                    </li>
+                </ul>
                 </p>
+                <p>Pago Total del Retiro hasta el 11 de Agosto. </p>
                 <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $111 AUD</span> antes del 22 de Marzo.</p>
+                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">22 de Marzo.</span></p>
                 <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
                 solo para ti desde <span className="fw-bolder">$122 AUD </span> o más por recomendar a tus
                  amigas(os) y realicen

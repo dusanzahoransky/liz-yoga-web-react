@@ -107,7 +107,7 @@ function RetreatTailandiaOctubre2025Pdf() {
     return (<>
             <div className="cover-shot-container">
                 <div className="cover-shot-caption cover-shot-caption-light">
-                    <h1 className="display-3">Ananda, Retiro de Yoga y Bienestar</h1>
+                    <h1>Ananda, Retiro de Yoga y Bienestar</h1>
 
                 </div>
                 <div className="cover-shot-text">

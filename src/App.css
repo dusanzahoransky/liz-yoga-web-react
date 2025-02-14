@@ -17,6 +17,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.line-height-3{
+    line-height: 3rem;
+}
+
 img{
     border-radius: 5px;
 }
@@ -27,6 +31,10 @@ img{
 
 .max-width100{
     max-width: 100%;
+}
+
+.max-width92{
+    max-width: 92%;
 }
 
 .form-control{
@@ -232,6 +240,9 @@ h1, h2, h3, h4, h5 {
 }
 .double-space-before{
     margin-top: 2rem;
+}
+.triple-space-before{
+    margin-top: 3rem;
 }
 
 .heading-with-note {
@@ -525,6 +536,10 @@ button[aria-expanded] {
     color: rgba(41, 48, 63, 1);
     text-align: center;
     margin-top: 0;
+    margin-bottom: 0;
+}
+
+.no-bottom-margin{
     margin-bottom: 0;
 }
 
