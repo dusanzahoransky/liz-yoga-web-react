@@ -95,13 +95,13 @@ function MiniRetiroOutdoor() {
     return (<>
         <main role="main" className="container">
 
-            <DetailsHeading text='Mini-Retiro de Bienestar - Febrero'/>
+            <DetailsHeading text='Circulo de Mujeres'/>
 
             <div className="container details">
 
                 <div className="row">
                     <div className="col">
-                        <p className="text-justify">Te invito a nuestro Primer Mini-Retiro de Inicio de Año el Domingo 09 de Febrero, en donde tendremos diferentes prácticas espirituales que nos ayudarán a seguir expandiendo nuestra conciencia. Adicionalmente es la oportunidad perfecta para seguir conectando con otros seres humanos que al igual que tú  buscan un espacio de relajación, movimiento y aprendizaje, un espacio para compartir reflexiones, experiencias y ofrecer apoyo emocional. Mujeres y Hombres bienvenidos.</p>
+                        <p className="text-justify">Te invito a nuestro Circulo de Mujeres el Domingo 09 de Febrero, en donde tendremos diferentes prácticas espirituales que nos ayudarán a seguir expandiendo nuestra conciencia. Adicionalmente es la oportunidad perfecta para seguir conectando con otros seres humanos que al igual que tú  buscan un espacio de relajación, movimiento y aprendizaje, un espacio para compartir reflexiones, experiencias y ofrecer apoyo emocional.</p>
                     </div>
                 </div>
 
@@ -132,9 +132,9 @@ function MiniRetiroOutdoor() {
                             <li>Meditación Guiada con Baño de Sonido con Cuencos Tibetanos y de Cristal y otros
                                 instrumentos.
                             </li>
-                            <li>Sesión Multinivel de Yoga enfocada a al chakra de la intuición, Ajna Chakra, Sexto centro energético de tu sistema de chakras, Este chakra está asociado con la conciencia, la comprensión y la clarividencia. Es un centro de percepción extrasensorial, percepción de la verdad y comprensión intuitiva.
+                            <li>Sesión Multinivel de Yoga.
                             </li>
-                            <li>Taller de Numerología, vas a reconocer en qué año estás, cual es la energía que tienes disponible ahora mismo utilizando nuestro nombre, fecha de nacimiento y otros aspectos que te darán muchísima información para que utilices esa energía para tu más alto beneficio..
+                            <li>Talleres, Rituales y Mucho Mas.
                             </li>
 
                             <li>Snacks Nutritivos.
@@ -144,7 +144,7 @@ function MiniRetiroOutdoor() {
                         <h3>Lugar</h3>
                         <p>Coogee Beach, Goldstein Reserve - Sydney.</p>
                         <h3>Fecha y Hora</h3>
-                        <p>Domingo 09 de Febrero, 7:15 AM a 10:30/11 AM.</p>
+                        <p>Domingo</p>
                         {getPriceSection()}
 
                         <span className="fw-bold">

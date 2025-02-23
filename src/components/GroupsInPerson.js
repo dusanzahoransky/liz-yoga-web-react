@@ -86,8 +86,8 @@ function GroupsInPerson() {
                         {/*<p>Lugar: Coogee Beach.</p>*/}
 
                         <h3>Yoga en la Mañana - Domingo</h3>
-                        <p>Al Amanecer 5:55 am </p>
-                        <p>Segunda clase 7:30 am </p>
+                        <p>Al Amanecer 6:10 am </p>
+                        <p>Segunda clase 8:00 am </p>
 
                         <p>Lugar: Coogee Beach.</p>
 
@@ -99,8 +99,8 @@ function GroupsInPerson() {
                             caminando hacia la izquierda y nos encontrarás.</p>
 
 
-                        {/*<h3>Yoga al Atardecer - Miércoles</h3>*/}
-                        <h3>Yoga al Atardecer - Jueves</h3>
+                        <h3>Yoga al Atardecer - Miércoles</h3>
+                        {/*<h3>Yoga al Atardecer - Jueves</h3>*/}
                         {/*<div>*/}
                         {/*    <a href="https://maps.app.goo.gl/wizTnfJaY1KB3xMe8" target='_blank' rel="noreferrer">*/}
                         {/*        <img className="classLocationMap"*/}
@@ -110,10 +110,13 @@ function GroupsInPerson() {
                         <p>Hora: 6:30 pm</p>
                         <p>Lugar: Coogee Beach.</p>
 
-                        <h3>Valor</h3>
+                        <h3>Intercambio de Valor</h3>
                         <p>$24 AUD.</p>
 
-                        <p className="text-justify">Realiza la transferencia de la clase al número celular 0413147237
+                        <h3>Valor Especial</h3>
+                        <p><b>Si tomas 2 clases la misma semana tienes un precio especial de $43 Aud</b></p>
+
+                        <p className="text-justify">Realiza la transferencia al número celular 0413147237
                             para separar tu espacio, se reciben confirmaciones con el pago hasta el Viernes a las 3 pm.</p>
                         <PreparationItems preparationItems={[
                             'Ser puntuales es muy importante, la clase inicia a la hora programada, asi que, te recomiendo puntualidad para que no te pierdas ninguna parte de la clase.',

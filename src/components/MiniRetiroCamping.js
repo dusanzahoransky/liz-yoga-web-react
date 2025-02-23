@@ -77,7 +77,7 @@ function MiniRetiroCamping() {
         </div>
         <main role="main" className="container">
 
-            <DetailsHeading text='Mini-Retiro de Camping'/>
+            <h2 className="center">Prepárate para conectar con tu esencia y la naturaleza</h2>
 
             <div className="container details">
                 <div className="row">

@@ -1,13 +1,16 @@
 import cover2 from '../images/home/cover-2-large-progressive.jpg';
 import cover2portrait from '../images/home/cover-2-portrait-progressive.jpg';
+import cover6 from '../images/home/cover-6.jpg';
+import cover6portrait from '../images/home/cover-6-portrait.jpg';
 import miniRetiroCamping from '../images/home/cover-mini-retreat-camping.jpg';
 import miniRetiroCampingPortrait from '../images/home/cover-mini-retreat-camping-portrait.jpg';
 import coverRetreatMarch2025 from '../images/home/cover-retreat-march-2025.jpg';
 import coverRetreatMarch2025Portrait from '../images/home/cover-retreat-march-2025-portrait.jpg';
-// import coverRetreatTailandia2025 from '../images/home/cover-retreat-tailandia-2025.jpg';
-// import coverRetreatTailandia2025Portrait from '../images/home/cover-tailandia-2025-vertical.jpg';
+import coverRetreatTailandia2025 from '../images/home/cover-retreat-tailandia-2025.jpg';
+import coverRetreatTailandia2025Portrait from '../images/home/cover-retreat-tailandia-2025-vertical.jpg';
 import cardPrivateOnline from '../images/home/card-private-online.jpg';
 import cardWorkshopInPerson from '../images/home/card-workshop-in-person.jpg';
+import cardSessionDeRelajacion from '../images/home/card-session-de-relajacion.jpg';
 import cardGroupsInPerson from '../images/home/card-groups-in-person.jpg';
 import cardPrivateInPerson from '../images/home/card-private-in-person.jpg';
 import cardRetreatBali from '../images/home/card-retreat-bali-sept-2024.jpg';
@@ -21,36 +24,36 @@ function Home() {
 
               <div className="carousel-inner">
 
-    {/*              <div className="carousel-item active" data-bs-interval="6000">*/}
-    {/*                  <a href="/retreat-tailandia-octubre-25">*/}
-    {/*                  <picture>*/}
-    {/*                      <source srcSet={coverRetreatTailandia2025Portrait}*/}
-    {/*media="(max-width: 800px) and (orientation: portrait)"/>*/}
-    {/*                      <img src={coverRetreatTailandia2025} alt="Retreat"/>*/}
-    {/*                  </picture>*/}
-    {/*                  <div className="container">*/}
-    {/*                      <div className="carousel-caption carousel-caption-light">*/}
-    {/*                          <h2 className="display-4">Ananda, Retiro de Yoga y Bienestar</h2>*/}
-    {/*                          <h3 className="display-6">Tailandia Octubre 2025</h3>*/}
-    {/*                      </div>*/}
-    {/*                  </div>*/}
-    {/*                  </a>*/}
-    {/*              </div>*/}
                   <div className="carousel-item active" data-bs-interval="6000">
-                      <a href="/retreat-bali-march-25">
-                          <picture>
-                              <source srcSet={coverRetreatMarch2025Portrait}
-                                      media="(max-width: 800px) and (orientation: portrait)"/>
-                              <img src={coverRetreatMarch2025} alt="Retreat"/>
-                          </picture>
-                          <div className="container">
-                              <div className="carousel-caption carousel-caption-dark">
-                                  <h2>Retiro de Yoga y Bienestar</h2>
-                                  <h3>Bali Mayo 2025</h3>
-                              </div>
+                      <a href="/retreat-tailandia-octubre-25">
+                      <picture>
+                          <source srcSet={coverRetreatTailandia2025Portrait}
+    media="(max-width: 800px) and (orientation: portrait)"/>
+                          <img src={coverRetreatTailandia2025} alt="Retreat"/>
+                      </picture>
+                      <div className="container">
+                          <div className="carousel-caption carousel-caption-light">
+                              <h2>Ananda, Retiro de Yoga y Bienestar</h2>
+                              <h3>Tailandia Octubre 2025</h3>
                           </div>
+                      </div>
                       </a>
                   </div>
+                  {/*<div className="carousel-item active" data-bs-interval="6000">*/}
+                  {/*    <a href="/retreat-bali-march-25">*/}
+                  {/*        <picture>*/}
+                  {/*            <source srcSet={coverRetreatMarch2025Portrait}*/}
+                  {/*                    media="(max-width: 800px) and (orientation: portrait)"/>*/}
+                  {/*            <img src={coverRetreatMarch2025} alt="Retreat"/>*/}
+                  {/*        </picture>*/}
+                  {/*        <div className="container">*/}
+                  {/*            <div className="carousel-caption carousel-caption-dark">*/}
+                  {/*                <h2>Retiro de Yoga y Bienestar</h2>*/}
+                  {/*                <h3>Bali Mayo 2025</h3>*/}
+                  {/*            </div>*/}
+                  {/*        </div>*/}
+                  {/*    </a>*/}
+                  {/*</div>*/}
 
                   <div className="carousel-item" data-bs-interval="3000">
                       <a href="/groups-in-person">
@@ -83,6 +86,22 @@ function Home() {
                       </a>
                   </div>
 
+                  <div className="carousel-item" data-bs-interval="3000">
+                      <a href="/mini-retiro-outdoor">
+                          <picture>
+                              <source srcSet={cover6portrait}
+                                      media="(max-width: 800px) and (orientation: portrait)"/>
+                              <img src={cover6} alt="Private clases"/>
+                          </picture>
+
+                          <div className="container">
+                              <div className="carousel-caption carousel-caption-light">
+                                  <h2>Circulo de Mujeres</h2>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+
               </div>
 
               <button className="carousel-control-prev" type="button" data-bs-target="#home-page-carousel" data-bs-slide="prev">
@@ -97,7 +116,7 @@ function Home() {
 
 
           <div className="container introduction rem-2">
-              <h1 className="display-6">YOGA CON LIZ <span className="color-secondary">NEIRA</span></h1>
+              <h2> Facilitadora de Yoga y Bienestar LIZ <span className="color-secondary">NEIRA</span></h2>
               <h5 className="rem-2"><a href="https://www.instagram.com/lizneirar/">Instagram: @lizneirar</a></h5>
               <p className="text-justify">Desde hace 7 años el Yoga atrajo mi atención y descubrí un mundo fantástico en
                   donde
@@ -119,30 +138,30 @@ function Home() {
 
               <h4 className="display-7 rem-2 text-center">RETIRO DE YOGA Y BIENESTAR</h4>
 
-              <div className="row row-cols-1">
-                  <div className="col-3"></div>
-                  <div className="col-md">
-                      <a href="/retreat-bali-march-25">
-                          <div className="card h-100 text-center">
-                              <img src={cardRetreatBali} className="card-img-top" alt="..."/>
-                              <div className="card-body">
-                                  {/*<div className="sold-out-stamp-small-parent">*/}
-                                  <div>
-                                      {/*<div className="sold-out-stamp-small">*/}
-                                      <div>
-                                          <p href="/groups-in-person" className="card-title">BALI MAYO 2025</p>
-                                      </div>
-                                  </div>
+              {/*<div className="row row-cols-1">*/}
+              {/*    <div className="col-3"></div>*/}
+              {/*    <div className="col-md">*/}
+              {/*        <a href="/retreat-bali-march-25">*/}
+              {/*            <div className="card h-100 text-center">*/}
+              {/*                <img src={cardRetreatBali} className="card-img-top" alt="..."/>*/}
+              {/*                <div className="card-body">*/}
+              {/*                    /!*<div className="sold-out-stamp-small-parent">*!/*/}
+              {/*                    <div>*/}
+              {/*                        /!*<div className="sold-out-stamp-small">*!/*/}
+              {/*                        <div>*/}
+              {/*                            <p href="/groups-in-person" className="card-title">BALI MAYO 2025</p>*/}
+              {/*                        </div>*/}
+              {/*                    </div>*/}
 
-                                  <p className="card-text">Únete a nuestro Retiro de Yoga y Bienestar en el paraiso de
-                                      Bali, un espacio para conectar e ir mucho más profundo con tu verdadera
-                                      escencia.</p>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
-                  <div className="col-3"></div>
-              </div>
+              {/*                    <p className="card-text">Únete a nuestro Retiro de Yoga y Bienestar en el paraiso de*/}
+              {/*                        Bali, un espacio para conectar e ir mucho más profundo con tu verdadera*/}
+              {/*                        escencia.</p>*/}
+              {/*                </div>*/}
+              {/*            </div>*/}
+              {/*        </a>*/}
+              {/*    </div>*/}
+              {/*    <div className="col-3"></div>*/}
+              {/*</div>*/}
 
               <h4 className="display-7 rem-2 text-center">CLASES</h4>
 
@@ -176,9 +195,9 @@ function Home() {
 
               <div className="row  row-cols-1 row-cols-md-2">
                   <div className="col ">
-                      <a href="/workshop-in-person">
+                      <a href="/sesion-de-relajacion">
                           <div className="card h-100 text-center">
-                              <img src={cardWorkshopInPerson} className="card-img-top" alt="..."/>
+                              <img src={cardSessionDeRelajacion} className="card-img-top" alt="..."/>
                               <div className="card-body">
                                   <p className="card-title">CELEBRA TUS FECHAS ESPECIALES</p>
                                   <p className="card-text">Día de la Mujer, Cumpleaños, Día del Amor y la Amistad entre

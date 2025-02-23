@@ -1,10 +1,54 @@
-import sessionEspecial3 from '../images/session-de-relajacion/session-especial-3.jpg';
-
 import Footer from "./Footer";
 import DetailsHeading from "./classDetails/DetailsHeading";
 import '../image-gallery.css';
+import img1 from "../images/session-de-relajacion/1.jpg";
+import img2 from "../images/session-de-relajacion/2.jpg";
+import img3 from "../images/session-de-relajacion/3.jpg";
+import img4 from "../images/session-de-relajacion/4.jpg";
+import img5 from "../images/session-de-relajacion/5.jpg";
+import img6 from "../images/session-de-relajacion/6.jpg";
+import img7 from "../images/session-de-relajacion/7.jpg";
+import img8 from "../images/session-de-relajacion/9.jpg";
+import img9 from "../images/session-de-relajacion/10.jpg";
+import img10 from "../images/session-de-relajacion/8.jpg";
+import ImageGallery from "react-image-gallery";
+
 
 function SesionDeRelajacion() {
+
+    const images = [
+        {
+            original: img1,
+            thumbnail: img1,
+        },{
+            original: img2,
+            thumbnail: img2,
+        },{
+            original: img3,
+            thumbnail: img3,
+        },{
+            original: img4,
+            thumbnail: img4,
+        },
+    ]
+    const imagesVertical = [
+        {
+            original: img5,
+            thumbnail: img5,
+        },{
+            original: img6,
+            thumbnail: img6,
+        },{
+            original: img7,
+            thumbnail: img7,
+        },{
+            original: img8,
+            thumbnail: img8,
+        },{
+            original: img9,
+            thumbnail: img9,
+        },
+    ]
 
     return (<>
         <main role="main" className="container">
@@ -15,16 +59,16 @@ function SesionDeRelajacion() {
 
                 <div className="row">
                     <div className="col">
-                        <p className="text-justify">Una manera distinta de celebrar tus fechas especiales de cumpleaños, despedida de soltera, cierre de año, inicio de año, entre otras.</p>
+                        <p className="text-justify">Una manera distinta de celebrar tus fechas especiales de cumpleaños, blessingway, despedida de soltera, cierre de año, inicio de año, entre otros.</p>
                     </div>
                 </div>
 
                 <div className="row rem-2">
-                    <img src={sessionEspecial3}></img>
+                    <ImageGallery items={images} thumbnailPosition='bottom' autoPlay={true} />
                 </div>
 
                 <div className="row">
-                    <div className="col">
+                    <div className="col-md-7">
                         <p className="text-justify"><b>Será una sesión de hasta 90 minutos dedicados a nutrir tu ser a través de:
                             dedicados a nutrir
                             tu ser a través
@@ -70,7 +114,10 @@ function SesionDeRelajacion() {
                             {/*</li>*/}
                         {/*</ul>*/}
                     </div>
-
+                    <div className="col-md-1"></div>
+                    <div className="col-md-4">
+                        <ImageGallery items={imagesVertical} thumbnailPosition='right' autoPlay={true} />
+                    </div>
                 </div>
 
             </div>
