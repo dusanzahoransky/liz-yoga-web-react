@@ -10,7 +10,7 @@ import inPerson3Thumbnail from '../images/groups-in-person-thumbnail/card-groups
 import inPerson4Thumbnail from '../images/groups-in-person-thumbnail/card-groups-in-person-4.jpg';
 import inPerson5Thumbnail from '../images/groups-in-person-thumbnail/card-groups-in-person-5.jpg';
 import inPerson6Thumbnail from '../images/groups-in-person-thumbnail/card-groups-in-person-6.jpg';
-import groupClassLocation from '../images/groups-in-person/group-class-location.png';
+import groupClassLocation from '../images/groups-in-person/coogeeMap.png';
 
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
@@ -75,19 +75,21 @@ function GroupsInPerson() {
                         {/*<h3>Yoga al Atardecer - Jueves</h3>*/}
                         {/*<h3>Clase de Yoga Multinivel - Sábado</h3>*/}
                         <div>
-                            <a href="https://maps.app.goo.gl/nNqTMuVW8QgsgqVe6" target='_blank' rel="noreferrer">
+                            <a href="https://maps.app.goo.gl/SFqDhvKA5fQRcWBM8" target='_blank' rel="noreferrer">
                                 <img className="classLocationMap"
                                      alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>
                             </a>
+
                         </div>
                         {/*<p>Hora: 5:45 am</p>*/}
                         {/*<p>Hora: 8:00 am</p>*/}
                         {/*<p>Hora: 6:30 pm</p>*/}
                         {/*<p>Lugar: Coogee Beach.</p>*/}
 
-                        <h3>Yoga en la Mañana - Domingo</h3>
-                        <p>Al Amanecer 6:10 am </p>
-                        <p>Segunda clase 8:00 am </p>
+                        <h3>Yoga al Amanecer - Domingo</h3>
+                        <h4>Clase Especial de 90 Minutos</h4>
+                        <p>Hora: 6:20 am </p>
+                        {/*<p>Segunda clase 8:15 am </p>*/}
 
                         <p>Lugar: Coogee Beach.</p>
 
@@ -99,15 +101,15 @@ function GroupsInPerson() {
                             caminando hacia la izquierda y nos encontrarás.</p>
 
 
-                        <h3>Yoga al Atardecer - Miércoles</h3>
-                        {/*<h3>Yoga al Atardecer - Jueves</h3>*/}
+                        {/*<h3>Yoga al Atardecer - Miércoles</h3>*/}
+                        <h3>Yoga al Atardecer - Jueves</h3>
                         {/*<div>*/}
                         {/*    <a href="https://maps.app.goo.gl/wizTnfJaY1KB3xMe8" target='_blank' rel="noreferrer">*/}
                         {/*        <img className="classLocationMap"*/}
                         {/*             alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>*/}
                         {/*    </a>*/}
                         {/*</div>*/}
-                        <p>Hora: 6:30 pm</p>
+                        <p>Hora: 6:20 pm</p>
                         <p>Lugar: Coogee Beach.</p>
 
                         <h3>Intercambio de Valor</h3>
