@@ -444,7 +444,33 @@ function RetreatTailandiaOctubre2025() {
 
     function getDepositSection() {
         if (!isPrivate()) {
-            return <><p className="space-before"></p> <p>Si deseas información más detallada que incluyea precios por
+            return <>
+                <p>Pago Total del Retiro hasta el 11 de Agosto. </p>
+                <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
+                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">15 de Abril.</span></p>
+                <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
+                    solo para ti desde <span className="fw-bolder">$122 AUD </span> o más por recomendar a tus
+                    amigas(os) y realicen
+                    la reservación.</p>
+                <p><i className="fa fa-credit-card"></i> <span
+                    className="fw-bolder">RESERVA TU ESPACIO:</span> Deposito
+                    de <span className="fw-bolder">$600 AUD</span> con transferencia
+                    electrónica al numero celular 0413147237.
+
+                </p>
+                <p>El resto del valor del Retiro se distribuirán en 3 y/o 4 cuotas, el Retiro debe pagarse por completo el 11 de Agosto
+                    {/*<ul>*/}
+                    {/*    <li>30 de Noviembre,</li>*/}
+                    {/*    <li>31 de Enero,</li>*/}
+                    {/*    <li>10 de Marzo.</li>*/}
+                    {/*</ul>*/}
+                </p>
+                <p>
+                    <i><span className="color-secondary">
+                                    Los abonos/transferencias no son reembolsables ya que se utilizan para el pago de la acomodación, paquete de
+                    comidas, transporte etc.</span></i>
+                </p>
+                <p className="space-before"></p> <p>Si deseas información más detallada que incluyea precios por
                 favor dilegencia el formulario a continuación:
             </p>
             </>
@@ -461,12 +487,14 @@ function RetreatTailandiaOctubre2025() {
                 </ul>
                 </p>
                 <p>Pago Total del Retiro hasta el 11 de Agosto. </p>
-                <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">22 de Marzo.</span></p>
+                <p><s><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
+                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">15 de Abril.</span></s></p>
+                    <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
+                    <span className="fw-bolder"> $55 AUD</span> antes del <span className="fw-bolder ">15 de Junio.</span></p>
                 <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
-                solo para ti desde <span className="fw-bolder">$122 AUD </span> o más por recomendar a tus
-                 amigas(os) y realicen
-                 la reservación.</p>
+                    solo para ti desde <span className="fw-bolder">$122 AUD </span> o más por recomendar a tus
+                    amigas(os) y realicen
+                    la reservación.</p>
                 <p><i className="fa fa-credit-card"></i> <span
                     className="fw-bolder">RESERVA TU ESPACIO:</span> Deposito
                     de <span className="fw-bolder">$600 AUD</span> con transferencia

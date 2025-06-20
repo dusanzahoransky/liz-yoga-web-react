@@ -44,8 +44,8 @@ function App() {
               <Route path='/mini-retiro-noviembre' element={<MiniRetiroNoviembre/>}/>
               <Route path='/mini-retiro-camping' element={<MiniRetiroCamping/>}/>
               <Route path='/retreat-bali-sept-24' element={<RetreatBaliSept2024/>}/>
-              <Route path='/retreat-bali-mayo-25' element={<RetreatBaliMayo2025/>}/>
-              <Route path='/retreat-bali-march-25' element={<RetreatBaliMayo2025/>}/>
+              <Route path='/retreat-bali-private' element={<RetreatBaliMayo2025/>}/>
+              {/*<Route path='/retreat-bali-march-25' element={<RetreatBaliMayo2025/>}/>*/}
               <Route path='/retreat-tailandia-octubre-25' element={<RetreatTailandiaOctubre2025/>}/>
               <Route path='/retreat-tailandia-octubre-25-pdf' element={<RetreatTailandiaOctubre2025ForPdf/>}/>
               <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
