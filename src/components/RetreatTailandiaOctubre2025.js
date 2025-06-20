@@ -445,11 +445,11 @@ function RetreatTailandiaOctubre2025() {
     function getDepositSection() {
         if (!isPrivate()) {
             return <>
-                <p>Pago Total del Retiro hasta el 11 de Agosto. </p>
+                <p>Pago Total del Retiro hasta el 19 de Septiembre. </p>
                 <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">15 de Abril.</span></p>
+                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">15 de Julio.</span></p>
                 <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
-                    solo para ti desde <span className="fw-bolder">$122 AUD </span> o más por recomendar a tus
+                    solo para ti desde <span className="fw-bolder">$155 AUD </span> o más por recomendar a tus
                     amigas(os) y realicen
                     la reservación.</p>
                 <p><i className="fa fa-credit-card"></i> <span
@@ -458,7 +458,7 @@ function RetreatTailandiaOctubre2025() {
                     electrónica al numero celular 0413147237.
 
                 </p>
-                <p>El resto del valor del Retiro se distribuirán en 3 y/o 4 cuotas, el Retiro debe pagarse por completo el 11 de Agosto
+                <p>El resto del valor del Retiro se distribuirán en 3 y/o 4 cuotas, el Retiro debe pagarse por completo el 19 de Septiembre
                     {/*<ul>*/}
                     {/*    <li>30 de Noviembre,</li>*/}
                     {/*    <li>31 de Enero,</li>*/}
@@ -482,17 +482,15 @@ function RetreatTailandiaOctubre2025() {
                     <li>
                         Sin Balcón <span className="fw-bolder "> $2.699 AUD</span>
                     </li><li>
-                        Con Balcón <span className="fw-bolder "> $2.899 AUD</span>
+                    <s>Con Balcón <span className="fw-bolder "> $2.899 AUD</span></s>
                     </li>
                 </ul>
                 </p>
-                <p>Pago Total del Retiro hasta el 11 de Agosto. </p>
-                <p><s><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">15 de Abril.</span></s></p>
-                    <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $55 AUD</span> antes del <span className="fw-bolder ">15 de Junio.</span></p>
+                <p>Pago Total del Retiro hasta el 19 de Septiembre.</p>
+                <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
+                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">15 de Julio.</span></p>
                 <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
-                    solo para ti desde <span className="fw-bolder">$122 AUD </span> o más por recomendar a tus
+                    solo para ti desde <span className="fw-bolder">$155 AUD </span> o más por recomendar a tus
                     amigas(os) y realicen
                     la reservación.</p>
                 <p><i className="fa fa-credit-card"></i> <span
@@ -501,7 +499,7 @@ function RetreatTailandiaOctubre2025() {
                     electrónica al numero celular 0413147237.
 
                 </p>
-                <p>El resto del valor del Retiro se distribuirán en 3 y/o 4 cuotas, el Retiro debe pagarse por completo el 11 de Agosto
+                <p>El resto del valor del Retiro se distribuirán en 3 y/o 4 cuotas, el Retiro debe pagarse por completo el 19 de Septiembre
                     {/*<ul>*/}
                     {/*    <li>30 de Noviembre,</li>*/}
                     {/*    <li>31 de Enero,</li>*/}

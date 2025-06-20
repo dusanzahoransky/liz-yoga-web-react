@@ -14,6 +14,7 @@ import cardSessionDeRelajacion from '../images/home/card-session-de-relajacion.j
 import cardGroupsInPerson from '../images/home/card-groups-in-person.jpg';
 import cardPrivateInPerson from '../images/home/card-private-in-person.jpg';
 import cardRetreatBali from '../images/home/card-retreat-bali-sept-2024.jpg';
+import cardRetreatThailand2025 from '../images/home/card-retreat-thailand-2025.jpg';
 import Footer from "./Footer";
 
 function Home() {
@@ -70,21 +71,21 @@ function Home() {
                       </a>
                   </div>
 
-                  <div className="carousel-item" data-bs-interval="3000">
-                      <a href="/mini-retiro-camping">
-                          <picture>
-                              <source srcSet={miniRetiroCampingPortrait}
-                                      media="(max-width: 800px) and (orientation: portrait)"/>
-                              <img src={miniRetiroCamping} alt="Private clases"/>
-                          </picture>
+                  {/*<div className="carousel-item" data-bs-interval="3000">*/}
+                  {/*    <a href="/mini-retiro-camping">*/}
+                  {/*        <picture>*/}
+                  {/*            <source srcSet={miniRetiroCampingPortrait}*/}
+                  {/*                    media="(max-width: 800px) and (orientation: portrait)"/>*/}
+                  {/*            <img src={miniRetiroCamping} alt="Private clases"/>*/}
+                  {/*        </picture>*/}
 
-                          <div className="container">
-                              <div className="carousel-caption carousel-caption-light">
-                                  <h2>MiniRetiro de Yoga y Aventura</h2>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
+                  {/*        <div className="container">*/}
+                  {/*            <div className="carousel-caption carousel-caption-light">*/}
+                  {/*                <h2>MiniRetiro de Yoga y Aventura</h2>*/}
+                  {/*            </div>*/}
+                  {/*        </div>*/}
+                  {/*    </a>*/}
+                  {/*</div>*/}
 
                   <div className="carousel-item" data-bs-interval="3000">
                       <a href="/mini-retiro-outdoor">
@@ -138,30 +139,30 @@ function Home() {
 
               <h4 className="display-7 rem-2 text-center">RETIRO DE YOGA Y BIENESTAR</h4>
 
-              {/*<div className="row row-cols-1">*/}
-              {/*    <div className="col-3"></div>*/}
-              {/*    <div className="col-md">*/}
-              {/*        <a href="/retreat-bali-march-25">*/}
-              {/*            <div className="card h-100 text-center">*/}
-              {/*                <img src={cardRetreatBali} className="card-img-top" alt="..."/>*/}
-              {/*                <div className="card-body">*/}
-              {/*                    /!*<div className="sold-out-stamp-small-parent">*!/*/}
-              {/*                    <div>*/}
-              {/*                        /!*<div className="sold-out-stamp-small">*!/*/}
-              {/*                        <div>*/}
-              {/*                            <p href="/groups-in-person" className="card-title">BALI MAYO 2025</p>*/}
-              {/*                        </div>*/}
-              {/*                    </div>*/}
+              <div className="row row-cols-1">
+                  <div className="col-3"></div>
+                  <div className="col-md">
+                      <a href="/retreat-tailandia-octubre-25">
+                          <div className="card h-100 text-center">
+                              <img src={cardRetreatThailand2025} className="card-img-top" alt="..."/>
+                              <div className="card-body">
+                                  {/*<div className="sold-out-stamp-small-parent">*/}
+                                  <div>
+                                      {/*<div className="sold-out-stamp-small">*/}
+                                      <div>
+                                          <p href="/retreat-tailandia-octubre-25" className="card-title">TAILANDIA OCTUBRE 2025</p>
+                                      </div>
+                                  </div>
 
-              {/*                    <p className="card-text">Únete a nuestro Retiro de Yoga y Bienestar en el paraiso de*/}
-              {/*                        Bali, un espacio para conectar e ir mucho más profundo con tu verdadera*/}
-              {/*                        escencia.</p>*/}
-              {/*                </div>*/}
-              {/*            </div>*/}
-              {/*        </a>*/}
-              {/*    </div>*/}
-              {/*    <div className="col-3"></div>*/}
-              {/*</div>*/}
+                                  <p className="card-text">Únete a nuestro Retiro de Yoga y Bienestar en el paraiso de
+                                      Tailandia, un espacio para conectar e ir mucho más profundo con tu verdadera
+                                      escencia.</p>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div className="col-3"></div>
+              </div>
 
               <h4 className="display-7 rem-2 text-center">CLASES</h4>
 

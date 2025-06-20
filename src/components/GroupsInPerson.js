@@ -87,8 +87,7 @@ function GroupsInPerson() {
                         {/*<p>Lugar: Coogee Beach.</p>*/}
 
                         <h3>Yoga al Amanecer - Domingo</h3>
-                        <h4>Clase Especial de 90 Minutos</h4>
-                        <p>Hora: 6:20 am </p>
+                        <p>Hora: Definimos la hora al Incio de la Semana.</p>
                         {/*<p>Segunda clase 8:15 am </p>*/}
 
                         <p>Lugar: Coogee Beach.</p>
@@ -101,25 +100,25 @@ function GroupsInPerson() {
                             caminando hacia la izquierda y nos encontrarás.</p>
 
 
-                        {/*<h3>Yoga al Atardecer - Miércoles</h3>*/}
-                        <h3>Yoga al Atardecer - Jueves</h3>
+                        <h3>Yoga al Atardecer (No invierno) - Miércoles y/o Jueves</h3>
                         {/*<div>*/}
                         {/*    <a href="https://maps.app.goo.gl/wizTnfJaY1KB3xMe8" target='_blank' rel="noreferrer">*/}
                         {/*        <img className="classLocationMap"*/}
                         {/*             alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>*/}
                         {/*    </a>*/}
                         {/*</div>*/}
-                        <p>Hora: 6:20 pm</p>
+                        <p>Hora: Definimos la hora al inicio de la semana.</p>
                         <p>Lugar: Coogee Beach.</p>
 
                         <h3>Intercambio de Valor</h3>
                         <p>$24 AUD.</p>
 
                         <h3>Valor Especial</h3>
-                        <p><b>Si tomas 2 clases la misma semana tienes un precio especial de $43 Aud</b></p>
+                        <p><b>Si tomas 2 clases la misma semana tienes un precio especial.</b></p>
 
                         <p className="text-justify">Realiza la transferencia al número celular 0413147237
-                            para separar tu espacio, se reciben confirmaciones con el pago hasta el Viernes a las 3 pm.</p>
+                            para separar tu espacio para la clase del Miercoles/Jueves, se reciben confirmaciones con la transferencia hasta el día anterior 6 pm,
+                            la clase del domingo se reciben confirmaciones todos los viernes hasta las 6 pm.</p>
                         <PreparationItems preparationItems={[
                             'Ser puntuales es muy importante, la clase inicia a la hora programada, asi que, te recomiendo puntualidad para que no te pierdas ninguna parte de la clase.',
                             'Luego de confirmada tu asistencia no se hace devolución del dinero.',

@@ -33,15 +33,14 @@ function GroupsOnline() {
 
                       <h3>Cuando?</h3>
                       {/*<p>Este Jueves 24 de Octubre de 7 pm (hora Sydney) hasta las 8:30 pm</p>*/}
-                      <p>Jueves 23 de Enero desde las 7:30 pm (hora Sydney) hasta las 8:30 pm</p>
+                      <p>Miércoles y/o Jueves 7:30 PM (hora Sydney) coordinaremos la hora al inicio de la semana.</p>
 
                       <h3>Valor</h3>
                       {/*<p>Sesión Gratuita</p>*/}
                       {/*<p>Ingresa a la sesión con este link <a className="link-highlihted" href="https://calendar.app.google/rwEN3NioCvXFfGvn9">Clase Gratuita de Yoga y Charla Retiro de Bienestar Bali</a></p>*/}
                       <p>$22 AUD.</p>
                       <p className="text-justify">Realiza la transferencia de la clase al número celular 0413147237
-                          para separar tu espacio, se reciben
-                          confirmaciones y pago para la clase hasta el Miercoles.</p>
+                          para separar tu espacio, se reciben confirmaciones y pago para la sesión el día anterior de la clase hasta las 6 pm.</p>
                   </div>
 
                   <div className="col-md-1"/>
