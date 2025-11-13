@@ -8,6 +8,7 @@ export class ClassType {
     static RetreatBaliSept2024 = new ClassType('retreat-bali-sept-2024', 'Nuestro Retiro de Yoga y Bienestar')
     static RetreatBaliMayo2025 = new ClassType('retreat-bali-mayo-2025', 'Nuestro Retiro de Yoga y Bienestar')
     static RetreatTailandiaOctubre2025 = new ClassType('retreat-tailandia-octubre-25', 'Nuestro Retiro de Yoga y Bienestar')
+    static RetreatTailandiaMayo2026 = new ClassType('retreat-tailandia-mayo-26', 'Nuestro Retiro de Yoga y Bienestar')
     static SessionEspecial = new ClassType('session-especial-mosman', 'Sesión Dirigida a Calmar tu Sistema Nervioso')
     static WomenCircle = new ClassType('women-circle', 'Circulo de Mujeres')
     static MiniretiroCamping = new ClassType('mini-retiro-camping', 'Miniretiro Yoga y Aventura')

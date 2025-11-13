@@ -26,7 +26,7 @@ function Home() {
               <div className="carousel-inner">
 
                   <div className="carousel-item active" data-bs-interval="6000">
-                      <a href="/retreat-tailandia-octubre-25">
+                      <a href="/retreat-tailandia-mayo-26">
                       <picture>
                           <source srcSet={coverRetreatTailandia2025Portrait}
     media="(max-width: 800px) and (orientation: portrait)"/>
@@ -34,8 +34,8 @@ function Home() {
                       </picture>
                       <div className="container">
                           <div className="carousel-caption carousel-caption-light">
-                              <h2>Ananda, Retiro de Yoga y Bienestar</h2>
-                              <h3>Tailandia Octubre 2025</h3>
+                              <h2>Santosha, Retiro de Yoga y Bienestar</h2>
+                              <h3>Tailandia Mayo 2026</h3>
                           </div>
                       </div>
                       </a>
@@ -137,7 +137,7 @@ function Home() {
 
           <div className="container marketing">
 
-              <h4 className="display-7 rem-2 text-center">RETIRO DE YOGA Y BIENESTAR</h4>
+              <h4 className="display-7 rem-2 text-center">SANTOSHA, RETIRO DE YOGA Y BIENESTAR</h4>
 
               <div className="row row-cols-1">
                   <div className="col-3"></div>
@@ -150,13 +150,13 @@ function Home() {
                                   <div>
                                       {/*<div className="sold-out-stamp-small">*/}
                                       <div>
-                                          <p href="/retreat-tailandia-octubre-25" className="card-title">TAILANDIA OCTUBRE 2025</p>
+                                          <p href="/retreat-tailandia-octubre-25" className="card-title">TAILANDIA MAYO 2026</p>
                                       </div>
                                   </div>
 
-                                  <p className="card-text">Únete a nuestro Retiro de Yoga y Bienestar en el paraiso de
-                                      Tailandia, un espacio para conectar e ir mucho más profundo con tu verdadera
-                                      escencia.</p>
+                                  <p className="card-text">
+                                      Únete a nuestro Retiro en el Paraíso de Tailandia en un Resort que te ofrecerá comodidad, comida nutritiva y deliciosa, espacios exclusivos para que te desconectes del día a día y te relajes.
+                                  </p>
                               </div>
                           </div>
                       </a>
