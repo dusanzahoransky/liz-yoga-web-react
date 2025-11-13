@@ -6,12 +6,12 @@ import prog5 from '../images/retreat-tailandia-octubre-25/prog5.jpg';
 import prog6 from '../images/retreat-tailandia-octubre-25/prog6.jpg';
 import prog7 from '../images/retreat-tailandia-octubre-25/prog7.jpg';
 
-import dia1 from '../images/retreat-tailandia-octubre-25/dia1.jpg';
-import dia2 from '../images/retreat-tailandia-octubre-25/dia2.jpg';
-import dia3 from '../images/retreat-tailandia-octubre-25/dia3.jpg';
-import dia4 from '../images/retreat-tailandia-octubre-25/dia4.jpg';
-import dia6 from '../images/retreat-tailandia-octubre-25/dia6.JPG';
-import dia7 from '../images/retreat-tailandia-octubre-25/dia7.jpg';
+import dia1 from '../images/retreat-tailandia-octubre-25/dia1.png';
+import dia2 from '../images/retreat-tailandia-octubre-25/dia2.png';
+import dia3 from '../images/retreat-tailandia-octubre-25/dia3.png';
+import dia4 from '../images/retreat-tailandia-octubre-25/dia4.png';
+import dia6 from '../images/retreat-tailandia-octubre-25/dia6.png';
+import dia7 from '../images/retreat-tailandia-octubre-25/dia7.png';
 
 import room1 from '../images/retreat-tailandia-octubre-25/room1.jpg';
 import room2 from '../images/retreat-tailandia-octubre-25/room2.jpg';
@@ -172,8 +172,8 @@ function RetreatTailandiaMayo2026() {
                                 <li>Excursiones: (incluye transporte)
                                     <ul>
                                         <li>Exploraremos una Playa Hermosa al Sur de la Isla</li>
-                                        <li> Caminata en la costa para disfrutar del Atardecer Mágico de Phuket</li>
-                                        <li>aseo Espectacular en Catamaran, Visita a una o dos Islas Paradisiacas, tendremos la oportunidad de conectar más con la naturaleza, el mar y toda nuestra Sangha/Comunidad</li>
+                                        <li>Caminata en la costa para disfrutar del Atardecer Mágico de Phuket</li>
+                                        <li>Paseo Espectacular en Catamaran, Visita a una o dos Islas Paradisiacas, tendremos la oportunidad de conectar más con la naturaleza, el mar y toda nuestra Sangha/Comunidad</li>
                                     </ul>
 
                                   <li>Todas las Actividades de Bienestar y Materiales a utilizar durante tu estadia</li>
@@ -408,30 +408,21 @@ function RetreatTailandiaMayo2026() {
     function getPriceSection() {
         if (!isPrivate()) {
             return <>
-                <p>Pago Total del Retiro hasta el 19 de Septiembre. </p>
+                <p>Pago Total del Retiro hasta el 15 de Abril de  2026.</p>
                 <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">15 de Julio.</span></p>
+                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">del 15 de Enero.</span></p>
                 <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
                     solo para ti desde <span className="fw-bolder">$155 AUD </span> o más por recomendar a tus
-                    amigas(os) y realicen
-                    la reservación.</p>
+                    amigas(os) y realicen la reservación.</p>
                 <p><i className="fa fa-credit-card"></i> <span
                     className="fw-bolder">RESERVA TU ESPACIO:</span> Deposito
                     de <span className="fw-bolder">$600 AUD</span> con transferencia
                     electrónica al numero celular 0413147237.
 
                 </p>
-                <p>El resto del valor del Retiro se distribuirán en 3 y/o 4 cuotas, el Retiro debe pagarse por completo el 19 de Septiembre
-                    {/*<ul>*/}
-                    {/*    <li>30 de Noviembre,</li>*/}
-                    {/*    <li>31 de Enero,</li>*/}
-                    {/*    <li>10 de Marzo.</li>*/}
-                    {/*</ul>*/}
-                </p>
+                <p>El resto del valor del Retiro se distribuirán en 3, 4 y/o 5 cuotas, el Retiro debe pagarse por completo el 15 de Abril.</p>
                 <p>
-                    <i><span className="color-secondary">
-                                    Los abonos/transferencias no son reembolsables ya que se utilizan para el pago de la acomodación, paquete de
-                    comidas, transporte etc.</span></i>
+                    <i><span className="color-secondary">Los abonos/transferencias no son reembolsables ya que se utilizan para el pago de la acomodación, paquete de comidas, transporte etc, en caso de no poder asistir al Retiro es tu responsabilidad encontrar a otra persona para cederle tu espacio.</span></i>
                 </p>
                 <p className="space-before"></p> <p>Si deseas información más detallada que incluyea precios por
                 favor dilegencia el formulario a continuación:
@@ -442,9 +433,7 @@ function RetreatTailandiaMayo2026() {
                 <p>
                 Habitación Compartida con una persona en camas individuales, valor Total del Retiro Por Persona:
                 <ul className="line-height-3 no-bottom-margin">
-                    <li>
-                        Sin Balcón <span className="fw-bolder "> $2.888 AUD</span>
-                    </li>
+                    <li>Habitación con vista a la Isla <span className="fw-bolder "> $2.888 AUD</span></li>
                 </ul>
                 </p>
                 <p>Pago Total del Retiro hasta el 15 de Abril de  2026.</p>
