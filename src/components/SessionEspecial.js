@@ -68,7 +68,7 @@ function SessionEspecial() {
                         <h3>Lugar</h3>
                         <p>Estudio de Yoga en Mosman - Sydney.</p>
                         <h3>Fecha y Hora</h3>
-                        <p>Domingo 11 de Febrero, 11:00 AM a 1:15 PM.</p>
+                        <p>Por confirmar</p>
                         {/*<h3>Precio</h3>*/}
                         {/*<p>$68 AUD</p>*/}
 

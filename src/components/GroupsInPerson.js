@@ -10,9 +10,7 @@ import inPerson3Thumbnail from '../images/groups-in-person-thumbnail/card-groups
 import inPerson4Thumbnail from '../images/groups-in-person-thumbnail/card-groups-in-person-4.jpg';
 import inPerson5Thumbnail from '../images/groups-in-person-thumbnail/card-groups-in-person-5.jpg';
 import inPerson6Thumbnail from '../images/groups-in-person-thumbnail/card-groups-in-person-6.jpg';
-import groupClassLocation from '../images/groups-in-person/group-class-location.png';
-import groupClassLocationCentenial from '../images/groups-in-person/group-class-location-centenial.jpg';
-import groupClassLocationMoorePark from '../images/groups-in-person/class-location-moore-park.jpg';
+import groupClassLocation from '../images/groups-in-person/coogeeMap.png';
 
 import Footer from "./Footer";
 import ContactForm from "./ContactForm";
@@ -74,17 +72,25 @@ function GroupsInPerson() {
                 <div className="row">
 
                     <div className="col-md-6">
-                        <h3>Yoga al Amanecer - Domingo</h3>
+                        {/*<h3>Yoga al Atardecer - Jueves</h3>*/}
                         {/*<h3>Clase de Yoga Multinivel - Sábado</h3>*/}
                         <div>
-                            <a href="https://maps.app.goo.gl/nNqTMuVW8QgsgqVe6" target='_blank' rel="noreferrer">
+                            <a href="https://maps.app.goo.gl/SFqDhvKA5fQRcWBM8" target='_blank' rel="noreferrer">
                                 <img className="classLocationMap"
                                      alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>
                             </a>
+
                         </div>
-                        {/*<p>Hora: 6:35 am</p>*/}
-                        {/*<p>Hora: 9:00 am</p>*/}
-                        <p>Lugar: Coogee.</p>
+                        {/*<p>Hora: 5:45 am</p>*/}
+                        {/*<p>Hora: 8:00 am</p>*/}
+                        {/*<p>Hora: 6:30 pm</p>*/}
+                        {/*<p>Lugar: Coogee Beach.</p>*/}
+
+                        <h3>Yoga al Amanecer - Domingo</h3>
+                        <p>Hora: Definimos la hora al Incio de la Semana.</p>
+                        {/*<p>Segunda clase 8:15 am </p>*/}
+
+                        <p>Lugar: Coogee Beach.</p>
 
                         <p className="text-justify">Sitio de encuentro: Dolphins Point. Llegas a Coogee Pavilion y
                             caminas unos 200 metros hacia
@@ -94,23 +100,25 @@ function GroupsInPerson() {
                             caminando hacia la izquierda y nos encontrarás.</p>
 
 
-                        {/*<h3>Yoga al Atardecer - Miércoles</h3>*/}
-                        {/*<h3>Yoga al Atardecer - Jueves</h3>*/}
+                        <h3>Yoga al Atardecer (No invierno) - Miércoles y/o Jueves</h3>
                         {/*<div>*/}
                         {/*    <a href="https://maps.app.goo.gl/wizTnfJaY1KB3xMe8" target='_blank' rel="noreferrer">*/}
                         {/*        <img className="classLocationMap"*/}
                         {/*             alt="map location Coogee beach" height="auto" src={groupClassLocation}></img>*/}
                         {/*    </a>*/}
                         {/*</div>*/}
-                        {/*<p>Hora: 6:40 pm</p>*/}
-                        {/*<p>Lugar: Coogee Beach.</p>*/}
+                        <p>Hora: Definimos la hora al inicio de la semana.</p>
+                        <p>Lugar: Coogee Beach.</p>
 
-                        <h3>Valor</h3>
-                        <p>$23 AUD.</p>
-                        <p className="text-justify">Realiza la transferencia de la clase al número celular 0413147237
-                            para
-                            separar tu espacio, se reciben
-                            confirmaciones con el pago hasta el viernes a las 4 pm.</p>
+                        <h3>Intercambio de Valor</h3>
+                        <p>$24 AUD.</p>
+
+                        <h3>Valor Especial</h3>
+                        <p><b>Si tomas 2 clases la misma semana tienes un precio especial.</b></p>
+
+                        <p className="text-justify">Realiza la transferencia al número celular 0413147237
+                            para separar tu espacio para la clase del Miercoles/Jueves, se reciben confirmaciones con la transferencia hasta el día anterior 6 pm,
+                            la clase del domingo se reciben confirmaciones todos los viernes hasta las 6 pm.</p>
                         <PreparationItems preparationItems={[
                             'Ser puntuales es muy importante, la clase inicia a la hora programada, asi que, te recomiendo puntualidad para que no te pierdas ninguna parte de la clase.',
                             'Luego de confirmada tu asistencia no se hace devolución del dinero.',

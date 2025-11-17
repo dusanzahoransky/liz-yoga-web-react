@@ -19,7 +19,7 @@ class InstagramPost extends React.Component {
         return (
             <InstagramEmbed
                 url={this.props.postUrl}
-                clientAccessToken='967302207538786|5fa72af91f1d4d899598f74bb9aa788d'
+                clientAccessToken='967302207538786|05bb574eb851a879d86c7753396b6c15'
                 hideCaption={true}
                 onFailure={this.onError}
             />
