@@ -49,7 +49,7 @@ import ImageGallery from 'react-image-gallery';
 import '../image-gallery.css';
 import {ClassType} from "../model/ClassType";
 
-function RetreatTailandiaMayo2026() {
+function RetreatTailandiaJunio2026() {
 
     const images = [
         {
@@ -149,7 +149,7 @@ function RetreatTailandiaMayo2026() {
                             <p>Únete a nuestro Retiro en el Paraíso de Tailandia en un Resort que te ofrecerá comodidad, comida nutritiva y deliciosa, espacios exclusivos para que te desconectes del día a día y te relajes. Si eres un yogui/yogini experimentado o simplemente estás comenzando tu viaje, te damos la bienvenida para que abraces tu práctica y tu sentir en una comunidad solidaria y diversa. Ten en cuenta que este Retiro no es exclusivo de yoga, también tendremos actividades de bienestar, rituales, salidas y mucho más.</p>
 
                             <p><span className="fw-bolder">Cuándo: </span>
-                                Desde el 24 al 30 de Mayo de 2026 - 7 días, 6 noches de Pura Conexión y Transformación con tu Ser.</p>
+                                Desde el 7 al 13 de Junio de 2026 - 7 días, 6 noches de Pura Conexión y Transformación con tu Ser.</p>
                             <p><span className="fw-bolder">Dónde:</span>En el Paraíso de Phuket, Tailandia.</p>
 
                             <ImageGallery className="image-gallery-smaller" slideInterval={5000} slideDuration={2000}  items={images} autoPlay={true} showThumbnails={false} showNav={false} showPlayButton={false} showFullscreenButton={false}/>
@@ -402,15 +402,15 @@ function RetreatTailandiaMayo2026() {
 
     function isPrivate() {
         const queryParams = new URLSearchParams(window.location.search);
-        return queryParams && (queryParams.get('code') === 'TailandiaMayo2026')
+        return queryParams && (queryParams.get('code') === 'TailandiaJunio2026')
     }
 
     function getPriceSection() {
         if (!isPrivate()) {
             return <>
-                <p>Pago Total del Retiro hasta el 15 de Abril de  2026.</p>
+                <p>Pago Total del Retiro hasta el 1 de Mayo de 2026.</p>
                 <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">del 15 de Enero.</span></p>
+                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">del 20 de Enero.</span></p>
                 <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
                     solo para ti desde <span className="fw-bolder">$155 AUD </span> o más por recomendar a tus
                     amigas(os) y realicen la reservación.</p>
@@ -436,9 +436,9 @@ function RetreatTailandiaMayo2026() {
                     <li>Habitación con vista a la Isla <span className="fw-bolder "> $2.888 AUD</span></li>
                 </ul>
                 </p>
-                <p>Pago Total del Retiro hasta el 15 de Abril de  2026.</p>
+                <p>Pago Total del Retiro hasta el 1 de Mayo de 2026.</p>
                 <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">del 15 de Enero.</span></p>
+                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">del 20 de Enero.</span></p>
                 <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
                     solo para ti desde <span className="fw-bolder">$155 AUD </span> o más por recomendar a tus
                     amigas(os) y realicen la reservación.</p>
@@ -457,4 +457,4 @@ function RetreatTailandiaMayo2026() {
     }
 }
 
-export default RetreatTailandiaMayo2026;
+export default RetreatTailandiaJunio2026;

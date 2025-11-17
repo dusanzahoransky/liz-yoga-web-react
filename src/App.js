@@ -23,7 +23,7 @@ import SesionRelajacionCuencos from "./components/SesionRelajacionCuencos";
 import RetreatTailandiaOctubre2025 from "./components/RetreatTailandiaOctubre2025";
 import RetreatTailandiaOctubre2025ForPdf from "./components/RetreatTailandiaOctubre2025ForPdf";
 import MiniRetiroCamping from "./components/MiniRetiroCamping";
-import RetreatTailandiaMayo2026 from "./components/RetreatTailandiaMayo2026";
+import RetreatTailandiaJunio2026 from "./components/RetreatTailandiaJunio2026";
 import MiniRetiroDiciembre from "./components/MiniRetiroDiciembre";
 
 function App() {
@@ -50,7 +50,7 @@ function App() {
               {/*<Route path='/retreat-bali-private' element={<RetreatBaliMayo2025/>}/>*/}
               {/*<Route path='/retreat-bali-march-25' element={<RetreatBaliMayo2025/>}/>*/}
               {/*<Route path='/retreat-tailandia-octubre-25' element={<RetreatTailandiaOctubre2025/>}/>*/}
-              <Route path='/retreat-tailandia-mayo-26' element={<RetreatTailandiaMayo2026/>}/>
+              <Route path='/retreat-tailandia-junio-26' element={<RetreatTailandiaJunio2026/>}/>
               {/*<Route path='/retreat-tailandia-octubre-25-pdf' element={<RetreatTailandiaOctubre2025ForPdf/>}/>*/}
               <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
               <Route path='/data-deletion-instructions' element={<DataDeletionInstructions/>}/>

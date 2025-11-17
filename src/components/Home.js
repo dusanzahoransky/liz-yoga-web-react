@@ -26,7 +26,7 @@ function Home() {
               <div className="carousel-inner">
 
                   <div className="carousel-item active" data-bs-interval="6000">
-                      <a href="/retreat-tailandia-mayo-26">
+                      <a href="/retreat-tailandia-junio-26">
                       <picture>
                           <source srcSet={coverRetreatTailandia2025Portrait}
     media="(max-width: 800px) and (orientation: portrait)"/>
@@ -35,7 +35,7 @@ function Home() {
                       <div className="container">
                           <div className="carousel-caption carousel-caption-light">
                               <h2>Santosha, Retiro de Yoga y Bienestar</h2>
-                              <h3>Tailandia Mayo 2026</h3>
+                              <h3>Tailandia Junio 2026</h3>
                           </div>
                       </div>
                       </a>
@@ -142,7 +142,7 @@ function Home() {
               <div className="row row-cols-1">
                   <div className="col-3"></div>
                   <div className="col-md">
-                      <a href="/retreat-tailandia-mayo-26">
+                      <a href="/retreat-tailandia-junio-26">
                           <div className="card h-100 text-center">
                               <img src={cardRetreatThailand2025} className="card-img-top" alt="..."/>
                               <div className="card-body">
@@ -150,7 +150,7 @@ function Home() {
                                   <div>
                                       {/*<div className="sold-out-stamp-small">*/}
                                       <div>
-                                          <p href="/retreat-tailandia-mayo-26" className="card-title">TAILANDIA MAYO 2026</p>
+                                          <p href="/retreat-tailandia-junio-26" className="card-title">TAILANDIA JUNIO 2026</p>
                                       </div>
                                   </div>
 
