@@ -24,6 +24,7 @@ import RetreatTailandiaOctubre2025 from "./components/RetreatTailandiaOctubre202
 import RetreatTailandiaOctubre2025ForPdf from "./components/RetreatTailandiaOctubre2025ForPdf";
 import MiniRetiroCamping from "./components/MiniRetiroCamping";
 import RetreatTailandiaMayo2026 from "./components/RetreatTailandiaMayo2026";
+import MiniRetiroDiciembre from "./components/MiniRetiroDiciembre";
 
 function App() {
   return (
@@ -44,12 +45,13 @@ function App() {
               <Route path='/mini-retiro-outdoor' element={<MiniRetiroOutdoor/>}/>
               <Route path='/mini-retiro-noviembre' element={<MiniRetiroNoviembre/>}/>
               <Route path='/mini-retiro-camping' element={<MiniRetiroCamping/>}/>
-              <Route path='/retreat-bali-sept-24' element={<RetreatBaliSept2024/>}/>
-              <Route path='/retreat-bali-private' element={<RetreatBaliMayo2025/>}/>
+              <Route path='/mini-retiro-diciembre' element={<MiniRetiroDiciembre/>}/>
+              {/*<Route path='/retreat-bali-sept-24' element={<RetreatBaliSept2024/>}/>*/}
+              {/*<Route path='/retreat-bali-private' element={<RetreatBaliMayo2025/>}/>*/}
               {/*<Route path='/retreat-bali-march-25' element={<RetreatBaliMayo2025/>}/>*/}
-              <Route path='/retreat-tailandia-octubre-25' element={<RetreatTailandiaOctubre2025/>}/>
+              {/*<Route path='/retreat-tailandia-octubre-25' element={<RetreatTailandiaOctubre2025/>}/>*/}
               <Route path='/retreat-tailandia-mayo-26' element={<RetreatTailandiaMayo2026/>}/>
-              <Route path='/retreat-tailandia-octubre-25-pdf' element={<RetreatTailandiaOctubre2025ForPdf/>}/>
+              {/*<Route path='/retreat-tailandia-octubre-25-pdf' element={<RetreatTailandiaOctubre2025ForPdf/>}/>*/}
               <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
               <Route path='/data-deletion-instructions' element={<DataDeletionInstructions/>}/>
               <Route path='/error' element={<ErrorPage/>}/>

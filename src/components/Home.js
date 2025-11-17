@@ -88,7 +88,7 @@ function Home() {
                   {/*</div>*/}
 
                   <div className="carousel-item" data-bs-interval="3000">
-                      <a href="/mini-retiro-outdoor">
+                      <a href="/mini-retiro-diciembre">
                           <picture>
                               <source srcSet={cover6portrait}
                                       media="(max-width: 800px) and (orientation: portrait)"/>
@@ -97,7 +97,7 @@ function Home() {
 
                           <div className="container">
                               <div className="carousel-caption carousel-caption-light">
-                                  <h2>Circulo de Mujeres</h2>
+                                  <h2>Mini-Retiro Fin de Año</h2>
                               </div>
                           </div>
                       </a>
