@@ -408,7 +408,7 @@ function RetreatTailandiaJunio2026() {
     function getPriceSection() {
         if (!isPrivate()) {
             return <>
-                <p>Pago Total del Retiro hasta el 1 de Mayo de 2026.</p>
+                <p>Pago Total del Retiro hasta el 7 de Mayo de 2026.</p>
                 <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
                     <span className="fw-bolder"> $155 AUD</span> antes del <span className="fw-bolder ">del 30 de Enero.</span></p>
                 <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
@@ -436,7 +436,7 @@ function RetreatTailandiaJunio2026() {
                     <li>Habitación con vista a la Isla <span className="fw-bolder "> $2.777 AUD</span></li>
                 </ul>
                 </p>
-                <p>Pago Total del Retiro hasta el 1 de Mayo de 2026.</p>
+                <p>Pago Total del Retiro hasta el 7 de Mayo de 2026.</p>
                 <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
                     <span className="fw-bolder"> $155 AUD</span> antes del <span className="fw-bolder ">del 30 de Enero.</span></p>
                 <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
