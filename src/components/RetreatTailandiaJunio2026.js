@@ -410,7 +410,7 @@ function RetreatTailandiaJunio2026() {
             return <>
                 <p>Pago Total del Retiro hasta el 1 de Mayo de 2026.</p>
                 <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">del 20 de Enero.</span></p>
+                    <span className="fw-bolder"> $155 AUD</span> antes del <span className="fw-bolder ">del 30 de Enero.</span></p>
                 <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
                     solo para ti desde <span className="fw-bolder">$155 AUD </span> o más por recomendar a tus
                     amigas(os) y realicen la reservación.</p>
@@ -420,7 +420,7 @@ function RetreatTailandiaJunio2026() {
                     electrónica al numero celular 0413147237.
 
                 </p>
-                <p>El resto del valor del Retiro se distribuirán en 3, 4 y/o 5 cuotas, el Retiro debe pagarse por completo el 15 de Abril.</p>
+                <p>El resto del valor del Retiro se distribuirán en 3, 4 y/o 5 cuotas, el Retiro debe pagarse por completo el 7 de Mayo.</p>
                 <p>
                     <i><span className="color-secondary">Los abonos/transferencias no son reembolsables ya que se utilizan para el pago de la acomodación, paquete de comidas, transporte etc, en caso de no poder asistir al Retiro es tu responsabilidad encontrar a otra persona para cederle tu espacio.</span></i>
                 </p>
@@ -433,12 +433,12 @@ function RetreatTailandiaJunio2026() {
                 <p>
                 Habitación Compartida con una persona en camas individuales, valor Total del Retiro Por Persona:
                 <ul className="line-height-3 no-bottom-margin">
-                    <li>Habitación con vista a la Isla <span className="fw-bolder "> $2.888 AUD</span></li>
+                    <li>Habitación con vista a la Isla <span className="fw-bolder "> $2.777 AUD</span></li>
                 </ul>
                 </p>
                 <p>Pago Total del Retiro hasta el 1 de Mayo de 2026.</p>
                 <p><i className="fa fa-tag"></i> <span className="fw-bolder">EARLY BIRD</span> descuento de
-                    <span className="fw-bolder"> $111 AUD</span> antes del <span className="fw-bolder ">del 20 de Enero.</span></p>
+                    <span className="fw-bolder"> $155 AUD</span> antes del <span className="fw-bolder ">del 30 de Enero.</span></p>
                 <p><i className="fa fa-tags"></i> <span className="fw-bolder">INVITA A UN AMIGA(O)</span> descuento
                     solo para ti desde <span className="fw-bolder">$155 AUD </span> o más por recomendar a tus
                     amigas(os) y realicen la reservación.</p>
@@ -448,7 +448,7 @@ function RetreatTailandiaJunio2026() {
                     electrónica al numero celular 0413147237.
 
                 </p>
-                <p>El resto del valor del Retiro se distribuirán en 3, 4 y/o 5 cuotas, el Retiro debe pagarse por completo el 15 de Abril.</p>
+                <p>El resto del valor del Retiro se distribuirán en 3, 4 y/o 5 cuotas, el Retiro debe pagarse por completo el 7 de Mayo.</p>
                 <p>
                     <i><span className="color-secondary">Los abonos/transferencias no son reembolsables ya que se utilizan para el pago de la acomodación, paquete de comidas, transporte etc, en caso de no poder asistir al Retiro es tu responsabilidad encontrar a otra persona para cederle tu espacio.</span></i>
                 </p>
